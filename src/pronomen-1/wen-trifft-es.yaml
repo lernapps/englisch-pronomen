@@ -67,20 +67,20 @@ blocks:
     blocks:
       - type: matching
         id: wen-zuordnen
-        text: Welches Wort aus der zweiten Spalte gehört zu welchem Wort der ersten Spalte?
+        text: Sophie ruft Ellie, Peter und Amir etwas zu. Welches Wort sagt, wen es trifft?
         pairs:
-          - left: I
+          - left: Ellie sagt über sich selbst, dass Sophie sie sehen kann.
             right: me
-          - left: he
+          - left: Sophie sagt über Peter, dass Ellie ihm helfen kann.
             right: him
-          - left: she
+          - left: Sophie sagt über Ellie, dass Peter sie rufen kann.
             right: her
-          - left: we
+          - left: Sophie sagt über sich und Ellie, dass Amir ihnen helfen kann.
             right: us
-          - left: they
+          - left: Sophie sagt über Amir und Peter, dass Ellie sie sehen kann.
             right: them
-        explanation: Zu jedem Pronomen der ersten Spalte gibt es eines für die zweite Spalte. Das Muster ist nicht überall gleich, darum merkst du dir jedes Paar.
-        hint: Schau in die Tabelle. Welche Pronomen der ersten Spalte ändern sich?
+        explanation: Das Wort folgt der Person, die etwas trifft. Zu jedem Pronomen der ersten Spalte gibt es eines für die zweite Spalte, und das Muster ist nicht überall gleich.
+        hint: Frag dich, wen es trifft, und ob die Person ein Junge, ein Mädchen oder mehrere sind.
         links:
           - title: Lernlandkarte Englisch · Personalpronomen
             url: https://lernapps.net/apps/map/englisch/c/personalpronomen/

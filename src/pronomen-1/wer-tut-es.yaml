@@ -121,7 +121,7 @@ blocks:
               - answer: I swim.
                 message: Du brauchst auch can. Es heißt „kann schwimmen“, also can swim.
               - answer: Me can swim.
-                message: "me gehört in die zweite Spalte der Tabelle. Wer etwas tut, sagt I."
+                message: "Wer etwas tut, sagt I. me kommt erst später."
           - source: Er kann rennen. (Peter)
             target: He can run.
             mistakes:

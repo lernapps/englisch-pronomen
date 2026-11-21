@@ -5,7 +5,7 @@ description: Use for any content work in this app - researching, writing, extend
 
 # Content guide of this app
 
-Pronomen: I, me, my, mine, myself. Explainer (Strang-App `englisch/grammatik`, Stufe 5-6, Sprache Deutsch). Auftrag: Issue lernapps/apps#471. Gebaut ist Kapitel 1 „Wer? Wen? Wessen?“; Kapitel 2 (Stufe 7-8) kommt später.
+Pronomen: I, me, my (Titel in `src/app.yaml`; er wird mit dem Inkrement für Kapitel 2 wieder zu „Pronomen: I, me, my, mine, myself“ erweitert). Explainer (Strang-App `englisch/grammatik`, Stufe 5-6, Sprache Deutsch). Auftrag: Issue lernapps/apps#471. Gebaut ist Kapitel 1 „Wer? Wen? Wessen?“; Kapitel 2 (Stufe 7-8) kommt später.
 
 ## Curriculum
 

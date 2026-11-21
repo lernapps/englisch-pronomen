@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 format: 2
 strand: englisch/grammatik
-title: "Pronomen: I, me, my, mine, myself"
+title: "Pronomen: I, me, my"
 intro: Sophie wohnt bei den Parkers und geht in Millbrook zur Schule. Du hilfst ihr herauszufinden, welche Form eines Pronomens sie braucht – je nachdem, wer etwas tut, wen es trifft und wem etwas gehört. Eine Tabelle wächst mit dir mit. Dieses Kapitel behandelt I, me, my und die Formen für he, she, it, we und they. Mehr folgt in einem späteren Kapitel.
 languages: [de]
 chapters: [pronomen-1]
