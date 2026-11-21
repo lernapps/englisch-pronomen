@@ -38,6 +38,8 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 
 ## Notes
 
+- Lerner-Check Seite 1 (Sub-Agent, Kind 5-6): Funde behoben: Poster und Spaltensprache erklärt, can/swim vor der ersten Übung, Figuren in der Caption benannt, Sports day erklärt, we = ich und andere, you = du/ihr, Rückmeldungen für fehlendes can und you/we, Titel „Was sagt Sophie?“ geändert, Ausblick umformuliert. Nicht behoben (Laufzeit): „KI“-Label, Lösung-Knopf, Mikrofon im Headless-Browser; Audio konnte ich nicht anhören (ungeprüft).
+
 - Karte gelesen (englisch.json, explainerFocus: competency). Kapitel 1 deckt: `personalpronomen` (Stufe 5-6, Schritt 1, öffnet 103, keine Voraussetzungen) und `possessivbegleiter` (5-6, Schritt 2, öffnet 1, requires personalpronomen). Beide liegen im Explainer, daher keine Sammel-Wiederholung nötig (keine Voraussetzung von außen). Kapitel 2 (possessivpronomen, reflexivpronomen, each-other; 7-8) kommt später.
 - Strang: englisch/grammatik.
 - Üben (Muster Fremdsprachen): Wahl einer Form (choice mit distractors) → Lücken (gap) → Formen in der Tabelle (table) → Wort schreiben (write) → Zuordnen der Wörter in Spalten (Ziehen) → Übersetzen. Von leicht zu schwer, je Fehlertyp eine Rückmeldung (I/me, he/him, his/her nach Besitzer).
