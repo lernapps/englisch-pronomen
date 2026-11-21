@@ -187,7 +187,7 @@ page, which a link. -->
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
       Creator: Ja, Seiten 2 bis 4 nach diesem Muster (Orchestrator)
-- [ ] Page 2 pronomen-1/wen-trifft-es: scene, table column 2 derived by learners, exercises, audio
+- [x] Page 2 pronomen-1/wen-trifft-es: scene, table column 2 derived by learners, exercises, audio
 - [ ] Page 3 pronomen-1/my-your: scene, table column 3, pattern I - me - my, exercises, audio
 - [ ] Page 4 pronomen-1/his-her: scene, his/her follows the owner, full table, final exercise, open task, look back, audio
 - [ ] app.yaml, chapter.yaml, selfAssessment, Sources in content guide, language and sound check by sub-agent

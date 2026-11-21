@@ -1,0 +1,200 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Wen trifft es? me, you, him, her, it, us, them
+description: Du lernst die Pronomen, mit denen du sagst, wen etwas trifft, und erkennst den Unterschied zu I, he, she, we, they.
+competencies: [personalpronomen]
+scope: Die Seite führt die zweite Spalte der Pronomen-Tabelle ein, „Wen trifft es?“. Pronomen als Objekt stehen nach dem Verb und sagen, wen oder was die Handlung trifft. Es sind me (mich), you (dich oder euch), him (ihn), her (sie, ein Mädchen), it (es), us (uns) und them (sie, mehrere). you und it sehen in beiden Spalten gleich aus. Die Beispiele nutzen can mit see, help und call. Typische Fehler sind ein Pronomen der ersten Spalte nach dem Verb (can see I, can see he) und ein Pronomen der zweiten Spalte vor dem Verb (Me can see).
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophie wirft den Ball
+    blocks:
+      - type: figure
+        image: images/szene-wen-trifft-es.svg
+        alt: Auf dem Sportplatz wirft Sophie einen Ball im Bogen zu Peter. Ellie und Amir stehen in der Mitte.
+        caption: Sophie (links) wirft den Ball zu Peter (rechts). Ellie und Amir stehen in der Mitte.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Beim Sports day üben Sophie, Ellie, Peter und Amir auf dem Sportplatz. Peter ruft: „Sophie can see me.“ Das heißt: „Sophie kann mich sehen.“ **see** heißt „sehen“, **help** „helfen“ und **call** „rufen“.
+      - type: text
+        text: "**Das kannst du danach:** Du sagst auf Englisch, wen oder was etwas trifft, und wählst me, you, him, her, it, us oder them."
+      - type: single-choice
+        id: wen-start
+        text: Peter sagt „Sophie can see me.“ Wen kann Sophie sehen?
+        options:
+          - text: Peter
+            correct: true
+            info: me heißt „mich“. Peter sagt den Satz, also ist er der, den Sophie sehen kann.
+          - text: Sophie
+            correct: false
+            info: Sophie kann etwas sehen, aber sie ist nicht der, der gesehen wird.
+          - text: Ellie
+            correct: false
+            info: Ellie kommt im Satz nicht vor. me meint die Person, die den Satz sagt.
+        explanation: me meint die Person, die spricht. Es sagt, wen die Handlung trifft.
+        links:
+          - title: Personalpronomen (Wikipedia)
+            url: https://de.wikipedia.org/wiki/Personalpronomen
+  - type: section
+    id: neu
+    title: Welches Wort sagt, wen es trifft?
+    blocks:
+      - type: text
+        text: |
+          In „Sophie can see me“ tut Sophie etwas, und es trifft Peter. Auf Seite 1 hast du die Wörter gelernt, die sagen, **wer es tut**. Dazu kommt die zweite Frage der Tabelle: **Wen trifft es?** Dieses Wort steht nach dem Verb. Ein Pronomen der ersten Spalte nennt man Subjekt, eines der zweiten Spalte Objekt.
+      - type: table
+        caption: Klassenzimmer-Poster · Pronomen
+        header: [Person, Wer tut es?, Wen trifft es?]
+        rowHeaders: true
+        rows:
+          - [ich, I, me]
+          - [du / ihr, you, you]
+          - [er, he, him]
+          - [sie (ein Mädchen), she, her]
+          - [es, it, it]
+          - [wir, we, us]
+          - [sie (mehrere), they, them]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Wer etwas tut, sagt **I**, **he**, **she**, **we**, **they**. Wen es trifft, sagt **me**, **him**, **her**, **us**, **them**. **you** und **it** sehen in beiden Spalten gleich aus. Beispiele: He can help us. We can call them. I can see her.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: wen-zuordnen
+        text: Welches Wort aus der zweiten Spalte gehört zu welchem Wort der ersten Spalte?
+        pairs:
+          - left: I
+            right: me
+          - left: he
+            right: him
+          - left: she
+            right: her
+          - left: we
+            right: us
+          - left: they
+            right: them
+        explanation: Zu jedem Pronomen der ersten Spalte gibt es eines für die zweite Spalte. Das Muster ist nicht überall gleich, darum merkst du dir jedes Paar.
+        hint: Schau in die Tabelle. Welche Pronomen der ersten Spalte ändern sich?
+        links:
+          - title: Lernlandkarte Englisch · Personalpronomen
+            url: https://lernapps.net/apps/map/englisch/c/personalpronomen/
+      - type: language-task
+        id: wen-waehlen
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das Pronomen, das sagt, wen es trifft.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Peter sagt, dass Sophie ihn sehen kann.
+            target: Sophie can see [me].
+            distractors: [[I, he]]
+          - cue: Ellie kann Peter helfen.
+            target: Ellie can help [him].
+            distractors: [[he, her]]
+            mistakes:
+              - answer: Ellie can help he.
+                message: he gehört in die erste Spalte und steht vor dem Verb. Wen es trifft, sagst du mit him.
+          - cue: Sophie sagt, dass Amir sie und Ellie rufen kann.
+            target: Amir can call [us].
+            distractors: [[we, them]]
+          - cue: Ich kann Ellie sehen.
+            target: "[I] can see [her]."
+            distractors: [[Me, We], [she, he]]
+      - type: ordering
+        id: wen-ordnen
+        text: Bringe die Wörter in die richtige Reihenfolge, damit der Satz stimmt.
+        items: [Peter, can, help, them]
+        explanation: Zuerst steht, wer es tut, dann can, dann das Verb, zuletzt, wen es trifft.
+        hint: Wer tut es? Steht am Anfang. Wen trifft es? Steht am Ende.
+        links:
+          - title: Personalpronomen (Wikipedia)
+            url: https://de.wikipedia.org/wiki/Personalpronomen
+      - type: language-task
+        id: wen-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: hint }
+        items:
+          - source: Ich kann dich sehen.
+            target: I can see you.
+            mistakes:
+              - answer: Me can see you.
+                message: Wer etwas tut, sagt I. me steht nur nach dem Verb.
+          - source: Ellie kann ihn sehen. (Peter)
+            target: Ellie can see him.
+            mistakes:
+              - answer: Ellie can see he.
+                message: he sagt, wer es tut. Es trifft Peter, also him.
+          - source: Peter kann sie rufen. (Ellie)
+            target: Peter can call her.
+            mistakes:
+              - answer: Peter can call she.
+                message: she sagt, wer es tut. Es trifft Ellie, also her.
+          - source: Ellie und Amir können uns helfen.
+            target: They can help us.
+            mistakes:
+              - answer: Them can help us.
+                message: them sagt, wen es trifft. Wer es tut, sagst du mit they.
+      - type: true-false
+        id: wen-falsch
+        text: Sophie sagt „Peter can see I.“ Ist der Satz richtig?
+        answer: false
+        hint: Steht I vor dem Verb oder nach dem Verb? Wohin gehört es laut Tabelle?
+        explanation: I sagt, wer etwas tut. Nach dem Verb steht me.
+        links:
+          - title: Personalpronomen (Wikipedia)
+            url: https://de.wikipedia.org/wiki/Personalpronomen
+      - type: language-task
+        id: wen-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: peter-can-see-her.mp3
+            target: Peter can see her.
+          - audio: ellie-can-help-us.mp3
+            target: Ellie can help us.
+          - audio: sophie-can-call-him.mp3
+            target: Sophie can call him.
+      - type: language-task
+        id: wen-tabelle
+        languages: { source: de, target: en }
+        mode: table
+        task: Ergänze die Spalte „Wen trifft es?“ ohne nachzusehen.
+        form: { case: hint }
+        table:
+          caption: Klassenzimmer-Poster · Pronomen
+          header: [Person, Wer tut es?, Wen trifft es?]
+          rows:
+            - [ich, I, "[me]"]
+            - [er, he, "[him]"]
+            - [sie (ein Mädchen), she, "[her]"]
+            - [wir, we, "[us]"]
+            - [sie (mehrere), they, "[them]"]
+  - type: section
+    id: anwenden
+    title: Selbst sagen
+    blocks:
+      - type: speaking-task
+        id: wen-nachsprechen
+        language: en
+        items:
+          - audio: sophie-can-see-me.mp3
+            text: Sophie can see me.
+          - audio: he-can-help-them.mp3
+            text: He can help them.
+          - audio: we-can-call-you.mp3
+            text: We can call you.
+        hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Auf dem Poster stehen jetzt zwei Spalten. Nach dem Spiel liegen Taschen und Jacken auf dem Boden. Auf der nächsten Seite lernst du die dritte Frage der Tabelle, **Wessen Ding?**

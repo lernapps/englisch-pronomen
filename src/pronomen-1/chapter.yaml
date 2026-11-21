@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Wer? Wen? Wessen?
 summary: Du lernst, welche Form eines Pronomens du brauchst, wenn jemand etwas tut, wenn es jemanden trifft und wenn etwas jemandem gehört.
-pages: [wer-tut-es]
+pages: [wer-tut-es, wen-trifft-es]
