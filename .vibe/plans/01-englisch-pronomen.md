@@ -33,6 +33,7 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 
 - Archetyp: explainer (Format 2). Grund: Lernende brauchen Erklärseiten mit Tabelle und Szenen, dazwischen Übungen; kein Spiel, kein Timer nötig. Kann: Text, Tabellen, Figuren, Sprachaufgaben (choice/gap/table/write), Audio mit bf_emma, Vue-Komponenten fürs Ziehen. Kann nicht: Sprache bewerten, Spiel, eigene Farben.
 - Strang-App `englisch/grammatik`, nur Kapitel 1 (Stufe 5-6); Kapitel 2 als Inkrement.
+- `scope`: ja, in `src/app.yaml` und auf jeder Seite, weil Seite 4 eine `open-task` hat (der Tutor beurteilt sie nach dem `scope`).
 
 
 ## Notes
@@ -169,16 +170,16 @@ page, which a link. -->
 
 - [x] Load skill `lernapps-cli`. Create the app as its section "Create" says:
       `npx --no -- lernapps create --archetype explainer`.
-- [ ] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
+- [x] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
       no "FILL IN" left. Commit it before any content.
-- [ ] Load skill `lernapps-explainer`.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer`.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Page 1 pronomen-1/wer-tut-es complete: scene SVG, table column 1, at least four exercises easy to hard with mistakes, dictation audio with bf_emma, speaking task; checks on
+- [x] Page 1 pronomen-1/wer-tut-es complete: scene SVG, table column 1, at least four exercises easy to hard with mistakes, dictation audio with bf_emma, speaking task; checks on
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
