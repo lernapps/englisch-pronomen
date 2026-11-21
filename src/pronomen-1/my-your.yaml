@@ -115,8 +115,8 @@ blocks:
             target: "[I] can see [my] bag."
           - cue: Wir können unseren Ball sehen.
             target: "[We] can see [our] ball."
-          - cue: Sie (Amir und Peter) können ihre Jacken sehen.
-            target: "[They] can see [their] jackets."
+          - cue: Sie (Amir und Peter) können ihre Tasche sehen.
+            target: "[They] can see [their] bag."
       - type: language-task
         id: my-schreiben
         languages: { source: de, target: en }
