@@ -46,7 +46,7 @@ blocks:
       - type: figure
         image: images/his-her-besitzer.svg
         alt: Zwei Zeilen. Oben zeigt ein Pfeil von Ellie zu Peter mit den Wörtern her brother. Unten zeigt ein Pfeil von Peter zu Ellie mit den Wörtern his sister.
-        caption: Der Pfeil geht vom Besitzer zum Ding. Das Wort an der Spitze des Pfeils richtet sich nach dem Besitzer am Anfang.
+        caption: Der Pfeil geht vom Besitzer zum Ding. Das Wort über dem Pfeil richtet sich nach dem Besitzer, nicht nach dem Ding.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table

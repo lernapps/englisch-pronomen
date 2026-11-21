@@ -18,7 +18,7 @@ Kapitel `pronomen-1` („Wer? Wen? Wessen?“), vier Seiten:
 1. `personalpronomen`: Ich kann die Personalpronomen als Subjekt (I, he, they) und als Objekt (me, him, them) richtig verwenden. → `pronomen-1/wer-tut-es` (Subjekt), `pronomen-1/wen-trifft-es` (Objekt)
 2. `possessivbegleiter`: Ich kann mit my, your, his, her, its, our und their sagen, wem etwas gehört. → `pronomen-1/my-your` (my, your, our, their), `pronomen-1/his-her` (his, her, its)
 
-Beide Kompetenzen sind Lücken der Karte, `personalpronomen` hat keine Voraussetzung, `possessivbegleiter` verlangt `personalpronomen` (steht früher). Kein `ahead`, keine Wiederholungsseite. Übungs-IDs: Präfix = Seite (`wer-…`, `wen-…`, `my-…`, `his-…`).
+Beide Kompetenzen sind Lücken der Karte, `personalpronomen` hat keine Voraussetzung, `possessivbegleiter` verlangt `personalpronomen` (steht früher). Kein `ahead`, keine Wiederholungsseite. Übungs-IDs: Präfix = Seite (`wer-…`, `wen-…`, `my-…`, `his-…`). Je Seite: `<p>-start` (single-choice im Einstieg), `-zuordnen` (matching, Seiten 1 bis 3), `-waehlen` (language-task choice), `-schreiben` (write mit `mistakes`), `-falsch`/`-it` (true-false), `-hoeren` (Diktat), `-tabelle` (Tabelle ausfüllen), `-nachsprechen` (speaking-task); Seite 2 zusätzlich `wen-ordnen` (ordering), Seite 3 `my-luecke` (gap), Seite 4 `his-richtig`, `his-gemischt` (choice mit mehreren Lücken) und `his-frei` (open-task). Selbsteinschätzung in `src/pronomen-1/chapter.yaml`: je Seite `-waehlen` und `-schreiben`, zusammen acht Übungen.
 
 ## Content structure
 
@@ -26,7 +26,8 @@ Beide Kompetenzen sind Lücken der Karte, `personalpronomen` hat keine Vorausset
 - Jede Seite hat dieselben Abschnitts-IDs: `einstieg` (Szene, erste leichte Aufgabe, „Das kannst du danach“), `neu` (Tabelle wächst, Kasten „Merke“), `uebung` (mindestens vier Übungen, leicht → schwer), `anwenden` (`speaking-task` oder `open-task`), `weiter` (nächster Schritt der Geschichte; Seite 4 mit Rückblick). Titel sagen, was der Abschnitt tut.
 - Länge: höchstens 350 Wörter Text, höchstens 4 Textblöcke hintereinander, Bild oder Übung unter den ersten vier Blöcken.
 - Geschichte: Sophie (11, blond, Zöpfe, grüne Jacke, aus Deutschland, wohnt bei den Parkers), Ellie Parker (11, roter Pferdeschwanz, rote Jacke), Peter Parker (9, kurze braune Haare, gelbe Jacke, Ellies Bruder), Amir (11, schwarze Locken, Brille, blaue Jacke), Mr Hill (Englischlehrer, graue Haare, braune Jacke), Mrs Parker (Ellies Mutter, Sophies Gastmutter). Millbrook School, erfundene Schule in einer englischen Kleinstadt, Schultag beginnt 8:45. Geburtstage: Peter 5. Mai, Ellie 10. Juli, Amir 12. Oktober, Sophie 14. Oktober. Je Seite eine Szene mit kurzen Sätzen und Dingen aus dem Alltag.
-- Das wachsende Bild: Tabelle „Klassenzimmer-Poster · Pronomen“ (Seite 1: Person · Wer tut es?; Seite 2 + Wen trifft es?; Seite 3 + Wessen Ding? für I, you, we, they; Seite 4 alle Zeilen). Die Tabelle steht nicht direkt über der Übung, die sie beantwortet.
+- Alle Beispielsätze nutzen `can` mit see, help, call, swim, run, sing, jump, read, damit das Verb sich nicht ändert (kein -s). Nomen: bag, jacket, ball, book(s), brother, sister, cat; sie stehen vor den Übungen auf der Seite.
+- Das wachsende Bild: Tabelle „Klassenzimmer-Poster · Pronomen“ (Seite 1: Person · Wer tut es?; Seite 2 + Wen trifft es?; Seite 3 + Wessen Ding? für I, you, we, they; Seite 4 alle Zeilen; Zeilenkopf = deutsches Wort ich, du / ihr, er, sie (ein Mädchen), es, wir, sie (mehrere), `rowHeaders: true`). Seite 4 hat zusätzlich die Figur `images/his-her-besitzer.svg` (Pfeile vom Besitzer zum Ding: her brother, his sister). Die Tabelle steht nicht direkt über der Übung, die sie beantwortet.
 
 ## Terminology
 
@@ -50,7 +51,7 @@ Von leicht zu schwer: wählen (`matching`, `single-choice`) → Lücken und Form
 
 ## Figures
 
-- Je Seite eine Szene `src/images/szene-<seite>.svg`, eigene Zeichnung (Quelle „eigene Zeichnung“, Lizenz CC-BY-4.0), Figuren aus `millbrook-klassenzimmer.svg` von hello-millbrook kopiert (`<g id="…">`). `alt` sagt, was die Szene zeigt, nie die Lösung; die Caption sagt, worauf man achtet. Beschriftungen innerhalb des `viewBox`, funktioniert bei 360 px.
+- Je Seite eine Szene `src/images/szene-wer-tut-es.svg`, `szene-wen-trifft-es.svg`, `szene-my-your.svg`, `szene-his-her.svg` (erzeugt aus den Figuren-Definitionen von Hello, Millbrook!; die Figuren stehen als `<g id=…>` in `<defs>`), eigene Zeichnung (Quelle „eigene Zeichnung“, Lizenz CC-BY-4.0), Figuren aus `millbrook-klassenzimmer.svg` von hello-millbrook kopiert (`<g id="…">`). `alt` sagt, was die Szene zeigt, nie die Lösung; die Caption sagt, worauf man achtet. Beschriftungen innerhalb des `viewBox`, funktioniert bei 360 px.
 
 ## Sources
 

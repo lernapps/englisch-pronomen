@@ -48,10 +48,10 @@
   <text x="310" y="64" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="bold" fill="#222">her brother</text>
   <text x="50" y="170" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#222">Besitzerin</text>
   <text x="550" y="170" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#222">Bruder</text>
-  <use href="#peter" transform="translate(20,180) scale(.6)"/>
-  <use href="#ellie" transform="translate(500,160) scale(.8)"/>
+  <use href="#peter" transform="translate(20,195) scale(.6)"/>
+  <use href="#ellie" transform="translate(500,190) scale(.7)"/>
   <path d="M140 240 H480" stroke="#333" stroke-width="3" marker-end="url(#pf)"/>
   <text x="310" y="224" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="bold" fill="#222">his sister</text>
   <text x="50" y="325" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#222">Besitzer</text>
-  <text x="560" y="325" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#222">Schwester</text>
+  <text x="550" y="328" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#222">Schwester</text>
 </svg>
