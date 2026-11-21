@@ -16,7 +16,7 @@ blocks:
         licence: CC-BY-4.0
       - type: text
         text: |
-          Nach dem Training stehen die Kinder im Flur. Ihre Sachen liegen auf dem Boden. Ellie sagt: „I can see my bag.“ Das heißt: „Ich kann meine Tasche sehen.“ **bag** heißt „Tasche“, **jacket** „Jacke“, **ball** „Ball“ und **book** „Buch“. **your** heißt „dein“ oder „euer“, **our** „unser“ und **their** „ihr“, wenn es mehreren gehört.
+          Nach dem Training stehen die Kinder im Flur. Ihre Taschen stehen auf dem Boden. Ellie sagt: „I can see my bag.“ Das heißt: „Ich kann meine Tasche sehen.“ **bag** heißt „Tasche“, **jacket** „Jacke“, **ball** „Ball“ und **book** „Buch“. **your** heißt „dein“ oder „euer“, **our** „unser“ und **their** „ihr“, wenn es mehreren gehört.
       - type: text
         text: "**Das kannst du danach:** Du sagst auf Englisch, wem etwas gehört, mit my, your, our und their."
       - type: single-choice
@@ -42,7 +42,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          Die dritte Frage der Tabelle ist **Wessen Ding?** Das Wort steht vor dem Nomen und sagt, wem das Ding gehört. Es heißt Possessivbegleiter. Auf diesem Poster siehst du die Zeilen für ich, du, wir und sie (mehrere). Die anderen Zeilen kommen auf der nächsten Seite.
+          Die dritte Frage der Tabelle ist **Wessen Ding?** Das Wort steht vor dem Nomen und sagt, wem das Ding gehört. Es heißt Possessivbegleiter. Für er, sie und es steht in der dritten Spalte noch ein Fragezeichen. Das kommt auf der nächsten Seite.
       - type: table
         caption: Klassenzimmer-Poster · Pronomen
         header: [Person, Wer tut es?, Wen trifft es?, Wessen Ding?]
@@ -50,6 +50,9 @@ blocks:
         rows:
           - [ich, I, me, my]
           - [du / ihr, you, you, your]
+          - [er, he, him, "?"]
+          - [sie (ein Mädchen), she, her, "?"]
+          - [es, it, it, "?"]
           - [wir, we, us, our]
           - [sie (mehrere), they, them, their]
       - type: note
@@ -195,4 +198,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Auf dem Poster fehlen noch die Zeilen für er, sie und es. Mrs Parker holt die Kinder ab und liest die Namen auf den Taschen. Auf der nächsten Seite lernst du, welches Wort bei einem Jungen und welches bei einem Mädchen steht.
+        text: Auf dem Poster fehlen noch die Wörter für er, sie und es in der dritten Spalte. Auf der nächsten Seite lernst du, welches Wort bei einem Jungen und welches bei einem Mädchen steht.

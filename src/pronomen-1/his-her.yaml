@@ -2,7 +2,7 @@
 title: Wessen Ding? his, her, its
 description: Du lernst his, her und its und merkst dir, dass der Besitzer das Wort bestimmt, nicht das Ding. Am Ende steht die ganze Tabelle.
 competencies: [possessivbegleiter]
-scope: Die Seite ergänzt die dritte Spalte der Pronomen-Tabelle um die Zeilen he, she und it. Die Wörter his (sein, für einen Jungen oder Mann als Besitzer), her (ihr, für ein Mädchen oder eine Frau als Besitzerin) und its (sein, für Dinge und Tiere) richten sich nach dem Besitzer, nicht nach dem Ding, das ihm gehört. Peters Schwester ist his sister, Ellies Bruder ist her brother. Der deutsche Satz kann dieselbe Frage anders beantworten. her kommt auch in der zweiten Spalte vor (Wen trifft es?), his steht nur in der dritten. its hat keinen Apostroph. Am Ende stehen die drei Spalten für alle sieben Zeilen. Typische Fehler sind her für ein weibliches Ding (her für Peters Schwester) und it's statt its.
+scope: Die Seite ergänzt die dritte Spalte der Pronomen-Tabelle um die Zeilen he, she und it. his gehört einem Jungen oder Mann, her einem Mädchen oder einer Frau, its einem Ding oder Tier. Entscheidend ist der Besitzer, nicht das Ding, das ihm gehört. Peters Schwester ist his sister, Ellies Bruder ist her brother. her steht auch in der zweiten Spalte, his nur in der dritten. its hat keinen Apostroph. Am Ende stehen die drei Spalten für alle sieben Zeilen. Typische Fehler sind her für ein weibliches Ding und it's statt its.
 blocks:
   - type: section
     id: einstieg
@@ -16,7 +16,7 @@ blocks:
         licence: CC-BY-4.0
       - type: text
         text: |
-          Mrs Parker holt die Kinder ab. Sophie sagt: „Ellie can see her jacket.“ Das heißt: „Ellie kann ihre Jacke sehen.“ **brother** heißt „Bruder“, **sister** „Schwester“, **cat** „Katze“.
+          Mrs Parker, Ellies und Peters Mutter und Sophies Gastmutter, holt die Kinder ab. Sophie sagt: „Ellie can see her jacket.“ Das heißt: „Ellie kann ihre Jacke sehen.“ **brother** heißt „Bruder“, **sister** „Schwester“, **cat** „Katze“, **and** „und“ und **the** „der, die, das“.
       - type: text
         text: "**Das kannst du danach:** Du sagst auf Englisch, wem etwas gehört, auch mit his, her und its, und füllst die ganze Pronomen-Tabelle aus."
       - type: single-choice
@@ -124,6 +124,9 @@ blocks:
         items:
           - source: Ellie kann ihren Bruder sehen.
             target: Ellie can see her brother.
+            mistakes:
+              - answer: Ellie can see his brother.
+                message: his richtet sich nach dem Besitzer. Ellie ist ein Mädchen, also her, auch wenn ihr Bruder ein Junge ist.
           - source: Peter kann seine Jacke sehen.
             target: Peter can see his jacket.
             mistakes:
@@ -223,4 +226,4 @@ blocks:
     blocks:
       - type: text
         text: |
-          Das Poster hat jetzt drei Spalten mit den Fragen **Wer tut es? Wen trifft es? Wessen Ding?** Du weißt: Wer etwas tut, sagt I, he, she, we, they. Wen es trifft, sagt me, him, her, us, them. Wem etwas gehört, sagt my, your, his, her, its, our, their. Später kommen zwei weitere Spalten dazu: mine und yours ohne Nomen und myself, wenn jemand sich selbst meint.
+          Das Poster hat jetzt drei Spalten mit den Fragen **Wer tut es? Wen trifft es? Wessen Ding?** Du weißt: Wer etwas tut, sagt I, he, she, we, they. Wen es trifft, sagt me, him, her, us, them. Wem etwas gehört, sagt my, your, his, her, its, our, their. Damit kannst du jetzt für jede Person sagen, wer etwas tut, wen es trifft und wem etwas gehört.

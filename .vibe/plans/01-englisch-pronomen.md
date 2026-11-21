@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -37,6 +37,8 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 
 
 ## Notes
+
+- Gesamtcheck der fertigen App (Sub-Agent, Kind 5-6) und Sprachprüfung Englisch und Deutsch (Sub-Agent): behoben: Zeilen er/sie/es auf Seite 3 sichtbar (Fragezeichen), Figuren und Personen vor ihrem ersten Auftreten eingeführt (Sophie 11, Parkers, Mrs Parker), Sprechbeispiele als wörtliche Rede, Bedeutungen von your/our/their/him/us/them/his/her/its, Grammatikaussage zu her brother/his sister, its/it's erklärt, Zeitablauf Sports day/Üben, „unterstützen“ vermieden, zusätzliche Antwort (They|Ellie and Amir), Rückmeldung für „Ellie can see his brother“, Figur Mr Hill größer, toter Ausblick auf mine/myself entfernt. Nicht behoben (Laufzeit, gemeldet): Lückenauswahl und Diktat zeigen keine eigenen Rückmeldungen, nur „nicht richtig“; Seite /pronomen-1/einschaetzung/ leer; „KI“-Label; Mikrofon. Offen: Titel nennt mine und myself (Titel stammt aus dem Issue). Audio ungeprüft (nicht anhörbar). Hint explainer-repetition auf his-her bleibt bewusst (Besitzer-Regel in Text, Bild und Merke).
 
 - Lerner-Check Seite 1 (Sub-Agent, Kind 5-6): Funde behoben: Poster und Spaltensprache erklärt, can/swim vor der ersten Übung, Figuren in der Caption benannt, Sports day erklärt, we = ich und andere, you = du/ihr, Rückmeldungen für fehlendes can und you/we, Titel „Was sagt Sophie?“ geändert, Ausblick umformuliert. Nicht behoben (Laufzeit): „KI“-Label, Lösung-Knopf, Mikrofon im Headless-Browser; Audio konnte ich nicht anhören (ungeprüft).
 
@@ -196,7 +198,7 @@ page, which a link. -->
 - [x] Run `npx --no -- lernapps check` until it passes.
 - [x] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
-- [ ] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
+- [x] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
       fixed.
 
 ## Commit

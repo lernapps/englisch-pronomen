@@ -42,7 +42,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          In „Sophie can see me“ tut Sophie etwas, und es trifft Peter. Auf Seite 1 hast du die Wörter gelernt, die sagen, **wer es tut**. Dazu kommt die zweite Frage der Tabelle: **Wen trifft es?** Dieses Wort steht nach dem Verb. Die Wörter der ersten Spalte heißen Subjekt-Pronomen, die der zweiten Objekt-Pronomen.
+          In „Sophie can see me“ tut Sophie etwas, und es trifft Peter. Auf der ersten Seite („Wer tut es?“) hast du die Wörter gelernt, die sagen, **wer es tut**. Dazu kommt die zweite Frage der Tabelle: **Wen trifft es?** Dieses Wort steht nach dem Verb. Die Wörter der ersten Spalte heißen Subjekt-Pronomen, die der zweiten Objekt-Pronomen.
       - type: table
         caption: Klassenzimmer-Poster · Pronomen
         header: [Person, Wer tut es?, Wen trifft es?]
@@ -197,4 +197,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Auf dem Poster stehen jetzt zwei Spalten. Nach dem Spiel liegen Taschen und Jacken auf dem Boden. Auf der nächsten Seite lernst du die dritte Frage der Tabelle, **Wessen Ding?**
+        text: Auf dem Poster stehen jetzt zwei Spalten. Nach dem Üben stehen die Taschen der Kinder im Flur. Auf der nächsten Seite lernst du die dritte Frage der Tabelle, **Wessen Ding?**
