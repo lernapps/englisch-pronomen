@@ -16,7 +16,7 @@ blocks:
         licence: CC-BY-4.0
       - type: text
         text: |
-          Beim Sports day üben Sophie, Ellie, Peter und Amir auf dem Sportplatz. Peter ruft: „Sophie can see me.“ Das heißt: „Sophie kann mich sehen.“ **see** heißt „sehen“, **help** „helfen“ und **call** „rufen“.
+          Beim Üben für den Sports day stehen Sophie, Ellie, Peter und Amir auf dem Sportplatz. Peter ruft: „Sophie can see me.“ Das heißt: „Sophie kann mich sehen.“ **see** heißt „sehen“, **help** „helfen“ und **call** „rufen“. Auch **him** (ihn), **us** (uns) und **them** (sie, mehrere) lernst du gleich.
       - type: text
         text: "**Das kannst du danach:** Du sagst auf Englisch, wen oder was etwas trifft, und wählst me, you, him, her, it, us oder them."
       - type: single-choice
@@ -42,7 +42,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          In „Sophie can see me“ tut Sophie etwas, und es trifft Peter. Auf Seite 1 hast du die Wörter gelernt, die sagen, **wer es tut**. Dazu kommt die zweite Frage der Tabelle: **Wen trifft es?** Dieses Wort steht nach dem Verb. Ein Pronomen der ersten Spalte nennt man Subjekt, eines der zweiten Spalte Objekt.
+          In „Sophie can see me“ tut Sophie etwas, und es trifft Peter. Auf Seite 1 hast du die Wörter gelernt, die sagen, **wer es tut**. Dazu kommt die zweite Frage der Tabelle: **Wen trifft es?** Dieses Wort steht nach dem Verb. Die Wörter der ersten Spalte heißen Subjekt-Pronomen, die der zweiten Objekt-Pronomen.
       - type: table
         caption: Klassenzimmer-Poster · Pronomen
         header: [Person, Wer tut es?, Wen trifft es?]
@@ -60,7 +60,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Wer etwas tut, sagt **I**, **he**, **she**, **we**, **they**. Wen es trifft, sagt **me**, **him**, **her**, **us**, **them**. **you** und **it** sehen in beiden Spalten gleich aus. Beispiele: He can help us. We can call them. I can see her.
+              Wer etwas tut, sagt **I**, **he**, **she**, **we**, **they**. Wen es trifft, sagt **me**, **him**, **her**, **us**, **them**. **you** und **it** sehen in beiden Spalten gleich aus. Beispiele: He can help us. We can call them. I can see her. Auch bei help steht him, obwohl wir im Deutschen „ihm“ sagen.
   - type: section
     id: uebung
     title: Übung
@@ -91,27 +91,27 @@ blocks:
         task: Wähle das Pronomen, das sagt, wen es trifft.
         form: { case: hint, punctuation: hint }
         items:
-          - cue: Peter sagt, dass Sophie ihn sehen kann.
+          - cue: "Peter sagt: „Sophie kann mich sehen.“"
             target: Sophie can see [me].
             distractors: [[I, he]]
-          - cue: Ellie kann Peter helfen.
+          - cue: Ellie kann ihm (Peter) helfen.
             target: Ellie can help [him].
             distractors: [[he, her]]
             mistakes:
               - answer: Ellie can help he.
                 message: he gehört in die erste Spalte und steht vor dem Verb. Wen es trifft, sagst du mit him.
-          - cue: Sophie sagt, dass Amir sie und Ellie rufen kann.
+          - cue: "Sophie sagt: „Amir kann uns rufen.“"
             target: Amir can call [us].
             distractors: [[we, them]]
-          - cue: Ich kann Ellie sehen.
+          - cue: Ich kann sie (Ellie) sehen.
             target: "[I] can see [her]."
             distractors: [[Me, We], [she, he]]
       - type: ordering
         id: wen-ordnen
-        text: Bringe die Wörter in die richtige Reihenfolge, damit der Satz stimmt.
+        text: Bring die Wörter in die richtige Reihenfolge, damit der Satz stimmt.
         items: [Peter, can, help, them]
-        explanation: Zuerst steht, wer es tut, dann can, dann das Verb, zuletzt, wen es trifft.
-        hint: Wer tut es? Steht am Anfang. Wen trifft es? Steht am Ende.
+        explanation: Zuerst kommt, wer etwas tut, dann can, dann das Verb und zuletzt, wen es trifft.
+        hint: Wer tut es? Das steht am Anfang. Wen trifft es? Das steht am Ende.
         links:
           - title: Personalpronomen (Wikipedia)
             url: https://de.wikipedia.org/wiki/Personalpronomen
@@ -137,7 +137,7 @@ blocks:
               - answer: Peter can call she.
                 message: she sagt, wer es tut. Es trifft Ellie, also her.
           - source: Ellie und Amir können uns helfen.
-            target: They can help us.
+            target: (They|Ellie and Amir) can help us.
             mistakes:
               - answer: Them can help us.
                 message: them sagt, wen es trifft. Wer es tut, sagst du mit they.

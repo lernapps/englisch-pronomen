@@ -16,7 +16,7 @@ blocks:
         licence: CC-BY-4.0
       - type: text
         text: |
-          Nach dem Sports day stehen die Kinder im Flur. Ihre Sachen liegen auf dem Boden. Ellie sagt: „I can see my bag.“ Das heißt: „Ich kann meine Tasche sehen.“ **bag** heißt „Tasche“, **jacket** „Jacke“, **ball** „Ball“ und **book** „Buch“.
+          Nach dem Training stehen die Kinder im Flur. Ihre Sachen liegen auf dem Boden. Ellie sagt: „I can see my bag.“ Das heißt: „Ich kann meine Tasche sehen.“ **bag** heißt „Tasche“, **jacket** „Jacke“, **ball** „Ball“ und **book** „Buch“. **your** heißt „dein“ oder „euer“, **our** „unser“ und **their** „ihr“, wenn es mehreren gehört.
       - type: text
         text: "**Das kannst du danach:** Du sagst auf Englisch, wem etwas gehört, mit my, your, our und their."
       - type: single-choice
@@ -66,11 +66,11 @@ blocks:
         id: my-zuordnen
         text: Welches Wort passt, wenn jemand über sein Ding spricht?
         pairs:
-          - left: Ellie spricht über ihre Tasche.
+          - left: Ellie spricht über ihre eigene Tasche.
             right: my
           - left: Ellie spricht zu Amir über seine Jacke.
             right: your
-          - left: Sophie und Ellie sprechen über ihren Ball.
+          - left: Sophie und Ellie sprechen über ihren eigenen Ball.
             right: our
           - left: Sophie spricht über die Bücher von Amir und Peter.
             right: their
@@ -86,16 +86,16 @@ blocks:
         task: Wähle das Wort, das sagt, wem es gehört.
         form: { case: hint, punctuation: hint }
         items:
-          - cue: Ellie sagt, dass sie ihre eigene Tasche sehen kann.
+          - cue: "Ellie sagt: „Ich kann meine Tasche sehen.“"
             target: I can see [my] bag.
             distractors: [[me, I]]
             mistakes:
               - answer: I can see me bag.
                 message: me sagt, wen es trifft. Wem etwas gehört, sagst du mit my.
-          - cue: Ellie sagt zu Peter, dass er seine Jacke sehen kann.
+          - cue: "Ellie sagt zu Peter: „Du kannst deine Jacke sehen.“"
             target: You can see [your] jacket.
             distractors: [[my, our]]
-          - cue: Sophie sagt, dass sie und Ellie ihren Ball sehen können.
+          - cue: "Sophie sagt: „Wir können unseren Ball sehen.“"
             target: We can see [our] ball.
             distractors: [[us, my]]
             mistakes:
@@ -115,8 +115,8 @@ blocks:
             target: "[I] can see [my] bag."
           - cue: Wir können unseren Ball sehen.
             target: "[We] can see [our] ball."
-          - cue: Sie (Amir und Peter) können ihre Tasche sehen.
-            target: "[They] can see [their] bag."
+          - cue: Sie (Amir und Peter) können ihren Ball sehen.
+            target: "[They] can see [their] ball."
       - type: language-task
         id: my-schreiben
         languages: { source: de, target: en }

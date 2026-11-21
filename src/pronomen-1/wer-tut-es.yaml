@@ -62,7 +62,7 @@ blocks:
             text: |
               **he** sagst du für einen Jungen oder Mann, **she** für ein Mädchen oder eine Frau. **it** ist für Dinge und Tiere, nie für eine Person. **you** gilt für eine Person (du) und für mehrere (ihr). **we** ist „ich und andere zusammen“. Beispiele: I can swim. You can run. He can sing. She can jump. We can read. They can swim. **can** heißt „kann“ und bleibt bei jeder Person gleich.
       - type: text
-        text: "Die Wörter auf der Tafel: **swim** (schwimmen), **run** (laufen), **sing** (singen), **jump** (springen), **read** (lesen)."
+        text: "Die Wörter auf der Tafel: **swim** (schwimmen), **run** (rennen, laufen), **sing** (singen), **jump** (springen), **read** (lesen)."
   - type: section
     id: uebung
     title: Übung
@@ -94,16 +94,16 @@ blocks:
         task: Wähle das Pronomen, das sagt, wer es tut.
         form: { case: hint, punctuation: hint }
         items:
-          - cue: Peter kann gut laufen.
+          - cue: Peter kann rennen.
             target: "[He] can run."
             distractors: [[She, It]]
             mistakes:
               - answer: It can run.
                 message: it ist für Dinge und Tiere. Für einen Jungen wie Peter sagst du he.
-          - cue: Ellie kann gut lesen.
+          - cue: Ellie kann lesen.
             target: "[She] can read."
             distractors: [[He, They]]
-          - cue: Sophie sagt, dass sie selbst singen kann.
+          - cue: "Sophie sagt: „Ich kann singen.“"
             target: "[I] can sing."
             distractors: [[Me, You]]
           - cue: Amir und Peter können springen.
@@ -122,7 +122,7 @@ blocks:
                 message: Du brauchst auch can. Es heißt „kann schwimmen“, also can swim.
               - answer: Me can swim.
                 message: "me gehört in die zweite Spalte der Tabelle. Wer etwas tut, sagt I."
-          - source: Er kann laufen.
+          - source: Er kann rennen. (Peter)
             target: He can run.
             mistakes:
               - answer: He run.
@@ -133,7 +133,7 @@ blocks:
             target: We can sing.
             mistakes:
               - answer: You can sing.
-                message: you heißt „du“ oder „ihr“. Sophie spricht auch über sich, also sagt sie we.
+                message: you heißt „du“ oder „ihr“. Wenn du selbst dazugehörst, sagst du we.
           - source: Sie (Ellie und Amir) können lesen.
             target: They can read.
             mistakes:
@@ -195,4 +195,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Auf dem Poster steht die erste Spalte. Beim Sports day wirft Sophie Peter den Ball zu. Auf der nächsten Seite lernst du, welche Form du brauchst, wenn jemand angesprochen wird oder etwas abbekommt.
+        text: Auf dem Poster steht die erste Spalte. Beim Üben für den Sports day wirft Sophie Peter den Ball zu. Auf der nächsten Seite lernst du, welche Form du brauchst, wenn jemand gesehen, gerufen oder getroffen wird.

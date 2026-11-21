@@ -42,7 +42,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          Bei he, she und it nimmst du auch his, her und its. Das Wort richtet sich nach dem, **dem** etwas gehört, **nicht nach dem Ding**. Ellie ist ein Mädchen, also sagt sie „her brother“, obwohl Peter ein Junge ist. Peter ist ein Junge, also sagt er „his sister“, obwohl Ellie ein Mädchen ist.
+          Bei he, she und it brauchst du his, her und its. **his** heißt „sein“, **her** „ihr“ und **its** „sein“ für ein Ding oder Tier. Das Wort richtet sich nach dem Besitzer, **nicht nach dem Ding**. Über Ellie sagt man „her brother“, obwohl Peter ein Junge ist. Über Peter sagt man „his sister“, obwohl Ellie ein Mädchen ist.
       - type: figure
         image: images/his-her-besitzer.svg
         alt: Zwei Zeilen. Oben zeigt ein Pfeil von Ellie zu Peter mit den Wörtern her brother. Unten zeigt ein Pfeil von Peter zu Ellie mit den Wörtern his sister.
@@ -66,7 +66,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **his** gehört einem Jungen oder Mann, **her** einem Mädchen oder einer Frau, **its** einem Ding oder Tier: The cat can see its ball. Dein Blick geht zum Besitzer, nicht zum Ding. **her** steht in der zweiten und in der dritten Spalte. **its** schreibst du ohne Apostroph.
+              **his** gehört einem Jungen oder Mann, **her** einem Mädchen oder einer Frau, **its** einem Ding oder Tier: The cat can see its ball. Dein Blick geht zum Besitzer, nicht zum Ding. **her** steht in der zweiten und in der dritten Spalte. **its** schreibst du ohne Apostroph: it's ist die Kurzform von „it is“.
   - type: section
     id: uebung
     title: Übung
@@ -96,7 +96,7 @@ blocks:
             mistakes:
               - answer: Ellie can see his brother.
                 message: his richtet sich nach dem Besitzer. Ellie ist ein Mädchen, also her, auch wenn ihr Bruder ein Junge ist.
-          - cue: Die Katze kann ihren Ball sehen.
+          - cue: Die Katze kann ihren Ball sehen. (Die Katze zählt als Tier, also it.)
             target: The cat can see [its] ball.
             distractors: [[her, his]]
       - type: single-choice
@@ -133,7 +133,7 @@ blocks:
             target: The cat can see its ball.
             mistakes:
               - answer: The cat can see it's ball.
-                message: its ohne Apostroph sagt, wem etwas gehört.
+                message: it's ist die Kurzform von „it is“. Wem etwas gehört, sagst du mit its, ohne Apostroph.
           - source: Ich kann meinen Bruder sehen.
             target: I can see my brother.
             mistakes:
@@ -141,7 +141,7 @@ blocks:
                 message: me sagt, wen es trifft. Wem der Bruder gehört, sagst du mit my.
       - type: true-false
         id: his-falsch
-        text: Peter spricht über seine Schwester Ellie und sagt „Peter can see her sister.“ Ist der Satz richtig?
+        text: "Amir sagt über Peter und seine Schwester: „Peter can see her sister.“ Ist der Satz richtig?"
         answer: false
         hint: Wer ist der Besitzer, ein Junge oder ein Mädchen? Danach wählst du das Wort.
         explanation: Der Besitzer ist Peter, ein Junge, also his sister.
@@ -155,7 +155,7 @@ blocks:
         task: Wähle alle Wörter. Jedes Wort gehört in eine andere Spalte der Tabelle.
         form: { case: hint, punctuation: hint }
         items:
-          - cue: Ellie kann Peter und seine Jacke sehen.
+          - cue: Sie (Ellie) kann ihn (Peter) und seine Jacke sehen.
             target: "[She] can see [him] and [his] jacket."
             distractors: [[He, They], [he, her], [her, its]]
           - cue: Peter und Amir können uns und unseren Ball sehen.
@@ -207,7 +207,7 @@ blocks:
         hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
       - type: open-task
         id: his-frei
-        task: Schreibe zwei kurze Sätze über Ellie und Peter. In jedem Satz sagt ein Pronomen, wem etwas gehört.
+        task: Schreibe zwei kurze Sätze über Ellie und Peter. Benutze can see. In jedem Satz sagt ein Pronomen, wem etwas gehört.
         points:
           - text: Ein Satz handelt von Ellie und nutzt her (zum Beispiel her jacket oder her brother).
             source: /pronomen-1/his-her/#neu
