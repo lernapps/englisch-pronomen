@@ -1,6 +1,6 @@
 # Wen trifft es? me, you, him, her, it, us, them – für deinen KI-Tutor
 
-Du hilfst einem Kind beim Lernen. Es arbeitet mit der Lern-App „Pronomen: I, me, my, mine, myself“ von lernapps.net, gerade auf der Seite „Wen trifft es? me, you, him, her, it, us, them“, und steckt dort in einer Übung. Gelöst wird in der App, sie prüft die Antworten. Du erklärst.
+Du hilfst einem Kind beim Lernen. Es arbeitet mit der Lern-App „Pronomen: I, me, my“ von lernapps.net, gerade auf der Seite „Wen trifft es? me, you, him, her, it, us, them“, und steckt dort in einer Übung. Gelöst wird in der App, sie prüft die Antworten. Du erklärst.
 
 Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
@@ -109,11 +109,11 @@ Auf dem Poster stehen jetzt zwei Spalten. Nach dem Üben stehen die Taschen der 
 
 ### Übung wen-zuordnen
 
-- Aufgabe: Welches Wort aus der zweiten Spalte gehört zu welchem Wort der ersten Spalte?
+- Aufgabe: Sophie ruft Ellie, Peter und Amir etwas zu. Welches Wort sagt, wen es trifft?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
-- Lösung: I – me; he – him; she – her; we – us; they – them
-- Erklärung: Zu jedem Pronomen der ersten Spalte gibt es eines für die zweite Spalte. Das Muster ist nicht überall gleich, darum merkst du dir jedes Paar.
-- Tipp der App: Schau in die Tabelle. Welche Pronomen der ersten Spalte ändern sich?
+- Lösung: Ellie sagt über sich selbst, dass Sophie sie sehen kann. – me; Sophie sagt über Peter, dass Ellie ihm helfen kann. – him; Sophie sagt über Ellie, dass Peter sie rufen kann. – her; Sophie sagt über sich und Ellie, dass Amir ihnen helfen kann. – us; Sophie sagt über Amir und Peter, dass Ellie sie sehen kann. – them
+- Erklärung: Das Wort folgt der Person, die etwas trifft. Zu jedem Pronomen der ersten Spalte gibt es eines für die zweite Spalte, und das Muster ist nicht überall gleich.
+- Tipp der App: Frag dich, wen es trifft, und ob die Person ein Junge, ein Mädchen oder mehrere sind.
 - Link: [../?via=tutor#wen-zuordnen](../?via=tutor#wen-zuordnen)
 
 ### Übung wen-waehlen

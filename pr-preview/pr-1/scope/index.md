@@ -1,4 +1,4 @@
-# Pronomen: I, me, my, mine, myself
+# Pronomen: I, me, my
 
 Die App begleitet Kinder der Klassen 5 und 6. Kapitel 1 stellt die Pronomen-Tabelle vor. Spalte 1 „Wer tut es?“ hat I, you, he, she, it, we, they. Spalte 2 „Wen trifft es?“ hat me, you, him, her, it, us, them. Spalte 3 „Wessen Ding?“ hat my, your, his, her, its, our, their. Die Kinder lernen, dass man he oder she nach der Person wählt, it für Dinge und Tiere, und dass his und her sich nach dem Besitzer richten, nicht nach dem Ding.
 

@@ -1,6 +1,6 @@
 # Wer tut es? I, you, he, she, it, we, they – für deinen KI-Tutor
 
-Du hilfst einem Kind beim Lernen. Es arbeitet mit der Lern-App „Pronomen: I, me, my, mine, myself“ von lernapps.net, gerade auf der Seite „Wer tut es? I, you, he, she, it, we, they“, und steckt dort in einer Übung. Gelöst wird in der App, sie prüft die Antworten. Du erklärst.
+Du hilfst einem Kind beim Lernen. Es arbeitet mit der Lern-App „Pronomen: I, me, my“ von lernapps.net, gerade auf der Seite „Wer tut es? I, you, he, she, it, we, they“, und steckt dort in einer Übung. Gelöst wird in der App, sie prüft die Antworten. Du erklärst.
 
 Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
@@ -138,7 +138,7 @@ Auf dem Poster steht die erste Spalte. Beim Üben für den Sports day wirft Soph
 - Einträge (Vorgabe → Lösung):
 1. Ich kann schwimmen. → I can swim.
      - I swim.: Du brauchst auch can. Es heißt „kann schwimmen“, also can swim.
-     - Me can swim.: me gehört in die zweite Spalte der Tabelle. Wer etwas tut, sagt I.
+     - Me can swim.: Wer etwas tut, sagt I. me kommt erst später.
 2. Er kann rennen. (Peter) → He can run.
      - He run.: Du brauchst auch can. Es heißt „kann laufen“, also can run.
      - She can run.: she ist für ein Mädchen oder eine Frau. Für einen Jungen sagst du he.
