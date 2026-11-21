@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -87,9 +87,10 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
       off), and which misconception the feedback catches.
 - [x] Write under "Notes" the scope: what is in, what is out and why, the data range (for example "all main-group
       elements", never a silent "1–20"), the languages.
-- [ ] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
+- [x] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
       approach, the scope, every "(guess)", the sources and what is unchecked, the archetype and its reason. Stop and
       wait. Changes: change them, then ask again.
+      Creator: Ja, der 4-Seiten-Schnitt passt (Orchestrator)
 
 ### Answers
 
@@ -115,17 +116,17 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 
 ### Tasks
 
-- [ ] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
+- [x] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
       "Content method".
-- [ ] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
-- [ ] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
+- [x] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
+- [x] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
       opening task, the change of activity, the reward, the story.
-- [ ] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
+- [x] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
       screen, `npx --no -- lernapps plan add --at pattern "<task>"`. Then the others, one call each:
       `npx --no -- lernapps plan add --at pages "<task>"`. Each task says what it builds and what it shows.
-- [ ] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
+- [x] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
       learners see after each. Keep the files in `.vibe/sketches/`.
-- [ ] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
+- [x] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
       plain words (what learners see and do, what the app cannot do). At most 2 questions.
 - [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
@@ -137,6 +138,21 @@ checks and what it cannot; how a later agent adds a chapter. It becomes the cont
 <!-- An explainer: per figure, model and component its learning action in two to four sentences
 (`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
 page, which a link. -->
+
+**Aufbau.** Strang-App `strand: englisch/grammatik`, `languages: [de]`, ein Kapitel `pronomen-1` („Wer? Wen? Wessen?“) mit vier Seiten. Jede Seite hat die Abschnitts-IDs `einstieg` (Sophies Szene, erste leichte Aufgabe, „Das kannst du danach“), `neu` (Tabelle wächst, Merke-Kasten), `uebung` (mind. vier, leicht → schwer), `anwenden` (`open-task` oder `speaking-task`), `weiter` (nächster Schritt der Geschichte; auf Seite 4 Rückblick). Höchstens 350 Wörter Text. Figuren: eine Szene je Seite als eigene SVG (Figuren aus `millbrook-klassenzimmer.svg` von hello-millbrook kopiert), Lizenz CC-BY-4.0, `alt` ohne Lösung; jede Szene zeigt, was die Seite erklärt (Caption sagt, worauf man achtet). Keine Datendateien, keine Vue-Komponenten: Ziehen = `matching`, Tabelle ausfüllen = `language-task` mode `table` (`prefer-built-in-block`). Audio: bf_emma, nur ganze Sätze, `regen_audio.py` aus hello-millbrook, Namen am Satzende zweisilbig (Sophie, Peter, Ellie). Terminologie: „Ausdruck“, nie „Wendung“; „Subjekt“ und „Objekt“ erst auf Seite 1 bzw. 2 in einem Satz erklärt („wer tut es“, „wen trifft es“); noun/verb gelten. Lesehilfe nur wo nötig, keine Lautschrift. Alle Übungen fragen nur Wörter ab, die vorher auf der Seite stehen; eine Tabelle, die eine Übung beantwortet, steht nicht direkt darüber; kein deutsches Wort in englischen Sätzen.
+
+**Die wachsende Tabelle** „Klassenzimmer-Poster · Pronomen“ (je ein `table`-Block, Spalten wachsen): Seite 1 Zeilen I, you, he, she, it, we, they, Spalte „Wer tut es?“; Seite 2 + „Wen trifft es?“ (me, you, him, her, it, us, them); Seite 3 + „Wessen Ding?“ mit den Zeilen I, you, we, they (my, your, our, their); Seite 4 ergänzt he, she, it (his, her, its) und zeigt die Tabelle vollständig. Muster I – me – my.
+
+**Muster je Kompetenz** (Fremdsprachen-Muster, leicht → schwer, Rückmeldung je Fehler in `mistakes`): personalpronomen: Zuordnen (`matching`), Form wählen (`language-task` choice mit `distractors`), Lücke (gap), Tabelle ableiten (table), Schreiben (write, Deutsch → Englisch), Diktat, Nachsprechen. possessivbegleiter: dieselbe Folge, zusätzlich Besitzer bestimmen und Satz korrigieren.
+
+**Seiten und Engagement** (eine Zeile je Seite: Opening · Wechsel · Reward · Story):
+1. `pronomen-1/wer-tut-es` (personalpronomen, Subjekt). Szene: Klassenzimmer, Ellie meldet sich. Opening: Kinder wählen, wer in „… is my friend.“ gemeint ist. Wechsel: schauen (Szene) → Tabelle lesen → Wörter in Spalte 1 sortieren. Reward: sie können Sätze mit I, you, he, she, it, we, they bauen. Story: Sophie stellt Mrs Parker die Klasse vor. Übungen: matching Person ↔ Pronomen, choice Subjekt, gap, write, true-false (it für Dinge und Tiere), Diktat. Fehler: I/me, he/she, it für Personen, you für eine und mehrere.
+2. `pronomen-1/wen-trifft-es` (personalpronomen, Objekt). Szene: Peter und der Ball. Opening: „Peter sees …“ / „… sees Peter.“ – wer tut es, wen trifft es. Wechsel: Beispiele → Kinder ergänzen Spalte 2 selbst (table) → Sätze bauen. Reward: Tabelle mit zwei Spalten, sie unterscheiden Subjekt und Objekt. Story: Sophie hilft Peter beim Ballspiel. Übungen: matching I → me, choice Subjekt oder Objekt im Satz, gap, ordering, write, Diktat. Fehler: „Me like“, „I like he“, he/him, we/us.
+3. `pronomen-1/my-your` (possessivbegleiter: my, your, our, their). Szene: Taschen und Jacken im Flur. Opening: „Whose bag is this?“ – Kinder wählen. Wechsel: Szene → Muster I – me – my selbst entdecken (table) → Besitzer wählen. Reward: Spalte 3 für I, you, we, they. Story: Sophie sortiert Taschen für Mrs Parker. Übungen: choice, gap, matching Besitzer ↔ Wort, write, Diktat. Fehler: me bag, I bag, you/your.
+4. `pronomen-1/his-her` (possessivbegleiter: his, her, its + Schlussübung). Szene: Ellie (rote Jacke) und Peter (gelbe Jacke) mit Dingen. Opening: Wessen Ding? Kinder wählen his oder her. Wechsel: Bild zum Unterschied zum Deutschen (her brother = Besitzerin Ellie, his sister = Besitzer Peter) → Besitzer bestimmen → Korrigieren. Reward: vollständige Tabelle; Rückblick. Story: Mrs Parker liest die Namen auf den Sachen vor; Ausblick auf später. Übungen: matching Besitzer ↔ Wort, choice (Besitzer bestimmt), gap, Korrigieren (write mit Fehlersatz), Schlussübung über die ganze Tabelle, Diktat, `open-task`. Fehler: his/her nach dem Ding, its/it's, he/his.
+
+**Spätere Ergänzung (Kapitel 2):** Kapitel `pronomen-2` (mine/yours, myself, each other, Stufe 7-8) erweitert dieselbe Tabelle um zwei Spalten. Selbsteinschätzung: in Commit, je Seite zwei Übungen.
+
 
 ## Code
 
@@ -161,11 +177,16 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: pattern: the one page or screen that is the pattern for the others -->
+- [ ] Page 1 pronomen-1/wer-tut-es complete: scene SVG, table column 1, at least four exercises easy to hard with mistakes, dictation audio with bf_emma, speaking task; checks on
+<!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-<!-- tasks: pages: the other pages or screens, after the pattern -->
+- [ ] Page 2 pronomen-1/wen-trifft-es: scene, table column 2 derived by learners, exercises, audio
+- [ ] Page 3 pronomen-1/my-your: scene, table column 3, pattern I - me - my, exercises, audio
+- [ ] Page 4 pronomen-1/his-her: scene, his/her follows the owner, full table, final exercise, open task, look back, audio
+- [ ] app.yaml, chapter.yaml, selfAssessment, Sources in content guide, language and sound check by sub-agent
+<!-- tasks: pages (4 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.

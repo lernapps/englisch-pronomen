@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" font-family="sans-serif" font-size="14">
+<title>Skizze: his und her richten sich nach dem Besitzer</title>
+<rect width="600" height="200" fill="#fff"/>
+<circle cx="100" cy="70" r="30" fill="#d33"/><text x="60" y="130">Ellie (Besitzerin)</text>
+<circle cx="300" cy="70" r="30" fill="#ee3"/><text x="260" y="130">Peter (Besitzer)</text>
+<text x="40" y="165">her brother (Ellies Bruder)</text><text x="260" y="165">his sister (Peters Schwester)</text>
+<path d="M130 70H270" stroke="#333" marker-end="url(#a)"/>
+<text x="150" y="190">Der Besitzer entscheidet, nicht das Ding.</text>
+</svg>
