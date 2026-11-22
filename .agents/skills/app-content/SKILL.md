@@ -5,7 +5,7 @@ description: Use for any content work in this app - researching, writing, extend
 
 # Content guide of this app
 
-Pronomen: I, me, my (Titel in `src/app.yaml`; er wird mit dem Inkrement für Kapitel 2 wieder zu „Pronomen: I, me, my, mine, myself“ erweitert). Explainer (Strang-App `englisch/grammatik`, Stufe 5-6, Sprache Deutsch). Auftrag: Issue lernapps/apps#471. Gebaut ist Kapitel 1 „Wer? Wen? Zu wem?“; Kapitel 2 (Stufe 7-8) kommt später.
+Pronomen: I, me, my, mine, myself. Explainer (Strang-App `englisch/grammatik`, Stufe 5-6 und 7-8, Sprache Deutsch). Auftrag: Issue lernapps/apps#471. Gebaut sind Kapitel 1 „Wer? Wen? Zu wem?“ (Stufe 5-6, `pronomen-1`) und Kapitel 2 „mine, myself und each other“ (Stufe 7-8, `pronomen-2`).
 
 ## Curriculum
 
@@ -19,6 +19,16 @@ Kapitel `pronomen-1` („Wer? Wen? Zu wem?“), vier Seiten:
 2. `possessivbegleiter`: Ich kann mit my, your, his, her, its, our und their sagen, wem etwas gehört. → `pronomen-1/my-your` (my, your, our, their), `pronomen-1/his-her` (his, her, its)
 
 Beide Kompetenzen sind Lücken der Karte, `personalpronomen` hat keine Voraussetzung, `possessivbegleiter` verlangt `personalpronomen` (steht früher). Kein `ahead`, keine Wiederholungsseite. Übungs-IDs: Präfix = Seite (`wer-…`, `wen-…`, `my-…`, `his-…`). Je Seite: `<p>-start` (single-choice im Einstieg), `-zuordnen` (matching, Seiten 1 bis 3), `-waehlen-1`, `-waehlen-2` (zwei `single-choice` mit Satz und Lücke „___“, eine Meldung `info` je Option; die Nummern sind nicht durchgehend: wer 1 und 3, wen 2 und 3, my 1 und 3, his 1 und 2), `-schreiben` (write mit `mistakes`), `-falsch`/`-it` (true-false), `-hoeren` (Diktat), `-tabelle` (Tabelle ausfüllen), `-nachsprechen` (speaking-task); Seite 2 zusätzlich `wen-ordnen` (ordering), Seite 3 `my-luecke` (gap), Seite 4 `his-gemischt` (write, zwei Sätze mit Pronomen aus drei Spalten) und `his-frei` (open-task). Selbsteinschätzung in `src/pronomen-1/chapter.yaml`: je Seite `<p>-waehlen-N` (wer 1, wen 2, my 1, his 2) und `-schreiben`, zusammen acht Übungen.
+
+## Kapitel 2 (Stufe 7-8, `pronomen-2`)
+
+- Kompetenzen: `possessivpronomen` → `pronomen-2/mine-yours` (Chat, Ich kann die Possessivpronomen mine, yours, his, hers, ours und theirs verwenden), `reflexivpronomen` → `pronomen-2/myself` (Tagebuch, Vergleich mit dem deutschen „sich“), `each-other` → `pronomen-2/each-other` (Dialog, Unterschied zu themselves). Voraussetzungen stehen in Kapitel 1; keine Wiederholungsseite, kein `ahead`.
+- Seitenaufbau (neu, Abschnitts-IDs): `einstieg` (Vorwissen-Frage `<p>-start`, „Das kannst du danach“), `lesen` (Lesestück 150 bis 300 Wörter: nummerierte Zeilen in zwei `text`-Blöcken, Wörter am Rand als `definition`-Blöcke), `verstehen` (drei Stufen: Verstehen `-text-1/2`, Belegen mit der Zeile `-text-3/4` als `single-choice` mit Zeilennummern, Meinung `-text-5` als `open-task`), `neu` (Poster-Ausschnitt mit drei Spalten, Merke), `uebung` (drei `single-choice` `-waehlen-N`, `matching` oder `ordering`, `-korrigieren`, `-schreiben`, `-falsch`, `-hoeren`, `-tabelle` zuletzt), `anwenden` (`-nachsprechen`, Schreibauftrag `-schreiben-frei`), `weiter`. Die Seite `each-other` endet mit dem Rückblick auf Kapitel 2.
+- Figuren: Sophie 13, Ellie 13, Amir 13, Peter 11 (zwei Jahre später, Sophie besucht Millbrook wieder; (guess)). Keine Szenenbilder, nur zwei Pfeil-Bilder: `images/pfeile-selbst.svg` (herself: Pfeil zurück; her: Pfeil zu einer anderen Person) und `images/pfeile-each-other.svg` (hin und her; themselves). Mrs Parker kommt nicht vor.
+- Poster: Ausschnitt mit drei Spalten (Person, Mit Nomen, Ohne Nomen auf Seite 1; Person, Wer tut es?, Wer ist es selbst? auf Seite 2), weil sechs Spalten bei 360 px überlaufen; each other als Kasten (Merke) auf Seite 3.
+- Wörter außerhalb des Grundwortschatzes: hoodie (erklärt). Weitere Wörter des Lesestücks stehen im Randglossar der Seite.
+- Quellen: Die Lesestücke sind eigene Texte ohne Fakten aus Wikipedia (die Abfrage antwortete mit HTTP 429, ungeprüft). Hörsätze neu mit `regen_audio.py`.
+- Selbsteinschätzung `src/pronomen-2/chapter.yaml`: je Seite `-waehlen-N` und `-schreiben` (mine-waehlen-2, myself-waehlen-1, each-waehlen-1), sechs Übungen.
 
 ## Content structure
 
@@ -86,3 +96,10 @@ Karte `https://lernapps.net/apps/map/englisch.json`. Fakten (nicht Sätze) aus W
 Alle enden auf ein einsilbiges Wort, außer i-can-see-your-jacket und they-can-see-my-jacket (zweisilbig). Gezielt anhören: die Dateien mit Schnitt an der Senke (`valley_cut`): ellie-can-find-her-pen, amir-can-find-his-cap, the-dog-can-find-its-bag, i-can-see-your-jacket, you-can-see-my-book, we-can-see-your-bag, they-can-see-my-jacket, peter-can-see-us, she-can-cook, they-can-write, i-can-cook, he-can-write. Gefällt bei einer Datei die Fassung ohne Schnitt besser, mit `--no-dip-cut` neu erzeugen und hier vermerken.
 
 Stand: Die Ersteller:in hat die Regel (Rand 40 ms, 20 bis 100 ms) gehört und für gut befunden („passt“). Das Skript liegt auch in `lernapps/start` unter `orchestrierung/audio/`. Die ersten vier beanstandeten Sätze (we-can-run, he-can-run, we-can-jump, we-can-call-you) gibt es nicht mehr.
+
+### Hörliste Kapitel 2 (18 Hörsätze, nichts davon angehört)
+
+- `mine-yours`: the-white-hat-is-mine, is-that-dog-yours, these-phones-are-ours (Diktat); the-red-pen-is-hers, that-bag-is-his, this-bike-is-theirs (Nachsprechen).
+- `myself`: i-bought-myself-a-new-phone, he-bought-himself-a-ticket, the-cat-cleaned-itself (Diktat); you-can-do-it-yourself, we-can-help-ourselves, help-yourselves-please.
+- `each-other`: the-twins-know-each-other-well, do-you-see-each-other-often, the-boys-made-themselves-a-pizza; please-be-kind-to-each-other, the-girls-are-talking-to-each-other, they-can-do-it-themselves.
+- Mit Schnitt an der Senke (`valley_cut`, gezielt anhören): the-red-pen-is-hers, that-bag-is-his, he-bought-himself-a-ticket, the-cat-cleaned-itself, you-can-do-it-yourself, help-yourselves-please. Die meisten Sätze enden auf ein einsilbiges Wort, zweisilbig: the-cat-cleaned-itself, help-yourselves-please (endet auf please, einsilbig), the-boys-made-themselves-a-pizza (zweisilbig).

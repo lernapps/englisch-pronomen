@@ -2,3 +2,14 @@
 title: mine, myself und each other
 summary: Du liest Chats und Tagebuch und lernst Wörter, die allein stehen (mine, yours), Wörter, die zur selben Person zurückzeigen (myself), und each other.
 pages: [mine-yours, myself, each-other]
+selfAssessment:
+  pages:
+    - exercises:
+        - /pronomen-2/mine-yours/#mine-waehlen-2
+        - /pronomen-2/mine-yours/#mine-schreiben
+    - exercises:
+        - /pronomen-2/myself/#myself-waehlen-1
+        - /pronomen-2/myself/#myself-schreiben
+    - exercises:
+        - /pronomen-2/each-other/#each-waehlen-1
+        - /pronomen-2/each-other/#each-schreiben
