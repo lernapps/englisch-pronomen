@@ -179,7 +179,7 @@ Kapitel 2 „mine, myself und each other“ (Stufe 7-8) ergänzt die Pronomen-Ta
 
 ### Tasks
 
-- [ ] If pages or exercises changed, load skill `lernapps-explainer-self-assessment` and update the self-assessment
+- [x] If pages or exercises changed, load skill `lernapps-explainer-self-assessment` and update the self-assessment
       as it says. Commit.
 - [ ] Load skill `lernapps-github`. Push the branch, open the preview pull request and see its checks to green, as it
       says.
@@ -205,10 +205,25 @@ Kapitel 2 „mine, myself und each other“ (Stufe 7-8) ergänzt die Pronomen-Ta
 
 <!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
 
+Commit (Vorschau-Pull-Request offen, nicht veröffentlicht). Checkpoints bestanden: Recherche, Plan, Musterseite. Veröffentlichen steht aus.
+
+
 ### Creator turns after the plan
 
 <!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
 
+Eine Nachricht der Ersteller:in direkt an mich nach der Plan-Bestätigung: „Versuch es noch einmal“ (Fortsetzen der unterbrochenen Arbeit). Dazu die Erlaubnis zum Push über die Orchestrator-Session („Ja, alle pushen“), bestätigt von der Ersteller:in auf meine Rückfrage. Alle anderen Rückmeldungen kamen von der Orchestrator-Session in der Rolle der Ersteller:in.
+
+
 ### Where I had to guess
 
 <!-- Each gap in plan, skills, content guide, messages or answers, and your choice. "None" if none. -->
+
+- Sophie 13, Ellie 13, Amir 13, Peter 11, „zwei Jahre später“, Sophie besucht Millbrook wieder (Plan: guess).
+- Fragen der neuen Spalten und Poster als Ausschnitt mit drei Spalten (Plan: guess).
+- Wörter außerhalb des Grundwortschatzes: hoodie, diary, wenige weitere, alle im Randglossar erklärt.
+- Wikipedia-Fakten ungeprüft (HTTP 429): deshalb keine im Text; Lesestücke sind eigene Texte.
+- Der Vokabelblock `vocabulary` steht nicht im Explainer-Skill; ich habe ihn im Schema gefunden.
+- Beim Weiterschalten habe ich vier Slice-Aufgaben abgehakt, bevor sie gemacht waren; als neue Aufgaben nachgetragen.
+- Audio nicht angehört; die Regel gegen den Fehllaut schneidet 7 von 18 Hörsätzen, Hörliste im Inhaltsführer.
+
