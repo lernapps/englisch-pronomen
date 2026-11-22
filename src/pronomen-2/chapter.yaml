@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: mine, myself und each other
 summary: Du liest Chats und Tagebuch und lernst Wörter, die allein stehen (mine, yours), Wörter, die zur selben Person zurückzeigen (myself), und each other.
-pages: [mine-yours]
+pages: [mine-yours, myself]

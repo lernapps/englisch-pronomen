@@ -1,0 +1,436 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "myself: wenn es zurückzeigt"
+description: Du liest Sophies Tagebuch und lernst myself, yourself, himself, herself, themselves und die anderen Formen. Du vergleichst das mit dem deutschen „sich“.
+competencies:
+  - reflexivpronomen
+scope: "Die Seite führt die Reflexivpronomen ein: myself, yourself, himself, herself, itself, ourselves, yourselves und themselves. Sie zeigen zur selben Person zurück, die etwas tut (Sophie hurt herself.), im Gegensatz zu einem Personalpronomen für eine andere Person (Sophie helped her.). Das Deutsche sagt „sich“ auch bei Verben, bei denen das Englische kein Reflexivpronomen hat: meet, hurry, sit down, feel, relax, decide. Das Lesestück ist ein Tagebucheintrag von Sophie. Typische Fehler sind meet ourselves, hurry myself, hisself, theirselves und him statt himself."
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophies Tagebuch
+    blocks:
+      - type: text
+        text: Nach der Klassenfahrt zum Kletterpark schreibt Sophie (13) abends in ihr Tagebuch. Ellie, Amir und Peter kommen auch darin vor.
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst, wann im Englischen ein Wort wie myself nötig ist und wann nicht, auch wenn das Deutsche „sich“ sagt."
+      - type: single-choice
+        id: myself-start
+        text: Sophie sieht Ellie im Park. Welches Wort fehlt? „Sophie can see ___.“
+        options:
+          - text: she
+            correct: false
+            info: she sagt, wer etwas tut. Nach dem Verb steht ein anderes Wort.
+          - text: her
+            correct: true
+            info: her ist für Ellie, eine andere Person, und steht nach dem Verb.
+          - text: him
+            correct: false
+            info: him ist für einen Jungen. Ellie ist ein Mädchen.
+        explanation: Für eine andere Person steht nach dem Verb ein Pronomen wie her.
+        links:
+          - title: Personalpronomen (Wikipedia)
+            url: https://de.wikipedia.org/wiki/Personalpronomen
+  - type: section
+    id: lesen
+    title: "Lesestück: Ein Tag im Kletterpark"
+    blocks:
+      - type: text
+        text: Lies den Tagebucheintrag. Die Zahlen sind die Zeilen. Wörter, die du vielleicht nicht kennst, stehen unter dem Text.
+      - type: text
+        text: |-
+          **1** · Saturday, 12 July. Dear diary, today was the school trip to the climbing park.
+
+          **2** · We met at the bus stop at eight. I hurried because I was late again.
+
+          **3** · Ellie was already there. She sat down on the bench and waited for me.
+
+          **4** · In the park, Amir fell and hurt himself. It was only a small cut, but he was a bit scared.
+
+          **5** · Peter is only eleven, so he could not climb with us. He taught himself to juggle with three balls instead!
+
+          **6** · Mr Hill said, “Look after yourselves, and enjoy yourselves!”
+      - type: text
+        text: |-
+          **7** · I was afraid of the high wall. I talked to myself: “You can do it, Sophie.”
+
+          **8** · And I did it! Later I looked at myself in the photo and I could not believe it.
+
+          **9** · In the evening we all felt tired, but we were proud of ourselves.
+
+          **10** · Ellie and Amir are making dinner now. Tomorrow I will make myself a big breakfast. Good night!
+      - type: definition
+        term: hurt
+        explanation: verletzen (he hurt himself = er hat sich verletzt)
+      - type: definition
+        term: cut
+        explanation: Schnittwunde
+      - type: definition
+        term: scared
+        explanation: ängstlich
+      - type: definition
+        term: juggle
+        explanation: jonglieren
+      - type: definition
+        term: look after
+        explanation: aufpassen auf
+      - type: definition
+        term: proud of
+        explanation: stolz auf
+      - type: definition
+        term: wall
+        explanation: Wand
+      - type: definition
+        term: believe
+        explanation: glauben
+  - type: section
+    id: verstehen
+    title: Aufgaben zum Text
+    blocks:
+      - type: text
+        text: "**Stufe 1 · Verstehen**"
+      - type: single-choice
+        id: myself-text-1
+        text: Wo trafen sich die Freunde am Morgen?
+        options:
+          - text: Im Kletterpark
+            correct: false
+            info: Im Park waren sie erst später.
+          - text: An der Bushaltestelle
+            correct: true
+            info: "Zeile 2: We met at the bus stop."
+          - text: In der Schule
+            correct: false
+            info: Von der Schule ist im Text keine Rede.
+        explanation: Zeile 2 nennt die Bushaltestelle.
+        links:
+          - title: Lernlandkarte Englisch · Reflexivpronomen
+            url: https://lernapps.net/apps/map/englisch/c/reflexivpronomen/
+      - type: true-false
+        id: myself-text-2
+        text: Peter ist mit den anderen geklettert.
+        answer: false
+        hint: Lies Zeile 5.
+        explanation: Peter ist erst elf und konnte nicht mit klettern.
+        links:
+          - title: Lernlandkarte Englisch · Reflexivpronomen
+            url: https://lernapps.net/apps/map/englisch/c/reflexivpronomen/
+      - type: text
+        text: "**Stufe 2 · Belegen mit der Zeile**"
+      - type: single-choice
+        id: myself-text-3
+        text: Welche Zeile zeigt, dass sich Amir verletzt hat?
+        options:
+          - text: Zeile 3
+            correct: false
+            info: Dort sitzt Ellie auf der Bank.
+          - text: Zeile 4
+            correct: true
+            info: "Zeile 4: Amir fell and hurt himself."
+          - text: Zeile 6
+            correct: false
+            info: Dort spricht Mr Hill.
+          - text: Zeile 9
+            correct: false
+            info: Dort sind alle müde.
+        explanation: Suche das Wort hurt.
+        links:
+          - title: Lernlandkarte Englisch · Reflexivpronomen
+            url: https://lernapps.net/apps/map/englisch/c/reflexivpronomen/
+      - type: single-choice
+        id: myself-text-4
+        text: Welche Zeile zeigt, dass sich Sophie selbst Mut macht?
+        options:
+          - text: Zeile 7
+            correct: true
+            info: "Zeile 7: I talked to myself: You can do it, Sophie."
+          - text: Zeile 8
+            correct: false
+            info: Dort schaut sie sich auf dem Foto an.
+          - text: Zeile 9
+            correct: false
+            info: Dort sind alle stolz.
+          - text: Zeile 10
+            correct: false
+            info: Dort geht es um das Abendessen.
+        explanation: Wer spricht dort mit wem?
+        links:
+          - title: Lernlandkarte Englisch · Reflexivpronomen
+            url: https://lernapps.net/apps/map/englisch/c/reflexivpronomen/
+      - type: text
+        text: "**Stufe 3 · Meinung**"
+      - type: open-task
+        id: myself-text-5
+        task: Sophie hatte Angst vor der hohen Wand und hat sich selbst Mut gemacht. Hilft dir das auch, wenn du Angst hast? Schreibe in zwei bis drei Sätzen deine Meinung und einen Grund.
+        points:
+          - text: Eine klare Meinung (hilft oder hilft nicht).
+            kind: form
+          - text: "Ein Grund, zum Beispiel: Man glaubt dann mehr an sich selbst."
+            source: /pronomen-2/myself/#lesen
+          - text: Ganze Sätze mit einem Grund (weil …).
+            kind: form
+        solution: "Ja, das hilft mir, weil ich dann nicht nur an meine Angst denke. Ich sage mir: Du schaffst das."
+  - type: section
+    id: neu
+    title: Wenn es zur selben Person zurückzeigt
+    blocks:
+      - type: text
+        text: "In Zeile 4 hat sich Amir verletzt: Er tut etwas, und es trifft ihn selbst. Dafür gibt es die fünfte Spalte des Posters: **Wer ist es selbst?** Das Wort zeigt zur selben Person zurück."
+      - type: figure
+        image: images/pfeile-selbst.svg
+        alt: Zwei Bilder. Links zeigt ein Pfeil von Sophie im Bogen zu Sophie zurück, dazu der Satz Sophie hurt herself. Rechts zeigt ein Pfeil von Sophie zu Ellie, dazu der Satz Sophie helped her.
+        caption: "Links geht der Pfeil zur selben Person zurück: herself. Rechts geht er zu einer anderen Person: her."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Pronomen (Ausschnitt)
+        header:
+          - Person
+          - Wer tut es?
+          - Wer ist es selbst?
+        rowHeaders: true
+        rows:
+          - - ich
+            - I
+            - myself
+          - - du
+            - you
+            - yourself
+          - - er
+            - he
+            - himself
+          - - sie (ein Mädchen)
+            - she
+            - herself
+          - - es
+            - it
+            - itself
+          - - wir
+            - we
+            - ourselves
+          - - ihr
+            - you
+            - yourselves
+          - - sie (mehrere)
+            - they
+            - themselves
+      - type: text
+        text: "Das Deutsche sagt „sich“ viel öfter als das Englische. Bei manchen Verben steht im Englischen **kein** Reflexivpronomen: sich treffen – **meet**, sich beeilen – **hurry**, sich hinsetzen – **sit down**, sich ausruhen – **relax**, sich entscheiden – **decide**. Mit Reflexivpronomen steht dagegen zum Beispiel: sich verletzen – **hurt oneself**, sich etwas beibringen – **teach oneself**."
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "Das Reflexivpronomen steht nur, wenn dieselbe Person etwas tut und es sie selbst trifft. Bei **meet, hurry, sit down, relax** und **decide** schreibst du nichts dazu. **himself** und **themselves** haben **self** und **selves**: nicht „hisself“ und nicht „theirselves“."
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: myself-waehlen-1
+        text: "Peter hat es allein gelernt: „Peter taught ___ to ride a bike.“"
+        options:
+          - text: him
+            correct: false
+            info: him ist für eine andere Person. Hier lernt Peter selbst.
+          - text: himself
+            correct: true
+            info: himself zeigt zu Peter zurück.
+          - text: herself
+            correct: false
+            info: herself ist für ein Mädchen. Peter ist ein Junge.
+        explanation: "Dieselbe Person: himself."
+        links:
+          - title: Lernlandkarte Englisch · Reflexivpronomen
+            url: https://lernapps.net/apps/map/englisch/c/reflexivpronomen/
+      - type: single-choice
+        id: myself-waehlen-2
+        text: "Sophie sagt: „Ellie and I enjoyed ___ at the park.“"
+        options:
+          - text: themselves
+            correct: false
+            info: themselves meint andere. Sophie gehört selbst dazu.
+          - text: ourselves
+            correct: true
+            info: ourselves meint die sprechende Person und andere.
+          - text: ourself
+            correct: false
+            info: Bei mehreren heißt es ourselves, mit selves.
+        explanation: "Wir beide: ourselves."
+        links:
+          - title: Lernlandkarte Englisch · Reflexivpronomen
+            url: https://lernapps.net/apps/map/englisch/c/reflexivpronomen/
+      - type: single-choice
+        id: myself-waehlen-3
+        text: "Ellie sieht Sophie im Spiegel. Welches Wort passt: „Ellie looks at ___.“ (Sophie)"
+        options:
+          - text: herself
+            correct: false
+            info: herself wäre Ellie selbst. Hier schaut Ellie auf Sophie.
+          - text: she
+            correct: false
+            info: she steht vor dem Verb, nicht danach.
+          - text: her
+            correct: true
+            info: her ist für eine andere Person, hier Sophie.
+        explanation: "Eine andere Person: her, nicht herself."
+        links:
+          - title: Lernlandkarte Englisch · Reflexivpronomen
+            url: https://lernapps.net/apps/map/englisch/c/reflexivpronomen/
+      - type: matching
+        id: myself-zuordnen
+        text: Welches englische Verb gehört zum deutschen „sich“-Verb? Auf Englisch steht kein Reflexivpronomen.
+        pairs:
+          - left: sich treffen
+            right: meet
+          - left: sich beeilen
+            right: hurry
+          - left: sich hinsetzen
+            right: sit down
+          - left: sich ausruhen
+            right: relax
+          - left: sich entscheiden
+            right: decide
+        explanation: Diese Verben haben im Englischen kein Reflexivpronomen, obwohl das Deutsche „sich“ sagt.
+        hint: Das Englische kommt hier ohne ein Wort für „sich“ aus.
+        links:
+          - title: Lernlandkarte Englisch · Reflexivpronomen
+            url: https://lernapps.net/apps/map/englisch/c/reflexivpronomen/
+      - type: single-choice
+        id: myself-korrigieren
+        text: Welcher Satz ist richtig?
+        options:
+          - text: We met ourselves at the bus stop.
+            correct: false
+            info: Bei meet steht kein Reflexivpronomen.
+          - text: We met us at the bus stop.
+            correct: false
+            info: Bei meet steht auch kein us.
+          - text: We met at the bus stop.
+            correct: true
+            info: meet braucht hier nichts dazu.
+        explanation: Das Verb meet steht allein.
+        links:
+          - title: Lernlandkarte Englisch · Reflexivpronomen
+            url: https://lernapps.net/apps/map/englisch/c/reflexivpronomen/
+      - type: language-task
+        id: myself-schreiben
+        languages:
+          source: de
+          target: en
+        task: Schreibe den Satz auf Englisch.
+        form:
+          case: hint
+          punctuation: hint
+        items:
+          - source: Ich beeile mich.
+            target: I hurry.
+            mistakes:
+              - answer: I hurry myself.
+                message: Bei hurry steht kein Reflexivpronomen.
+          - source: Wir treffen uns um acht.
+            target: We meet at eight.
+            mistakes:
+              - answer: We meet ourselves at eight.
+                message: Bei meet steht kein Reflexivpronomen.
+              - answer: We meet us at eight.
+                message: Bei meet steht auch kein us.
+          - source: Er hat sich geschnitten.
+            target: He cut himself.
+            mistakes:
+              - answer: He cut him.
+                message: "him ist eine andere Person. Hier trifft es ihn selbst: himself."
+              - answer: He cut hisself.
+                message: Es heißt himself, nicht hisself.
+          - source: Ich habe mich verletzt.
+            target: I hurt myself.
+            mistakes:
+              - answer: I hurt me.
+                message: "me ist für eine andere Person. Hier trifft es mich selbst: myself."
+      - type: true-false
+        id: myself-falsch
+        text: „I feel myself tired.“ Ist der Satz richtig?
+        answer: false
+        hint: Steht bei feel ein Reflexivpronomen?
+        explanation: "Bei feel steht kein Reflexivpronomen: I feel tired."
+        links:
+          - title: Lernlandkarte Englisch · Reflexivpronomen
+            url: https://lernapps.net/apps/map/englisch/c/reflexivpronomen/
+      - type: language-task
+        id: myself-hoeren
+        languages:
+          source: de
+          target: en
+        task: Hör zu und schreibe, was du hörst.
+        form:
+          case: hint
+          punctuation: hint
+        items:
+          - audio: i-bought-myself-a-new-phone.mp3
+            target: I bought myself a new phone.
+          - audio: he-bought-himself-a-ticket.mp3
+            target: He bought himself a ticket.
+          - audio: the-cat-cleaned-itself.mp3
+            target: The cat cleaned itself.
+      - type: language-task
+        id: myself-tabelle
+        languages:
+          source: de
+          target: en
+        mode: table
+        task: Ergänze die Spalte „Wer ist es selbst?“ ohne nachzusehen.
+        form:
+          case: hint
+        table:
+          caption: Klassenzimmer-Poster · Pronomen (Ausschnitt)
+          header:
+            - Person
+            - Wer tut es?
+            - Wer ist es selbst?
+          rows:
+            - - ich
+              - I
+              - "[myself]"
+            - - du
+              - you
+              - "[yourself]"
+            - - er
+              - he
+              - "[himself]"
+            - - sie (ein Mädchen)
+              - she
+              - "[herself]"
+            - - wir
+              - we
+              - "[ourselves]"
+            - - sie (mehrere)
+              - they
+              - "[themselves]"
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: myself-nachsprechen
+        language: en
+        items:
+          - audio: you-can-do-it-yourself.mp3
+            text: You can do it yourself.
+          - audio: we-can-help-ourselves.mp3
+            text: We can help ourselves.
+          - audio: help-yourselves-please.mp3
+            text: Help yourselves, please.
+        hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
+      - type: open-task
+        id: myself-schreiben-frei
+        task: Schreibe zwei englische Sätze über etwas, das du dir selbst beigebracht oder gemacht hast. Benutze myself in einem Satz und ein Verb ohne Reflexivpronomen im anderen.
+        points:
+          - text: Ein Satz mit myself (zum Beispiel I taught myself to cook).
+            source: /pronomen-2/myself/#neu
+          - text: Ein Satz mit meet, hurry, sit down, relax oder decide, ohne Reflexivpronomen.
+            source: /pronomen-2/myself/#neu
+        solution: I taught myself to play the guitar. I relax on the sofa after school.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Auf dem Poster steht jetzt auch die Spalte „Wer ist es selbst?“. Im Kletterpark helfen sich Ellie und Amir an der Wand gegenseitig. Auf der nächsten Seite liest du ihren Dialog und lernst, warum das nicht themselves heißt.
