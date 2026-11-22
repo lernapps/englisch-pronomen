@@ -31,7 +31,7 @@ Beide Kompetenzen sind Lücken der Karte, `personalpronomen` hat keine Vorausset
 
 ## Terminology
 
-- Nie „Besitzer“ oder „Ding“, wenn es um Menschen geht (her brother, his sister): „die Person, zu der es gehört“. Spalte 3 heißt „Zu wem gehört es?“ (Rückmeldung des Erstellers; im Issue stand „Wessen Ding?“). Bild `src/images/his-her-person.svg`.
+- Nie „Besitzer“ oder „Ding“, wenn es um Menschen geht (her brother, his sister): „die Person, zu der es gehört“; was dazugehört: „Person oder Sache“. Spalte 3 heißt „Zu wem gehört es?“ (Rückmeldung des Erstellers; im Issue stand „Wessen Ding?“). Bild `src/images/his-her-person.svg`.
 
 - Anrede „du“; „Ausdruck“ (fester Ausdruck), nie „Wendung“. Britisches Englisch, kein deutsches Wort in einem englischen Satz.
 - Fachbegriffe noun, verb, adjective, sentence, tense gelten. „Subjekt“ (wer tut es) und „Objekt“ (wen trifft es) werden auf den Seiten 1 und 2 erklärt, wo sie gebraucht werden; „Possessivbegleiter“ als „Wort, das sagt, wem etwas gehört“.
@@ -48,7 +48,7 @@ Von leicht zu schwer: wählen (`matching`, `single-choice`) → Lücken und Form
 - Die Person, zu der es gehört, bestimmt his/her: `matching` und `language-task` mode `choice`, Seite 4.
 - Satz bauen: `ordering`.
 - Hören/Nachsprechen: `language-task` mit `audio`, `speaking-task`; Audio: Stimme `bf_emma`, nur ganze Sätze, Dateien `src/audio/<satz-in-kleinbuchstaben>.mp3`.
-- Je Fehlertyp eine Rückmeldung in `mistakes`: I/me, he/him, his/her nach dem Bruder oder der Schwester statt nach der Person, its/it's.
+- Je Fehlertyp eine Rückmeldung in `mistakes`: I/me, he/him, his/her nach der Person oder Sache, die dazugehört, statt nach der Person, zu der sie gehört, its/it's.
 - Keine Datendateien, keine Vue-Komponenten.
 
 ## Figures
@@ -71,4 +71,4 @@ Karte `https://lernapps.net/apps/map/englisch.json`. Fakten (nicht Sätze) aus W
 ## Rules learned from mistakes
 
 - Übernommen aus Hello, Millbrook!: Jede Übung fragt nur Wörter, die vorher auf der Seite stehen; eine Tabelle, die eine Übung beantwortet, steht nicht direkt darüber; Auswahlaufgaben zur Großschreibung zeigen alle Optionen gleich; gleichwertige Antworten mit `(a|b)`; Tabellenzellen und Texte mit `: ` oder Komma in Anführungszeichen.
-- Audio: Die Stimme hängt an kurzen Sätzen ein Ausklingen an; alle Dateien entstehen mit `regen_audio.py` (im Ordner der App, mit dem Python der Audio-Umgebung `~/.cache/lernapps/audio/venv/bin/python`). Namen am Satzende zweisilbig (Sophie, Peter, Ellie). Sätze, die auf ein einsilbiges Wort enden (run, jump, you), bekamen einen Fehllaut am Ende (Hörprobe des Erstellers): Diese Sätze enden jetzt auf einen zweisilbigen Namen (`we-can-run-peter`, `he-can-run-sophie`, `we-can-jump-amir`, `we-can-call-you-sophie`). Neue Sätze, wenn möglich, gleich so schreiben.
+- Audio: Die Stimme hängt an kurzen Sätzen ein Ausklingen an; alle Dateien entstehen mit `regen_audio.py` (im Ordner der App, mit dem Python der Audio-Umgebung `~/.cache/lernapps/audio/venv/bin/python`). Namen am Satzende zweisilbig (Sophie, Peter, Ellie). Sätze, die auf ein einsilbiges Wort enden (run, jump, you), bekamen einen Fehllaut am Ende (Hörprobe des Erstellers): Diese Sätze enden jetzt auf einen zweisilbigen Namen (`we-can-run-peter`, `you-can-run-sophie`, `we-can-jump-amir`, `we-can-call-you-sophie`). Neue Sätze, wenn möglich, gleich so schreiben.

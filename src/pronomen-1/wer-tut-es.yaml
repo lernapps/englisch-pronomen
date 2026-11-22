@@ -185,8 +185,8 @@ blocks:
         items:
           - audio: i-can-swim.mp3
             text: I can swim.
-          - audio: he-can-run-sophie.mp3
-            text: He can run, Sophie.
+          - audio: you-can-run-sophie.mp3
+            text: You can run, Sophie.
           - audio: we-can-jump-amir.mp3
             text: We can jump, Amir.
         hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.

@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Zu wem gehört es? his, her, its
-description: Du lernst his, her und its und merkst dir, dass die Person das Wort bestimmt, zu der etwas gehört, nicht das, was zu ihr gehört. Am Ende steht die ganze Tabelle.
+description: Du lernst his, her und its und merkst dir, dass die Person das Wort bestimmt, zu der etwas gehört, nicht die Person oder Sache, die dazugehört. Am Ende steht die ganze Tabelle.
 competencies: [possessivbegleiter]
-scope: Die Seite ergänzt die dritte Spalte der Pronomen-Tabelle um die Zeilen he, she und it. his gehört einem Jungen oder Mann, her einem Mädchen oder einer Frau, its einem Ding oder Tier. Entscheidend ist die Person, zu der etwas gehört, nicht der Bruder, die Schwester oder die Sache. Peters Schwester ist his sister, Ellies Bruder ist her brother. her steht auch in der zweiten Spalte, his nur in der dritten. its hat keinen Apostroph. Am Ende stehen die drei Spalten für alle sieben Zeilen. Typische Fehler sind her für ein weibliches Ding und it's statt its.
+scope: Die Seite ergänzt die dritte Spalte der Pronomen-Tabelle um die Zeilen he, she und it. his gehört einem Jungen oder Mann, her einem Mädchen oder einer Frau, its einem Ding oder Tier. Entscheidend ist die Person, zu der etwas gehört, nicht die Person oder Sache, die dazugehört. Peters Schwester ist his sister, Ellies Bruder ist her brother. her steht auch in der zweiten Spalte, his nur in der dritten. its hat keinen Apostroph. Am Ende stehen die drei Spalten für alle sieben Zeilen. Typische Fehler sind her für ein weibliches Ding und it's statt its.
 blocks:
   - type: section
     id: einstieg
@@ -42,11 +42,11 @@ blocks:
     blocks:
       - type: text
         text: |
-          Bei he, she und it brauchst du his, her und its. **his** heißt „sein“, **her** „ihr“ und **its** „sein“ für ein Ding oder Tier. Das Wort richtet sich nach der Person, zu der etwas gehört, **nicht nach dem, was zu ihr gehört**. Über Ellie sagt man „her brother“, obwohl Peter ein Junge ist. Über Peter sagt man „his sister“, obwohl Ellie ein Mädchen ist.
+          Bei he, she und it brauchst du his, her und its. **his** heißt „sein“, **her** „ihr“ und **its** „sein“ für ein Ding oder Tier. Das Wort richtet sich nach der Person, zu der etwas gehört, **nicht nach der Person oder Sache, die dazugehört**. Über Ellie sagt man „her brother“, obwohl Peter ein Junge ist. Über Peter sagt man „his sister“, obwohl Ellie ein Mädchen ist.
       - type: figure
         image: images/his-her-person.svg
         alt: Zwei Zeilen. Oben zeigt ein Pfeil von Ellie zu Peter mit den Wörtern her brother. Unten zeigt ein Pfeil von Peter zu Ellie mit den Wörtern his sister.
-        caption: Der Pfeil geht von der Person zu ihrem Bruder oder ihrer Schwester. Das Wort über dem Pfeil richtet sich nach der Person am Anfang des Pfeils, nicht nach dem Bruder oder der Schwester.
+        caption: Der Pfeil geht von der Person zu ihrem Bruder oder ihrer Schwester. Das Wort über dem Pfeil richtet sich nach der Person am Anfang des Pfeils, nicht nach der Person oder Sache am Ende des Pfeils.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
@@ -66,7 +66,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **his** gehört einem Jungen oder Mann, **her** einem Mädchen oder einer Frau, **its** einem Ding oder Tier: The cat can see its ball. Dein Blick geht zur Person, zu der es gehört, nicht zu dem, was zu ihr gehört. **her** steht in der zweiten und in der dritten Spalte. **its** schreibst du ohne Apostroph: it's ist die Kurzform von „it is“.
+              **his** gehört einem Jungen oder Mann, **her** einem Mädchen oder einer Frau, **its** einem Ding oder Tier: The cat can see its ball. Dein Blick geht zur Person, zu der es gehört, nicht zur Person oder Sache, die dazugehört. **her** steht in der zweiten und in der dritten Spalte. **its** schreibst du ohne Apostroph: it's ist die Kurzform von „it is“.
   - type: section
     id: uebung
     title: Übung
