@@ -1,6 +1,6 @@
 # Pronomen: I, me, my
 
-Die App begleitet Kinder der Klassen 5 und 6. Kapitel 1 stellt die Pronomen-Tabelle vor. Spalte 1 „Wer tut es?“ hat I, you, he, she, it, we, they. Spalte 2 „Wen trifft es?“ hat me, you, him, her, it, us, them. Spalte 3 „Zu wem gehört es?“ hat my, your, his, her, its, our, their. Die Kinder lernen, dass man he oder she nach der Person wählt, it für Dinge und Tiere, und dass his und her sich nach der Person richten, zu der etwas gehört, nicht nach dem, was zu ihr gehört.
+Die App begleitet Kinder der Klassen 5 und 6. Kapitel 1 stellt die Pronomen-Tabelle vor. Spalte 1 „Wer tut es?“ hat I, you, he, she, it, we, they. Spalte 2 „Wen trifft es?“ hat me, you, him, her, it, us, them. Spalte 3 „Zu wem gehört es?“ hat my, your, his, her, its, our, their. Die Kinder lernen, dass man he oder she nach der Person wählt, it für Dinge und Tiere, und dass his und her sich nach der Person richten, zu der etwas gehört, nicht nach der Person oder Sache, die dazugehört.
 
 ## Wer? Wen? Zu wem?
 
@@ -18,7 +18,7 @@ Die Seite führt die dritte Spalte der Pronomen-Tabelle ein, „Zu wem gehört e
 
 ### Zu wem gehört es? his, her, its
 
-Die Seite ergänzt die dritte Spalte der Pronomen-Tabelle um die Zeilen he, she und it. his gehört einem Jungen oder Mann, her einem Mädchen oder einer Frau, its einem Ding oder Tier. Entscheidend ist die Person, zu der etwas gehört, nicht der Bruder, die Schwester oder die Sache. Peters Schwester ist his sister, Ellies Bruder ist her brother. her steht auch in der zweiten Spalte, his nur in der dritten. its hat keinen Apostroph. Am Ende stehen die drei Spalten für alle sieben Zeilen. Typische Fehler sind her für ein weibliches Ding und it's statt its.
+Die Seite ergänzt die dritte Spalte der Pronomen-Tabelle um die Zeilen he, she und it. his gehört einem Jungen oder Mann, her einem Mädchen oder einer Frau, its einem Ding oder Tier. Entscheidend ist die Person, zu der etwas gehört, nicht die Person oder Sache, die dazugehört. Peters Schwester ist his sister, Ellies Bruder ist her brother. her steht auch in der zweiten Spalte, his nur in der dritten. its hat keinen Apostroph. Am Ende stehen die drei Spalten für alle sieben Zeilen. Typische Fehler sind her für ein weibliches Ding und it's statt its.
 
 ## Gehört nicht dazu
 

@@ -191,7 +191,7 @@ Auf dem Poster steht die erste Spalte. Beim Üben für den Sports day wirft Soph
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → I can swim.
-2. Audio → He can run, Sophie.
+2. Audio → You can run, Sophie.
 3. Audio → We can jump, Amir.
 - Tipp der App: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
 - Link: [../?via=tutor#wer-nachsprechen](../?via=tutor#wer-nachsprechen)

@@ -41,7 +41,7 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Zu wem gehört es? his, her, its“
 
-Du lernst his, her und its und merkst dir, dass die Person das Wort bestimmt, zu der etwas gehört, nicht das, was zu ihr gehört. Am Ende steht die ganze Tabelle.
+Du lernst his, her und its und merkst dir, dass die Person das Wort bestimmt, zu der etwas gehört, nicht die Person oder Sache, die dazugehört. Am Ende steht die ganze Tabelle.
 
 ### Ellie, Peter und die Katze
 
@@ -55,9 +55,9 @@ Mrs Parker, Ellies und Peters Mutter und Sophies Gastmutter, holt die Kinder ab.
 
 ### Die Person bestimmt das Wort
 
-Bei he, she und it brauchst du his, her und its. **his** heißt „sein“, **her** „ihr“ und **its** „sein“ für ein Ding oder Tier. Das Wort richtet sich nach der Person, zu der etwas gehört, **nicht nach dem, was zu ihr gehört**. Über Ellie sagt man „her brother“, obwohl Peter ein Junge ist. Über Peter sagt man „his sister“, obwohl Ellie ein Mädchen ist.
+Bei he, she und it brauchst du his, her und its. **his** heißt „sein“, **her** „ihr“ und **its** „sein“ für ein Ding oder Tier. Das Wort richtet sich nach der Person, zu der etwas gehört, **nicht nach der Person oder Sache, die dazugehört**. Über Ellie sagt man „her brother“, obwohl Peter ein Junge ist. Über Peter sagt man „his sister“, obwohl Ellie ein Mädchen ist.
 
-Bild: Zwei Zeilen. Oben zeigt ein Pfeil von Ellie zu Peter mit den Wörtern her brother. Unten zeigt ein Pfeil von Peter zu Ellie mit den Wörtern his sister. Bildunterschrift: Der Pfeil geht von der Person zu ihrem Bruder oder ihrer Schwester. Das Wort über dem Pfeil richtet sich nach der Person am Anfang des Pfeils, nicht nach dem Bruder oder der Schwester.
+Bild: Zwei Zeilen. Oben zeigt ein Pfeil von Ellie zu Peter mit den Wörtern her brother. Unten zeigt ein Pfeil von Peter zu Ellie mit den Wörtern his sister. Bildunterschrift: Der Pfeil geht von der Person zu ihrem Bruder oder ihrer Schwester. Das Wort über dem Pfeil richtet sich nach der Person am Anfang des Pfeils, nicht nach der Person oder Sache am Ende des Pfeils.
 
 Klassenzimmer-Poster · Pronomen:
 - Person | Wer tut es? | Wen trifft es? | Zu wem gehört es?
@@ -71,7 +71,7 @@ Klassenzimmer-Poster · Pronomen:
 
 **Merke: Merke**
 
-**his** gehört einem Jungen oder Mann, **her** einem Mädchen oder einer Frau, **its** einem Ding oder Tier: The cat can see its ball. Dein Blick geht zur Person, zu der es gehört, nicht zu dem, was zu ihr gehört. **her** steht in der zweiten und in der dritten Spalte. **its** schreibst du ohne Apostroph: it's ist die Kurzform von „it is“.
+**his** gehört einem Jungen oder Mann, **her** einem Mädchen oder einer Frau, **its** einem Ding oder Tier: The cat can see its ball. Dein Blick geht zur Person, zu der es gehört, nicht zur Person oder Sache, die dazugehört. **her** steht in der zweiten und in der dritten Spalte. **its** schreibst du ohne Apostroph: it's ist die Kurzform von „it is“.
 
 ### Übung
 
