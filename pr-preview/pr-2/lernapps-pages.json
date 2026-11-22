@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "strand": "englisch/grammatik",
+  "pages": [
+    {
+      "path": "pronomen-1/wer-tut-es/",
+      "title": "Wer tut es? I, you, he, she, it, we, they",
+      "competencies": [
+        "personalpronomen"
+      ]
+    },
+    {
+      "path": "pronomen-1/wen-trifft-es/",
+      "title": "Wen trifft es? me, you, him, her, it, us, them",
+      "competencies": [
+        "personalpronomen"
+      ]
+    },
+    {
+      "path": "pronomen-1/my-your/",
+      "title": "Zu wem gehört es? my, your, our, their",
+      "competencies": [
+        "possessivbegleiter"
+      ]
+    },
+    {
+      "path": "pronomen-1/his-her/",
+      "title": "Zu wem gehört es? his, her, its",
+      "competencies": [
+        "possessivbegleiter"
+      ]
+    },
+    {
+      "path": "pronomen-2/mine-yours/",
+      "title": "mine, yours, hers: ohne Nomen",
+      "competencies": [
+        "possessivpronomen"
+      ]
+    },
+    {
+      "path": "pronomen-2/myself/",
+      "title": "myself: wenn es zurückzeigt",
+      "competencies": [
+        "reflexivpronomen"
+      ]
+    },
+    {
+      "path": "pronomen-2/each-other/",
+      "title": "each other: hin und her",
+      "competencies": [
+        "each-other"
+      ]
+    }
+  ]
+}
