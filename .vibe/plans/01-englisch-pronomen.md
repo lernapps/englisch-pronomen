@@ -25,7 +25,7 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 
 ## Goal
 
-<!-- 1–2 sentences: what learners do, what they learn. -->
+Die Kinder (Klasse 5-6) füllen Schritt für Schritt eine Pronomen-Tabelle: Wer tut es? (I, you, he, she, it, we, they), Wen trifft es? (me, you, him, her, it, us, them), Zu wem gehört es? (my, your, his, her, its, our, their). Sie lernen, welche Form sie brauchen, und dass his und her sich nach der Person richten, zu der etwas gehört.
 
 ## Key decisions
 
@@ -40,19 +40,19 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 
 - Grundwortschatz-Abgleich (https://lernapps.net/apps/map/englisch/grundwortschatz/, geöffnet): alle englischen Wörter der vier Seiten stehen in der Liste (I, you, he, she, it, we, they, me, him, her, us, them, my, your, his, its, our, their, can, swim, run, sing, jump, read, see, help, call, bag, jacket, ball, book, brother, sister, cat, and, the). Ausnahmen nur Mehrzahl books und die Namen. Keine Änderung nötig.
 
-- Gesamtcheck der fertigen App (Sub-Agent, Kind 5-6) und Sprachprüfung Englisch und Deutsch (Sub-Agent): behoben: Zeilen er/sie/es auf Seite 3 sichtbar (Fragezeichen), Figuren und Personen vor ihrem ersten Auftreten eingeführt (Sophie 11, Parkers, Mrs Parker), Sprechbeispiele als wörtliche Rede, Bedeutungen von your/our/their/him/us/them/his/her/its, Grammatikaussage zu her brother/his sister, its/it's erklärt, Zeitablauf Sports day/Üben, „unterstützen“ vermieden, zusätzliche Antwort (They|Ellie and Amir), Rückmeldung für „Ellie can see his brother“, Figur Mr Hill größer, toter Ausblick auf mine/myself entfernt. Nicht behoben (Laufzeit, gemeldet): Lückenauswahl und Diktat zeigen keine eigenen Rückmeldungen, nur „nicht richtig“; Seite /pronomen-1/einschaetzung/ leer; „KI“-Label; Mikrofon. Offen: Titel nennt mine und myself (Titel stammt aus dem Issue). Audio ungeprüft (nicht anhörbar). Hint explainer-repetition auf his-her bleibt bewusst (Besitzer-Regel in Text, Bild und Merke).
+- Gesamtcheck der fertigen App (Sub-Agent, Kind 5-6) und Sprachprüfung Englisch und Deutsch (Sub-Agent): behoben: Zeilen er/sie/es auf Seite 3 sichtbar (Fragezeichen), Figuren und Personen vor ihrem ersten Auftreten eingeführt (Sophie 11, Parkers, Mrs Parker), Sprechbeispiele als wörtliche Rede, Bedeutungen von your/our/their/him/us/them/his/her/its, Grammatikaussage zu her brother/his sister, its/it's erklärt, Zeitablauf Sports day/Üben, „unterstützen“ vermieden, zusätzliche Antwort (They|Ellie and Amir), Rückmeldung für „Ellie can see his brother“, Figur Mr Hill größer, toter Ausblick auf mine/myself entfernt. Nicht behoben (Laufzeit, gemeldet): Lückenauswahl und Diktat zeigen keine eigenen Rückmeldungen, nur „nicht richtig“; Seite /pronomen-1/einschaetzung/ leer; „KI“-Label; Mikrofon. Offen: Titel nennt mine und myself (Titel stammt aus dem Issue). Audio ungeprüft (nicht anhörbar). Hint explainer-repetition auf his-her bleibt bewusst (Person, zu der es gehört-Regel in Text, Bild und Merke).
 
 - Lerner-Check Seite 1 (Sub-Agent, Kind 5-6): Funde behoben: Poster und Spaltensprache erklärt, can/swim vor der ersten Übung, Figuren in der Caption benannt, Sports day erklärt, we = ich und andere, you = du/ihr, Rückmeldungen für fehlendes can und you/we, Titel „Was sagt Sophie?“ geändert, Ausblick umformuliert. Nicht behoben (Laufzeit): „KI“-Label, Lösung-Knopf, Mikrofon im Headless-Browser; Audio konnte ich nicht anhören (ungeprüft).
 
 - Karte gelesen (englisch.json, explainerFocus: competency). Kapitel 1 deckt: `personalpronomen` (Stufe 5-6, Schritt 1, öffnet 103, keine Voraussetzungen) und `possessivbegleiter` (5-6, Schritt 2, öffnet 1, requires personalpronomen). Beide liegen im Explainer, daher keine Sammel-Wiederholung nötig (keine Voraussetzung von außen). Kapitel 2 (possessivpronomen, reflexivpronomen, each-other; 7-8) kommt später.
 - Strang: englisch/grammatik.
-- Üben (Muster Fremdsprachen): Wahl einer Form (choice mit distractors) → Lücken (gap) → Formen in der Tabelle (table) → Wort schreiben (write) → Zuordnen der Wörter in Spalten (Ziehen) → Übersetzen. Von leicht zu schwer, je Fehlertyp eine Rückmeldung (I/me, he/him, his/her nach Besitzer).
+- Üben (Muster Fremdsprachen): Wahl einer Form (choice mit distractors) → Lücken (gap) → Formen in der Tabelle (table) → Wort schreiben (write) → Zuordnen der Wörter in Spalten (Ziehen) → Übersetzen. Von leicht zu schwer, je Fehlertyp eine Rückmeldung (I/me, he/him, his/her nach Person, zu der es gehört).
 - Hörübungen mit bf_emma (Skill lernapps-audio), Sprechaufgabe möglich.
 - Quellen (nur Fakten, keine Sätze; CC BY-SA, im Inhaltsführer unter "Sources"): https://en.wikipedia.org/wiki/Personal_pronouns_in_English (Titel "Personal pronouns in English", Einleitung geöffnet, verified); https://en.wikipedia.org/wiki/Possessive_determiner (Titel "Possessive determiner", verified: my, your, his, her, its, our, their; mine/yours gehören nicht dazu, sie stehen in Kapitel 2). Klexikon/de.wikipedia nicht geöffnet (ungeprüft, nicht benutzt). Kein Lehrplan nötig (Strang-App, die Karte gibt die Reihenfolge).
 - Kompetenzen Kapitel 1: personalpronomen („Subjekt I/he/they und Objekt me/him/them“), possessivbegleiter („my, your, his, her, its, our, their“).
-- Wie Lernende hinkommen: Sie ziehen Wörter in die Spalten der Tabelle (Wer tut es? Wen trifft es? Zu wem gehört es?) und entdecken das Muster (I – me – my) selbst. Fehlvorstellungen: „me am hungry“, „him is“, „I like he“ (Subjekt/Objekt verwechselt); his/her nach dem Ding statt nach dem Besitzer (Deutsch: seine/ihre nach dem Ding); its mit it's verwechselt; you singular/plural.
+- Wie Lernende hinkommen: Sie ziehen Wörter in die Spalten der Tabelle (Wer tut es? Wen trifft es? Zu wem gehört es?) und entdecken das Muster (I – me – my) selbst. Fehlvorstellungen: „me am hungry“, „him is“, „I like he“ (Subjekt/Objekt verwechselt); his/her nach der Person oder Sache, die dazugehört, statt nach der Person, zu der es gehört; its mit it's verwechselt; you singular/plural.
 - Umfang: drin: I, you, he, she, it, we, they; me, you, him, her, it, us, them; my, your, his, her, its, our, their; Wortschatz aus Alltag (Familie, Schule, Tiere, Sachen). Draußen: mine/yours, myself, each other (Kapitel 2), Demonstrativa/some/any (#475), Relativpronomen (#481), to be (#472). Sprachen: Erklärung Deutsch, Beispiele britisches Englisch. Audio bf_emma.
-- Seitenschnitt Kapitel 1 "Wer? Wen? Zu wem?" (4 Seiten, Reihenfolge nach requires; keine Voraussetzung von außen, keine Wiederholungsseite, kein `ahead`): (1) `wer-tut-es` – personalpronomen, Subjekt (I, you, he, she, it, we, they; Tabelle Spalte 1); (2) `wen-trifft-es` – personalpronomen, Objekt (me, you, him, her, it, us, them; Spalte 2); (3) `my-your` – possessivbegleiter, my, your, our, their (Spalte 3, Muster I – me – my); (4) `his-her` – possessivbegleiter, his, her, its (Besitzer entscheidet, Bild zum Unterschied zum Deutschen) mit Schlussübung über die ganze Tabelle. Kapitelende: Rückblick auf die vollständige Tabelle. Seiten 3 und 4 teilen die Kompetenz possessivbegleiter (eine Kompetenz, zwei Seiten, weil groß).
+- Seitenschnitt Kapitel 1 "Wer? Wen? Zu wem?" (4 Seiten, Reihenfolge nach requires; keine Voraussetzung von außen, keine Wiederholungsseite, kein `ahead`): (1) `wer-tut-es` – personalpronomen, Subjekt (I, you, he, she, it, we, they; Tabelle Spalte 1); (2) `wen-trifft-es` – personalpronomen, Objekt (me, you, him, her, it, us, them; Spalte 2); (3) `my-your` – possessivbegleiter, my, your, our, their (Spalte 3, Muster I – me – my); (4) `his-her` – possessivbegleiter, his, her, its (die Person, zu der es gehört, entscheidet; Bild mit Pfeilen) mit Schlussübung über die ganze Tabelle. Kapitelende: Rückblick auf die vollständige Tabelle. Seiten 3 und 4 teilen die Kompetenz possessivbegleiter (eine Kompetenz, zwei Seiten, weil groß).
 - Kompetenz-Zeilen: personalpronomen: erst sortieren die Kinder Wörter in die Spalten, dann leiten sie ab, welche Form nach Verb (Subjekt) bzw. nach Verb/Präposition (Objekt) steht; Rückmeldung fängt I/me, he/him und "Me am…". possessivbegleiter: sie sehen die Reihe I–me–my und ergänzen die Muster selbst; Rückmeldung fängt his/her nach dem Ding (deutsches Denken), its/it's und you/your.
 
 ## Explore
@@ -103,10 +103,10 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 
 <!-- The interview: per topic the creator's answer, in their words. Keep the topics. -->
 
-- Goal: "Ich weiß, welche Form eines Pronomens ich brauche: je nachdem, ob die Person handelt, betroffen ist, etwas besitzt oder sich selbst meint." Kapitel 1 (nur dieses jetzt): Personalpronomen als Subjekt und Objekt, my, your, his, her sagen, wem etwas gehört. (Quelle: Issue lernapps/apps#471, Ersteller-Vertreter: Orchestrator.)
+- Goal: "Ich weiß, welche Form eines Pronomens ich brauche: je nachdem, ob die Person handelt, betroffen ist, etwas besitzt oder sich selbst meint." Kapitel 1 (nur dieses jetzt): Personalpronomen als Subjekt und Objekt, my, your, his, her sagen, wem etwas gehört. (Quelle: Issue lernapps/apps#471; die Antworten gab die Orchestrator-Session in der Rolle der Ersteller:in.)
 - Learners: Englisch, Stufe 5-6 (Kapitel 1), spätere Inkremente 7-8. Vorwissen: Hello, Millbrook! (noun, verb, adjective, sentence, tense).
 - Model and focus: hello-millbrook als Muster; Schwerpunkt: Pronomen-Tabelle (Zeile je Person, Spalte je Frage), Ziehen in die richtige Spalte, Musterentdeckung.
-- Hurdles: his/her richten sich nach dem Besitzer, nicht nach dem Ding (Deutsch: sein/ihr nach dem Ding); I/me, he/him verwechselt.
+- Hurdles: his/her richten sich nach der Person, zu der etwas gehört, nicht nach der Person oder Sache, die dazugehört (her mother für Ellie, his mother für Peter); I/me, he/him verwechselt.
 - Content: aus dem Issue, von mir geschrieben; Fakten aus Quellen ohne Sätze.
 - Amount: Kapitel 1 mit zwei Bausteinen (Personalpronomen, Possessivbegleiter) plus Sammel-Wiederholung; Kapitel 2 später.
 - Languages: deutsche Erklärtexte, englische Beispiele (britisch), Anrede du.
@@ -151,13 +151,13 @@ page, which a link. -->
 
 **Die wachsende Tabelle** „Klassenzimmer-Poster · Pronomen“ (je ein `table`-Block, Spalten wachsen): Seite 1 Zeilen I, you, he, she, it, we, they, Spalte „Wer tut es?“; Seite 2 + „Wen trifft es?“ (me, you, him, her, it, us, them); Seite 3 + „Zu wem gehört es?“ mit den Zeilen I, you, we, they (my, your, our, their); Seite 4 ergänzt he, she, it (his, her, its) und zeigt die Tabelle vollständig. Muster I – me – my.
 
-**Muster je Kompetenz** (Fremdsprachen-Muster, leicht → schwer, Rückmeldung je Fehler in `mistakes`): personalpronomen: Zuordnen (`matching`), Form wählen (`language-task` choice mit `distractors`), Lücke (gap), Tabelle ableiten (table), Schreiben (write, Deutsch → Englisch), Diktat, Nachsprechen. possessivbegleiter: dieselbe Folge, zusätzlich Besitzer bestimmen und Satz korrigieren.
+**Muster je Kompetenz** (Fremdsprachen-Muster, leicht → schwer, Rückmeldung je Fehler in `mistakes`): personalpronomen: Zuordnen (`matching`), Form wählen (`language-task` choice mit `distractors`), Lücke (gap), Tabelle ableiten (table), Schreiben (write, Deutsch → Englisch), Diktat, Nachsprechen. possessivbegleiter: dieselbe Folge, zusätzlich Person, zu der es gehört bestimmen und Satz korrigieren.
 
 **Seiten und Engagement** (eine Zeile je Seite: Opening · Wechsel · Reward · Story):
 1. `pronomen-1/wer-tut-es` (personalpronomen, Subjekt). Szene: Klassenzimmer, Ellie meldet sich. Opening: Kinder wählen, wer in „… is my friend.“ gemeint ist. Wechsel: schauen (Szene) → Tabelle lesen → Wörter in Spalte 1 sortieren. Reward: sie können Sätze mit I, you, he, she, it, we, they bauen. Story: Sophie stellt Mrs Parker die Klasse vor. Übungen: matching Person ↔ Pronomen, choice Subjekt, gap, write, true-false (it für Dinge und Tiere), Diktat. Fehler: I/me, he/she, it für Personen, you für eine und mehrere.
 2. `pronomen-1/wen-trifft-es` (personalpronomen, Objekt). Szene: Peter und der Ball. Opening: „Peter sees …“ / „… sees Peter.“ – wer tut es, wen trifft es. Wechsel: Beispiele → Kinder ergänzen Spalte 2 selbst (table) → Sätze bauen. Reward: Tabelle mit zwei Spalten, sie unterscheiden Subjekt und Objekt. Story: Sophie hilft Peter beim Ballspiel. Übungen: matching I → me, choice Subjekt oder Objekt im Satz, gap, ordering, write, Diktat. Fehler: „Me like“, „I like he“, he/him, we/us.
-3. `pronomen-1/my-your` (possessivbegleiter: my, your, our, their). Szene: Taschen und Jacken im Flur. Opening: „Whose bag is this?“ – Kinder wählen. Wechsel: Szene → Muster I – me – my selbst entdecken (table) → Besitzer wählen. Reward: Spalte 3 für I, you, we, they. Story: Sophie sortiert Taschen für Mrs Parker. Übungen: choice, gap, matching Besitzer ↔ Wort, write, Diktat. Fehler: me bag, I bag, you/your.
-4. `pronomen-1/his-her` (possessivbegleiter: his, her, its + Schlussübung). Szene: Ellie (rote Jacke) und Peter (gelbe Jacke) mit Dingen. Opening: Zu wem gehört es? Kinder wählen his oder her. Wechsel: Bild zum Unterschied zum Deutschen (her brother = Besitzerin Ellie, his sister = Besitzer Peter) → Besitzer bestimmen → Korrigieren. Reward: vollständige Tabelle; Rückblick. Story: Mrs Parker liest die Namen auf den Sachen vor; Ausblick auf später. Übungen: matching Besitzer ↔ Wort, choice (Besitzer bestimmt), gap, Korrigieren (write mit Fehlersatz), Schlussübung über die ganze Tabelle, Diktat, `open-task`. Fehler: his/her nach dem Ding, its/it's, he/his.
+3. `pronomen-1/my-your` (possessivbegleiter: my, your, our, their). Szene: Taschen im Flur. Opening: Amir sagt „I can see my hat.“ – Kinder wählen, wessen Hut. Wechsel: Szene → Muster I – me – my selbst entdecken (table) → Wort wählen. Reward: Spalte 3 für I, you, we, they (he, she, it noch mit ?). Story: Sophie sortiert Taschen für Mrs Parker. Übungen: choice, gap, matching Person ↔ Wort, write, Diktat. Fehler: me bag, I bag, you/your.
+4. `pronomen-1/his-her` (possessivbegleiter: his, her, its + Schlussübung). Szene: Ellie (rote Jacke), Peter (gelbe Jacke) und die Katze. Opening: Amir sagt „Amir can see his bike.“, Kinder wählen, wessen Fahrrad. Wechsel: Bild mit Pfeilen von der Person zu ihrem Hut (her hat, his hat), Beispiel Mutter (Mrs Parker ist her mother für Ellie und his mother für Peter) → Pronomen wählen (single-choice mit Meldung je Option) → Schlussübung über drei Spalten (write). Reward: vollständige Tabelle; Rückblick. Story: Mrs Parker holt die Kinder ab. Übungen: zwei single-choice, write, true-false, write mit drei Spalten, Diktat, Tabelle ausfüllen, Nachsprechen, open-task. Fehler: her/his nach der Sache statt nach der Person, its/it's.
 
 **Spätere Ergänzung (Kapitel 2):** Kapitel `pronomen-2` (mine/yours, myself, each other, Stufe 7-8) erweitert dieselbe Tabelle um zwei Spalten. Selbsteinschätzung: in Commit, je Seite zwei Übungen.
 
@@ -244,12 +244,18 @@ page, which a link. -->
 
 ### Phases reached
 
-<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+Commit (Vorschau-Pull-Request offen und grün, nicht veröffentlicht). Checkpoints bestanden: Recherche, Plan, Musterseite; Veröffentlichen (Vorschau) gemeldet, nicht freigegeben, kein Merge, kein Katalogeintrag.
 
 ### Creator turns after the plan
 
-<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+Menschliche Rückmeldungen der Ersteller:in nach der Plan-Bestätigung: 6. (1) Erlaubnis, `gh-pages` selbst zu pushen. (2) Vier Hörproben mit Fehllaut am Ende. (3) „Besitzer“ und „Ding“ sind bei Beziehungen zwischen Personen befremdlich. (4) „he can run sophie“ ist Blödsinn; „nicht nach dem Ding“ soll „nicht nach der Person oder Sache“ heißen. (5) „B funktioniert super“ und die Frage nach dem programmatischen Schnitt. (6) Urteil zur Regel: „passt“, bei „Peter can see us“ ein klein wenig zu viel abgeschnitten (über die Orchestrator-Session). Dazu mehrere Prüfungen der Orchestrator-Session und des unabhängigen Prüfers.
 
 ### Where I had to guess
 
-<!-- Each gap in plan, skills, messages or answers, and your choice. "None" if none. -->
+- Finding the app (guess): Suchbegriffe „Englisch Pronomen I me my“, Personalpronomen, Possessivbegleiter, Klasse 5/6.
+- Lerntext „Zu wem gehört es?“ statt „Wessen Ding?“ (Rückmeldung der Ersteller:in, weicht vom Issue ab).
+- Titel „Pronomen: I, me, my“ statt „… mine, myself“ (Kapitel 2 fehlt noch).
+- Beispielsätze nur mit `can` und kurzen Nomen (Entscheidung, damit das Verb sich nicht ändert).
+- Mrs Parker wird nicht gezeichnet (kein Bild in Hello, Millbrook!).
+- Hörsätze: Regel für den Fehllaut mit den Grenzen 130 ms, 30 %, 2 %, 100 ms nach Hörproben bestimmt; Audio selbst nicht angehört.
+- Lernlandkarte und Vorlage: nichts geändert; Funde der Laufzeit (Lückenauswahl zeigt `mistakes` nicht, leere Einschätzungsseite, KI-Label) dem Orchestrator gemeldet.

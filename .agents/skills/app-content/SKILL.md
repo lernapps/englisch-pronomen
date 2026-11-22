@@ -18,7 +18,7 @@ Kapitel `pronomen-1` („Wer? Wen? Zu wem?“), vier Seiten:
 1. `personalpronomen`: Ich kann die Personalpronomen als Subjekt (I, he, they) und als Objekt (me, him, them) richtig verwenden. → `pronomen-1/wer-tut-es` (Subjekt), `pronomen-1/wen-trifft-es` (Objekt)
 2. `possessivbegleiter`: Ich kann mit my, your, his, her, its, our und their sagen, wem etwas gehört. → `pronomen-1/my-your` (my, your, our, their), `pronomen-1/his-her` (his, her, its)
 
-Beide Kompetenzen sind Lücken der Karte, `personalpronomen` hat keine Voraussetzung, `possessivbegleiter` verlangt `personalpronomen` (steht früher). Kein `ahead`, keine Wiederholungsseite. Übungs-IDs: Präfix = Seite (`wer-…`, `wen-…`, `my-…`, `his-…`). Je Seite: `<p>-start` (single-choice im Einstieg), `-zuordnen` (matching, Seiten 1 bis 3), `-waehlen` (language-task choice), `-schreiben` (write mit `mistakes`), `-falsch`/`-it` (true-false), `-hoeren` (Diktat), `-tabelle` (Tabelle ausfüllen), `-nachsprechen` (speaking-task); Seite 2 zusätzlich `wen-ordnen` (ordering), Seite 3 `my-luecke` (gap), Seite 4 `his-richtig`, `his-gemischt` (choice mit mehreren Lücken) und `his-frei` (open-task). Selbsteinschätzung in `src/pronomen-1/chapter.yaml`: je Seite `-waehlen` und `-schreiben`, zusammen acht Übungen.
+Beide Kompetenzen sind Lücken der Karte, `personalpronomen` hat keine Voraussetzung, `possessivbegleiter` verlangt `personalpronomen` (steht früher). Kein `ahead`, keine Wiederholungsseite. Übungs-IDs: Präfix = Seite (`wer-…`, `wen-…`, `my-…`, `his-…`). Je Seite: `<p>-start` (single-choice im Einstieg), `-zuordnen` (matching, Seiten 1 bis 3), `-waehlen-1`, `-waehlen-2` (zwei `single-choice` mit Satz und Lücke „___“, eine Meldung `info` je Option; die Nummern sind nicht durchgehend: wer 1 und 3, wen 2 und 3, my 1 und 3, his 1 und 2), `-schreiben` (write mit `mistakes`), `-falsch`/`-it` (true-false), `-hoeren` (Diktat), `-tabelle` (Tabelle ausfüllen), `-nachsprechen` (speaking-task); Seite 2 zusätzlich `wen-ordnen` (ordering), Seite 3 `my-luecke` (gap), Seite 4 `his-gemischt` (write, zwei Sätze mit Pronomen aus drei Spalten) und `his-frei` (open-task). Selbsteinschätzung in `src/pronomen-1/chapter.yaml`: je Seite `<p>-waehlen-N` (wer 1, wen 2, my 1, his 2) und `-schreiben`, zusammen acht Übungen.
 
 ## Content structure
 
@@ -26,12 +26,12 @@ Beide Kompetenzen sind Lücken der Karte, `personalpronomen` hat keine Vorausset
 - Jede Seite hat dieselben Abschnitts-IDs: `einstieg` (Szene, erste leichte Aufgabe, „Das kannst du danach“), `neu` (Tabelle wächst, Kasten „Merke“), `uebung` (mindestens vier Übungen, leicht → schwer), `anwenden` (`speaking-task` oder `open-task`), `weiter` (nächster Schritt der Geschichte; Seite 4 mit Rückblick). Titel sagen, was der Abschnitt tut.
 - Länge: höchstens 350 Wörter Text, höchstens 4 Textblöcke hintereinander, Bild oder Übung unter den ersten vier Blöcken.
 - Geschichte: Sophie (11, blond, Zöpfe, grüne Jacke, aus Deutschland, wohnt bei den Parkers), Ellie Parker (11, roter Pferdeschwanz, rote Jacke), Peter Parker (9, kurze braune Haare, gelbe Jacke, Ellies Bruder), Amir (11, schwarze Locken, Brille, blaue Jacke), Mr Hill (Englischlehrer, graue Haare, braune Jacke), Mrs Parker (Ellies Mutter, Sophies Gastmutter). Millbrook School, erfundene Schule in einer englischen Kleinstadt, Schultag beginnt 8:45. Geburtstage: Peter 5. Mai, Ellie 10. Juli, Amir 12. Oktober, Sophie 14. Oktober. Je Seite eine Szene mit kurzen Sätzen und Dingen aus dem Alltag.
-- Alle Beispielsätze nutzen `can` mit see, help, call, swim, run, sing, jump, read, damit das Verb sich nicht ändert (kein -s). Nomen: bag, jacket, ball, book(s), brother, sister, cat; sie stehen vor den Übungen auf der Seite.
-- Das wachsende Bild: Tabelle „Klassenzimmer-Poster · Pronomen“ (Seite 1: Person · Wer tut es?; Seite 2 + Wen trifft es?; Seite 3 + Zu wem gehört es? für I, you, we, they; Seite 4 alle Zeilen; Zeilenkopf = deutsches Wort ich, du / ihr, er, sie (ein Mädchen), es, wir, sie (mehrere), `rowHeaders: true`). Seite 4 hat zusätzlich die Figur `images/his-her-person.svg` (Pfeile von der Person zu ihrem Bruder oder ihrer Schwester: her brother, his sister). Die Tabelle steht nicht direkt über der Übung, die sie beantwortet.
+- Alle Beispielsätze nutzen `can` mit einem Verb, damit sich das Verb nicht ändert (kein -s). Drei getrennte Sätze je Seite: Text, Kasten Merke und Bild nutzen andere Verben und Nomen als die Übungen, und die Hörsätze (Diktat, Nachsprechen) wieder andere (Regel: kein Satz doppelt, auch nicht mit getauschtem Pronomen, Namen, Verb oder Nomen). Seite 1: Übungen swim, run, sing, jump; Merke read, play, dance; Hören cook, write, draw. Seite 2: Übungen see, help, call; Text find; Merke hear. Seite 3: Übungen bag, jacket, ball, book; Text und Merke phone, hat, bike, dog. Seite 4: Übungen jacket, sister, brother, cat, ball; Text hat, bike; Merke hat, phone, dog; Hören pen, cap, bag. Wörter stehen vor den Übungen auf der Seite mit Bedeutung.
+- Das wachsende Bild: Tabelle „Klassenzimmer-Poster · Pronomen“ (Seite 1: Person · Wer tut es?; Seite 2 + Wen trifft es?; Seite 3 + Zu wem gehört es? mit allen sieben Zeilen, für he, she, it steht dort „?“; Seite 4 füllt die Zellen; Zeilenkopf = deutsches Wort ich, du / ihr, er, sie (ein Mädchen), es, wir, sie (mehrere), `rowHeaders: true`). Seite 4 hat zusätzlich die Figur `images/his-her-person.svg` (Pfeile von der Person zu ihrem Hut: her hat bei Ellie, his hat bei Peter; die Beispiele mit Verwandten stehen im Text: Mrs Parker ist her mother für Ellie und his mother für Peter, nicht gezeichnet). Die Tabelle steht nicht direkt über der Übung, die sie beantwortet.
 
 ## Terminology
 
-- Nie „Besitzer“ oder „Ding“, wenn es um Menschen geht (her brother, his sister): „die Person, zu der es gehört“; was dazugehört: „Person oder Sache“. Spalte 3 heißt „Zu wem gehört es?“ (Rückmeldung des Erstellers; im Issue stand „Wessen Ding?“). Bild `src/images/his-her-person.svg`.
+- Nie „Besitzer“ oder „Ding“, wenn es um Menschen geht (her mother, his sister): „die Person, zu der es gehört“; was dazugehört: „Person oder Sache“. Spalte 3 heißt „Zu wem gehört es?“ (Rückmeldung des Erstellers; im Issue stand „Wessen Ding?“). Bild `src/images/his-her-person.svg`.
 
 - Anrede „du“; „Ausdruck“ (fester Ausdruck), nie „Wendung“. Britisches Englisch, kein deutsches Wort in einem englischen Satz.
 - Fachbegriffe noun, verb, adjective, sentence, tense gelten. „Subjekt“ (wer tut es) und „Objekt“ (wen trifft es) werden auf den Seiten 1 und 2 erklärt, wo sie gebraucht werden; „Possessivbegleiter“ als „Wort, das sagt, wem etwas gehört“.
@@ -43,12 +43,12 @@ Beide Kompetenzen sind Lücken der Karte, `personalpronomen` hat keine Vorausset
 Von leicht zu schwer: wählen (`matching`, `single-choice`) → Lücken und Formen wählen (`language-task` mode `choice`/`gap`) → Tabelle ableiten (`language-task` mode `table`) → schreiben (`write`, Deutsch → Englisch, `mistakes`) → korrigieren → hören (Diktat) und nachsprechen.
 
 - Person ↔ Pronomen zuordnen: `matching` (Seite 1).
-- Subjekt oder Objekt wählen: `language-task` mode `choice` mit `distractors`.
+- Pronomen wählen: zwei `single-choice` je Seite mit Satz und Lücke „___“, Wahlmöglichkeiten sind echte Lernerfehler mit eigener `info` (ein `language-task` mode `choice` zeigt seine `mistakes` nicht an, darum nicht verwenden, wenn die Meldung zählt).
 - Tabelle ableiten (I – me – my): `language-task` mode `table`.
-- Die Person, zu der es gehört, bestimmt his/her: `matching` und `language-task` mode `choice`, Seite 4.
+- Die Person, zu der es gehört, bestimmt his/her: `single-choice` (Seite 4, `his-waehlen-1` und `-2`) und `write`.
 - Satz bauen: `ordering`.
 - Hören/Nachsprechen: `language-task` mit `audio`, `speaking-task`; Audio: Stimme `bf_emma`, nur ganze Sätze, Dateien `src/audio/<satz-in-kleinbuchstaben>.mp3`.
-- Je Fehlertyp eine Rückmeldung in `mistakes`: I/me, he/him, his/her nach der Person oder Sache, die dazugehört, statt nach der Person, zu der sie gehört, its/it's.
+- Je Fehlertyp eine Rückmeldung in `mistakes` oder `info`: I/me, he/him, his/her nach der Person oder Sache, die dazugehört, statt nach der Person, zu der sie gehört, its/it's.
 - Keine Datendateien, keine Vue-Komponenten.
 
 ## Figures
@@ -76,8 +76,13 @@ Karte `https://lernapps.net/apps/map/englisch.json`. Fakten (nicht Sätze) aus W
 
 ## Hörliste
 
-Sätze, die auf ein einsilbiges Wort enden und deshalb gezielt angehört werden sollen (die Stimme hängt dort leicht ein Ausklingen an): she-can-run, they-can-sing, we-can-swim, i-can-read, he-can-jump, you-can-swim (Seite 1); sophie-can-help-you, peter-can-see-us, ellie-can-see-them, amir-can-help-her, we-can-see-him, they-can-call-me (Seite 2); we-can-see-their-books, they-can-see-our-ball, you-can-see-my-book, we-can-see-your-bag (Seite 3); amir-can-see-his-bag, peter-can-see-his-bag, he-can-see-her-and-her-bag (Seite 4). Zweisilbig enden: i-can-see-your-jacket, they-can-see-my-jacket, ellie-can-call-her-brother, peter-can-help-his-sister, ellie-can-help-her-brother. Zuerst hören: die Sätze auf run, jump und you (zuvor mit Fehllaut beanstandet: we-can-run, he-can-run, we-can-jump, we-can-call-you; diese Sätze gibt es so nicht mehr).
+24 Hörsätze (Dateien `src/audio/<satz>.mp3`, Sätze in `audio-texte.json`). Jede Seite: Diktat (`-hoeren`) und Nachsprechen (`-nachsprechen`).
 
-Mit Schnitt an der Senke (`valley_cut`; die zweisilbigen Enden zuerst anhören): ellie-can-call-her-brother, i-can-see-your-jacket, they-can-see-my-jacket, you-can-see-my-book, we-can-see-your-bag, peter-can-see-us, he-can-jump. Gefällt bei einer Datei die Fassung ohne Schnitt besser, mit `--no-dip-cut` neu erzeugen und hier vermerken.
+- Seite 1: she-can-cook, they-can-write, we-can-draw (Diktat); i-can-cook, he-can-write, you-can-draw.
+- Seite 2: sophie-can-help-you, peter-can-see-us, ellie-can-see-them; amir-can-help-her, we-can-see-him, they-can-call-me.
+- Seite 3: i-can-see-your-jacket, we-can-see-their-books, they-can-see-our-ball; you-can-see-my-book, we-can-see-your-bag, they-can-see-my-jacket.
+- Seite 4: ellie-can-find-her-pen, amir-can-find-his-cap, mr-hill-can-see-his-bag; sophie-can-find-her-cap, amir-can-see-his-pen, the-dog-can-find-its-bag.
 
-Stand: Die Ersteller:in hat die Regel (Rand 40 ms, 20 bis 100 ms) gehört und für gut befunden („passt“); die Dateien der App sind damit erzeugt (7 von 24 geschnitten). Das Skript liegt auch in `lernapps/start` unter `orchestrierung/audio/`.
+Alle enden auf ein einsilbiges Wort, außer i-can-see-your-jacket und they-can-see-my-jacket (zweisilbig). Gezielt anhören: die Dateien mit Schnitt an der Senke (`valley_cut`): ellie-can-find-her-pen, amir-can-find-his-cap, the-dog-can-find-its-bag, i-can-see-your-jacket, you-can-see-my-book, we-can-see-your-bag, they-can-see-my-jacket, peter-can-see-us, she-can-cook, they-can-write, i-can-cook, he-can-write. Gefällt bei einer Datei die Fassung ohne Schnitt besser, mit `--no-dip-cut` neu erzeugen und hier vermerken.
+
+Stand: Die Ersteller:in hat die Regel (Rand 40 ms, 20 bis 100 ms) gehört und für gut befunden („passt“). Das Skript liegt auch in `lernapps/start` unter `orchestrierung/audio/`. Die ersten vier beanstandeten Sätze (we-can-run, he-can-run, we-can-jump, we-can-call-you) gibt es nicht mehr.

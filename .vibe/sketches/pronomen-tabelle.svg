@@ -3,8 +3,8 @@
 <rect width="600" height="260" fill="#fff"/>
 <text x="10" y="22" font-weight="bold">Klassenzimmer-Poster · Pronomen (Seite 4, vollständig)</text>
 <g stroke="#333" fill="none"><rect x="10" y="35" width="580" height="210"/><path d="M10 65H590M160 35V245M310 35V245M450 35V245"/></g>
-<text x="20" y="55">Person</text><text x="170" y="55">Wer tut es?</text><text x="320" y="55">Wen trifft es?</text><text x="460" y="55">Wessen Ding?</text>
+<text x="20" y="55">Person</text><text x="170" y="55">Wer tut es?</text><text x="320" y="55">Wen trifft es?</text><text x="460" y="55">Zu wem gehört es?</text>
 <text x="20" y="85">I</text><text x="170" y="85">I</text><text x="320" y="85">me</text><text x="460" y="85">my</text>
 <text x="20" y="110">you</text><text x="20" y="135">he / she / it</text><text x="20" y="160">we</text><text x="20" y="185">they</text>
-<text x="20" y="235" fill="#a00">Seite 1: Spalte 2 · Seite 2: + Spalte 3 · Seite 3: + Spalte 4 (I, you, we, they) · Seite 4: + he, she, it</text>
+<text x="20" y="235" fill="#a00">Seite 1: Spalte 2 · Seite 2: + Spalte 3 · Seite 3: + Spalte 4 (he, she, it noch mit ?) · Seite 4: he, she, it gefüllt</text>
 </svg>

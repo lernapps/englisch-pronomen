@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Zu wem gehört es? his, her, its
 description: Du lernst his, her und its und merkst dir, dass die Person das Wort bestimmt, zu der etwas gehört, nicht die Person oder Sache, die dazugehört. Am Ende steht die ganze Tabelle.
-competencies: [possessivbegleiter]
-scope: Die Seite ergänzt die dritte Spalte der Pronomen-Tabelle um die Zeilen he, she und it. his gehört einem Jungen oder Mann, her einem Mädchen oder einer Frau, its einem Ding oder Tier. Entscheidend ist die Person, zu der etwas gehört, nicht die Person oder Sache, die dazugehört. Peters Schwester ist his sister, Ellies Bruder ist her brother. her steht auch in der zweiten Spalte, his nur in der dritten. its hat keinen Apostroph. Am Ende stehen die drei Spalten für alle sieben Zeilen. Typische Fehler sind her für ein weibliches Ding und it's statt its.
+competencies:
+  - possessivbegleiter
+scope: Die Seite ergänzt die dritte Spalte der Pronomen-Tabelle um die Zeilen he, she und it. his gehört einem Jungen oder Mann, her einem Mädchen oder einer Frau, its einem Ding oder Tier. Entscheidend ist die Person, zu der etwas gehört, nicht die Person oder Sache, die dazugehört. Mrs Parker ist für Ellie her mother und für Peter his mother. her steht auch in der zweiten Spalte, his nur in der dritten. its hat keinen Apostroph. Am Ende stehen die drei Spalten für alle sieben Zeilen. Typische Fehler sind her für ein weibliches Ding und it's statt its.
 blocks:
   - type: section
     id: einstieg
@@ -16,23 +17,23 @@ blocks:
         licence: CC-BY-4.0
       - type: text
         text: |
-          Mrs Parker, Ellies und Peters Mutter und Sophies Gastmutter, holt die Kinder ab. Sophie sagt: „Ellie can see her jacket.“ Das heißt: „Ellie kann ihre Jacke sehen.“ **brother** heißt „Bruder“, **sister** „Schwester“, **cat** „Katze“, **ball** „Ball“, **bag** „Tasche“, **and** „und“ und **the** „der, die, das“.
+          Mrs Parker, Ellies und Peters Mutter und Sophies Gastmutter, holt die Kinder ab. Sophie sagt: „Peter can see his hat.“ Das heißt: „Peter kann seinen Hut sehen.“ **brother** heißt „Bruder“, **sister** „Schwester“, **cat** „Katze“, **mother** „Mutter“, **pen** „Stift“, **cap** „Mütze“, **and** „und“ und **the** „der, die, das“.
       - type: text
         text: "**Das kannst du danach:** Du sagst auf Englisch, wem etwas gehört, auch mit his, her und its, und füllst die ganze Pronomen-Tabelle aus."
       - type: single-choice
         id: his-start
-        text: Sophie sagt „Ellie can see her jacket.“ Wessen Jacke ist das?
+        text: "Sophie sagt über Amir: „Amir can see his bike.“ Wessen Fahrrad sieht Amir?"
         options:
-          - text: Ellies Jacke
+          - text: Ellies Fahrrad
+            correct: false
+            info: Für ein Fahrrad von Ellie würde Sophie her sagen, denn Ellie ist ein Mädchen.
+          - text: Amirs Fahrrad
             correct: true
-            info: her sagt, dass die Jacke einem Mädchen gehört. Das Mädchen im Satz ist Ellie.
-          - text: Peters Jacke
+            info: his gehört zu einem Jungen. Der Junge im Satz ist Amir.
+          - text: Sophies Fahrrad
             correct: false
-            info: Für Peters Jacke würde Sophie his sagen, denn Peter ist ein Junge.
-          - text: Sophies Jacke
-            correct: false
-            info: Wenn Sophie ihre eigene Jacke meint, sagt sie my.
-        explanation: her meint die Jacke einer Frau oder eines Mädchens, hier Ellies.
+            info: Für ein Fahrrad von Sophie würde Sophie my sagen.
+        explanation: his meint das Fahrrad eines Jungen oder Mannes, hier Amirs.
         links:
           - title: Possessivpronomen (Wikipedia)
             url: https://de.wikipedia.org/wiki/Possessivpronomen
@@ -42,96 +43,103 @@ blocks:
     blocks:
       - type: text
         text: |
-          Bei he, she und it brauchst du his, her und its. **his** heißt „sein“, **her** „ihr“ und **its** „sein“ für ein Ding oder Tier. Das Wort richtet sich nach der Person, zu der etwas gehört, **nicht nach der Person oder Sache, die dazugehört**. Über Ellie sagt man „her brother“, obwohl Peter ein Junge ist. Über Peter sagt man „his sister“, obwohl Ellie ein Mädchen ist.
+          Bei he, she und it brauchst du his, her und its. **his** heißt „sein“, **her** „ihr“ und **its** „sein“ für ein Ding oder Tier. Das Wort richtet sich nach der Person, zu der etwas gehört, **nicht nach der Person oder Sache, die dazugehört**. Mrs Parker ist die Mutter von Ellie und von Peter. Über Ellie sagt man „her mother“, über Peter sagt man „his mother“, obwohl es dieselbe Frau ist.
       - type: figure
         image: images/his-her-person.svg
-        alt: Zwei Zeilen. Oben zeigt ein Pfeil von Ellie zu Peter mit den Wörtern her brother. Unten zeigt ein Pfeil von Peter zu Ellie mit den Wörtern his sister.
-        caption: Der Pfeil geht von der Person zu ihrem Bruder oder ihrer Schwester. Das Wort über dem Pfeil richtet sich nach der Person am Anfang des Pfeils, nicht nach der Person oder Sache am Ende des Pfeils.
+        alt: Zwei Zeilen. Oben zeigt ein Pfeil von Ellie zu einem roten Hut mit den Wörtern her hat. Unten zeigt ein Pfeil von Peter zu einem gelben Hut mit den Wörtern his hat.
+        caption: Der Pfeil geht von der Person zu ihrem Hut. Das Wort über dem Pfeil richtet sich nach der Person am Anfang des Pfeils, nicht nach der Person oder Sache am Ende des Pfeils.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
         caption: Klassenzimmer-Poster · Pronomen
-        header: [Person, Wer tut es?, Wen trifft es?, Zu wem gehört es?]
+        header:
+          - Person
+          - Wer tut es?
+          - Wen trifft es?
+          - Zu wem gehört es?
         rowHeaders: true
         rows:
-          - [ich, I, me, my]
-          - [du / ihr, you, you, your]
-          - [er, he, him, his]
-          - [sie (ein Mädchen), she, her, her]
-          - [es, it, it, its]
-          - [wir, we, us, our]
-          - [sie (mehrere), they, them, their]
+          - - ich
+            - I
+            - me
+            - my
+          - - du / ihr
+            - you
+            - you
+            - your
+          - - er
+            - he
+            - him
+            - his
+          - - sie (ein Mädchen)
+            - she
+            - her
+            - her
+          - - es
+            - it
+            - it
+            - its
+          - - wir
+            - we
+            - us
+            - our
+          - - sie (mehrere)
+            - they
+            - them
+            - their
       - type: note
         title: Merke
         blocks:
           - type: text
             text: |
-              **his** gehört einem Jungen oder Mann, **her** einem Mädchen oder einer Frau, **its** einem Ding oder Tier: The cat can see its bag. Dein Blick geht zur Person, zu der es gehört, nicht zur Person oder Sache, die dazugehört. **her** steht in der zweiten und in der dritten Spalte. **its** schreibst du ohne Apostroph: it's ist die Kurzform von „it is“.
+              **his** gehört einem Jungen oder Mann, **her** einem Mädchen oder einer Frau, **its** einem Ding oder Tier: Ellie can see her hat. Peter can see his phone. The dog can see its bike. Dein Blick geht zur Person, zu der es gehört, nicht zur Person oder Sache, die dazugehört. **her** steht in der zweiten und in der dritten Spalte. **its** schreibst du ohne Apostroph: it's ist die Kurzform von „it is“.
   - type: section
     id: uebung
     title: Übung
     blocks:
-      - type: language-task
-        id: his-waehlen
-        languages: { source: de, target: en }
-        mode: choice
-        task: Wähle das Wort. Die Person, zu der es gehört, bestimmt es.
-        form: { case: hint, punctuation: hint }
-        items:
-          - cue: Ellie kann ihre Jacke sehen.
-            target: Ellie can see [her] jacket.
-            distractors: [[his]]
-            mistakes:
-              - answer: Ellie can see his jacket.
-                message: Ellie ist ein Mädchen, also her.
-          - cue: Peter kann seine Jacke sehen.
-            target: Peter can see [his] jacket.
-            distractors: [[her]]
-            mistakes:
-              - answer: Peter can see her jacket.
-                message: Peter ist ein Junge, also his.
-          - cue: Peter kann seine Schwester sehen.
-            target: Peter can see [his] sister.
-            distractors: [[her]]
-            mistakes:
-              - answer: Peter can see her sister.
-                message: Peter ist ein Junge, also his, auch wenn seine Schwester ein Mädchen ist.
-          - cue: Ellie kann ihren Bruder sehen.
-            target: Ellie can see [her] brother.
-            distractors: [[his]]
-            mistakes:
-              - answer: Ellie can see his brother.
-                message: Ellie ist ein Mädchen, also her, auch wenn ihr Bruder ein Junge ist.
-          - cue: Die Katze kann ihren Ball sehen. (Die Katze zählt als Tier, also it.)
-            target: The cat can see [its] ball.
-            distractors: [[her, his]]
-            mistakes:
-              - answer: The cat can see her ball.
-                message: Die Katze zählt als Tier, also its.
-              - answer: The cat can see his ball.
-                message: Die Katze zählt als Tier, also its.
       - type: single-choice
-        id: his-richtig
-        text: Peter spricht über seine Schwester. Welcher Satz ist richtig?
+        id: his-waehlen-1
+        text: Ellie kann ihre Jacke sehen. Welches Wort fehlt? „Ellie can see ___ jacket.“
         options:
-          - text: Peter can see his sister.
-            correct: true
-            info: Die Person ist Peter, ein Junge, also his.
-          - text: Peter can see her sister.
+          - text: his
             correct: false
-            info: Hier geht es um Peter, einen Jungen.
-          - text: Peter can see its sister.
+            info: his ist für einen Jungen oder Mann. Ellie ist ein Mädchen, also her.
+          - text: her
+            correct: true
+            info: her ist für ein Mädchen oder eine Frau.
+          - text: its
             correct: false
             info: its ist nur für Dinge und Tiere.
-        explanation: Die Person, zu der es gehört, bestimmt das Wort. Peter ist ein Junge, also his.
+        explanation: Für Ellie, ein Mädchen, sagst du her.
+        links:
+          - title: Possessivpronomen (Wikipedia)
+            url: https://de.wikipedia.org/wiki/Possessivpronomen
+      - type: single-choice
+        id: his-waehlen-2
+        text: Peter kann seine Schwester sehen. Welches Wort fehlt? „Peter can see ___ sister.“
+        options:
+          - text: her
+            correct: false
+            info: Peter ist ein Junge, also his, auch wenn seine Schwester ein Mädchen ist.
+          - text: its
+            correct: false
+            info: its ist nur für Dinge und Tiere.
+          - text: his
+            correct: true
+            info: his gehört zu einem Jungen. Es kommt auf Peter an, nicht auf seine Schwester.
+        explanation: Es kommt auf Peter an, einen Jungen, also his.
         links:
           - title: Possessivpronomen (Wikipedia)
             url: https://de.wikipedia.org/wiki/Possessivpronomen
       - type: language-task
         id: his-schreiben
-        languages: { source: de, target: en }
+        languages:
+          source: de
+          target: en
         task: Schreibe den Satz auf Englisch.
-        form: { case: hint, punctuation: hint }
+        form:
+          case: hint
+          punctuation: hint
         items:
           - source: Ellie kann ihren Bruder sehen.
             target: Ellie can see her brother.
@@ -164,14 +172,16 @@ blocks:
             url: https://de.wikipedia.org/wiki/Possessivpronomen
       - type: language-task
         id: his-gemischt
-        languages: { source: de, target: en }
-        mode: choice
-        task: Wähle alle Wörter. Jedes Wort gehört in eine andere Spalte der Tabelle.
-        form: { case: hint, punctuation: hint }
+        languages:
+          source: de
+          target: en
+        task: Schreibe den Satz auf Englisch. Jedes Pronomen gehört in eine andere Spalte der Tabelle.
+        form:
+          case: hint
+          punctuation: hint
         items:
-          - cue: Sie (Ellie) kann ihn (Peter) und seine Jacke sehen.
-            target: "[She] can see [him] and [his] jacket."
-            distractors: [[He], [he, her], [her]]
+          - source: Sie (Ellie) kann ihn (Peter) und seine Jacke sehen.
+            target: She can see him and his jacket.
             mistakes:
               - answer: He can see him and his jacket.
                 message: Ellie ist ein Mädchen, also she.
@@ -179,9 +189,8 @@ blocks:
                 message: Wen es trifft, sagst du mit him.
               - answer: She can see him and her jacket.
                 message: Die Jacke gehört Peter, also his.
-          - cue: Peter und Amir können uns und unseren Ball sehen.
-            target: "[They] can see [us] and [our] ball."
-            distractors: [[We], [we, them], [my, their]]
+          - source: Sie (Peter und Amir) können uns und unseren Ball sehen.
+            target: They can see us and our ball.
             mistakes:
               - answer: We can see us and our ball.
                 message: Über Peter und Amir sagst du they.
@@ -191,33 +200,65 @@ blocks:
                 message: Der Ball gehört uns, also our.
       - type: language-task
         id: his-hoeren
-        languages: { source: de, target: en }
+        languages:
+          source: de
+          target: en
         task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: hint }
+        form:
+          case: hint
+          punctuation: hint
         items:
-          - audio: ellie-can-call-her-brother.mp3
-            target: Ellie can call her brother.
-          - audio: peter-can-help-his-sister.mp3
-            target: Peter can help his sister.
-          - audio: amir-can-see-his-bag.mp3
-            target: Amir can see his bag.
+          - audio: ellie-can-find-her-pen.mp3
+            target: Ellie can find her pen.
+          - audio: amir-can-find-his-cap.mp3
+            target: Amir can find his cap.
+          - audio: mr-hill-can-see-his-bag.mp3
+            target: Mr Hill can see his bag.
       - type: language-task
         id: his-tabelle
-        languages: { source: de, target: en }
+        languages:
+          source: de
+          target: en
         mode: table
         task: Ergänze die ganze Tabelle ohne nachzusehen.
-        form: { case: hint }
+        form:
+          case: hint
         table:
           caption: Klassenzimmer-Poster · Pronomen
-          header: [Person, Wer tut es?, Wen trifft es?, Zu wem gehört es?]
+          header:
+            - Person
+            - Wer tut es?
+            - Wen trifft es?
+            - Zu wem gehört es?
           rows:
-            - [ich, I, "[me]", "[my]"]
-            - [du / ihr, you, "[you]", "[your]"]
-            - [er, "[he]", "[him]", "[his]"]
-            - [sie (ein Mädchen), "[she]", "[her]", "[her]"]
-            - [es, "[it]", "[it]", "[its]"]
-            - [wir, we, "[us]", "[our]"]
-            - [sie (mehrere), "[they]", "[them]", "[their]"]
+            - - ich
+              - I
+              - "[me]"
+              - "[my]"
+            - - du / ihr
+              - you
+              - "[you]"
+              - "[your]"
+            - - er
+              - "[he]"
+              - "[him]"
+              - "[his]"
+            - - sie (ein Mädchen)
+              - "[she]"
+              - "[her]"
+              - "[her]"
+            - - es
+              - "[it]"
+              - "[it]"
+              - "[its]"
+            - - wir
+              - we
+              - "[us]"
+              - "[our]"
+            - - sie (mehrere)
+              - "[they]"
+              - "[them]"
+              - "[their]"
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
@@ -226,12 +267,12 @@ blocks:
         id: his-nachsprechen
         language: en
         items:
-          - audio: ellie-can-help-her-brother.mp3
-            text: Ellie can help her brother.
-          - audio: peter-can-see-his-bag.mp3
-            text: Peter can see his bag.
-          - audio: he-can-see-her-and-her-bag.mp3
-            text: He can see her and her bag.
+          - audio: sophie-can-find-her-cap.mp3
+            text: Sophie can find her cap.
+          - audio: amir-can-see-his-pen.mp3
+            text: Amir can see his pen.
+          - audio: the-dog-can-find-its-bag.mp3
+            text: The dog can find its bag.
         hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
       - type: open-task
         id: his-frei
