@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
-title: Wessen Ding? my, your, our, their
+title: Zu wem gehört es? my, your, our, their
 description: Du lernst die Wörter my, your, our und their, mit denen du sagst, wem etwas gehört, und findest das Muster I – me – my.
 competencies: [possessivbegleiter]
-scope: Die Seite führt die dritte Spalte der Pronomen-Tabelle ein, „Wessen Ding?“, für die Zeilen I, you, we und they. Possessivbegleiter stehen vor dem Nomen und sagen, wem etwas gehört. Es sind my (mein), your (dein oder euer), our (unser) und their (ihr, mehrere Besitzer). Sie ändern sich nicht nach dem Nomen (my bag, my books). Das Muster ist I – me – my, you – you – your, we – us – our, they – them – their. Die Beispiele nutzen can see mit bag, jacket, ball und book. Typische Fehler sind me, us oder them statt my, our und their vor dem Nomen.
+scope: Die Seite führt die dritte Spalte der Pronomen-Tabelle ein, „Zu wem gehört es?“, für die Zeilen I, you, we und they. Possessivbegleiter stehen vor dem Nomen und sagen, wem etwas gehört. Es sind my (mein), your (dein oder euer), our (unser) und their (ihr, wenn es mehreren Personen gehört). Sie ändern sich nicht nach dem Nomen (my bag, my books). Das Muster ist I – me – my, you – you – your, we – us – our, they – them – their. Die Beispiele nutzen can see mit bag, jacket, ball und book. Typische Fehler sind me, us oder them statt my, our und their vor dem Nomen.
 blocks:
   - type: section
     id: einstieg
@@ -42,10 +42,10 @@ blocks:
     blocks:
       - type: text
         text: |
-          Die dritte Frage der Tabelle ist **Wessen Ding?** Das Wort steht vor dem Nomen und sagt, wem das Ding gehört. Es heißt Possessivbegleiter. Für er, sie und es steht in der dritten Spalte noch ein Fragezeichen. Das kommt auf der nächsten Seite.
+          Die dritte Frage der Tabelle ist **Zu wem gehört es?** Das Wort steht vor dem Nomen und sagt, zu wem etwas gehört. Es heißt Possessivbegleiter. Für er, sie und es steht in der dritten Spalte noch ein Fragezeichen. Das kommt auf der nächsten Seite.
       - type: table
         caption: Klassenzimmer-Poster · Pronomen
-        header: [Person, Wer tut es?, Wen trifft es?, Wessen Ding?]
+        header: [Person, Wer tut es?, Wen trifft es?, Zu wem gehört es?]
         rowHeaders: true
         rows:
           - [ich, I, me, my]
@@ -67,7 +67,7 @@ blocks:
     blocks:
       - type: matching
         id: my-zuordnen
-        text: Welches Wort passt, wenn jemand über sein Ding spricht?
+        text: Welches Wort passt, wenn jemand sagt, was zu ihm gehört?
         pairs:
           - left: Ellie spricht über ihre eigene Tasche.
             right: my
@@ -77,8 +77,8 @@ blocks:
             right: our
           - left: Sophie spricht über die Bücher von Amir und Peter.
             right: their
-        explanation: Das Wort richtet sich danach, wem das Ding gehört. my ist für die sprechende Person, your für die angesprochene, our für Sprecher und andere, their für andere.
-        hint: Wer besitzt das Ding? Gehört es der sprechenden Person, der angesprochenen oder mehreren?
+        explanation: Das Wort richtet sich danach, wem etwas gehört. my ist für die sprechende Person, your für die angesprochene, our für Sprecher und andere, their für andere.
+        hint: Zu wem gehört es? Gehört es der sprechenden Person, der angesprochenen oder mehreren?
         links:
           - title: Lernlandkarte Englisch · Possessivbegleiter
             url: https://lernapps.net/apps/map/englisch/c/possessivbegleiter/
@@ -111,7 +111,7 @@ blocks:
         id: my-luecke
         languages: { source: de, target: en }
         mode: gap
-        task: Ergänze das Wort für „wer tut es?“ und das Wort für „wessen Ding?“.
+        task: Ergänze das Wort für „wer tut es?“ und das Wort für „zu wem gehört es?“.
         form: { case: hint, punctuation: hint }
         items:
           - cue: Ich kann meine Tasche sehen.
@@ -168,11 +168,11 @@ blocks:
         id: my-tabelle
         languages: { source: de, target: en }
         mode: table
-        task: Ergänze die Spalte „Wessen Ding?“ ohne nachzusehen.
+        task: Ergänze die Spalte „Zu wem gehört es?“ ohne nachzusehen.
         form: { case: hint }
         table:
           caption: Klassenzimmer-Poster · Pronomen
-          header: [Person, Wer tut es?, Wen trifft es?, Wessen Ding?]
+          header: [Person, Wer tut es?, Wen trifft es?, Zu wem gehört es?]
           rows:
             - [ich, I, me, "[my]"]
             - [du / ihr, you, you, "[your]"]

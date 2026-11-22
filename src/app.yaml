@@ -6,7 +6,7 @@ intro: Sophie wohnt bei den Parkers und geht in Millbrook zur Schule. Du hilfst 
 languages: [de]
 chapters: [pronomen-1]
 scope:
-  text: Die App begleitet Kinder der Klassen 5 und 6. Kapitel 1 stellt die Pronomen-Tabelle vor. Spalte 1 „Wer tut es?“ hat I, you, he, she, it, we, they. Spalte 2 „Wen trifft es?“ hat me, you, him, her, it, us, them. Spalte 3 „Wessen Ding?“ hat my, your, his, her, its, our, their. Die Kinder lernen, dass man he oder she nach der Person wählt, it für Dinge und Tiere, und dass his und her sich nach dem Besitzer richten, nicht nach dem Ding.
+  text: Die App begleitet Kinder der Klassen 5 und 6. Kapitel 1 stellt die Pronomen-Tabelle vor. Spalte 1 „Wer tut es?“ hat I, you, he, she, it, we, they. Spalte 2 „Wen trifft es?“ hat me, you, him, her, it, us, them. Spalte 3 „Zu wem gehört es?“ hat my, your, his, her, its, our, their. Die Kinder lernen, dass man he oder she nach der Person wählt, it für Dinge und Tiere, und dass his und her sich nach der Person richten, zu der etwas gehört, nicht nach dem, was zu ihr gehört.
   out:
     - mine, yours, myself und each other (kommen in Kapitel 2)
     - this, that, some, any und ihre Zusammensetzungen

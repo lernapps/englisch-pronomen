@@ -5,7 +5,7 @@ description: Use for any content work in this app - researching, writing, extend
 
 # Content guide of this app
 
-Pronomen: I, me, my (Titel in `src/app.yaml`; er wird mit dem Inkrement für Kapitel 2 wieder zu „Pronomen: I, me, my, mine, myself“ erweitert). Explainer (Strang-App `englisch/grammatik`, Stufe 5-6, Sprache Deutsch). Auftrag: Issue lernapps/apps#471. Gebaut ist Kapitel 1 „Wer? Wen? Wessen?“; Kapitel 2 (Stufe 7-8) kommt später.
+Pronomen: I, me, my (Titel in `src/app.yaml`; er wird mit dem Inkrement für Kapitel 2 wieder zu „Pronomen: I, me, my, mine, myself“ erweitert). Explainer (Strang-App `englisch/grammatik`, Stufe 5-6, Sprache Deutsch). Auftrag: Issue lernapps/apps#471. Gebaut ist Kapitel 1 „Wer? Wen? Zu wem?“; Kapitel 2 (Stufe 7-8) kommt später.
 
 ## Curriculum
 
@@ -13,7 +13,7 @@ Englisch als erste Fremdsprache, Klasse 5-6. Kein Lehrplan: Reihenfolge und Baus
 
 ## Competencies
 
-Kapitel `pronomen-1` („Wer? Wen? Wessen?“), vier Seiten:
+Kapitel `pronomen-1` („Wer? Wen? Zu wem?“), vier Seiten:
 
 1. `personalpronomen`: Ich kann die Personalpronomen als Subjekt (I, he, they) und als Objekt (me, him, them) richtig verwenden. → `pronomen-1/wer-tut-es` (Subjekt), `pronomen-1/wen-trifft-es` (Objekt)
 2. `possessivbegleiter`: Ich kann mit my, your, his, her, its, our und their sagen, wem etwas gehört. → `pronomen-1/my-your` (my, your, our, their), `pronomen-1/his-her` (his, her, its)
@@ -27,9 +27,11 @@ Beide Kompetenzen sind Lücken der Karte, `personalpronomen` hat keine Vorausset
 - Länge: höchstens 350 Wörter Text, höchstens 4 Textblöcke hintereinander, Bild oder Übung unter den ersten vier Blöcken.
 - Geschichte: Sophie (11, blond, Zöpfe, grüne Jacke, aus Deutschland, wohnt bei den Parkers), Ellie Parker (11, roter Pferdeschwanz, rote Jacke), Peter Parker (9, kurze braune Haare, gelbe Jacke, Ellies Bruder), Amir (11, schwarze Locken, Brille, blaue Jacke), Mr Hill (Englischlehrer, graue Haare, braune Jacke), Mrs Parker (Ellies Mutter, Sophies Gastmutter). Millbrook School, erfundene Schule in einer englischen Kleinstadt, Schultag beginnt 8:45. Geburtstage: Peter 5. Mai, Ellie 10. Juli, Amir 12. Oktober, Sophie 14. Oktober. Je Seite eine Szene mit kurzen Sätzen und Dingen aus dem Alltag.
 - Alle Beispielsätze nutzen `can` mit see, help, call, swim, run, sing, jump, read, damit das Verb sich nicht ändert (kein -s). Nomen: bag, jacket, ball, book(s), brother, sister, cat; sie stehen vor den Übungen auf der Seite.
-- Das wachsende Bild: Tabelle „Klassenzimmer-Poster · Pronomen“ (Seite 1: Person · Wer tut es?; Seite 2 + Wen trifft es?; Seite 3 + Wessen Ding? für I, you, we, they; Seite 4 alle Zeilen; Zeilenkopf = deutsches Wort ich, du / ihr, er, sie (ein Mädchen), es, wir, sie (mehrere), `rowHeaders: true`). Seite 4 hat zusätzlich die Figur `images/his-her-besitzer.svg` (Pfeile vom Besitzer zum Ding: her brother, his sister). Die Tabelle steht nicht direkt über der Übung, die sie beantwortet.
+- Das wachsende Bild: Tabelle „Klassenzimmer-Poster · Pronomen“ (Seite 1: Person · Wer tut es?; Seite 2 + Wen trifft es?; Seite 3 + Zu wem gehört es? für I, you, we, they; Seite 4 alle Zeilen; Zeilenkopf = deutsches Wort ich, du / ihr, er, sie (ein Mädchen), es, wir, sie (mehrere), `rowHeaders: true`). Seite 4 hat zusätzlich die Figur `images/his-her-person.svg` (Pfeile von der Person zu ihrem Bruder oder ihrer Schwester: her brother, his sister). Die Tabelle steht nicht direkt über der Übung, die sie beantwortet.
 
 ## Terminology
+
+- Nie „Besitzer“ oder „Ding“, wenn es um Menschen geht (her brother, his sister): „die Person, zu der es gehört“. Spalte 3 heißt „Zu wem gehört es?“ (Rückmeldung des Erstellers; im Issue stand „Wessen Ding?“). Bild `src/images/his-her-person.svg`.
 
 - Anrede „du“; „Ausdruck“ (fester Ausdruck), nie „Wendung“. Britisches Englisch, kein deutsches Wort in einem englischen Satz.
 - Fachbegriffe noun, verb, adjective, sentence, tense gelten. „Subjekt“ (wer tut es) und „Objekt“ (wen trifft es) werden auf den Seiten 1 und 2 erklärt, wo sie gebraucht werden; „Possessivbegleiter“ als „Wort, das sagt, wem etwas gehört“.
@@ -43,10 +45,10 @@ Von leicht zu schwer: wählen (`matching`, `single-choice`) → Lücken und Form
 - Person ↔ Pronomen zuordnen: `matching` (Seite 1).
 - Subjekt oder Objekt wählen: `language-task` mode `choice` mit `distractors`.
 - Tabelle ableiten (I – me – my): `language-task` mode `table`.
-- Besitzer bestimmt his/her: `matching` und `language-task` mode `choice`, Seite 4.
+- Die Person, zu der es gehört, bestimmt his/her: `matching` und `language-task` mode `choice`, Seite 4.
 - Satz bauen: `ordering`.
 - Hören/Nachsprechen: `language-task` mit `audio`, `speaking-task`; Audio: Stimme `bf_emma`, nur ganze Sätze, Dateien `src/audio/<satz-in-kleinbuchstaben>.mp3`.
-- Je Fehlertyp eine Rückmeldung in `mistakes`: I/me, he/him, his/her nach dem Ding, its/it's.
+- Je Fehlertyp eine Rückmeldung in `mistakes`: I/me, he/him, his/her nach dem Bruder oder der Schwester statt nach der Person, its/it's.
 - Keine Datendateien, keine Vue-Komponenten.
 
 ## Figures

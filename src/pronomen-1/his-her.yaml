@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
-title: Wessen Ding? his, her, its
-description: Du lernst his, her und its und merkst dir, dass der Besitzer das Wort bestimmt, nicht das Ding. Am Ende steht die ganze Tabelle.
+title: Zu wem gehört es? his, her, its
+description: Du lernst his, her und its und merkst dir, dass die Person das Wort bestimmt, zu der etwas gehört, nicht das, was zu ihr gehört. Am Ende steht die ganze Tabelle.
 competencies: [possessivbegleiter]
-scope: Die Seite ergänzt die dritte Spalte der Pronomen-Tabelle um die Zeilen he, she und it. his gehört einem Jungen oder Mann, her einem Mädchen oder einer Frau, its einem Ding oder Tier. Entscheidend ist der Besitzer, nicht das Ding, das ihm gehört. Peters Schwester ist his sister, Ellies Bruder ist her brother. her steht auch in der zweiten Spalte, his nur in der dritten. its hat keinen Apostroph. Am Ende stehen die drei Spalten für alle sieben Zeilen. Typische Fehler sind her für ein weibliches Ding und it's statt its.
+scope: Die Seite ergänzt die dritte Spalte der Pronomen-Tabelle um die Zeilen he, she und it. his gehört einem Jungen oder Mann, her einem Mädchen oder einer Frau, its einem Ding oder Tier. Entscheidend ist die Person, zu der etwas gehört, nicht der Bruder, die Schwester oder die Sache. Peters Schwester ist his sister, Ellies Bruder ist her brother. her steht auch in der zweiten Spalte, his nur in der dritten. its hat keinen Apostroph. Am Ende stehen die drei Spalten für alle sieben Zeilen. Typische Fehler sind her für ein weibliches Ding und it's statt its.
 blocks:
   - type: section
     id: einstieg
@@ -38,20 +38,20 @@ blocks:
             url: https://de.wikipedia.org/wiki/Possessivpronomen
   - type: section
     id: neu
-    title: Der Besitzer bestimmt das Wort
+    title: Die Person bestimmt das Wort
     blocks:
       - type: text
         text: |
-          Bei he, she und it brauchst du his, her und its. **his** heißt „sein“, **her** „ihr“ und **its** „sein“ für ein Ding oder Tier. Das Wort richtet sich nach dem Besitzer, **nicht nach dem Ding**. Über Ellie sagt man „her brother“, obwohl Peter ein Junge ist. Über Peter sagt man „his sister“, obwohl Ellie ein Mädchen ist.
+          Bei he, she und it brauchst du his, her und its. **his** heißt „sein“, **her** „ihr“ und **its** „sein“ für ein Ding oder Tier. Das Wort richtet sich nach der Person, zu der etwas gehört, **nicht nach dem, was zu ihr gehört**. Über Ellie sagt man „her brother“, obwohl Peter ein Junge ist. Über Peter sagt man „his sister“, obwohl Ellie ein Mädchen ist.
       - type: figure
-        image: images/his-her-besitzer.svg
+        image: images/his-her-person.svg
         alt: Zwei Zeilen. Oben zeigt ein Pfeil von Ellie zu Peter mit den Wörtern her brother. Unten zeigt ein Pfeil von Peter zu Ellie mit den Wörtern his sister.
-        caption: Der Pfeil geht vom Besitzer zum Ding. Das Wort über dem Pfeil richtet sich nach dem Besitzer, nicht nach dem Ding.
+        caption: Der Pfeil geht von der Person zu ihrem Bruder oder ihrer Schwester. Das Wort über dem Pfeil richtet sich nach der Person am Anfang des Pfeils, nicht nach dem Bruder oder der Schwester.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: table
         caption: Klassenzimmer-Poster · Pronomen
-        header: [Person, Wer tut es?, Wen trifft es?, Wessen Ding?]
+        header: [Person, Wer tut es?, Wen trifft es?, Zu wem gehört es?]
         rowHeaders: true
         rows:
           - [ich, I, me, my]
@@ -66,7 +66,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **his** gehört einem Jungen oder Mann, **her** einem Mädchen oder einer Frau, **its** einem Ding oder Tier: The cat can see its ball. Dein Blick geht zum Besitzer, nicht zum Ding. **her** steht in der zweiten und in der dritten Spalte. **its** schreibst du ohne Apostroph: it's ist die Kurzform von „it is“.
+              **his** gehört einem Jungen oder Mann, **her** einem Mädchen oder einer Frau, **its** einem Ding oder Tier: The cat can see its ball. Dein Blick geht zur Person, zu der es gehört, nicht zu dem, was zu ihr gehört. **her** steht in der zweiten und in der dritten Spalte. **its** schreibst du ohne Apostroph: it's ist die Kurzform von „it is“.
   - type: section
     id: uebung
     title: Übung
@@ -75,7 +75,7 @@ blocks:
         id: his-waehlen
         languages: { source: de, target: en }
         mode: choice
-        task: Wähle das Wort. Der Besitzer bestimmt es.
+        task: Wähle das Wort. Die Person, zu der es gehört, bestimmt es.
         form: { case: hint, punctuation: hint }
         items:
           - cue: Ellie kann ihre Jacke sehen.
@@ -89,13 +89,13 @@ blocks:
             distractors: [[her, its]]
             mistakes:
               - answer: Peter can see her sister.
-                message: her richtet sich nach dem Besitzer. Peter ist ein Junge, also his, auch wenn seine Schwester ein Mädchen ist.
+                message: her richtet sich nach der Person, zu der es gehört. Peter ist ein Junge, also his, auch wenn seine Schwester ein Mädchen ist.
           - cue: Ellie kann ihren Bruder sehen.
             target: Ellie can see [her] brother.
             distractors: [[his, its]]
             mistakes:
               - answer: Ellie can see his brother.
-                message: his richtet sich nach dem Besitzer. Ellie ist ein Mädchen, also her, auch wenn ihr Bruder ein Junge ist.
+                message: his richtet sich nach der Person, zu der es gehört. Ellie ist ein Mädchen, also her, auch wenn ihr Bruder ein Junge ist.
           - cue: Die Katze kann ihren Ball sehen. (Die Katze zählt als Tier, also it.)
             target: The cat can see [its] ball.
             distractors: [[her, his]]
@@ -105,14 +105,14 @@ blocks:
         options:
           - text: Peter can see his sister.
             correct: true
-            info: Der Besitzer ist Peter, ein Junge, also his.
+            info: Die Person ist Peter, ein Junge, also his.
           - text: Peter can see her sister.
             correct: false
-            info: her würde zu einem Mädchen als Besitzerin passen. Besitzer ist aber Peter.
+            info: her würde zu einem Mädchen passen. Hier geht es aber um Peter.
           - text: Peter can see its sister.
             correct: false
             info: its ist für Dinge und Tiere, nicht für eine Person.
-        explanation: Der Besitzer bestimmt das Wort. Peter ist ein Junge, also his.
+        explanation: Die Person, zu der es gehört, bestimmt das Wort. Peter ist ein Junge, also his.
         links:
           - title: Possessivpronomen (Wikipedia)
             url: https://de.wikipedia.org/wiki/Possessivpronomen
@@ -126,12 +126,12 @@ blocks:
             target: Ellie can see her brother.
             mistakes:
               - answer: Ellie can see his brother.
-                message: his richtet sich nach dem Besitzer. Ellie ist ein Mädchen, also her, auch wenn ihr Bruder ein Junge ist.
+                message: his richtet sich nach der Person, zu der es gehört. Ellie ist ein Mädchen, also her, auch wenn ihr Bruder ein Junge ist.
           - source: Peter kann seine Jacke sehen.
             target: Peter can see his jacket.
             mistakes:
               - answer: Peter can see her jacket.
-                message: her ist für ein Mädchen als Besitzerin. Peter ist ein Junge, also his.
+                message: her ist für ein Mädchen oder eine Frau. Peter ist ein Junge, also his.
           - source: Die Katze kann ihren Ball sehen.
             target: The cat can see its ball.
             mistakes:
@@ -146,8 +146,8 @@ blocks:
         id: his-falsch
         text: "Amir sagt über Peter und seine Schwester: „Peter can see her sister.“ Ist der Satz richtig?"
         answer: false
-        hint: Wer ist der Besitzer, ein Junge oder ein Mädchen? Danach wählst du das Wort.
-        explanation: Der Besitzer ist Peter, ein Junge, also his sister.
+        hint: Zu wem gehört es, zu einem Jungen oder zu einem Mädchen? Danach wählst du das Wort.
+        explanation: Es geht um Peter, einen Jungen, also his sister.
         links:
           - title: Possessivpronomen (Wikipedia)
             url: https://de.wikipedia.org/wiki/Possessivpronomen
@@ -184,7 +184,7 @@ blocks:
         form: { case: hint }
         table:
           caption: Klassenzimmer-Poster · Pronomen
-          header: [Person, Wer tut es?, Wen trifft es?, Wessen Ding?]
+          header: [Person, Wer tut es?, Wen trifft es?, Zu wem gehört es?]
           rows:
             - [ich, I, "[me]", "[my]"]
             - [du / ihr, you, "[you]", "[your]"]
@@ -226,4 +226,4 @@ blocks:
     blocks:
       - type: text
         text: |
-          Das Poster hat jetzt drei Spalten mit den Fragen **Wer tut es? Wen trifft es? Wessen Ding?** Du weißt: Wer etwas tut, sagt I, he, she, we, they. Wen es trifft, sagt me, him, her, us, them. Wem etwas gehört, sagt my, your, his, her, its, our, their. Damit kannst du jetzt für jede Person sagen, wer etwas tut, wen es trifft und wem etwas gehört.
+          Das Poster hat jetzt drei Spalten mit den Fragen **Wer tut es? Wen trifft es? Zu wem gehört es?** Du weißt: Wer etwas tut, sagt I, he, she, we, they. Wen es trifft, sagt me, him, her, us, them. Wem etwas gehört, sagt my, your, his, her, its, our, their. Damit kannst du jetzt für jede Person sagen, wer etwas tut, wen es trifft und wem etwas gehört.
