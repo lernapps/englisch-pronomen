@@ -6,7 +6,7 @@ Die App begleitet Kinder der Klassen 5 und 6. Kapitel 1 stellt die Pronomen-Tabe
 
 ### Wer tut es? I, you, he, she, it, we, they
 
-Die Seite führt die erste Spalte der Pronomen-Tabelle ein, „Wer tut es?“. Pronomen als Subjekt stehen vor dem Verb und ersetzen die Person oder Sache, die etwas tut. Es sind I (ich), you (du oder ihr), he (er, für einen Jungen oder Mann), she (sie, für ein Mädchen oder eine Frau), it (es, für Dinge und Tiere), we (wir) und they (sie, mehrere). Die Beispiele nutzen can mit swim, run, sing, jump und read, weil can in allen Personen gleich bleibt. Typische Fehler sind me statt I (Me can swim.) und it für eine Person.
+Die Seite führt die erste Spalte der Pronomen-Tabelle ein, „Wer tut es?“. Pronomen als Subjekt stehen vor dem Verb und ersetzen die Person oder Sache, die etwas tut. Es sind I (ich), you (du oder ihr), he (er, für einen Jungen oder Mann), she (sie, für ein Mädchen oder eine Frau), it (es, für Dinge und Tiere), we (wir) und they (sie, mehrere). Die Beispiele nutzen can mit swim, run, sing und jump, weil can in allen Personen gleich bleibt. Typische Fehler sind me statt I (Me can swim.) und it für eine Person.
 
 ### Wen trifft es? me, you, him, her, it, us, them
 
@@ -18,7 +18,7 @@ Die Seite führt die dritte Spalte der Pronomen-Tabelle ein, „Zu wem gehört e
 
 ### Zu wem gehört es? his, her, its
 
-Die Seite ergänzt die dritte Spalte der Pronomen-Tabelle um die Zeilen he, she und it. his gehört einem Jungen oder Mann, her einem Mädchen oder einer Frau, its einem Ding oder Tier. Entscheidend ist die Person, zu der etwas gehört, nicht die Person oder Sache, die dazugehört. Peters Schwester ist his sister, Ellies Bruder ist her brother. her steht auch in der zweiten Spalte, his nur in der dritten. its hat keinen Apostroph. Am Ende stehen die drei Spalten für alle sieben Zeilen. Typische Fehler sind her für ein weibliches Ding und it's statt its.
+Die Seite ergänzt die dritte Spalte der Pronomen-Tabelle um die Zeilen he, she und it. his gehört einem Jungen oder Mann, her einem Mädchen oder einer Frau, its einem Ding oder Tier. Entscheidend ist die Person, zu der etwas gehört, nicht die Person oder Sache, die dazugehört. Mrs Parker ist für Ellie her mother und für Peter his mother. her steht auch in der zweiten Spalte, his nur in der dritten. its hat keinen Apostroph. Am Ende stehen die drei Spalten für alle sieben Zeilen. Typische Fehler sind her für ein weibliches Ding und it's statt its.
 
 ## Gehört nicht dazu
 

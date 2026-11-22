@@ -47,7 +47,7 @@ Du lernst die Pronomen, mit denen du sagst, wen etwas trifft, und erkennst den U
 
 Bild: Auf dem Sportplatz wirft Sophie einen Ball im Bogen zu Peter. Ellie und Amir stehen in der Mitte. Bildunterschrift: Sophie (links) wirft den Ball zu Peter (rechts). Ellie und Amir stehen in der Mitte.
 
-Beim Üben für den Sports day stehen Sophie, Ellie, Peter und Amir auf dem Sportplatz. Peter ruft: „Sophie can see me.“ Das heißt: „Sophie kann mich sehen.“ **see** heißt „sehen“, **help** „helfen“ und **call** „rufen“. Auch **him** (ihn), **us** (uns) und **them** (sie, mehrere) lernst du gleich.
+Beim Üben für den Sports day stehen Sophie, Ellie, Peter und Amir auf dem Sportplatz. Peter ruft: „Sophie can see me.“ Das heißt: „Sophie kann mich sehen.“ **see** heißt „sehen“, **help** „helfen“ und **call** „rufen“, **find** „finden“ und **hear** „hören“. Auch **him** (ihn), **us** (uns) und **them** (sie, mehrere) lernst du gleich.
 
 **Das kannst du danach:** Du sagst auf Englisch, wen oder was etwas trifft, und wählst me, you, him, her, it, us oder them.
 
@@ -69,13 +69,15 @@ Klassenzimmer-Poster · Pronomen:
 
 **Merke: Merke**
 
-Wer etwas tut, sagt **I**, **he**, **she**, **we**, **they**. Wen es trifft, sagt **me**, **him**, **her**, **us**, **them**. **you** und **it** sehen in beiden Spalten gleich aus. Beispiele: He can help us. We can call them. You can see him. Auch bei help steht him, obwohl wir im Deutschen „ihm“ sagen.
+Wer etwas tut, sagt **I**, **he**, **she**, **we**, **they**. Wen es trifft, sagt **me**, **him**, **her**, **us**, **them**. **you** und **it** sehen in beiden Spalten gleich aus. Beispiele: He can hear us. We can hear them. You can hear him. Auch bei help steht him, obwohl wir im Deutschen „ihm“ sagen.
 
 ### Übung
 
 - Aufgabe `wen-zuordnen` (unten)
 
-- Aufgabe `wen-waehlen` (unten)
+- Aufgabe `wen-waehlen-2` (unten)
+
+- Aufgabe `wen-waehlen-3` (unten)
 
 - Aufgabe `wen-ordnen` (unten)
 
@@ -97,13 +99,13 @@ Auf dem Poster stehen jetzt zwei Spalten. Nach dem Üben stehen die Taschen der 
 
 ### Aufgabe wen-start
 
-- Aufgabe: Peter sagt „Sophie can see me.“ Wen kann Sophie sehen?
+- Aufgabe: Ellie sagt: „Amir can find me.“ Wen kann Amir finden?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Peter – me heißt „mich“. Peter sagt den Satz, also ist er der, den Sophie sehen kann.
-  - ✗ Sophie – Sophie kann etwas sehen, aber sie ist nicht der, der gesehen wird.
-  - ✗ Ellie – Ellie kommt im Satz nicht vor. me meint die Person, die den Satz sagt.
-- Lösung: Peter
+  - ✓ Ellie – me heißt „mich“. Ellie sagt den Satz, also ist sie die, die Amir finden kann.
+  - ✗ Amir – Amir kann etwas finden, aber er ist nicht der, der gefunden wird.
+  - ✗ Sophie – Sophie kommt im Satz nicht vor. me meint die Person, die den Satz sagt.
+- Lösung: Ellie
 - Erklärung: me meint die Person, die spricht. Es sagt, wen die Handlung trifft.
 - Link: [../?via=tutor#wen-start](../?via=tutor#wen-start)
 
@@ -116,26 +118,29 @@ Auf dem Poster stehen jetzt zwei Spalten. Nach dem Üben stehen die Taschen der 
 - Tipp der App: Frag dich, wen es trifft, und ob die Person ein Junge, ein Mädchen oder mehrere sind.
 - Link: [../?via=tutor#wen-zuordnen](../?via=tutor#wen-zuordnen)
 
-### Aufgabe wen-waehlen
+### Aufgabe wen-waehlen-2
 
-- Aufgabe: Wähle das Pronomen, das sagt, wen es trifft.
-- Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
-- Einträge (Vorgabe → Lösung):
-1. Peter sagt: „Sophie kann mich sehen.“ → Sophie can see me.
-     - Sophie can see I.: I sagt, wer etwas tut. Nach dem Verb steht me.
-2. Ellie kann ihm (Peter) helfen. → Ellie can help him.
-     - Ellie can help he.: Wen es trifft, sagst du mit him.
-     - Ellie can help her.: Peter ist ein Junge, also him.
-3. Sophie sagt: „Amir kann uns rufen.“ → Amir can call us.
-     - Amir can call we.: Wen es trifft, sagst du mit us.
-     - Amir can call them.: Sophie gehört dazu, also us.
-4. Ich kann sie (Ellie) sehen. → I can see her.
-     - Me can see her.: Me steht nach dem Verb. Wer etwas tut, sagt I.
-     - I can see she.: Wen es trifft, sagst du mit her.
-     - I can see him.: Ellie ist ein Mädchen, also her.
-- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
-- Link: [../?via=tutor#wen-waehlen](../?via=tutor#wen-waehlen)
+- Aufgabe: Ellie kann ihm (Peter) helfen. Welches Wort fehlt? „Ellie can help ___.“
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✗ he – he sagt, wer es tut. Wen es trifft, sagst du mit him.
+  - ✗ her – her ist für ein Mädchen. Peter ist ein Junge, also him.
+  - ✓ him – him ist für einen Jungen oder Mann und steht nach dem Verb.
+- Lösung: him
+- Erklärung: Für Peter, einen Jungen, sagst du him.
+- Link: [../?via=tutor#wen-waehlen-2](../?via=tutor#wen-waehlen-2)
+
+### Aufgabe wen-waehlen-3
+
+- Aufgabe: Ellie sagt: „Mr Hill kann uns sehen.“ Welches Wort fehlt? „Mr Hill can see ___.“
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✗ them – them meint andere. Ellie gehört selbst dazu, also us.
+  - ✓ us – us meint die sprechende Person und andere.
+  - ✗ we – we sagt, wer etwas tut. Wen es trifft, sagst du mit us.
+- Lösung: us
+- Erklärung: Wenn die sprechende Person dazugehört, sagst du us.
+- Link: [../?via=tutor#wen-waehlen-3](../?via=tutor#wen-waehlen-3)
 
 ### Aufgabe wen-ordnen
 

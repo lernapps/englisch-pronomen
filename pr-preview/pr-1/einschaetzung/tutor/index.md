@@ -48,11 +48,11 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Die Aufgaben dieser Selbsteinschätzung
 
-- A1: Aufgabe wer-waehlen der Seite „Wer tut es? I, you, he, she, it, we, they“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A1: Aufgabe wer-waehlen-1 der Seite „Wer tut es? I, you, he, she, it, we, they“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
 - A2: Aufgabe wer-schreiben der Seite „Wer tut es? I, you, he, she, it, we, they“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
-- A3: Aufgabe wen-waehlen der Seite „Wen trifft es? me, you, him, her, it, us, them“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A3: Aufgabe wen-waehlen-2 der Seite „Wen trifft es? me, you, him, her, it, us, them“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
 - A4: Aufgabe wen-schreiben der Seite „Wen trifft es? me, you, him, her, it, us, them“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
-- A5: Aufgabe my-waehlen der Seite „Zu wem gehört es? my, your, our, their“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A5: Aufgabe my-waehlen-1 der Seite „Zu wem gehört es? my, your, our, their“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
 - A6: Aufgabe my-schreiben der Seite „Zu wem gehört es? my, your, our, their“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
-- A7: Aufgabe his-waehlen der Seite „Zu wem gehört es? his, her, its“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A7: Aufgabe his-waehlen-2 der Seite „Zu wem gehört es? his, her, its“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
 - A8: Aufgabe his-schreiben der Seite „Zu wem gehört es? his, her, its“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)

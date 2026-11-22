@@ -47,7 +47,7 @@ Du lernst die Wörter my, your, our und their, mit denen du sagst, wem etwas geh
 
 Bild: Im Flur der Millbrook School stehen Sophie, Ellie, Peter und Amir. Vor jedem Kind steht eine Tasche. Bildunterschrift: Von links nach rechts Sophie, Ellie, Peter und Amir. Vor jedem Kind steht eine Tasche.
 
-Nach dem Training stehen die Kinder im Flur. Ihre Taschen stehen auf dem Boden. Ellie sagt: „I can see my bag.“ Das heißt: „Ich kann meine Tasche sehen.“ **bag** heißt „Tasche“, **jacket** „Jacke“, **ball** „Ball“ und **book** „Buch“. **your** heißt „dein“ oder „euer“, **our** „unser“ und **their** „ihr“, wenn es mehreren gehört.
+Nach dem Training stehen die Kinder im Flur. Ihre Taschen stehen auf dem Boden. Ellie sagt: „I can see my phone.“ Das heißt: „Ich kann mein Handy sehen.“ **phone** heißt „Handy“, **bag** „Tasche“, **jacket** „Jacke“, **ball** „Ball“, **book** „Buch“, **hat** „Hut“, **bike** „Fahrrad“ und **dog** „Hund“. **your** heißt „dein“ oder „euer“, **our** „unser“ und **their** „ihr“, wenn es mehreren gehört.
 
 **Das kannst du danach:** Du sagst auf Englisch, wem etwas gehört, mit my, your, our und their.
 
@@ -69,13 +69,15 @@ Klassenzimmer-Poster · Pronomen:
 
 **Merke: Merke**
 
-Das Wort steht **vor** dem Nomen: my bag, your jacket, our ball, their books. Anders als im Deutschen ändert es sich nie: my bag, my books. Nach dem Muster **I – me – my** gehören die drei Wörter einer Person zusammen. **me** und **my** sind nicht dasselbe: me sagt, wen es trifft, my sagt, wem etwas gehört.
+Das Wort steht **vor** dem Nomen: my hat, your bike, our phone, their dogs. Anders als im Deutschen ändert es sich nie: my dog, my dogs. Nach dem Muster **I – me – my** gehören die drei Wörter einer Person zusammen. **me** und **my** sind nicht dasselbe: me sagt, wen es trifft, my sagt, wem etwas gehört.
 
 ### Übung
 
 - Aufgabe `my-zuordnen` (unten)
 
-- Aufgabe `my-waehlen` (unten)
+- Aufgabe `my-waehlen-1` (unten)
+
+- Aufgabe `my-waehlen-3` (unten)
 
 - Aufgabe `my-luecke` (unten)
 
@@ -97,13 +99,13 @@ Auf dem Poster fehlen noch die Wörter für er, sie und es in der dritten Spalte
 
 ### Aufgabe my-start
 
-- Aufgabe: Ellie sagt „I can see my bag.“ Wessen Tasche sieht Ellie?
+- Aufgabe: Amir sagt: „I can see my hat.“ Wessen Hut sieht Amir?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Ellies eigene Tasche – my heißt „mein“ oder „meine“. Die Sprecherin sagt, dass die Tasche ihr gehört.
-  - ✗ Sophies Tasche – Für eine Tasche von Sophie würde Ellie etwas anderes sagen. my meint immer die sprechende Person.
-  - ✗ Peters Tasche – Ellie sagt my, also gehört die Tasche der sprechenden Person.
-- Lösung: Ellies eigene Tasche
+  - ✓ Amirs eigenen Hut – my heißt „mein“ oder „meine“. Der Sprecher sagt, dass der Hut ihm gehört.
+  - ✗ Ellies Hut – Für Ellies Hut würde Amir etwas anderes sagen. my meint immer die sprechende Person.
+  - ✗ Peters Hut – Amir sagt my, also gehört der Hut der sprechenden Person.
+- Lösung: Amirs eigenen Hut
 - Erklärung: my sagt, dass etwas der Person gehört, die spricht.
 - Link: [../?via=tutor#my-start](../?via=tutor#my-start)
 
@@ -116,26 +118,29 @@ Auf dem Poster fehlen noch die Wörter für er, sie und es in der dritten Spalte
 - Tipp der App: Zu wem gehört es? Gehört es der sprechenden Person, der angesprochenen oder mehreren?
 - Link: [../?via=tutor#my-zuordnen](../?via=tutor#my-zuordnen)
 
-### Aufgabe my-waehlen
+### Aufgabe my-waehlen-1
 
-- Aufgabe: Wähle das Wort, das sagt, zu wem es gehört.
-- Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
-- Einträge (Vorgabe → Lösung):
-1. Ellie sagt: „Ich kann meine Tasche sehen.“ → I can see my bag.
-     - I can see me bag.: me sagt, wen es trifft. Zu wem etwas gehört, sagst du mit my.
-     - I can see I bag.: I sagt, wer etwas tut. Vor dem Nomen steht my.
-2. Ellie sagt zu Peter: „Du kannst deine Jacke sehen.“ → You can see your jacket.
-     - You can see my jacket.: Ellie spricht zu Peter, also your.
-     - You can see you jacket.: you sagst du für „wer tut es?“ und „wen trifft es?“. Vor dem Nomen steht your.
-3. Sophie sagt: „Wir können unseren Ball sehen.“ → We can see our ball.
-     - We can see us ball.: us sagt, wen es trifft. Zu wem etwas gehört, sagst du mit our.
-     - We can see my ball.: Sophie spricht für sich und Ellie, also our.
-4. Amir und Peter können ihre Bücher sehen. → They can see their books.
-     - They can see them books.: them sagt, wen es trifft. Zu wem etwas gehört, sagst du mit their.
-     - They can see our books.: Es geht um Amir und Peter, also their.
-- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
-- Link: [../?via=tutor#my-waehlen](../?via=tutor#my-waehlen)
+- Aufgabe: Ellie sagt: „Ich kann meine Tasche sehen.“ Welches Wort fehlt? „I can see ___ bag.“
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✗ me – me sagt, wen es trifft. Zu wem etwas gehört, sagst du mit my.
+  - ✓ my – my steht vor dem Nomen und gehört zur sprechenden Person.
+  - ✗ I – I sagt, wer etwas tut. Vor dem Nomen steht my.
+- Lösung: my
+- Erklärung: Vor dem Nomen steht my.
+- Link: [../?via=tutor#my-waehlen-1](../?via=tutor#my-waehlen-1)
+
+### Aufgabe my-waehlen-3
+
+- Aufgabe: Amir und Peter können ihre Bücher sehen. Welches Wort fehlt? „They can see ___ books.“
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ their – their gehört zu mehreren anderen Personen.
+  - ✗ them – them sagt, wen es trifft. Zu wem etwas gehört, sagst du mit their.
+  - ✗ our – Es geht um Amir und Peter, also their.
+- Lösung: their
+- Erklärung: Zu mehreren anderen Personen gehört their.
+- Link: [../?via=tutor#my-waehlen-3](../?via=tutor#my-waehlen-3)
 
 ### Aufgabe my-luecke
 

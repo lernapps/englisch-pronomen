@@ -45,9 +45,9 @@ Du lernst die Pronomen, mit denen du sagst, wer etwas tut, und wählst he, she o
 
 ### Sports day in Millbrook
 
-Bild: Sophie, Ellie, Peter und Amir stehen im Klassenzimmer, rechts steht Mr Hill. An der Tafel steht Sports day und die Wörter swim, run, sing, jump, read. Bildunterschrift: Von links nach rechts Sophie, Ellie, Peter, Amir und Mr Hill. An der Tafel stehen die Wörter für den Sports day, das Sportfest der Schule.
+Bild: Sophie, Ellie, Peter und Amir stehen im Klassenzimmer, rechts steht Mr Hill. An der Tafel steht Sports day und die Wörter swim, run, sing, jump. Bildunterschrift: Von links nach rechts Sophie, Ellie, Peter, Amir und Mr Hill. An der Tafel stehen die Wörter für den Sports day, das Sportfest der Schule.
 
-Morgen ist Sports day an der Millbrook School, das Sportfest. Sophie (11) aus Deutschland wohnt bei der Familie Parker. Sie steht mit Ellie Parker (11), Ellies Bruder Peter (9) und ihrem Freund Amir (11) bei Mr Hill, dem Englischlehrer. Er fragt, wer was kann. Ellie sagt: „I can swim.“ Das heißt: „Ich kann schwimmen.“ **can** heißt „kann“, **swim** heißt „schwimmen“.
+Morgen ist Sports day an der Millbrook School, das Sportfest. Sophie (11) aus Deutschland wohnt bei der Familie Parker. Sie steht mit Ellie Parker (11), Ellies Bruder Peter (9) und ihrem Freund Amir (11) bei Mr Hill, dem Englischlehrer. Er fragt, wer was kann. Ellie sagt: „I can swim.“ Das heißt: „Ich kann schwimmen.“ **can** heißt „kann“, **swim** heißt „schwimmen“. Auf der Tafel stehen noch **run** („rennen“), **sing** („singen“) und **jump** („springen“).
 
 **Das kannst du danach:** Du sagst auf Englisch, wer etwas tut, und wählst das passende Wort: I, you, he, she, it, we oder they.
 
@@ -69,15 +69,17 @@ Klassenzimmer-Poster · Pronomen:
 
 **Merke: Merke**
 
-**he** sagst du für einen Jungen oder Mann, **she** für ein Mädchen oder eine Frau. **it** ist für Dinge und Tiere, nie für eine Person. **you** gilt für eine Person (du) und für mehrere (ihr). **we** ist „ich und andere zusammen“. Beispiele: You can read. He can swim. She can sing. We can jump. They can run. **can** heißt „kann“ und bleibt bei jeder Person gleich.
+**he** sagst du für einen Jungen oder Mann, **she** für ein Mädchen oder eine Frau. **it** ist für Dinge und Tiere, nie für eine Person. **you** gilt für eine Person (du) und für mehrere (ihr). **we** ist „ich und andere zusammen“. Beispiele: You can read. He can play. She can dance. We can read. They can play. **can** heißt „kann“ und bleibt bei jeder Person gleich.
 
-Die Wörter auf der Tafel: **swim** (schwimmen), **run** (rennen, laufen), **sing** (singen), **jump** (springen), **read** (lesen).
+Weitere Wörter: **read** („lesen“), **play** („spielen“), **dance** („tanzen“), **cook** („kochen“), **write** („schreiben“) und **draw** („zeichnen“).
 
 ### Übung
 
 - Aufgabe `wer-zuordnen` (unten)
 
-- Aufgabe `wer-waehlen` (unten)
+- Aufgabe `wer-waehlen-1` (unten)
+
+- Aufgabe `wer-waehlen-3` (unten)
 
 - Aufgabe `wer-schreiben` (unten)
 
@@ -97,13 +99,13 @@ Auf dem Poster steht die erste Spalte. Beim Üben für den Sports day wirft Soph
 
 ### Aufgabe wer-start
 
-- Aufgabe: Ellie sagt „I can swim.“ Wer kann schwimmen?
+- Aufgabe: Amir sagt „I can run.“ Wer kann rennen?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Ellie – I heißt „ich“. Mit I meint die sprechende Person sich selbst, hier also Ellie.
+  - ✓ Amir – I heißt „ich“. Mit I meint die sprechende Person sich selbst, hier also Amir.
   - ✗ Mr Hill – Mr Hill hat den Satz nicht gesagt. Mit I meint man immer die Person, die spricht.
   - ✗ Alle Kinder – Für mehrere Personen nimmst du ein anderes Wort. I meint nur eine Person.
-- Lösung: Ellie
+- Lösung: Amir
 - Erklärung: I steht für die Person, die spricht.
 - Link: [../?via=tutor#wer-start](../?via=tutor#wer-start)
 
@@ -116,25 +118,29 @@ Auf dem Poster steht die erste Spalte. Beim Üben für den Sports day wirft Soph
 - Tipp der App: Frag dich, ob die Person ein Junge oder ein Mädchen ist, ob es mehrere sind und ob die sprechende Person dazugehört.
 - Link: [../?via=tutor#wer-zuordnen](../?via=tutor#wer-zuordnen)
 
-### Aufgabe wer-waehlen
+### Aufgabe wer-waehlen-1
 
-- Aufgabe: Wähle das Pronomen, das sagt, wer es tut.
-- Antwortformat: für jede Lücke ein Wort wählen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
-- Einträge (Vorgabe → Lösung):
-1. Peter kann rennen. → He can run.
-     - She can run.: she ist für ein Mädchen oder eine Frau. Peter ist ein Junge, also he.
-     - It can run.: it ist für Dinge und Tiere. Für einen Jungen wie Peter sagst du he.
-2. Ellie kann lesen. → She can read.
-     - He can read.: Ellie ist ein Mädchen, also she.
-     - Her can read.: Für Ellie sagst du she.
-3. Sophie sagt: „Ich kann singen.“ → I can sing.
-     - Me can sing.: Wer selbst etwas tut, sagt I.
-4. Amir und Peter können springen. → They can jump.
-     - He can jump.: Amir und Peter sind mehrere, also they.
-     - We can jump.: Über Amir und Peter sagst du they.
-- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
-- Link: [../?via=tutor#wer-waehlen](../?via=tutor#wer-waehlen)
+- Aufgabe: Peter kann rennen. Welches Wort fehlt? „___ can run.“
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✗ She – she ist für ein Mädchen oder eine Frau. Peter ist ein Junge, also he.
+  - ✓ He – he ist für einen Jungen oder Mann. Peter ist ein Junge.
+  - ✗ It – it ist nur für Dinge und Tiere, nicht für Menschen.
+- Lösung: He
+- Erklärung: Für Peter, einen Jungen, sagst du he.
+- Link: [../?via=tutor#wer-waehlen-1](../?via=tutor#wer-waehlen-1)
+
+### Aufgabe wer-waehlen-3
+
+- Aufgabe: Amir und Peter können springen. Welches Wort fehlt? „___ can jump.“
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ They – they ist für mehrere Personen. Amir und Peter sind zwei.
+  - ✗ He – he meint nur einen Jungen. Amir und Peter sind mehrere, also they.
+  - ✗ We – we sagst du, wenn du selbst dazugehörst. Über Amir und Peter sagst du they.
+- Lösung: They
+- Erklärung: Für mehrere andere Personen sagst du they.
+- Link: [../?via=tutor#wer-waehlen-3](../?via=tutor#wer-waehlen-3)
 
 ### Aufgabe wer-schreiben
 
@@ -142,14 +148,14 @@ Auf dem Poster steht die erste Spalte. Beim Üben für den Sports day wirft Soph
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Ich kann rennen. → I can run.
-     - I run.: Du brauchst auch can. Es heißt „kann rennen“, also can run.
-     - Me can run.: Wer etwas tut, sagt I. me kommt erst später.
-2. Er kann lesen. (Peter) → He can read.
-     - He read.: Du brauchst auch can. Es heißt „kann lesen“, also can read.
-     - She can read.: she ist für ein Mädchen oder eine Frau. Für einen Jungen sagst du he.
-3. Wir können singen. → We can sing.
-     - You can sing.: you heißt „du“ oder „ihr“. Wenn du selbst dazugehörst, sagst du we.
+1. Ich kann springen. → I can jump.
+     - I jump.: Du brauchst auch can. Es heißt „kann springen“, also can jump.
+     - Me can jump.: Wer etwas tut, sagt I. me kommt erst später.
+2. Er kann singen. (Peter) → He can sing.
+     - He sing.: Du brauchst auch can. Es heißt „kann singen“, also can sing.
+     - She can sing.: she ist für ein Mädchen oder eine Frau. Für einen Jungen sagst du he.
+3. Wir können rennen. → We can run.
+     - You can run.: you heißt „du“ oder „ihr“. Wenn du selbst dazugehörst, sagst du we.
 4. Sie (Ellie und Amir) können schwimmen. → They can swim.
      - She can swim.: she meint nur ein Mädchen. Bei mehreren Personen sagst du they.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -170,9 +176,9 @@ Auf dem Poster steht die erste Spalte. Beim Üben für den Sports day wirft Soph
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Audio → She can run.
-2. Audio → They can sing.
-3. Audio → We can swim.
+1. Audio → She can cook.
+2. Audio → They can write.
+3. Audio → We can draw.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#wer-hoeren](../?via=tutor#wer-hoeren)
@@ -196,8 +202,8 @@ Auf dem Poster steht die erste Spalte. Beim Üben für den Sports day wirft Soph
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → I can read.
-2. Audio → He can jump.
-3. Audio → You can swim.
+1. Audio → I can cook.
+2. Audio → He can write.
+3. Audio → You can draw.
 - Tipp der App: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
 - Link: [../?via=tutor#wer-nachsprechen](../?via=tutor#wer-nachsprechen)
