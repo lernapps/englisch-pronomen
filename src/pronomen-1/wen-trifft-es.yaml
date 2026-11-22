@@ -60,7 +60,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              Wer etwas tut, sagt **I**, **he**, **she**, **we**, **they**. Wen es trifft, sagt **me**, **him**, **her**, **us**, **them**. **you** und **it** sehen in beiden Spalten gleich aus. Beispiele: He can help us. We can call them. I can see her. Auch bei help steht him, obwohl wir im Deutschen „ihm“ sagen.
+              Wer etwas tut, sagt **I**, **he**, **she**, **we**, **they**. Wen es trifft, sagt **me**, **him**, **her**, **us**, **them**. **you** und **it** sehen in beiden Spalten gleich aus. Beispiele: He can help us. We can call them. You can see him. Auch bei help steht him, obwohl wir im Deutschen „ihm“ sagen.
   - type: section
     id: uebung
     title: Übung
@@ -93,19 +93,36 @@ blocks:
         items:
           - cue: "Peter sagt: „Sophie kann mich sehen.“"
             target: Sophie can see [me].
-            distractors: [[I, he]]
+            distractors: [[I]]
+            mistakes:
+              - answer: Sophie can see I.
+                message: I sagt, wer etwas tut. Nach dem Verb steht me.
           - cue: Ellie kann ihm (Peter) helfen.
             target: Ellie can help [him].
             distractors: [[he, her]]
             mistakes:
               - answer: Ellie can help he.
-                message: he gehört in die erste Spalte und steht vor dem Verb. Wen es trifft, sagst du mit him.
+                message: Wen es trifft, sagst du mit him.
+              - answer: Ellie can help her.
+                message: Peter ist ein Junge, also him.
           - cue: "Sophie sagt: „Amir kann uns rufen.“"
             target: Amir can call [us].
             distractors: [[we, them]]
+            mistakes:
+              - answer: Amir can call we.
+                message: Wen es trifft, sagst du mit us.
+              - answer: Amir can call them.
+                message: Sophie gehört dazu, also us.
           - cue: Ich kann sie (Ellie) sehen.
             target: "[I] can see [her]."
-            distractors: [[Me, We], [she, he]]
+            distractors: [[Me], [she, him]]
+            mistakes:
+              - answer: Me can see her.
+                message: Me steht nach dem Verb. Wer etwas tut, sagt I.
+              - answer: I can see she.
+                message: Wen es trifft, sagst du mit her.
+              - answer: I can see him.
+                message: Ellie ist ein Mädchen, also her.
       - type: ordering
         id: wen-ordnen
         text: Bring die Wörter in die richtige Reihenfolge, damit der Satz stimmt.
@@ -156,12 +173,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: hint }
         items:
-          - audio: peter-can-see-her.mp3
-            target: Peter can see her.
-          - audio: ellie-can-help-us.mp3
-            target: Ellie can help us.
-          - audio: sophie-can-call-him.mp3
-            target: Sophie can call him.
+          - audio: sophie-can-help-you.mp3
+            target: Sophie can help you.
+          - audio: peter-can-see-us.mp3
+            target: Peter can see us.
+          - audio: ellie-can-see-them.mp3
+            target: Ellie can see them.
       - type: language-task
         id: wen-tabelle
         languages: { source: de, target: en }
@@ -185,12 +202,12 @@ blocks:
         id: wen-nachsprechen
         language: en
         items:
-          - audio: sophie-can-see-me.mp3
-            text: Sophie can see me.
-          - audio: he-can-help-them.mp3
-            text: He can help them.
-          - audio: we-can-call-you.mp3
-            text: We can call you.
+          - audio: amir-can-help-her.mp3
+            text: Amir can help her.
+          - audio: we-can-see-him.mp3
+            text: We can see him.
+          - audio: they-can-call-me.mp3
+            text: They can call me.
         hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
   - type: section
     id: weiter

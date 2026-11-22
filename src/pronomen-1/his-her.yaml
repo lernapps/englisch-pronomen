@@ -16,7 +16,7 @@ blocks:
         licence: CC-BY-4.0
       - type: text
         text: |
-          Mrs Parker, Ellies und Peters Mutter und Sophies Gastmutter, holt die Kinder ab. Sophie sagt: „Ellie can see her jacket.“ Das heißt: „Ellie kann ihre Jacke sehen.“ **brother** heißt „Bruder“, **sister** „Schwester“, **cat** „Katze“, **ball** „Ball“, **and** „und“ und **the** „der, die, das“.
+          Mrs Parker, Ellies und Peters Mutter und Sophies Gastmutter, holt die Kinder ab. Sophie sagt: „Ellie can see her jacket.“ Das heißt: „Ellie kann ihre Jacke sehen.“ **brother** heißt „Bruder“, **sister** „Schwester“, **cat** „Katze“, **ball** „Ball“, **bag** „Tasche“, **and** „und“ und **the** „der, die, das“.
       - type: text
         text: "**Das kannst du danach:** Du sagst auf Englisch, wem etwas gehört, auch mit his, her und its, und füllst die ganze Pronomen-Tabelle aus."
       - type: single-choice
@@ -66,7 +66,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **his** gehört einem Jungen oder Mann, **her** einem Mädchen oder einer Frau, **its** einem Ding oder Tier: The cat can see its ball. Dein Blick geht zur Person, zu der es gehört, nicht zur Person oder Sache, die dazugehört. **her** steht in der zweiten und in der dritten Spalte. **its** schreibst du ohne Apostroph: it's ist die Kurzform von „it is“.
+              **his** gehört einem Jungen oder Mann, **her** einem Mädchen oder einer Frau, **its** einem Ding oder Tier: The cat can see its bag. Dein Blick geht zur Person, zu der es gehört, nicht zur Person oder Sache, die dazugehört. **her** steht in der zweiten und in der dritten Spalte. **its** schreibst du ohne Apostroph: it's ist die Kurzform von „it is“.
   - type: section
     id: uebung
     title: Übung
@@ -80,25 +80,36 @@ blocks:
         items:
           - cue: Ellie kann ihre Jacke sehen.
             target: Ellie can see [her] jacket.
-            distractors: [[his, its]]
+            distractors: [[his]]
+            mistakes:
+              - answer: Ellie can see his jacket.
+                message: Ellie ist ein Mädchen, also her.
           - cue: Peter kann seine Jacke sehen.
             target: Peter can see [his] jacket.
-            distractors: [[her, its]]
+            distractors: [[her]]
+            mistakes:
+              - answer: Peter can see her jacket.
+                message: Peter ist ein Junge, also his.
           - cue: Peter kann seine Schwester sehen.
             target: Peter can see [his] sister.
-            distractors: [[her, its]]
+            distractors: [[her]]
             mistakes:
               - answer: Peter can see her sister.
-                message: her richtet sich nach der Person, zu der es gehört. Peter ist ein Junge, also his, auch wenn seine Schwester ein Mädchen ist.
+                message: Peter ist ein Junge, also his, auch wenn seine Schwester ein Mädchen ist.
           - cue: Ellie kann ihren Bruder sehen.
             target: Ellie can see [her] brother.
-            distractors: [[his, its]]
+            distractors: [[his]]
             mistakes:
               - answer: Ellie can see his brother.
-                message: his richtet sich nach der Person, zu der es gehört. Ellie ist ein Mädchen, also her, auch wenn ihr Bruder ein Junge ist.
+                message: Ellie ist ein Mädchen, also her, auch wenn ihr Bruder ein Junge ist.
           - cue: Die Katze kann ihren Ball sehen. (Die Katze zählt als Tier, also it.)
             target: The cat can see [its] ball.
             distractors: [[her, his]]
+            mistakes:
+              - answer: The cat can see her ball.
+                message: Die Katze zählt als Tier, also its.
+              - answer: The cat can see his ball.
+                message: Die Katze zählt als Tier, also its.
       - type: single-choice
         id: his-richtig
         text: Peter spricht über seine Schwester. Welcher Satz ist richtig?
@@ -108,10 +119,10 @@ blocks:
             info: Die Person ist Peter, ein Junge, also his.
           - text: Peter can see her sister.
             correct: false
-            info: her würde zu einem Mädchen passen. Hier geht es aber um Peter.
+            info: Hier geht es um Peter, einen Jungen.
           - text: Peter can see its sister.
             correct: false
-            info: its ist für Dinge und Tiere, nicht für eine Person.
+            info: its ist nur für Dinge und Tiere.
         explanation: Die Person, zu der es gehört, bestimmt das Wort. Peter ist ein Junge, also his.
         links:
           - title: Possessivpronomen (Wikipedia)
@@ -126,12 +137,12 @@ blocks:
             target: Ellie can see her brother.
             mistakes:
               - answer: Ellie can see his brother.
-                message: his richtet sich nach der Person, zu der es gehört. Ellie ist ein Mädchen, also her, auch wenn ihr Bruder ein Junge ist.
+                message: Ellie ist ein Mädchen, also her, auch wenn ihr Bruder ein Junge ist.
           - source: Peter kann seine Jacke sehen.
             target: Peter can see his jacket.
             mistakes:
               - answer: Peter can see her jacket.
-                message: her ist für ein Mädchen oder eine Frau. Peter ist ein Junge, also his.
+                message: Peter ist ein Junge, also his.
           - source: Die Katze kann ihren Ball sehen.
             target: The cat can see its ball.
             mistakes:
@@ -160,22 +171,36 @@ blocks:
         items:
           - cue: Sie (Ellie) kann ihn (Peter) und seine Jacke sehen.
             target: "[She] can see [him] and [his] jacket."
-            distractors: [[He, They], [he, her], [her, its]]
+            distractors: [[He], [he, her], [her]]
+            mistakes:
+              - answer: He can see him and his jacket.
+                message: Ellie ist ein Mädchen, also she.
+              - answer: She can see he and his jacket.
+                message: Wen es trifft, sagst du mit him.
+              - answer: She can see him and her jacket.
+                message: Die Jacke gehört Peter, also his.
           - cue: Peter und Amir können uns und unseren Ball sehen.
             target: "[They] can see [us] and [our] ball."
-            distractors: [[We, He], [we, them], [my, their]]
+            distractors: [[We], [we, them], [my, their]]
+            mistakes:
+              - answer: We can see us and our ball.
+                message: Über Peter und Amir sagst du they.
+              - answer: They can see we and our ball.
+                message: Wen es trifft, sagst du mit us.
+              - answer: They can see us and their ball.
+                message: Der Ball gehört uns, also our.
       - type: language-task
         id: his-hoeren
         languages: { source: de, target: en }
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: hint }
         items:
-          - audio: ellie-can-see-her-jacket.mp3
-            target: Ellie can see her jacket.
-          - audio: peter-can-see-his-sister.mp3
-            target: Peter can see his sister.
-          - audio: the-cat-can-see-its-ball.mp3
-            target: The cat can see its ball.
+          - audio: ellie-can-call-her-brother.mp3
+            target: Ellie can call her brother.
+          - audio: peter-can-help-his-sister.mp3
+            target: Peter can help his sister.
+          - audio: amir-can-see-his-bag.mp3
+            target: Amir can see his bag.
       - type: language-task
         id: his-tabelle
         languages: { source: de, target: en }
@@ -201,12 +226,12 @@ blocks:
         id: his-nachsprechen
         language: en
         items:
-          - audio: ellie-can-see-her-jacket.mp3
-            text: Ellie can see her jacket.
-          - audio: peter-can-see-his-sister.mp3
-            text: Peter can see his sister.
-          - audio: she-can-see-him-and-his-jacket.mp3
-            text: She can see him and his jacket.
+          - audio: ellie-can-help-her-brother.mp3
+            text: Ellie can help her brother.
+          - audio: peter-can-see-his-bag.mp3
+            text: Peter can see his bag.
+          - audio: he-can-see-her-and-her-bag.mp3
+            text: He can see her and her bag.
         hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
       - type: open-task
         id: his-frei

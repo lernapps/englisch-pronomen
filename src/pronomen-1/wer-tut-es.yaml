@@ -60,7 +60,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **he** sagst du für einen Jungen oder Mann, **she** für ein Mädchen oder eine Frau. **it** ist für Dinge und Tiere, nie für eine Person. **you** gilt für eine Person (du) und für mehrere (ihr). **we** ist „ich und andere zusammen“. Beispiele: I can swim. You can run. He can sing. She can jump. We can read. They can swim. **can** heißt „kann“ und bleibt bei jeder Person gleich.
+              **he** sagst du für einen Jungen oder Mann, **she** für ein Mädchen oder eine Frau. **it** ist für Dinge und Tiere, nie für eine Person. **you** gilt für eine Person (du) und für mehrere (ihr). **we** ist „ich und andere zusammen“. Beispiele: You can read. He can swim. She can sing. We can jump. They can run. **can** heißt „kann“ und bleibt bei jeder Person gleich.
       - type: text
         text: "Die Wörter auf der Tafel: **swim** (schwimmen), **run** (rennen, laufen), **sing** (singen), **jump** (springen), **read** (lesen)."
   - type: section
@@ -98,46 +98,61 @@ blocks:
             target: "[He] can run."
             distractors: [[She, It]]
             mistakes:
+              - answer: She can run.
+                message: she ist für ein Mädchen oder eine Frau. Peter ist ein Junge, also he.
               - answer: It can run.
                 message: it ist für Dinge und Tiere. Für einen Jungen wie Peter sagst du he.
           - cue: Ellie kann lesen.
             target: "[She] can read."
-            distractors: [[He, They]]
+            distractors: [[He, Her]]
+            mistakes:
+              - answer: He can read.
+                message: Ellie ist ein Mädchen, also she.
+              - answer: Her can read.
+                message: Für Ellie sagst du she.
           - cue: "Sophie sagt: „Ich kann singen.“"
             target: "[I] can sing."
-            distractors: [[Me, You]]
+            distractors: [[Me]]
+            mistakes:
+              - answer: Me can sing.
+                message: Wer selbst etwas tut, sagt I.
           - cue: Amir und Peter können springen.
             target: "[They] can jump."
             distractors: [[He, We]]
+            mistakes:
+              - answer: He can jump.
+                message: Amir und Peter sind mehrere, also they.
+              - answer: We can jump.
+                message: Über Amir und Peter sagst du they.
       - type: language-task
         id: wer-schreiben
         languages: { source: de, target: en }
         task: Schreibe den Satz auf Englisch.
         form: { case: hint, punctuation: hint }
         items:
-          - source: Ich kann schwimmen.
-            target: I can swim.
+          - source: Ich kann rennen.
+            target: I can run.
             mistakes:
-              - answer: I swim.
-                message: Du brauchst auch can. Es heißt „kann schwimmen“, also can swim.
-              - answer: Me can swim.
-                message: "Wer etwas tut, sagt I. me kommt erst später."
-          - source: Er kann rennen. (Peter)
-            target: He can run.
+              - answer: I run.
+                message: Du brauchst auch can. Es heißt „kann rennen“, also can run.
+              - answer: Me can run.
+                message: Wer etwas tut, sagt I. me kommt erst später.
+          - source: Er kann lesen. (Peter)
+            target: He can read.
             mistakes:
-              - answer: He run.
-                message: Du brauchst auch can. Es heißt „kann laufen“, also can run.
-              - answer: She can run.
+              - answer: He read.
+                message: Du brauchst auch can. Es heißt „kann lesen“, also can read.
+              - answer: She can read.
                 message: she ist für ein Mädchen oder eine Frau. Für einen Jungen sagst du he.
           - source: Wir können singen.
             target: We can sing.
             mistakes:
               - answer: You can sing.
                 message: you heißt „du“ oder „ihr“. Wenn du selbst dazugehörst, sagst du we.
-          - source: Sie (Ellie und Amir) können lesen.
-            target: They can read.
+          - source: Sie (Ellie und Amir) können schwimmen.
+            target: They can swim.
             mistakes:
-              - answer: She can read.
+              - answer: She can swim.
                 message: she meint nur ein Mädchen. Bei mehreren Personen sagst du they.
       - type: true-false
         id: wer-it
@@ -154,12 +169,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: hint }
         items:
-          - audio: she-can-swim.mp3
-            target: She can swim.
+          - audio: she-can-run.mp3
+            target: She can run.
           - audio: they-can-sing.mp3
             target: They can sing.
-          - audio: we-can-run.mp3
-            target: We can run.
+          - audio: we-can-swim.mp3
+            target: We can swim.
       - type: language-task
         id: wer-tabelle
         languages: { source: de, target: en }
@@ -183,12 +198,12 @@ blocks:
         id: wer-nachsprechen
         language: en
         items:
-          - audio: i-can-swim.mp3
-            text: I can swim.
-          - audio: he-can-run.mp3
-            text: He can run.
-          - audio: we-can-jump.mp3
-            text: We can jump.
+          - audio: i-can-read.mp3
+            text: I can read.
+          - audio: he-can-jump.mp3
+            text: He can jump.
+          - audio: you-can-swim.mp3
+            text: You can swim.
         hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
   - type: section
     id: weiter

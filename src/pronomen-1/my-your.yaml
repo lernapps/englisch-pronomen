@@ -86,7 +86,7 @@ blocks:
         id: my-waehlen
         languages: { source: de, target: en }
         mode: choice
-        task: Wähle das Wort, das sagt, wem es gehört.
+        task: Wähle das Wort, das sagt, zu wem es gehört.
         form: { case: hint, punctuation: hint }
         items:
           - cue: "Ellie sagt: „Ich kann meine Tasche sehen.“"
@@ -94,19 +94,33 @@ blocks:
             distractors: [[me, I]]
             mistakes:
               - answer: I can see me bag.
-                message: me sagt, wen es trifft. Wem etwas gehört, sagst du mit my.
+                message: me sagt, wen es trifft. Zu wem etwas gehört, sagst du mit my.
+              - answer: I can see I bag.
+                message: I sagt, wer etwas tut. Vor dem Nomen steht my.
           - cue: "Ellie sagt zu Peter: „Du kannst deine Jacke sehen.“"
             target: You can see [your] jacket.
-            distractors: [[my, our]]
+            distractors: [[my, you]]
+            mistakes:
+              - answer: You can see my jacket.
+                message: Ellie spricht zu Peter, also your.
+              - answer: You can see you jacket.
+                message: you sagst du für „wer tut es?“ und „wen trifft es?“. Vor dem Nomen steht your.
           - cue: "Sophie sagt: „Wir können unseren Ball sehen.“"
             target: We can see [our] ball.
             distractors: [[us, my]]
             mistakes:
               - answer: We can see us ball.
-                message: us sagt, wen es trifft. Wem etwas gehört, sagst du mit our.
+                message: us sagt, wen es trifft. Zu wem etwas gehört, sagst du mit our.
+              - answer: We can see my ball.
+                message: Sophie spricht für sich und Ellie, also our.
           - cue: Amir und Peter können ihre Bücher sehen.
             target: They can see [their] books.
             distractors: [[them, our]]
+            mistakes:
+              - answer: They can see them books.
+                message: them sagt, wen es trifft. Zu wem etwas gehört, sagst du mit their.
+              - answer: They can see our books.
+                message: Es geht um Amir und Peter, also their.
       - type: language-task
         id: my-luecke
         languages: { source: de, target: en }
@@ -158,12 +172,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: hint }
         items:
-          - audio: you-can-see-your-jacket.mp3
-            target: You can see your jacket.
-          - audio: they-can-see-their-ball.mp3
-            target: They can see their ball.
-          - audio: we-can-see-our-books.mp3
-            target: We can see our books.
+          - audio: i-can-see-your-jacket.mp3
+            target: I can see your jacket.
+          - audio: we-can-see-their-books.mp3
+            target: We can see their books.
+          - audio: they-can-see-our-ball.mp3
+            target: They can see our ball.
       - type: language-task
         id: my-tabelle
         languages: { source: de, target: en }
@@ -186,12 +200,12 @@ blocks:
         id: my-nachsprechen
         language: en
         items:
-          - audio: i-can-see-my-bag.mp3
-            text: I can see my bag.
-          - audio: you-can-see-your-jacket.mp3
-            text: You can see your jacket.
-          - audio: we-can-see-our-books.mp3
-            text: We can see our books.
+          - audio: you-can-see-my-book.mp3
+            text: You can see my book.
+          - audio: we-can-see-your-bag.mp3
+            text: We can see your bag.
+          - audio: they-can-see-my-jacket.mp3
+            text: They can see my jacket.
         hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
   - type: section
     id: weiter
