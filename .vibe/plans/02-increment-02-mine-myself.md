@@ -156,7 +156,7 @@ Kapitel 2 „mine, myself und each other“ (Stufe 7-8) ergänzt die Pronomen-Ta
 - [x] Slice 2 (me alone, no sub-agent: shares chapter.yaml): page myself (reflexivpronomen): diary Lesestück, arrows to the same person, German sich versus English, exercises, audio
 - [x] Slice 3 (me alone): page each-other (each-other): dialogue Lesestück, arrows back and forth, themselves versus each other, exercises, audio
 - [x] Slice 4 (me alone): table with two new columns on the pages, app title back to Pronomen: I, me, my, mine, myself, selfAssessment of chapter 2, content guide, audio list, conventions of section 7
-- [ ] Slice 1 (really do it; the earlier tick was a mistake of mine): page mine-yours with chapter pronomen-2, Lesestück chat with Randglossar, three task levels, exercises, audio; commit
+- [x] Slice 1 (really do it; the earlier tick was a mistake of mine): page mine-yours with chapter pronomen-2, Lesestück chat with Randglossar, three task levels, exercises, audio; commit
 - [ ] Slice 2 (really do it): page myself with diary Lesestück, arrows to the same person, sich versus English, exercises, audio; commit
 - [ ] Slice 3 (really do it): page each-other with dialogue Lesestück, arrows back and forth, themselves versus each other, exercises, audio; commit
 - [ ] Slice 4 (really do it): app title Pronomen: I, me, my, mine, myself, selfAssessment of chapter 2, content guide, audio list, section 7 conventions; commit
