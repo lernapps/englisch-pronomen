@@ -10,7 +10,7 @@ blocks:
     title: Sophies Tagebuch
     blocks:
       - type: text
-        text: Nach der Klassenfahrt zum Kletterpark schreibt Sophie (13) abends in ihr Tagebuch. Ellie, Amir und Peter kommen auch darin vor.
+        text: Nach dem Ausflug zum Kletterpark schreibt Sophie (13) abends in ihr Tagebuch. Ellie, Amir und Peter kommen auch darin vor.
       - type: text
         text: "**Das kannst du danach:** Du erkennst, wann im Englischen ein Wort wie myself nötig ist und wann nicht, auch wenn das Deutsche „sich“ sagt."
       - type: single-choice
@@ -66,7 +66,7 @@ blocks:
         explanation: Schnittwunde
       - type: definition
         term: scared
-        explanation: ängstlich
+        explanation: ängstlich, verängstigt
       - type: definition
         term: juggle
         explanation: jonglieren
@@ -78,10 +78,22 @@ blocks:
         explanation: stolz auf
       - type: definition
         term: wall
-        explanation: Wand
+        explanation: "Wand, hier: Kletterwand"
       - type: definition
         term: believe
         explanation: glauben
+      - type: definition
+        term: enjoy yourselves
+        explanation: viel Spaß haben
+      - type: definition
+        term: afraid of
+        explanation: Angst vor
+      - type: definition
+        term: bench
+        explanation: Bank
+      - type: definition
+        term: bus stop
+        explanation: Bushaltestelle
   - type: section
     id: verstehen
     title: Aufgaben zum Text
@@ -97,7 +109,7 @@ blocks:
             info: Im Park waren sie erst später.
           - text: An der Bushaltestelle
             correct: true
-            info: "Zeile 2: We met at the bus stop."
+            info: "Zeile 2: We met at the bus stop at eight."
           - text: In der Schule
             correct: false
             info: Von der Schule ist im Text keine Rede.
@@ -214,12 +226,12 @@ blocks:
             - they
             - themselves
       - type: text
-        text: "Das Deutsche sagt „sich“ viel öfter als das Englische. Bei manchen Verben steht im Englischen **kein** Reflexivpronomen: sich treffen – **meet**, sich beeilen – **hurry**, sich hinsetzen – **sit down**, sich ausruhen – **relax**, sich entscheiden – **decide**. Mit Reflexivpronomen steht dagegen zum Beispiel: sich verletzen – **hurt oneself**, sich etwas beibringen – **teach oneself**."
+        text: "Das Deutsche sagt „sich“ viel öfter als das Englische. Bei manchen Verben steht im Englischen **kein** Reflexivpronomen: sich treffen – **meet**, sich beeilen – **hurry**, sich hinsetzen – **sit down**, sich ausruhen – **relax**, sich entscheiden – **decide**, sich fühlen – **feel**. Mit Reflexivpronomen steht dagegen zum Beispiel: sich verletzen – **hurt oneself**, sich etwas beibringen – **teach oneself**, sich amüsieren – **enjoy oneself**. **oneself** steht hier für myself, yourself, himself und so weiter, je nach Person."
       - type: note
         title: Merke
         blocks:
           - type: text
-            text: "Das Reflexivpronomen steht nur, wenn dieselbe Person etwas tut und es sie selbst trifft. Bei **meet, hurry, sit down, relax** und **decide** schreibst du nichts dazu. **himself** und **themselves** haben **self** und **selves**: nicht „hisself“ und nicht „theirselves“."
+            text: "Das Reflexivpronomen steht vor allem, wenn dieselbe Person etwas tut und es sie selbst trifft. Es kann auch „selbst“ betonen: You can do it yourself. Bei **meet, hurry, sit down, relax, decide** und **feel** schreibst du nichts dazu. **himself** und **themselves** haben **self** und **selves**: nicht „hisself“ und nicht „theirselves“."
   - type: section
     id: uebung
     title: Übung
@@ -260,7 +272,7 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/reflexivpronomen/
       - type: single-choice
         id: myself-waehlen-3
-        text: "Ellie sieht Sophie im Spiegel. Welches Wort passt: „Ellie looks at ___.“ (Sophie)"
+        text: "Ellie sieht Sophie an. Welches Wort passt: „Ellie looks at ___.“ (Sophie)"
         options:
           - text: herself
             correct: false
@@ -298,16 +310,16 @@ blocks:
         id: myself-korrigieren
         text: Welcher Satz ist richtig?
         options:
-          - text: We met ourselves at the bus stop.
+          - text: We hurry ourselves to school.
             correct: false
-            info: Bei meet steht kein Reflexivpronomen.
-          - text: We met us at the bus stop.
+            info: Bei hurry steht kein Reflexivpronomen.
+          - text: We hurry us to school.
             correct: false
-            info: Bei meet steht auch kein us.
-          - text: We met at the bus stop.
+            info: Bei hurry steht auch kein us.
+          - text: We hurry to school.
             correct: true
-            info: meet braucht hier nichts dazu.
-        explanation: Das Verb meet steht allein.
+            info: hurry braucht hier nichts dazu.
+        explanation: Das Verb hurry steht allein.
         links:
           - title: Lernlandkarte Englisch · Reflexivpronomen
             url: https://lernapps.net/apps/map/englisch/c/reflexivpronomen/
@@ -322,26 +334,26 @@ blocks:
           punctuation: hint
         items:
           - source: Ich beeile mich.
-            target: I hurry.
+            target: (I hurry|I'm hurrying|I am hurrying).
             mistakes:
               - answer: I hurry myself.
                 message: Bei hurry steht kein Reflexivpronomen.
           - source: Wir treffen uns um acht.
-            target: We meet at eight.
+            target: We (meet|are meeting) at eight.
             mistakes:
               - answer: We meet ourselves at eight.
-                message: Bei meet steht kein Reflexivpronomen.
+                message: Bei hurry steht kein Reflexivpronomen.
               - answer: We meet us at eight.
-                message: Bei meet steht auch kein us.
+                message: Bei hurry steht auch kein us.
           - source: Er hat sich geschnitten.
-            target: He cut himself.
+            target: He (cut|has cut|'s cut) himself.
             mistakes:
               - answer: He cut him.
                 message: "him ist eine andere Person. Hier trifft es ihn selbst: himself."
               - answer: He cut hisself.
                 message: Es heißt himself, nicht hisself.
           - source: Ich habe mich verletzt.
-            target: I hurt myself.
+            target: I (hurt|have hurt|'ve hurt) myself.
             mistakes:
               - answer: I hurt me.
                 message: "me ist für eine andere Person. Hier trifft es mich selbst: myself."
@@ -398,9 +410,15 @@ blocks:
             - - sie (ein Mädchen)
               - she
               - "[herself]"
+            - - es
+              - it
+              - "[itself]"
             - - wir
               - we
               - "[ourselves]"
+            - - ihr
+              - you
+              - "[yourselves]"
             - - sie (mehrere)
               - they
               - "[themselves]"

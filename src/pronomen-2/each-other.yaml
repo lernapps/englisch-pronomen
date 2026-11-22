@@ -10,7 +10,7 @@ blocks:
     title: Nach der Klettertour
     blocks:
       - type: text
-        text: Ellie und Amir haben beim Klettern geholfen, bis alle oben waren. Jetzt sprechen sie mit Mr Hill, Sophie und Peter. Sophie (13) und Peter (11) waren unten und haben zugesehen.
+        text: Ellie und Amir haben sich beim Klettern gegenseitig gesichert. Jetzt sprechen sie mit Mr Hill, Sophie (13) und Peter (11) über den Tag.
       - type: text
         text: "**Das kannst du danach:** Du unterscheidest each other („einander“) von themselves und ourselves („sich selbst“)."
       - type: single-choice
@@ -46,12 +46,12 @@ blocks:
 
           **4** · **Sophie:** Did somebody teach you?
 
-          **5** · **Ellie:** No, we taught ourselves from videos. Then we corrected each other.
+          **5** · **Ellie:** No, we taught ourselves with videos. Then we corrected each other.
       - type: text
         text: |-
-          **6** · **Amir:** Peter watched us. He says we always argue with each other, but that isn't true!
+          **6** · **Amir:** Peter watched us. Peter says we always argue with each other, but that isn't true!
 
-          **7** · **Ellie:** We only talk to each other a lot. Ha ha.
+          **7** · **Ellie:** We just talk to each other a lot. Ha ha.
 
           **8** · **Peter:** Sophie and I were proud of you. We took photos of each other, too.
 
@@ -141,7 +141,7 @@ blocks:
             info: Dort machen Sophie und Peter Fotos voneinander.
           - text: Zeile 9
             correct: false
-            info: Dort sagt Sophie das über die beiden, ohne zu sagen, wer wen fotografiert.
+            info: Dort geht es um alle Kletterer, nicht um Ellie und Amir einzeln.
           - text: Zeile 10
             correct: true
             info: "Zeile 10: Ellie fotografiert sich selbst (herself), Amir fotografiert sich selbst (myself)."
@@ -156,7 +156,7 @@ blocks:
         text: "**Stufe 3 · Meinung**"
       - type: open-task
         id: each-text-5
-        task: "Mr Hill sagt: Schaut euch kurz an und lächelt. Ist es wichtig, dass sich Freunde bei einem Foto auch ansehen und nicht nur das Handy? Schreibe zwei bis drei Sätze mit einem Grund."
+        task: "Mr Hill sagt: Schaut euch kurz an und lächelt. Ist es wichtig, dass sich Freunde bei einem Foto ansehen und nicht nur auf das Handy schauen? Schreibe zwei bis drei Sätze mit einem Grund."
         points:
           - text: Eine klare Meinung (wichtig oder nicht wichtig).
             kind: form
@@ -226,7 +226,7 @@ blocks:
         options:
           - text: theirselves
             correct: false
-            info: Es heißt themselves, nicht theirselves, und hier passt each other besser.
+            info: Hier passt each other besser, denn jeder sieht den anderen an.
           - text: themselves
             correct: false
             info: themselves hieße, dass jeder sich selbst ansieht.
@@ -260,19 +260,19 @@ blocks:
           punctuation: hint
         items:
           - source: Sie helfen sich gegenseitig.
-            target: They help each other.
+            target: They help (each other|one another).
             mistakes:
               - answer: They help themselves.
                 message: "themselves heißt: Jeder hilft sich selbst. Gegenseitig heißt each other."
               - answer: They help them.
                 message: them ist für andere Personen, nicht für die beiden selbst. Gegenseitig heißt each other.
           - source: Sie sehen sich jeden Tag. (zwei Freunde, einander)
-            target: They see each other every day.
+            target: They see (each other|one another) every day.
             mistakes:
               - answer: They see themselves every day.
                 message: "themselves hieße: jeder sieht sich selbst. Einander heißt each other."
           - source: Sie haben sich selbst kochen beigebracht.
-            target: They taught themselves to cook.
+            target: They (taught|have taught) themselves (how to|to) cook.
             mistakes:
               - answer: They taught each other to cook.
                 message: "each other heißt: einer dem anderen. Hier hat jeder sich selbst etwas beigebracht: themselves."
@@ -296,7 +296,7 @@ blocks:
             info: "themselves hieße: jeder sieht sich selbst an."
           - text: They look at theirselves.
             correct: false
-            info: theirselves gibt es im Englischen nicht.
+            info: theirselves gilt als falsch.
           - text: They look at each other.
             correct: true
             info: "each other: Ellie sieht Amir an und Amir sieht Ellie an."
@@ -337,11 +337,11 @@ blocks:
         hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
       - type: open-task
         id: each-schreiben-frei
-        task: "Schreibe zwei englische Sätze über dich und einen Freund oder eine Freundin: einen mit each other und einen mit ourselves oder themselves."
+        task: "Schreibe zwei englische Sätze über dich und einen Freund oder eine Freundin: einen mit each other und einen mit ourselves."
         points:
           - text: Ein Satz mit each other für etwas, das ihr füreinander tut.
             source: /pronomen-2/each-other/#neu
-          - text: Ein Satz mit ourselves oder themselves für etwas, das jeder für sich tut.
+          - text: Ein Satz mit ourselves für etwas, das jeder von euch für sich tut.
             source: /pronomen-2/each-other/#neu
         solution: We help each other with homework. We taught ourselves to skate.
   - type: section

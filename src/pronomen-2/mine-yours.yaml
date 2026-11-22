@@ -10,7 +10,7 @@ blocks:
     title: Fundsachen im Chat
     blocks:
       - type: text
-        text: "Zwei Jahre später: Sophie (13) ist in den Sommerferien wieder bei den Parkers und geht mit Ellie (13), Amir (13) und Peter (11) zur Millbrook School. Auf dem Tisch im Flur liegen Fundsachen. Die Freunde klären im Gruppenchat, wem was gehört."
+        text: "Zwei Jahre später: Sophie (13) ist wieder zu Besuch bei den Parkers und geht mit Ellie (13), Amir (13) und Peter (11) zur Millbrook School. Nach dem Sportfest liegen Fundsachen auf dem Tisch im Flur. Die Freunde klären im Gruppenchat, wem was gehört."
       - type: text
         text: "**Das kannst du danach:** Du sagst mit mine, yours, his, hers, ours und theirs, wem etwas gehört, ohne das Nomen zu wiederholen."
       - type: single-choice
@@ -28,8 +28,8 @@ blocks:
             info: I sagt, wer etwas tut. Vor einem Nomen steht my.
         explanation: Vor dem Nomen steht my, das kennst du aus Kapitel 1.
         links:
-          - title: Possessivpronomen (Wikipedia)
-            url: https://de.wikipedia.org/wiki/Possessivpronomen
+          - title: Lernlandkarte Englisch · Possessivbegleiter
+            url: https://lernapps.net/apps/map/englisch/c/possessivbegleiter/
   - type: section
     id: lesen
     title: "Lesestück: Wem gehört was?"
@@ -101,7 +101,7 @@ blocks:
         options:
           - text: Sophie
             correct: false
-            info: Sophies Tasche ist schwarz. Der Hoodie liegt bei Ellie.
+            info: Sophies Tasche ist schwarz. Der Hoodie gehört nicht Sophie.
           - text: Ellie
             correct: true
             info: "Ellie sagt in Zeile 2: The grey hoodie is mine."
@@ -218,7 +218,7 @@ blocks:
         title: Merke
         blocks:
           - type: text
-            text: "Mit Nomen sagst du **my bag**. Ohne Nomen steht ein anderes Wort allein: „This bag is **mine**.“ **his** bleibt **his**. Für **it** gibt es kein Wort ohne Nomen. Bei **yours, hers, ours** und **theirs** hängt ein **s** hinten, aber es gibt **keinen Apostroph**. Den Apostroph benutzt du nur bei Namen: Peter's."
+            text: "Mit Nomen sagst du **my bag**. Ohne Nomen steht ein anderes Wort allein: „This bag is **mine**.“ **his** bleibt **his**. Für **it** gibt es kein Wort ohne Nomen. Bei **yours, hers, ours** und **theirs** hängt ein **s** hinten, aber es gibt **keinen Apostroph**. Einen Apostroph gibt es bei Namen und Nomen (Peter's, the dog's) und in Kurzformen wie it's, aber nicht bei yours, hers, ours und theirs."
   - type: section
     id: uebung
     title: Übung
@@ -266,11 +266,11 @@ blocks:
             info: their braucht ein Nomen danach (their bag).
           - text: ours
             correct: false
-            info: ours würden Peter und Amir selbst sagen, nicht Ellie.
+            info: ours würde Sophie nur sagen, wenn die Hüte auch ihr gehören.
           - text: theirs
             correct: true
             info: theirs gehört zu mehreren anderen Personen und steht allein.
-        explanation: Über andere sagt Ellie theirs.
+        explanation: Über andere sagt Sophie theirs.
         links:
           - title: Lernlandkarte Englisch · Possessivpronomen
             url: https://lernapps.net/apps/map/englisch/c/possessivpronomen/
@@ -285,24 +285,31 @@ blocks:
           punctuation: hint
         items:
           - source: Der Ball ist deiner.
-            target: (The ball is|It is|It's) yours.
+            target: (The ball is|The ball's|It is|It's) yours.
             mistakes:
               - answer: The ball is your.
                 message: your braucht ein Nomen danach. Ohne Nomen sagst du yours.
               - answer: The ball is your's.
                 message: "Possessivpronomen haben keinen Apostroph: yours."
+            accepted:
+              - The ball belongs to you.
           - source: Die Jacke gehört uns.
-            target: (The jacket is|It is|It's) ours.
+            target: (The jacket is|The jacket's|It is|It's) ours.
             mistakes:
               - answer: The jacket is our.
                 message: our braucht ein Nomen danach. Ohne Nomen sagst du ours.
               - answer: The jacket is ours'.
                 message: "Possessivpronomen haben keinen Apostroph: ours."
+            accepted:
+              - The jacket belongs to us.
+              - It belongs to us.
           - source: Das Fahrrad ist seins.
-            target: (The bike is|It is|It's) his.
+            target: (The bike is|The bike's|It is|It's) his.
             mistakes:
               - answer: The bike is hers.
                 message: hers gehört zu einem Mädchen. Für einen Jungen bleibt es his.
+            accepted:
+              - The bike belongs to him.
           - source: Die Bücher gehören ihnen.
             target: (The books are|They are|They're) theirs.
             mistakes:
@@ -310,11 +317,14 @@ blocks:
                 message: "Possessivpronomen haben keinen Apostroph: theirs."
               - answer: The books are their.
                 message: their braucht ein Nomen danach. Ohne Nomen sagst du theirs.
+            accepted:
+              - The books belong to them.
+              - They belong to them.
       - type: true-false
         id: mine-falsch
         text: „This is mine bag.“ Ist der Satz richtig?
         answer: false
-        hint: Steht nach dem Wort ein Nomen? Dann brauchst du die Form aus der ersten Spalte.
+        hint: Steht nach dem Wort ein Nomen? Dann brauchst du die Form aus der Spalte „Mit Nomen“.
         explanation: "Vor dem Nomen steht my: This is my bag. Allein steht mine: This bag is mine."
         links:
           - title: Lernlandkarte Englisch · Possessivpronomen
@@ -328,7 +338,7 @@ blocks:
             info: Possessivpronomen haben keinen Apostroph.
           - text: The cap is she's.
             correct: false
-            info: she's heißt „she is“ und ist kein Besitzwort.
+            info: she's heißt „she is“ und sagt nicht, wem etwas gehört.
           - text: The cap is hers.
             correct: true
             info: hers steht allein, ohne Apostroph.
