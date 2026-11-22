@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -73,12 +73,20 @@ Kapitel 2 „mine, myself und each other“ (Stufe 7-8) ergänzt die Pronomen-Ta
 - [x] Write under "Notes" the didactic approach per competency and the scope (in, out, data range).
 - [x] The increment needs a kind of content the guide does not cover (a new page structure, screen, component or kind
       of exercise): load skills `lernapps-explainer-design` and `lernapps-exercise-patterns`. Else skip this task.
-- [ ] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
+- [x] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
       scope, every "(guess)", the sources and what is unchecked. Stop and wait. Changes: change them, then ask again.
+      Creator: Ja, der Schnitt passt (3 Seiten, Lesestück je Seite); Randglossar als definition-Blöcke, wenn die Wörtertabellen-Regel greift; Lesestücke ohne ungeprüfte Wikipedia-Fakten (Orchestrator)
 
 ### Answers
 
 <!-- The creator's answers, in their words, one bullet each. -->
+
+- Competencies, chapters, school years: Kapitel 2 mit possessivpronomen, reflexivpronomen, each-other, Stufe 7-8 (Issue #471; Antwort der Orchestrator-Session in der Rolle der Ersteller:in).
+- Hurdles: Muster my – mine, your – yours; sich treffen – meet; myself gegen each other; Apostroph bei Possessivpronomen.
+- Amount: drei Seiten mit je einem Lesestück und Übungen.
+- Look and feel, terms: wie Kapitel 1; „Ausdruck“, nie „Wendung“; Spalte „Zu wem gehört es?“ aus Kapitel 1 bleibt, neue Spalten mit eigener Frage. (guess für die Fragen der neuen Spalten)
+- Figuren: Sophie 13 bis 14, Chats und kurze Dialoge (Konventionen, Abschnitt 8); (guess) Sophie besucht Millbrook wieder, Sophie 13, Ellie 13, Peter 11, Amir 13.
+
 
 ## Plan
 
@@ -87,20 +95,14 @@ Kapitel 2 „mine, myself und each other“ (Stufe 7-8) ergänzt die Pronomen-Ta
 - After the yes you work on your own.
 -->
 
-- Competencies, chapters, school years: Kapitel 2 mit possessivpronomen, reflexivpronomen, each-other, Stufe 7-8 (Issue #471; Antwort der Orchestrator-Session in der Rolle der Ersteller:in).
-- Hurdles: Muster my – mine, your – yours; sich treffen – meet; myself gegen each other; Apostroph bei Possessivpronomen.
-- Amount: drei Seiten mit je einem Lesestück und Übungen.
-- Look and feel, terms: wie Kapitel 1; „Ausdruck“, nie „Wendung“; Spalte „Zu wem gehört es?“ aus Kapitel 1 bleibt, neue Spalten mit eigener Frage. (guess für die Fragen der neuen Spalten)
-- Figuren: Sophie 13 bis 14, Chats und kurze Dialoge (Konventionen, Abschnitt 8); (guess) Sophie besucht Millbrook wieder, Sophie 13, Ellie 13, Peter 11, Amir 13.
-
 ### Tasks
 
-- [ ] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
+- [x] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
       order, one call each: `npx --no -- lernapps plan add --at slices "<task>"`. Say in each which sub-agent may
       write it in parallel, if any.
-- [ ] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
+- [x] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
       `lernapps-explainer-design` says, and say why the guide's patterns do not fit.
-- [ ] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
+- [x] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
 - [ ] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
 - [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
@@ -108,11 +110,19 @@ Kapitel 2 „mine, myself und each other“ (Stufe 7-8) ergänzt die Pronomen-Ta
 
 ### Content method
 
-<!-- One line each: the guide's patterns, figures and components used, and where; anything new, what it does and
-cannot. Something new goes into the guide in the slice that adds it. -->
-<!-- An explainer: per figure, model and component its learning action in two to four sentences
-(`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
-page, which a link. -->
+**Aufbau.** Kapitel `pronomen-2` („mine, myself und each other“, Stufe 7-8) mit den Seiten `mine-yours`, `myself`, `each-other` in `src/pronomen-2/`, eingetragen in `src/app.yaml` unter `chapters` nach `pronomen-1`. Abschnitts-IDs je Seite: `einstieg` (Vorwissen-Frage, „Das kannst du danach“), `lesen` (Lesestück), `verstehen` (drei Stufen), `neu` (Poster-Tabelle mit den zwei neuen Spalten, Kasten Merke), `uebung` (mindestens vier, leicht → schwer), `anwenden` (Schreib- oder Sprechauftrag), `weiter`. Kein Bild, wo es nichts zeigt: Bilder nur für die Pfeile.
+
+**Lesestück (neue Seitenart, nur eingebaute Blöcke).** 150 bis 300 Wörter, eigener Text; Chat-Verlauf (Seite 1), Tagebucheintrag (Seite 2), kurzer Dialog (Seite 3) als `text`-Blöcke in Abschnitten mit nummerierten Zeilen (Markdown-Liste, `**Name:**` je Zeile). Randglossar als `definition`-Blöcke (ein Block je schwerem Wort, Wort + Bedeutung), da die Regel „höchstens eine kurze Wörtertabelle je Seite“ die Poster-Tabelle schon belegt. Vorwissen-Frage vor dem Text (`single-choice`). Aufgaben in drei Stufen: Verstehen (`single-choice`, `true-false`), Belegen mit Zeile (`single-choice`: „Welche Zeile zeigt …?“, Antworten sind Zeilennummern), Meinung (`open-task` mit `points`). Das Lesestück zählt nicht zu den 350 Wörtern Erklärtext; höchstens ein Lesestück und etwa 25 Items je Seite. Hörsätze (ganze Sätze) nur kurze Abschnitte, nie das ganze Stück.
+
+**Die wachsende Tabelle** „Klassenzimmer-Poster · Pronomen“ (wie Kapitel 1): Seite 1 + Spalte „Gehört es mir, ohne Nomen?“ (my → mine, your → yours, his → his, her → hers, its → (keine Form), our → ours, their → theirs), Seite 2 + Spalte „Wer ist es selbst?“ (myself, yourself, himself, herself, itself, ourselves, yourselves, themselves), Seite 3 behält beide Spalten (`each other` als Kasten mit Pfeilen). Zeilenkopf wie in Kapitel 1 (deutsche Wörter). Höchstens eine Wörtertabelle je Seite, Übungs-Tabellen zählen als Übung.
+
+**Figuren (nur Pfeile).** `src/images/pfeile-selbst.svg`: Sophie mit Pfeil zu sich selbst zurück (myself), Ellie mit Pfeil zu sich zurück (herself); `src/images/pfeile-each-other.svg`: Pfeile zwischen Ellie und Amir hin und her (each other). Figuren aus den bekannten Definitionen, Sophie 13 bis 14 wie bei den Lernenden altern (gleiche Haare, Zöpfe, Jacke); `alt` nennt, was gezeigt wird, nie die Lösung. Mrs Parker nicht gezeichnet (verbindliches Aussehen im Inhaltsführer).
+
+**Muster je Kompetenz.** possessivpronomen: Muster ergänzen (`language-task` mode `table`), Auswahl `single-choice` mit `info` je Option (mine/my, yours/your), Schreiben (`write` mit `mistakes`: mine's, yours', hers/her's), Korrigieren, Hören. reflexivpronomen: Verben mit und ohne Reflexivpronomen (`matching` deutsches „sich“-Verb ↔ englisches Verb: sich treffen – meet, sich beeilen – hurry, sich setzen – sit down, sich freuen – be happy, aber: sich verletzen – hurt oneself), Auswahl `single-choice` (myself/me), Schreiben (`write`, I meet myself falsch). each-other: Satzpaare `single-choice` (themselves/each other), `ordering` (Satz bauen), Schreiben (`write`). Alle Auswahlübungen als `single-choice` mit `info` je Option (nicht `language-task` mode `choice`, dessen `mistakes` die Laufzeit nicht zeigt).
+
+**Regeln aus Abschnitt 7 (gelten).** Kein Hörsatz (auch nicht mit getauschtem Pronomen, Namen, Verb oder Nomen) in Text, Merke, Bild oder einer anderen Übung derselben Seite; die Lösung einer Übung steht nicht im Text, Bild oder Poster direkt darüber; Distraktoren sind echte Lernerfehler mit eigener Meldung; mindestens vier Übungen je Seite mit sichtbarer eigener Meldung; Hörliste im Inhaltsführer, nichts Ungehörtes als „geprüft“; Audio mit `regen_audio.py` (Regel gegen den Fehllaut, Standard an); „Ausdruck“, nie „Wendung“; Spaltenfrage „Zu wem gehört es?“ aus Kapitel 1; „die Person, zu der es gehört“, nie „Besitzer“.
+
+**Selbsteinschätzung** (Skill `lernapps-explainer-self-assessment`) für Kapitel 2: je Seite zwei Übungen (eine `single-choice`, ein `write`), die ohne Lesestück verständlich sind. **Wie ein späterer Agent weitermacht:** Seiten nach diesem Muster, Tabelle um Spalten ergänzen, Inhaltsführer folgt.
 
 ## Code
 
@@ -135,7 +145,11 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: slices: one per competency, as written in Plan -->
+- [ ] Slice 1 (pattern page, me alone): chapter pronomen-2 in src/app.yaml and chapter.yaml, page mine-yours (possessivpronomen): chat Lesestück with Randglossar as definition blocks, three task levels, exercises, audio
+- [ ] Slice 2 (me alone, no sub-agent: shares chapter.yaml): page myself (reflexivpronomen): diary Lesestück, arrows to the same person, German sich versus English, exercises, audio
+- [ ] Slice 3 (me alone): page each-other (each-other): dialogue Lesestück, arrows back and forth, themselves versus each other, exercises, audio
+- [ ] Slice 4 (me alone): table with two new columns on the pages, app title back to Pronomen: I, me, my, mine, myself, selfAssessment of chapter 2, content guide, audio list, conventions of section 7
+<!-- tasks: slices (4 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
