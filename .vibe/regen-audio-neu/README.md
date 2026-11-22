@@ -15,7 +15,7 @@ Hüllkurve in Fenstern von 10 ms, auf die lauteste Stelle normiert; `last` ist d
 4. Dann wird an der Senke geschnitten (Mitte des Fensters), 30 ms Fade, keine Stille angehängt (Variante B).
 5. Sonst gilt wie bisher der Schnitt des Ausklingens (Schwelle 8 %).
 
-Jeder Schnitt wird als „dip cut: … ms removed“ gemeldet. Mit `DRY=1` schreibt das Skript nichts und meldet je Satz „cut …“ oder „no dip cut“.
+Jeder Schnitt wird mit Satz, Stelle, entfernten ms und Prozent der Dauer gemeldet („dip cut: …“). Mit `--no-dip-cut` (Standard: Schnitt an) bleibt er aus; mit `DRY=1` schreibt das Skript keine Dateien.
 
 ## Dateien
 

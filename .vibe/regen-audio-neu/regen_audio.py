@@ -26,22 +26,23 @@ def valley_cut(a, sr, max_energy=0.02, max_after_ms=130, max_bump=0.30):
     if float(np.sum(a[cut:] ** 2) / np.sum(a ** 2)) > max_energy: return a, 0
     fade = int(0.03 * sr); out = a[:cut].copy(); out[-fade:] *= np.linspace(1, 0, fade)
     return out, int(1000 * (len(a) - cut) / sr)
-DRY = bool(__import__("os").environ.get("DRY"))
+import os
+DRY = bool(os.environ.get("DRY"))
+NO_DIP = "--no-dip-cut" in sys.argv          # default: the dip cut is on
+sys.argv = [x for x in sys.argv if x != "--no-dip-cut"]
 orig = la.synthesize
 def patched(voice, lang_code, text, speed, wav, cache):
     orig(voice, lang_code, text, speed, wav, cache)
     a, sr = soundfile.read(str(wav)); a = a.astype(np.float32)
-    v, ms = valley_cut(a, sr)
-    if DRY:
-        print("   DRY %s: %s" % (text, ("cut %d ms at the dip" % ms) if ms else "no dip cut"))
-        return
+    b, frac = trimmed(a, sr)                                   # the tail cut as before (8 % threshold)
+    v, ms = (a, 0) if NO_DIP else valley_cut(a, sr)
     if ms:
-        soundfile.write(str(wav), v, sr)
-        print("   dip cut: %d ms removed (stray sound after the last dip)" % ms)
-        return
-    b, frac = trimmed(a, sr)
-    soundfile.write(str(wav), b, sr)
-    print("   tail: %.0f ms cut, %.2f%% energy" % (1000 * (len(a) - len(b)) / sr, 100 * frac))
+        removed = len(b) - len(v)
+        print("   dip cut: %r at %d ms, %d ms removed (%.1f %% of the duration)" % (text, 1000 * len(v) // sr, 1000 * removed // sr, 100 * removed / len(b)))
+        b = v
+    else:
+        print("   tail: %.0f ms cut, %.2f%% energy%s" % (1000 * (len(a) - len(b)) / sr, 100 * frac, " (dip cut off)" if NO_DIP else ""))
+    if not DRY: soundfile.write(str(wav), b, sr)
 la.synthesize = patched
 texts = json.load(open(sys.argv[1])); only = set(sys.argv[2:])
 ff = la.find_ffmpeg(); cache = {}
