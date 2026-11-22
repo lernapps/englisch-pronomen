@@ -1,0 +1,411 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "mine, yours, hers: ohne Nomen"
+description: "Du liest einen Chat über Fundsachen und lernst mine, yours, his, hers, ours und theirs: Wörter, die allein stehen und sagen, wem etwas gehört."
+competencies:
+  - possessivpronomen
+scope: "Die Seite führt die Possessivpronomen ein: mine, yours, his, hers, ours und theirs stehen allein, ohne Nomen, und sagen, wem etwas gehört (The bag is mine.). Sie sind die vierte Spalte der Pronomen-Tabelle, „Gehört es mir, ohne Nomen?“, neben my, your, his, her, our und their aus Kapitel 1, die vor einem Nomen stehen. his bleibt his, its hat keine Form, hers, ours, yours und theirs schreibt man ohne Apostroph. Das Lesestück ist ein Chat über Fundsachen mit Wörtern am Rand. Typische Fehler sind mine bag, ein Apostroph (her's, your's, their's) und her statt hers."
+blocks:
+  - type: section
+    id: einstieg
+    title: Fundsachen im Chat
+    blocks:
+      - type: text
+        text: "Zwei Jahre später: Sophie (13) ist in den Sommerferien wieder bei den Parkers und geht mit Ellie (13), Amir (13) und Peter (11) zur Millbrook School. Auf dem Tisch im Flur liegen Fundsachen. Die Freunde klären im Gruppenchat, wem was gehört."
+      - type: text
+        text: "**Das kannst du danach:** Du sagst mit mine, yours, his, hers, ours und theirs, wem etwas gehört, ohne das Nomen zu wiederholen."
+      - type: single-choice
+        id: mine-start
+        text: "Sophie zeigt auf ihre Tasche: „This is ___ bag.“ Welches Wort fehlt?"
+        options:
+          - text: me
+            correct: false
+            info: me sagt, wen es trifft. Wem etwas gehört, sagst du vor dem Nomen mit my.
+          - text: my
+            correct: true
+            info: my steht vor dem Nomen und gehört zur sprechenden Person.
+          - text: I
+            correct: false
+            info: I sagt, wer etwas tut. Vor einem Nomen steht my.
+        explanation: Vor dem Nomen steht my, das kennst du aus Kapitel 1.
+        links:
+          - title: Possessivpronomen (Wikipedia)
+            url: https://de.wikipedia.org/wiki/Possessivpronomen
+  - type: section
+    id: lesen
+    title: "Lesestück: Wem gehört was?"
+    blocks:
+      - type: text
+        text: Lies den Chat. Die Zahlen sind die Zeilen. Wörter, die du vielleicht nicht kennst, stehen unter dem Text.
+      - type: text
+        text: |-
+          **1** · **Sophie:** Help! One hoodie, one cap, one pen and two bags are on the table in the hall. Whose are they?
+
+          **2** · **Ellie:** The grey hoodie is mine. I left it there this morning.
+
+          **3** · **Amir:** The blue cap is mine too. But the green bag isn't mine. Is it yours, Sophie?
+
+          **4** · **Sophie:** No, mine is black. I think the green one is Peter's.
+
+          **5** · **Peter:** No way! My bag is red. The green bag isn't mine. It's Ellie's.
+
+          **6** · **Ellie:** Not mine! My bag is at home. The pen is Sophie's, so it's hers. Ask Mr Hill. Maybe the bag is his?
+      - type: text
+        text: |-
+          **7** · **Mr Hill:** Not mine, I'm afraid. My bag is brown. Check the name inside.
+
+          **8** · **Sophie:** There is a name inside: Emma and Lily Brown.
+
+          **9** · **Amir:** Then it's theirs! They are in class 8A.
+
+          **10** · **Ellie:** Great. The green bag is theirs, the grey hoodie is mine and the blue cap is yours, Amir.
+
+          **11** · **Amir:** Yes, it's mine. And the black bag is Sophie's. All our things are back!
+
+          **12** · **Peter:** Ours? You mean yours. I only have my red bag. LOL
+      - type: definition
+        term: hoodie
+        explanation: Kapuzenpullover
+      - type: definition
+        term: cap
+        explanation: Mütze mit Schirm
+      - type: definition
+        term: left (von leave)
+        explanation: "hier: liegen lassen, vergessen mitzunehmen"
+      - type: definition
+        term: I'm afraid
+        explanation: leider
+      - type: definition
+        term: check
+        explanation: nachsehen, prüfen
+      - type: definition
+        term: whose
+        explanation: wessen, wem gehörend
+  - type: section
+    id: verstehen
+    title: Aufgaben zum Text
+    blocks:
+      - type: text
+        text: "**Stufe 1 · Verstehen**"
+      - type: single-choice
+        id: mine-text-1
+        text: Wem gehört der graue Hoodie?
+        options:
+          - text: Sophie
+            correct: false
+            info: Sophies Tasche ist schwarz. Der Hoodie liegt bei Ellie.
+          - text: Ellie
+            correct: true
+            info: "Ellie sagt in Zeile 2: The grey hoodie is mine."
+          - text: Amir
+            correct: false
+            info: Amir hat die blaue Mütze.
+          - text: Mr Hill
+            correct: false
+            info: Mr Hill hat eine braune Tasche.
+        explanation: "Ellie sagt es selbst: Der graue Hoodie ist ihrer."
+        links:
+          - title: Lernlandkarte Englisch · Possessivpronomen
+            url: https://lernapps.net/apps/map/englisch/c/possessivpronomen/
+      - type: true-false
+        id: mine-text-2
+        text: Die grüne Tasche gehört Peter.
+        answer: false
+        hint: Lies, was Peter in Zeile 5 sagt.
+        explanation: Peter sagt, dass seine Tasche rot ist. Die grüne Tasche gehört den Browns.
+        links:
+          - title: Lernlandkarte Englisch · Possessivpronomen
+            url: https://lernapps.net/apps/map/englisch/c/possessivpronomen/
+      - type: text
+        text: "**Stufe 2 · Belegen mit der Zeile**"
+      - type: single-choice
+        id: mine-text-3
+        text: Welche Zeile zeigt, dass die grüne Tasche den beiden Browns gehört?
+        options:
+          - text: Zeile 5
+            correct: false
+            info: Peter sagt nur, dass die Tasche nicht seine ist.
+          - text: Zeile 7
+            correct: false
+            info: Mr Hill sagt nur, dass sie nicht seine ist.
+          - text: Zeile 8
+            correct: false
+            info: Hier steht der Name, aber noch nicht, wem die Tasche gehört.
+          - text: Zeile 9
+            correct: true
+            info: "Amir sagt: Then it's theirs! Mit theirs meint er Emma und Lily."
+        explanation: "Zeile 9 sagt es mit einem Wort: theirs."
+        links:
+          - title: Lernlandkarte Englisch · Possessivpronomen
+            url: https://lernapps.net/apps/map/englisch/c/possessivpronomen/
+      - type: single-choice
+        id: mine-text-4
+        text: Welche Zeile zeigt, dass die Mütze Amir gehört?
+        options:
+          - text: Zeile 3
+            correct: true
+            info: "Amir sagt: The blue cap is mine too."
+          - text: Zeile 4
+            correct: false
+            info: Sophie spricht über ihre Tasche.
+          - text: Zeile 6
+            correct: false
+            info: Ellie spricht über Tasche und Stift.
+          - text: Zeile 12
+            correct: false
+            info: Peter spricht über seine Tasche.
+        explanation: Amir sagt es selbst, früh im Chat.
+        links:
+          - title: Lernlandkarte Englisch · Possessivpronomen
+            url: https://lernapps.net/apps/map/englisch/c/possessivpronomen/
+      - type: text
+        text: "**Stufe 3 · Meinung**"
+      - type: open-task
+        id: mine-text-5
+        task: Die Freunde klären die Fundsachen im Chat und rufen nicht durch den Flur. Findest du das besser? Schreibe in zwei bis drei Sätzen deine Meinung und einen Grund.
+        points:
+          - text: Eine klare Meinung (besser oder nicht besser).
+            kind: form
+          - text: "Ein Grund, zum Beispiel: Man sieht, wer was gesagt hat."
+            source: /pronomen-2/mine-yours/#lesen
+          - text: Ganze Sätze mit weil oder because.
+            kind: form
+        solution: Ich finde den Chat besser, weil alle gleichzeitig schreiben können und man später noch lesen kann, wem etwas gehört.
+  - type: section
+    id: neu
+    title: Wörter, die allein stehen
+    blocks:
+      - type: text
+        text: "Im Chat steht oft „mine“, „yours“ oder „hers“ allein, ohne Nomen: „The hoodie is mine.“ Du musst nicht „my hoodie“ wiederholen. Auf dem Poster ist das die vierte Spalte mit der Frage **Gehört es mir, ohne Nomen?** Hier siehst du sie neben den Wörtern aus Kapitel 1, die vor einem Nomen stehen."
+      - type: table
+        caption: Klassenzimmer-Poster · Pronomen (Ausschnitt)
+        header:
+          - Person
+          - Mit Nomen
+          - Ohne Nomen
+        rowHeaders: true
+        rows:
+          - - ich
+            - my
+            - mine
+          - - du / ihr
+            - your
+            - yours
+          - - er
+            - his
+            - his
+          - - sie (ein Mädchen)
+            - her
+            - hers
+          - - es
+            - its
+            - –
+          - - wir
+            - our
+            - ours
+          - - sie (mehrere)
+            - their
+            - theirs
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "Mit Nomen sagst du **my bag**, ohne Nomen **mine**: „This bag is mine.“ Nie „mine bag“. **his** bleibt **his**. Für **it** gibt es kein Wort ohne Nomen. Bei **yours, hers, ours** und **theirs** hängt ein **s** hinten, aber **kein Apostroph**: nicht „her's“ und nicht „their's“. Der Apostroph steht nur bei Namen: Peter's."
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: mine-tabelle
+        languages:
+          source: de
+          target: en
+        mode: table
+        task: Ergänze die Spalte „Ohne Nomen“ ohne nachzusehen.
+        form:
+          case: hint
+        table:
+          caption: Klassenzimmer-Poster · Pronomen (Ausschnitt)
+          header:
+            - Person
+            - Mit Nomen
+            - Ohne Nomen
+          rows:
+            - - ich
+              - my
+              - "[mine]"
+            - - du / ihr
+              - your
+              - "[yours]"
+            - - er
+              - his
+              - "[his]"
+            - - sie (ein Mädchen)
+              - her
+              - "[hers]"
+            - - wir
+              - our
+              - "[ours]"
+            - - sie (mehrere)
+              - their
+              - "[theirs]"
+      - type: single-choice
+        id: mine-waehlen-1
+        text: "Ellie sagt über Sophies Buch: „The book is ___.“"
+        options:
+          - text: her
+            correct: false
+            info: her steht vor einem Nomen (her pen). Ohne Nomen brauchst du hers.
+          - text: hers
+            correct: true
+            info: hers steht allein und gehört zu einem Mädchen.
+          - text: her's
+            correct: false
+            info: "Possessivpronomen schreibt man ohne Apostroph: hers."
+        explanation: "Allein stehend und ohne Apostroph: hers."
+        links:
+          - title: Lernlandkarte Englisch · Possessivpronomen
+            url: https://lernapps.net/apps/map/englisch/c/possessivpronomen/
+      - type: single-choice
+        id: mine-waehlen-2
+        text: "Amir fragt Sophie: „Is this your phone?“ Sophie sagt: „No, that isn't ___.“ (Es ist nicht meins.)"
+        options:
+          - text: mine
+            correct: true
+            info: mine steht allein und gehört zur sprechenden Person.
+          - text: my
+            correct: false
+            info: my braucht ein Nomen danach. Hier steht keines, also mine.
+          - text: me
+            correct: false
+            info: me sagt, wen es trifft. Wem etwas gehört, sagst du mit mine.
+        explanation: Ohne Nomen sagst du mine.
+        links:
+          - title: Lernlandkarte Englisch · Possessivpronomen
+            url: https://lernapps.net/apps/map/englisch/c/possessivpronomen/
+      - type: single-choice
+        id: mine-waehlen-3
+        text: "Ellie sagt über die rote Tasche von Peter und Amir: „The red bag is ___.“"
+        options:
+          - text: their
+            correct: false
+            info: their braucht ein Nomen danach (their bag).
+          - text: ours
+            correct: false
+            info: ours würden Peter und Amir selbst sagen, nicht Ellie.
+          - text: theirs
+            correct: true
+            info: theirs gehört zu mehreren anderen Personen und steht allein.
+        explanation: Über andere sagt Ellie theirs.
+        links:
+          - title: Lernlandkarte Englisch · Possessivpronomen
+            url: https://lernapps.net/apps/map/englisch/c/possessivpronomen/
+      - type: language-task
+        id: mine-schreiben
+        languages:
+          source: de
+          target: en
+        task: Schreibe den Satz auf Englisch.
+        form:
+          case: hint
+          punctuation: hint
+        items:
+          - source: Der Ball ist deiner.
+            target: The ball is yours.
+            mistakes:
+              - answer: The ball is your.
+                message: your braucht ein Nomen danach. Ohne Nomen sagst du yours.
+              - answer: The ball is your's.
+                message: "Possessivpronomen haben keinen Apostroph: yours."
+          - source: Die Jacke gehört uns.
+            target: The jacket is ours.
+            mistakes:
+              - answer: The jacket is our.
+                message: our braucht ein Nomen danach. Ohne Nomen sagst du ours.
+              - answer: The jacket is ours'.
+                message: "Possessivpronomen haben keinen Apostroph: ours."
+          - source: Das Fahrrad ist seins.
+            target: The bike is his.
+            mistakes:
+              - answer: The bike is hers.
+                message: hers gehört zu einem Mädchen. Für einen Jungen bleibt es his.
+          - source: Die Bücher gehören ihnen.
+            target: The books are theirs.
+            mistakes:
+              - answer: The books are their's.
+                message: "Possessivpronomen haben keinen Apostroph: theirs."
+              - answer: The books are their.
+                message: their braucht ein Nomen danach. Ohne Nomen sagst du theirs.
+      - type: true-false
+        id: mine-falsch
+        text: „This is mine bag.“ Ist der Satz richtig?
+        answer: false
+        hint: Steht nach dem Wort ein Nomen? Dann brauchst du die Form aus der ersten Spalte.
+        explanation: "Vor dem Nomen steht my: This is my bag. Allein steht mine: This bag is mine."
+        links:
+          - title: Lernlandkarte Englisch · Possessivpronomen
+            url: https://lernapps.net/apps/map/englisch/c/possessivpronomen/
+      - type: single-choice
+        id: mine-korrigieren
+        text: Welcher Satz ist richtig?
+        options:
+          - text: The cap is her's.
+            correct: false
+            info: Possessivpronomen haben keinen Apostroph.
+          - text: The cap is she's.
+            correct: false
+            info: she's heißt „she is“ und ist kein Besitzwort.
+          - text: The cap is hers.
+            correct: true
+            info: hers steht allein, ohne Apostroph.
+        explanation: Es heißt hers, ohne Apostroph.
+        links:
+          - title: Lernlandkarte Englisch · Possessivpronomen
+            url: https://lernapps.net/apps/map/englisch/c/possessivpronomen/
+      - type: language-task
+        id: mine-hoeren
+        languages:
+          source: de
+          target: en
+        task: Hör zu und schreibe, was du hörst.
+        form:
+          case: hint
+          punctuation: hint
+        items:
+          - audio: the-white-hat-is-mine.mp3
+            target: The white hat is mine.
+          - audio: is-that-dog-yours.mp3
+            target: Is that dog yours?
+          - audio: these-phones-are-ours.mp3
+            target: These phones are ours.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: mine-nachsprechen
+        language: en
+        items:
+          - audio: the-red-pen-is-hers.mp3
+            text: The red pen is hers.
+          - audio: that-bag-is-his.mp3
+            text: That bag is his.
+          - audio: this-bike-is-theirs.mp3
+            text: This bike is theirs.
+        hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
+      - type: open-task
+        id: mine-schreiben-frei
+        task: Du und ein Freund packt nach dem Sport eure Taschen. Schreibe drei kurze englische Sätze, in denen du mine, yours und theirs oder hers benutzt.
+        points:
+          - text: Ein Satz mit mine für etwas, das dir gehört.
+            source: /pronomen-2/mine-yours/#neu
+          - text: Ein Satz mit yours für etwas, das deinem Freund gehört.
+            source: /pronomen-2/mine-yours/#neu
+          - text: Ein Satz mit theirs oder hers für etwas, das anderen oder einem Mädchen gehört, ohne Apostroph.
+            source: /pronomen-2/mine-yours/#neu
+        solution: The blue bottle is mine. The red towel is yours. The black bag is hers.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Auf dem Poster stehen jetzt neben my, your und our auch mine, yours und ours. Am Abend schreibt Ellie im Chat: „Ouch! I hurt myself.“ Auf der nächsten Seite liest du Sophies Tagebuch und lernst, wann im Englischen ein Wort wie myself nötig ist und wann nicht."
