@@ -1,0 +1,234 @@
+[
+  {
+    "file": "ellie-can-call-her-brother.mp3",
+    "text": "Ellie can call her brother.",
+    "last_sound_ms": 1420,
+    "dip_ms": 1350,
+    "stray_ms": 60,
+    "bump": 0.2,
+    "energy_pct": 0.52,
+    "cut": true
+  },
+  {
+    "file": "peter-can-help-his-sister.mp3",
+    "text": "Peter can help his sister.",
+    "last_sound_ms": 1550,
+    "dip_ms": 1300,
+    "stray_ms": 240,
+    "bump": 0.64,
+    "energy_pct": 10.84,
+    "cut": false
+  },
+  {
+    "file": "amir-can-see-his-bag.mp3",
+    "text": "Amir can see his bag.",
+    "last_sound_ms": 1340,
+    "dip_ms": 1010,
+    "stray_ms": 320,
+    "bump": 1.0,
+    "energy_pct": 20.17,
+    "cut": false
+  },
+  {
+    "file": "ellie-can-help-her-brother.mp3",
+    "text": "Ellie can help her brother.",
+    "last_sound_ms": 1330,
+    "dip_ms": 1270,
+    "stray_ms": 50,
+    "bump": 0.19,
+    "energy_pct": 0.4,
+    "cut": true
+  },
+  {
+    "file": "peter-can-see-his-bag.mp3",
+    "text": "Peter can see his bag.",
+    "last_sound_ms": 1310,
+    "dip_ms": 1260,
+    "stray_ms": 40,
+    "bump": 0.13,
+    "energy_pct": 0.22,
+    "cut": true
+  },
+  {
+    "file": "he-can-see-her-and-her-bag.mp3",
+    "text": "He can see her and her bag.",
+    "last_sound_ms": 1440,
+    "dip_ms": 1110,
+    "stray_ms": 320,
+    "bump": 0.97,
+    "energy_pct": 20.46,
+    "cut": false
+  },
+  {
+    "file": "i-can-see-your-jacket.mp3",
+    "text": "I can see your jacket.",
+    "last_sound_ms": 1450,
+    "dip_ms": 1360,
+    "stray_ms": 80,
+    "bump": 0.25,
+    "energy_pct": 0.63,
+    "cut": true
+  },
+  {
+    "file": "we-can-see-their-books.mp3",
+    "text": "We can see their books.",
+    "last_sound_ms": 1270,
+    "dip_ms": 1150,
+    "stray_ms": 110,
+    "bump": 0.36,
+    "energy_pct": 1.62,
+    "cut": false
+  },
+  {
+    "file": "they-can-see-our-ball.mp3",
+    "text": "They can see our ball.",
+    "last_sound_ms": 1150,
+    "dip_ms": 820,
+    "stray_ms": 320,
+    "bump": 0.61,
+    "energy_pct": 23.85,
+    "cut": false
+  },
+  {
+    "file": "you-can-see-my-book.mp3",
+    "text": "You can see my book.",
+    "last_sound_ms": 1260,
+    "dip_ms": 1150,
+    "stray_ms": 100,
+    "bump": 0.25,
+    "energy_pct": 0.52,
+    "cut": true
+  },
+  {
+    "file": "we-can-see-your-bag.mp3",
+    "text": "We can see your bag.",
+    "last_sound_ms": 1190,
+    "dip_ms": 1120,
+    "stray_ms": 60,
+    "bump": 0.1,
+    "energy_pct": 0.19,
+    "cut": true
+  },
+  {
+    "file": "they-can-see-my-jacket.mp3",
+    "text": "They can see my jacket.",
+    "last_sound_ms": 1450,
+    "dip_ms": 1360,
+    "stray_ms": 80,
+    "bump": 0.24,
+    "energy_pct": 0.62,
+    "cut": true
+  },
+  {
+    "file": "sophie-can-help-you.mp3",
+    "text": "Sophie can help you.",
+    "last_sound_ms": 1180,
+    "dip_ms": 940,
+    "stray_ms": 230,
+    "bump": 0.44,
+    "energy_pct": 12.12,
+    "cut": false
+  },
+  {
+    "file": "peter-can-see-us.mp3",
+    "text": "Peter can see us.",
+    "last_sound_ms": 1130,
+    "dip_ms": 1000,
+    "stray_ms": 120,
+    "bump": 0.24,
+    "energy_pct": 0.97,
+    "cut": true
+  },
+  {
+    "file": "ellie-can-see-them.mp3",
+    "text": "Ellie can see them.",
+    "last_sound_ms": 1020,
+    "dip_ms": 770,
+    "stray_ms": 240,
+    "bump": 0.7,
+    "energy_pct": 16.56,
+    "cut": false
+  },
+  {
+    "file": "amir-can-help-her.mp3",
+    "text": "Amir can help her.",
+    "last_sound_ms": 1160,
+    "dip_ms": 890,
+    "stray_ms": 260,
+    "bump": 0.64,
+    "energy_pct": 10.9,
+    "cut": false
+  },
+  {
+    "file": "we-can-see-him.mp3",
+    "text": "We can see him.",
+    "last_sound_ms": 960,
+    "cut": false
+  },
+  {
+    "file": "they-can-call-me.mp3",
+    "text": "They can call me.",
+    "last_sound_ms": 1020,
+    "dip_ms": 980,
+    "stray_ms": 30,
+    "bump": 0.08,
+    "energy_pct": 0.23,
+    "cut": true
+  },
+  {
+    "file": "she-can-run.mp3",
+    "text": "She can run.",
+    "last_sound_ms": 810,
+    "cut": false
+  },
+  {
+    "file": "they-can-sing.mp3",
+    "text": "They can sing.",
+    "last_sound_ms": 860,
+    "dip_ms": 500,
+    "stray_ms": 350,
+    "bump": 0.64,
+    "energy_pct": 32.49,
+    "cut": false
+  },
+  {
+    "file": "we-can-swim.mp3",
+    "text": "We can swim.",
+    "last_sound_ms": 880,
+    "dip_ms": 490,
+    "stray_ms": 380,
+    "bump": 1.0,
+    "energy_pct": 50.21,
+    "cut": false
+  },
+  {
+    "file": "i-can-read.mp3",
+    "text": "I can read.",
+    "last_sound_ms": 940,
+    "dip_ms": 800,
+    "stray_ms": 130,
+    "bump": 0.37,
+    "energy_pct": 3.72,
+    "cut": false
+  },
+  {
+    "file": "he-can-jump.mp3",
+    "text": "He can jump.",
+    "last_sound_ms": 960,
+    "dip_ms": 830,
+    "stray_ms": 120,
+    "bump": 0.25,
+    "energy_pct": 2.1,
+    "cut": false
+  },
+  {
+    "file": "you-can-swim.mp3",
+    "text": "You can swim.",
+    "last_sound_ms": 880,
+    "dip_ms": 490,
+    "stray_ms": 380,
+    "bump": 1.0,
+    "energy_pct": 50.86,
+    "cut": false
+  }
+]

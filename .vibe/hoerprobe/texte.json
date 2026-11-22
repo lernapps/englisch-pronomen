@@ -1,0 +1,26 @@
+{
+  "we-can-run": {
+    "text": "We can run.",
+    "A": "Schwelle 8 % wie jetzt",
+    "B": "Schnitt bei 750 ms statt 840 ms (A), 90 ms weniger",
+    "C": "B plus 100 ms Stille"
+  },
+  "he-can-run": {
+    "text": "He can run.",
+    "A": "Schwelle 8 % wie jetzt",
+    "B": "Schnitt bei 750 ms statt 840 ms (A), 90 ms weniger",
+    "C": "B plus 100 ms Stille"
+  },
+  "we-can-jump": {
+    "text": "We can jump.",
+    "A": "Schwelle 8 % wie jetzt",
+    "B": "Schnitt bei 830 ms statt 960 ms (A), 130 ms weniger",
+    "C": "B plus 100 ms Stille"
+  },
+  "we-can-call-you": {
+    "text": "We can call you.",
+    "A": "Schwelle 8 % wie jetzt",
+    "B": "Schnitt bei 970 ms statt 1040 ms (A), 70 ms weniger",
+    "C": "B plus 100 ms Stille"
+  }
+}

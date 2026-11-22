@@ -1,0 +1,267 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Zu wem gehört es? my, your, our, their
+description: Du lernst die Wörter my, your, our und their, mit denen du sagst, wem etwas gehört, und findest das Muster I – me – my.
+competencies:
+  - possessivbegleiter
+scope: Die Seite führt die dritte Spalte der Pronomen-Tabelle ein, „Zu wem gehört es?“, für die Zeilen I, you, we und they. Possessivbegleiter stehen vor dem Nomen und sagen, wem etwas gehört. Es sind my (mein), your (dein oder euer), our (unser) und their (ihr, wenn es mehreren Personen gehört). Sie ändern sich nicht nach dem Nomen (my bag, my books). Das Muster ist I – me – my, you – you – your, we – us – our, they – them – their. Die Beispiele nutzen can see mit bag, jacket, ball und book. Typische Fehler sind me, us oder them statt my, our und their vor dem Nomen.
+blocks:
+  - type: section
+    id: einstieg
+    title: Taschen und Jacken im Flur
+    blocks:
+      - type: figure
+        image: images/szene-my-your.svg
+        alt: Im Flur der Millbrook School stehen Sophie, Ellie, Peter und Amir. Vor jedem Kind steht eine Tasche.
+        caption: Von links nach rechts Sophie, Ellie, Peter und Amir. Vor jedem Kind steht eine Tasche.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Nach dem Training stehen die Kinder im Flur. Ihre Taschen stehen auf dem Boden. Ellie sagt: „I can see my phone.“ Das heißt: „Ich kann mein Handy sehen.“ **phone** heißt „Handy“, **bag** „Tasche“, **jacket** „Jacke“, **ball** „Ball“, **book** „Buch“, **hat** „Hut“, **bike** „Fahrrad“ und **dog** „Hund“. **your** heißt „dein“ oder „euer“, **our** „unser“ und **their** „ihr“, wenn es mehreren gehört.
+      - type: text
+        text: "**Das kannst du danach:** Du sagst auf Englisch, wem etwas gehört, mit my, your, our und their."
+      - type: single-choice
+        id: my-start
+        text: "Amir sagt: „I can see my hat.“ Wessen Hut sieht Amir?"
+        options:
+          - text: Amirs eigenen Hut
+            correct: true
+            info: my heißt „mein“ oder „meine“. Der Sprecher sagt, dass der Hut ihm gehört.
+          - text: Ellies Hut
+            correct: false
+            info: Für Ellies Hut würde Amir etwas anderes sagen. my meint immer die sprechende Person.
+          - text: Peters Hut
+            correct: false
+            info: Amir sagt my, also gehört der Hut der sprechenden Person.
+        explanation: my sagt, dass etwas der Person gehört, die spricht.
+        links:
+          - title: Possessivpronomen (Wikipedia)
+            url: https://de.wikipedia.org/wiki/Possessivpronomen
+  - type: section
+    id: neu
+    title: Welches Wort sagt, wem etwas gehört?
+    blocks:
+      - type: text
+        text: |
+          Die dritte Frage der Tabelle ist **Zu wem gehört es?** Das Wort steht vor dem Nomen und sagt, zu wem etwas gehört. Es heißt Possessivbegleiter. Für er, sie und es steht in der dritten Spalte noch ein Fragezeichen. Das kommt auf der nächsten Seite.
+      - type: table
+        caption: Klassenzimmer-Poster · Pronomen
+        header:
+          - Person
+          - Wer tut es?
+          - Wen trifft es?
+          - Zu wem gehört es?
+        rowHeaders: true
+        rows:
+          - - ich
+            - I
+            - me
+            - my
+          - - du / ihr
+            - you
+            - you
+            - your
+          - - er
+            - he
+            - him
+            - "?"
+          - - sie (ein Mädchen)
+            - she
+            - her
+            - "?"
+          - - es
+            - it
+            - it
+            - "?"
+          - - wir
+            - we
+            - us
+            - our
+          - - sie (mehrere)
+            - they
+            - them
+            - their
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              Das Wort steht **vor** dem Nomen: my hat, your bike, our phone, their dogs. Anders als im Deutschen ändert es sich nie: my dog, my dogs. Nach dem Muster **I – me – my** gehören die drei Wörter einer Person zusammen. **me** und **my** sind nicht dasselbe: me sagt, wen es trifft, my sagt, wem etwas gehört.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: my-zuordnen
+        text: Welches Wort passt, wenn jemand sagt, was zu ihm gehört?
+        pairs:
+          - left: Ellie spricht über ihre eigene Tasche.
+            right: my
+          - left: Ellie spricht zu Amir über seine Jacke.
+            right: your
+          - left: Sophie und Ellie sprechen über ihren eigenen Ball.
+            right: our
+          - left: Sophie spricht über die Bücher von Amir und Peter.
+            right: their
+        explanation: Das Wort richtet sich danach, wem etwas gehört. my ist für die sprechende Person, your für die angesprochene, our für Sprecher und andere, their für andere.
+        hint: Zu wem gehört es? Gehört es der sprechenden Person, der angesprochenen oder mehreren?
+        links:
+          - title: Lernlandkarte Englisch · Possessivbegleiter
+            url: https://lernapps.net/apps/map/englisch/c/possessivbegleiter/
+      - type: single-choice
+        id: my-waehlen-1
+        text: "Ellie sagt: „Ich kann meine Tasche sehen.“ Welches Wort fehlt? „I can see ___ bag.“"
+        options:
+          - text: me
+            correct: false
+            info: me sagt, wen es trifft. Zu wem etwas gehört, sagst du mit my.
+          - text: my
+            correct: true
+            info: my steht vor dem Nomen und gehört zur sprechenden Person.
+          - text: I
+            correct: false
+            info: I sagt, wer etwas tut. Vor dem Nomen steht my.
+        explanation: Vor dem Nomen steht my.
+        links:
+          - title: Possessivpronomen (Wikipedia)
+            url: https://de.wikipedia.org/wiki/Possessivpronomen
+      - type: single-choice
+        id: my-waehlen-3
+        text: Amir und Peter können ihre Bücher sehen. Welches Wort fehlt? „They can see ___ books.“
+        options:
+          - text: their
+            correct: true
+            info: their gehört zu mehreren anderen Personen.
+          - text: them
+            correct: false
+            info: them sagt, wen es trifft. Zu wem etwas gehört, sagst du mit their.
+          - text: our
+            correct: false
+            info: Es geht um Amir und Peter, also their.
+        explanation: Zu mehreren anderen Personen gehört their.
+        links:
+          - title: Possessivpronomen (Wikipedia)
+            url: https://de.wikipedia.org/wiki/Possessivpronomen
+      - type: language-task
+        id: my-luecke
+        languages:
+          source: de
+          target: en
+        mode: gap
+        task: Ergänze das Wort für „wer tut es?“ und das Wort für „zu wem gehört es?“.
+        form:
+          case: hint
+          punctuation: hint
+        items:
+          - cue: Ich kann meine Tasche sehen.
+            target: "[I] can see [my] bag."
+          - cue: Wir können unseren Ball sehen.
+            target: "[We] can see [our] ball."
+          - cue: Sie (Amir und Peter) können ihren Ball sehen.
+            target: "[They] can see [their] ball."
+      - type: language-task
+        id: my-schreiben
+        languages:
+          source: de
+          target: en
+        task: Schreibe den Satz auf Englisch.
+        form:
+          case: hint
+          punctuation: hint
+        items:
+          - source: Du kannst deine Tasche sehen.
+            target: You can see your bag.
+            mistakes:
+              - answer: You can see you bag.
+                message: you sagst du in der ersten und in der zweiten Spalte. Vor dem Nomen steht your.
+          - source: Ich kann meine Bücher sehen.
+            target: I can see my books.
+            mistakes:
+              - answer: I can see me books.
+                message: me sagt, wen es trifft. Wem die Bücher gehören, sagst du mit my.
+          - source: Wir können unseren Ball sehen.
+            target: We can see our ball.
+          - source: Sie (Amir und Peter) können ihren Ball sehen.
+            target: They can see their ball.
+            mistakes:
+              - answer: They can see them ball.
+                message: them sagt, wen es trifft. Wem der Ball gehört, sagst du mit their.
+      - type: true-false
+        id: my-falsch
+        text: Sophie sagt über ihre eigene Tasche „I can see me bag.“ Ist der Satz richtig?
+        answer: false
+        hint: Schau auf die Spalten der Tabelle. Welche Spalte sagt, wem etwas gehört?
+        explanation: Vor dem Nomen steht my, nicht me. me sagt, wen es trifft.
+        links:
+          - title: Possessivpronomen (Wikipedia)
+            url: https://de.wikipedia.org/wiki/Possessivpronomen
+      - type: language-task
+        id: my-hoeren
+        languages:
+          source: de
+          target: en
+        task: Hör zu und schreibe, was du hörst.
+        form:
+          case: hint
+          punctuation: hint
+        items:
+          - audio: i-can-see-your-jacket.mp3
+            target: I can see your jacket.
+          - audio: we-can-see-their-books.mp3
+            target: We can see their books.
+          - audio: they-can-see-our-ball.mp3
+            target: They can see our ball.
+      - type: language-task
+        id: my-tabelle
+        languages:
+          source: de
+          target: en
+        mode: table
+        task: Ergänze die Spalte „Zu wem gehört es?“ ohne nachzusehen.
+        form:
+          case: hint
+        table:
+          caption: Klassenzimmer-Poster · Pronomen
+          header:
+            - Person
+            - Wer tut es?
+            - Wen trifft es?
+            - Zu wem gehört es?
+          rows:
+            - - ich
+              - I
+              - me
+              - "[my]"
+            - - du / ihr
+              - you
+              - you
+              - "[your]"
+            - - wir
+              - we
+              - us
+              - "[our]"
+            - - sie (mehrere)
+              - they
+              - them
+              - "[their]"
+  - type: section
+    id: anwenden
+    title: Selbst sagen
+    blocks:
+      - type: speaking-task
+        id: my-nachsprechen
+        language: en
+        items:
+          - audio: you-can-see-my-book.mp3
+            text: You can see my book.
+          - audio: we-can-see-your-bag.mp3
+            text: We can see your bag.
+          - audio: they-can-see-my-jacket.mp3
+            text: They can see my jacket.
+        hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Auf dem Poster fehlen noch die Wörter für er, sie und es in der dritten Spalte. Auf der nächsten Seite lernst du, welches Wort bei einem Jungen und welches bei einem Mädchen steht.

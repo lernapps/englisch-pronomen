@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Wer? Wen? Zu wem?
+summary: Du lernst, welche Form eines Pronomens du brauchst, wenn jemand etwas tut, wenn es jemanden trifft und wenn etwas jemandem gehört.
+pages: [wer-tut-es, wen-trifft-es, my-your, his-her]
+selfAssessment:
+  pages:
+    - exercises:
+        - /pronomen-1/wer-tut-es/#wer-waehlen-1
+        - /pronomen-1/wer-tut-es/#wer-schreiben
+    - exercises:
+        - /pronomen-1/wen-trifft-es/#wen-waehlen-2
+        - /pronomen-1/wen-trifft-es/#wen-schreiben
+    - exercises:
+        - /pronomen-1/my-your/#my-waehlen-1
+        - /pronomen-1/my-your/#my-schreiben
+    - exercises:
+        - /pronomen-1/his-her/#his-waehlen-2
+        - /pronomen-1/his-her/#his-schreiben

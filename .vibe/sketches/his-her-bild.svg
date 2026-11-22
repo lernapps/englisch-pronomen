@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" font-family="sans-serif" font-size="14">
+<title>Skizze: his und her richten sich nach der Person, zu der etwas gehört</title>
+<rect width="600" height="200" fill="#fff"/>
+<circle cx="100" cy="60" r="30" fill="#d33"/><text x="60" y="120">Ellie (Mädchen)</text>
+<circle cx="100" cy="150" r="22" fill="#ee3"/><text x="130" y="155">Peter (Junge)</text>
+<path d="M140 60H400" stroke="#333"/><text x="220" y="50">her hat</text><rect x="420" y="40" width="40" height="30" fill="#d33"/>
+<path d="M240 150H400" stroke="#333"/><text x="290" y="140">his hat</text><rect x="420" y="135" width="40" height="30" fill="#ee3"/>
+<text x="150" y="190">Die Person am Anfang des Pfeils entscheidet, nicht die Sache am Ende.</text>
+</svg>
