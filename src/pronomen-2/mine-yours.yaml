@@ -61,7 +61,7 @@ blocks:
 
           **11** · **Amir:** Yes, it's mine. And the black bag is Sophie's. All our things are back!
 
-          **12** · **Peter:** Ours? You mean yours. I only have my red bag. LOL
+          **12** · **Peter:** Funny! My own bag is the red one, and it is right here. LOL
       - type: definition
         term: hoodie
         explanation: Kapuzenpullover
@@ -76,10 +76,19 @@ blocks:
         explanation: leider
       - type: definition
         term: check
-        explanation: nachsehen, prüfen
+        explanation: nachsehen
       - type: definition
         term: whose
         explanation: wessen, wem gehörend
+      - type: definition
+        term: maybe
+        explanation: vielleicht
+      - type: definition
+        term: inside
+        explanation: innen, drin
+      - type: definition
+        term: No way!
+        explanation: Auf keinen Fall!
   - type: section
     id: verstehen
     title: Aufgaben zum Text
@@ -167,7 +176,7 @@ blocks:
             kind: form
           - text: "Ein Grund, zum Beispiel: Man sieht, wer was gesagt hat."
             source: /pronomen-2/mine-yours/#lesen
-          - text: Ganze Sätze mit weil oder because.
+          - text: Ganze Sätze mit einem Grund (weil …).
             kind: form
         solution: Ich finde den Chat besser, weil alle gleichzeitig schreiben können und man später noch lesen kann, wem etwas gehört.
   - type: section
@@ -209,45 +218,11 @@ blocks:
         title: Merke
         blocks:
           - type: text
-            text: "Mit Nomen sagst du **my bag**, ohne Nomen **mine**: „This bag is mine.“ Nie „mine bag“. **his** bleibt **his**. Für **it** gibt es kein Wort ohne Nomen. Bei **yours, hers, ours** und **theirs** hängt ein **s** hinten, aber **kein Apostroph**: nicht „her's“ und nicht „their's“. Der Apostroph steht nur bei Namen: Peter's."
+            text: "Mit Nomen sagst du **my bag**. Ohne Nomen steht ein anderes Wort allein: „This bag is **mine**.“ **his** bleibt **his**. Für **it** gibt es kein Wort ohne Nomen. Bei **yours, hers, ours** und **theirs** hängt ein **s** hinten, aber es gibt **keinen Apostroph**. Den Apostroph benutzt du nur bei Namen: Peter's."
   - type: section
     id: uebung
     title: Übung
     blocks:
-      - type: language-task
-        id: mine-tabelle
-        languages:
-          source: de
-          target: en
-        mode: table
-        task: Ergänze die Spalte „Ohne Nomen“ ohne nachzusehen.
-        form:
-          case: hint
-        table:
-          caption: Klassenzimmer-Poster · Pronomen (Ausschnitt)
-          header:
-            - Person
-            - Mit Nomen
-            - Ohne Nomen
-          rows:
-            - - ich
-              - my
-              - "[mine]"
-            - - du / ihr
-              - your
-              - "[yours]"
-            - - er
-              - his
-              - "[his]"
-            - - sie (ein Mädchen)
-              - her
-              - "[hers]"
-            - - wir
-              - our
-              - "[ours]"
-            - - sie (mehrere)
-              - their
-              - "[theirs]"
       - type: single-choice
         id: mine-waehlen-1
         text: "Ellie sagt über Sophies Buch: „The book is ___.“"
@@ -267,7 +242,7 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/possessivpronomen/
       - type: single-choice
         id: mine-waehlen-2
-        text: "Amir fragt Sophie: „Is this your phone?“ Sophie sagt: „No, that isn't ___.“ (Es ist nicht meins.)"
+        text: "Amir fragt Sophie: „Is this your phone?“ Sophie sagt: „No, it isn't ___.“ (Es ist nicht meins.)"
         options:
           - text: mine
             correct: true
@@ -284,7 +259,7 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/possessivpronomen/
       - type: single-choice
         id: mine-waehlen-3
-        text: "Ellie sagt über die rote Tasche von Peter und Amir: „The red bag is ___.“"
+        text: "Sophie sagt über die Hüte von Emma und Lily: „The hats are ___.“"
         options:
           - text: their
             correct: false
@@ -310,26 +285,26 @@ blocks:
           punctuation: hint
         items:
           - source: Der Ball ist deiner.
-            target: The ball is yours.
+            target: (The ball is|It is|It's) yours.
             mistakes:
               - answer: The ball is your.
                 message: your braucht ein Nomen danach. Ohne Nomen sagst du yours.
               - answer: The ball is your's.
                 message: "Possessivpronomen haben keinen Apostroph: yours."
           - source: Die Jacke gehört uns.
-            target: The jacket is ours.
+            target: (The jacket is|It is|It's) ours.
             mistakes:
               - answer: The jacket is our.
                 message: our braucht ein Nomen danach. Ohne Nomen sagst du ours.
               - answer: The jacket is ours'.
                 message: "Possessivpronomen haben keinen Apostroph: ours."
           - source: Das Fahrrad ist seins.
-            target: The bike is his.
+            target: (The bike is|It is|It's) his.
             mistakes:
               - answer: The bike is hers.
                 message: hers gehört zu einem Mädchen. Für einen Jungen bleibt es his.
           - source: Die Bücher gehören ihnen.
-            target: The books are theirs.
+            target: (The books are|They are|They're) theirs.
             mistakes:
               - answer: The books are their's.
                 message: "Possessivpronomen haben keinen Apostroph: theirs."
@@ -377,6 +352,43 @@ blocks:
             target: Is that dog yours?
           - audio: these-phones-are-ours.mp3
             target: These phones are ours.
+            mistakes:
+              - answer: These phone are ours.
+                message: "Es sind mehrere Telefone: phones mit s."
+      - type: language-task
+        id: mine-tabelle
+        languages:
+          source: de
+          target: en
+        mode: table
+        task: Ergänze die Spalte „Ohne Nomen“ ohne nachzusehen.
+        form:
+          case: hint
+        table:
+          caption: Klassenzimmer-Poster · Pronomen (Ausschnitt)
+          header:
+            - Person
+            - Mit Nomen
+            - Ohne Nomen
+          rows:
+            - - ich
+              - my
+              - "[mine]"
+            - - du / ihr
+              - your
+              - "[yours]"
+            - - er
+              - his
+              - "[his]"
+            - - sie (ein Mädchen)
+              - her
+              - "[hers]"
+            - - wir
+              - our
+              - "[ours]"
+            - - sie (mehrere)
+              - their
+              - "[theirs]"
   - type: section
     id: anwenden
     title: Selbst sagen und schreiben
