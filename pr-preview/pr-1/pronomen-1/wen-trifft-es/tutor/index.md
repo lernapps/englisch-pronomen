@@ -69,7 +69,7 @@ Klassenzimmer-Poster · Pronomen:
 
 **Merke: Merke**
 
-Wer etwas tut, sagt **I**, **he**, **she**, **we**, **they**. Wen es trifft, sagt **me**, **him**, **her**, **us**, **them**. **you** und **it** sehen in beiden Spalten gleich aus. Beispiele: He can help us. We can call them. I can see her. Auch bei help steht him, obwohl wir im Deutschen „ihm“ sagen.
+Wer etwas tut, sagt **I**, **he**, **she**, **we**, **they**. Wen es trifft, sagt **me**, **him**, **her**, **us**, **them**. **you** und **it** sehen in beiden Spalten gleich aus. Beispiele: He can help us. We can call them. You can see him. Auch bei help steht him, obwohl wir im Deutschen „ihm“ sagen.
 
 ### Übung
 
@@ -123,10 +123,17 @@ Auf dem Poster stehen jetzt zwei Spalten. Nach dem Üben stehen die Taschen der 
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Peter sagt: „Sophie kann mich sehen.“ → Sophie can see me.
+     - Sophie can see I.: I sagt, wer etwas tut. Nach dem Verb steht me.
 2. Ellie kann ihm (Peter) helfen. → Ellie can help him.
-     - Ellie can help he.: he gehört in die erste Spalte und steht vor dem Verb. Wen es trifft, sagst du mit him.
+     - Ellie can help he.: Wen es trifft, sagst du mit him.
+     - Ellie can help her.: Peter ist ein Junge, also him.
 3. Sophie sagt: „Amir kann uns rufen.“ → Amir can call us.
+     - Amir can call we.: Wen es trifft, sagst du mit us.
+     - Amir can call them.: Sophie gehört dazu, also us.
 4. Ich kann sie (Ellie) sehen. → I can see her.
+     - Me can see her.: Me steht nach dem Verb. Wer etwas tut, sagt I.
+     - I can see she.: Wen es trifft, sagst du mit her.
+     - I can see him.: Ellie ist ein Mädchen, also her.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#wen-waehlen](../?via=tutor#wen-waehlen)
 
@@ -171,9 +178,9 @@ Auf dem Poster stehen jetzt zwei Spalten. Nach dem Üben stehen die Taschen der 
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Audio → Peter can see her.
-2. Audio → Ellie can help us.
-3. Audio → Sophie can call him.
+1. Audio → Sophie can help you.
+2. Audio → Peter can see us.
+3. Audio → Ellie can see them.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#wen-hoeren](../?via=tutor#wen-hoeren)
@@ -197,8 +204,8 @@ Auf dem Poster stehen jetzt zwei Spalten. Nach dem Üben stehen die Taschen der 
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Sophie can see me.
-2. Audio → He can help them.
-3. Audio → We can call you.
+1. Audio → Amir can help her.
+2. Audio → We can see him.
+3. Audio → They can call me.
 - Tipp der App: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
 - Link: [../?via=tutor#wen-nachsprechen](../?via=tutor#wen-nachsprechen)

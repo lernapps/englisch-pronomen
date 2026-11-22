@@ -69,7 +69,7 @@ Klassenzimmer-Poster · Pronomen:
 
 **Merke: Merke**
 
-**he** sagst du für einen Jungen oder Mann, **she** für ein Mädchen oder eine Frau. **it** ist für Dinge und Tiere, nie für eine Person. **you** gilt für eine Person (du) und für mehrere (ihr). **we** ist „ich und andere zusammen“. Beispiele: I can swim. You can run. He can sing. She can jump. We can read. They can swim. **can** heißt „kann“ und bleibt bei jeder Person gleich.
+**he** sagst du für einen Jungen oder Mann, **she** für ein Mädchen oder eine Frau. **it** ist für Dinge und Tiere, nie für eine Person. **you** gilt für eine Person (du) und für mehrere (ihr). **we** ist „ich und andere zusammen“. Beispiele: You can read. He can swim. She can sing. We can jump. They can run. **can** heißt „kann“ und bleibt bei jeder Person gleich.
 
 Die Wörter auf der Tafel: **swim** (schwimmen), **run** (rennen, laufen), **sing** (singen), **jump** (springen), **read** (lesen).
 
@@ -123,10 +123,16 @@ Auf dem Poster steht die erste Spalte. Beim Üben für den Sports day wirft Soph
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Peter kann rennen. → He can run.
+     - She can run.: she ist für ein Mädchen oder eine Frau. Peter ist ein Junge, also he.
      - It can run.: it ist für Dinge und Tiere. Für einen Jungen wie Peter sagst du he.
 2. Ellie kann lesen. → She can read.
+     - He can read.: Ellie ist ein Mädchen, also she.
+     - Her can read.: Für Ellie sagst du she.
 3. Sophie sagt: „Ich kann singen.“ → I can sing.
+     - Me can sing.: Wer selbst etwas tut, sagt I.
 4. Amir und Peter können springen. → They can jump.
+     - He can jump.: Amir und Peter sind mehrere, also they.
+     - We can jump.: Über Amir und Peter sagst du they.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#wer-waehlen](../?via=tutor#wer-waehlen)
 
@@ -136,16 +142,16 @@ Auf dem Poster steht die erste Spalte. Beim Üben für den Sports day wirft Soph
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Ich kann schwimmen. → I can swim.
-     - I swim.: Du brauchst auch can. Es heißt „kann schwimmen“, also can swim.
-     - Me can swim.: Wer etwas tut, sagt I. me kommt erst später.
-2. Er kann rennen. (Peter) → He can run.
-     - He run.: Du brauchst auch can. Es heißt „kann laufen“, also can run.
-     - She can run.: she ist für ein Mädchen oder eine Frau. Für einen Jungen sagst du he.
+1. Ich kann rennen. → I can run.
+     - I run.: Du brauchst auch can. Es heißt „kann rennen“, also can run.
+     - Me can run.: Wer etwas tut, sagt I. me kommt erst später.
+2. Er kann lesen. (Peter) → He can read.
+     - He read.: Du brauchst auch can. Es heißt „kann lesen“, also can read.
+     - She can read.: she ist für ein Mädchen oder eine Frau. Für einen Jungen sagst du he.
 3. Wir können singen. → We can sing.
      - You can sing.: you heißt „du“ oder „ihr“. Wenn du selbst dazugehörst, sagst du we.
-4. Sie (Ellie und Amir) können lesen. → They can read.
-     - She can read.: she meint nur ein Mädchen. Bei mehreren Personen sagst du they.
+4. Sie (Ellie und Amir) können schwimmen. → They can swim.
+     - She can swim.: she meint nur ein Mädchen. Bei mehreren Personen sagst du they.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#wer-schreiben](../?via=tutor#wer-schreiben)
 
@@ -164,9 +170,9 @@ Auf dem Poster steht die erste Spalte. Beim Üben für den Sports day wirft Soph
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Audio → She can swim.
+1. Audio → She can run.
 2. Audio → They can sing.
-3. Audio → We can run.
+3. Audio → We can swim.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#wer-hoeren](../?via=tutor#wer-hoeren)
@@ -190,8 +196,8 @@ Auf dem Poster steht die erste Spalte. Beim Üben für den Sports day wirft Soph
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → I can swim.
-2. Audio → He can run.
-3. Audio → We can jump.
+1. Audio → I can read.
+2. Audio → He can jump.
+3. Audio → You can swim.
 - Tipp der App: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
 - Link: [../?via=tutor#wer-nachsprechen](../?via=tutor#wer-nachsprechen)

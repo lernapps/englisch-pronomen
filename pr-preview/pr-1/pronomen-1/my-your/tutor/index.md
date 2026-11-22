@@ -118,16 +118,22 @@ Auf dem Poster fehlen noch die Wörter für er, sie und es in der dritten Spalte
 
 ### Aufgabe my-waehlen
 
-- Aufgabe: Wähle das Wort, das sagt, wem es gehört.
+- Aufgabe: Wähle das Wort, das sagt, zu wem es gehört.
 - Antwortformat: für jede Lücke ein Wort wählen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Ellie sagt: „Ich kann meine Tasche sehen.“ → I can see my bag.
-     - I can see me bag.: me sagt, wen es trifft. Wem etwas gehört, sagst du mit my.
+     - I can see me bag.: me sagt, wen es trifft. Zu wem etwas gehört, sagst du mit my.
+     - I can see I bag.: I sagt, wer etwas tut. Vor dem Nomen steht my.
 2. Ellie sagt zu Peter: „Du kannst deine Jacke sehen.“ → You can see your jacket.
+     - You can see my jacket.: Ellie spricht zu Peter, also your.
+     - You can see you jacket.: you sagst du für „wer tut es?“ und „wen trifft es?“. Vor dem Nomen steht your.
 3. Sophie sagt: „Wir können unseren Ball sehen.“ → We can see our ball.
-     - We can see us ball.: us sagt, wen es trifft. Wem etwas gehört, sagst du mit our.
+     - We can see us ball.: us sagt, wen es trifft. Zu wem etwas gehört, sagst du mit our.
+     - We can see my ball.: Sophie spricht für sich und Ellie, also our.
 4. Amir und Peter können ihre Bücher sehen. → They can see their books.
+     - They can see them books.: them sagt, wen es trifft. Zu wem etwas gehört, sagst du mit their.
+     - They can see our books.: Es geht um Amir und Peter, also their.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#my-waehlen](../?via=tutor#my-waehlen)
 
@@ -174,9 +180,9 @@ Auf dem Poster fehlen noch die Wörter für er, sie und es in der dritten Spalte
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Audio → You can see your jacket.
-2. Audio → They can see their ball.
-3. Audio → We can see our books.
+1. Audio → I can see your jacket.
+2. Audio → We can see their books.
+3. Audio → They can see our ball.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#my-hoeren](../?via=tutor#my-hoeren)
@@ -199,8 +205,8 @@ Auf dem Poster fehlen noch die Wörter für er, sie und es in der dritten Spalte
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → I can see my bag.
-2. Audio → You can see your jacket.
-3. Audio → We can see our books.
+1. Audio → You can see my book.
+2. Audio → We can see your bag.
+3. Audio → They can see my jacket.
 - Tipp der App: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
 - Link: [../?via=tutor#my-nachsprechen](../?via=tutor#my-nachsprechen)
