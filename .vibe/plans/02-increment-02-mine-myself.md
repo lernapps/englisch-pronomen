@@ -159,13 +159,14 @@ Kapitel 2 „mine, myself und each other“ (Stufe 7-8) ergänzt die Pronomen-Ta
 - [x] Slice 1 (really do it; the earlier tick was a mistake of mine): page mine-yours with chapter pronomen-2, Lesestück chat with Randglossar, three task levels, exercises, audio; commit
 - [x] Slice 2 (really do it): page myself with diary Lesestück, arrows to the same person, sich versus English, exercises, audio; commit
 - [x] Slice 3 (really do it): page each-other with dialogue Lesestück, arrows back and forth, themselves versus each other, exercises, audio; commit
-- [ ] Slice 4 (really do it): app title Pronomen: I, me, my, mine, myself, selfAssessment of chapter 2, content guide, audio list, section 7 conventions; commit
+- [x] Slice 4 (really do it): app title Pronomen: I, me, my, mine, myself, selfAssessment of chapter 2, content guide, audio list, section 7 conventions; commit
 <!-- tasks: slices (8 added): one per competency, as written in Plan -->
-- [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
+- [x] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
-- [ ] Update the content guide so that it describes the app as it is now (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
+      Creator: Ja, myself und each-other dürfen nach dem Muster folgen (Orchestrator)
+- [x] Update the content guide so that it describes the app as it is now (`app-content-matches`).
+- [x] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
 
 ## Commit
