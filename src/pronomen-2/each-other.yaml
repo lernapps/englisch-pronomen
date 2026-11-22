@@ -1,0 +1,352 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "each other: hin und her"
+description: Du liest einen Dialog am Kletterpark und lernst each other („einander“) und den Unterschied zu themselves.
+competencies:
+  - each-other
+scope: "Die Seite führt each other ein. each other heißt „einander“ oder „gegenseitig“: Zwei oder mehr Personen tun dasselbe füreinander, die Pfeile gehen hin und her (They help each other.). Ein Reflexivpronomen wie themselves geht dagegen von jeder Person zu ihr selbst zurück (They help themselves.). Beide sind verschieden, auch wenn das Deutsche „sich“ sagt (sie helfen sich). Das Lesestück ist ein Dialog nach einer Klettertour. Typische Fehler sind themselves statt each other, them statt each other und theirselves."
+blocks:
+  - type: section
+    id: einstieg
+    title: Nach der Klettertour
+    blocks:
+      - type: text
+        text: Ellie und Amir haben beim Klettern geholfen, bis alle oben waren. Jetzt sprechen sie mit Mr Hill, Sophie und Peter. Sophie (13) und Peter (11) waren unten und haben zugesehen.
+      - type: text
+        text: "**Das kannst du danach:** Du unterscheidest each other („einander“) von themselves und ourselves („sich selbst“)."
+      - type: single-choice
+        id: each-start
+        text: Amir und Ellie sehen die anderen Kinder. Welches Wort fehlt? „Amir and Ellie can see ___.“ (die anderen Kinder)
+        options:
+          - text: themselves
+            correct: false
+            info: themselves würde heißen, dass sie sich selbst sehen.
+          - text: them
+            correct: true
+            info: them ist für andere Personen und steht nach dem Verb.
+          - text: they
+            correct: false
+            info: they steht vor dem Verb.
+        explanation: "Andere Personen nach dem Verb: them."
+        links:
+          - title: Personalpronomen (Wikipedia)
+            url: https://de.wikipedia.org/wiki/Personalpronomen
+  - type: section
+    id: lesen
+    title: "Lesestück: Photo time"
+    blocks:
+      - type: text
+        text: Lies den Dialog. Die Zahlen sind die Zeilen. Wörter, die du vielleicht nicht kennst, stehen unter dem Text.
+      - type: text
+        text: |-
+          **1** · **Mr Hill:** Good work today, you two. You helped each other on the wall.
+
+          **2** · **Ellie:** Thanks! Amir held the rope for me, and I held it for him.
+
+          **3** · **Amir:** Yes, we trust each other. A year ago we could not climb at all.
+
+          **4** · **Sophie:** Did somebody teach you?
+
+          **5** · **Ellie:** No, we taught ourselves from videos. Then we corrected each other.
+      - type: text
+        text: |-
+          **6** · **Amir:** Peter watched us. He says we always argue with each other, but that isn't true!
+
+          **7** · **Ellie:** We only talk to each other a lot. Ha ha.
+
+          **8** · **Peter:** Sophie and I were proud of you. We took photos of each other, too.
+
+          **9** · **Sophie:** And now the climbers are taking selfies of themselves!
+
+          **10** · **Amir:** Look! Ellie is taking a photo of herself, and I am taking one of myself. Nobody is looking at each other!
+
+          **11** · **Mr Hill:** Then look at each other for a second and smile. Photo time!
+      - type: definition
+        term: hold (held)
+        explanation: halten (hielt)
+      - type: definition
+        term: rope
+        explanation: Seil
+      - type: definition
+        term: trust
+        explanation: vertrauen
+      - type: definition
+        term: correct
+        explanation: verbessern
+      - type: definition
+        term: argue
+        explanation: streiten
+      - type: definition
+        term: selfie
+        explanation: Foto von sich selbst
+  - type: section
+    id: verstehen
+    title: Aufgaben zum Text
+    blocks:
+      - type: text
+        text: "**Stufe 1 · Verstehen**"
+      - type: single-choice
+        id: each-text-1
+        text: Wer hat für Ellie das Seil gehalten?
+        options:
+          - text: Mr Hill
+            correct: false
+            info: Mr Hill lobt die beiden nur.
+          - text: Sophie
+            correct: false
+            info: Sophie hat unten zugesehen.
+          - text: Amir
+            correct: true
+            info: "Zeile 2: Amir held the rope for me, sagt Ellie."
+        explanation: Ellie erzählt es in Zeile 2.
+        links:
+          - title: Lernlandkarte Englisch · Each other
+            url: https://lernapps.net/apps/map/englisch/c/each-other/
+      - type: true-false
+        id: each-text-2
+        text: Ellie und Amir haben das Klettern bei einem Lehrer gelernt.
+        answer: false
+        hint: Lies Zeile 5.
+        explanation: Sie haben es sich selbst mit Videos beigebracht.
+        links:
+          - title: Lernlandkarte Englisch · Each other
+            url: https://lernapps.net/apps/map/englisch/c/each-other/
+      - type: text
+        text: "**Stufe 2 · Belegen mit der Zeile**"
+      - type: single-choice
+        id: each-text-3
+        text: Welche Zeile zeigt, dass Ellie und Amir sich gegenseitig verbessert haben?
+        options:
+          - text: Zeile 3
+            correct: false
+            info: Dort sagt Amir, dass sie sich vertrauen.
+          - text: Zeile 5
+            correct: true
+            info: "Zeile 5: Then we corrected each other."
+          - text: Zeile 7
+            correct: false
+            info: Dort geht es ums Reden.
+          - text: Zeile 9
+            correct: false
+            info: Dort geht es um Selfies.
+        explanation: Suche das Wort corrected.
+        links:
+          - title: Lernlandkarte Englisch · Each other
+            url: https://lernapps.net/apps/map/englisch/c/each-other/
+      - type: single-choice
+        id: each-text-4
+        text: Welche Zeile zeigt, dass Ellie und Amir jeder ein Foto von sich selbst machen?
+        options:
+          - text: Zeile 8
+            correct: false
+            info: Dort machen Sophie und Peter Fotos voneinander.
+          - text: Zeile 9
+            correct: false
+            info: Dort sagt Sophie das über die beiden, ohne zu sagen, wer wen fotografiert.
+          - text: Zeile 10
+            correct: true
+            info: "Zeile 10: Ellie fotografiert sich selbst (herself), Amir fotografiert sich selbst (myself)."
+          - text: Zeile 11
+            correct: false
+            info: Dort spricht Mr Hill.
+        explanation: Wer macht das Foto von wem?
+        links:
+          - title: Lernlandkarte Englisch · Each other
+            url: https://lernapps.net/apps/map/englisch/c/each-other/
+      - type: text
+        text: "**Stufe 3 · Meinung**"
+      - type: open-task
+        id: each-text-5
+        task: "Mr Hill sagt: Schaut euch kurz an und lächelt. Ist es wichtig, dass sich Freunde bei einem Foto auch ansehen und nicht nur das Handy? Schreibe zwei bis drei Sätze mit einem Grund."
+        points:
+          - text: Eine klare Meinung (wichtig oder nicht wichtig).
+            kind: form
+          - text: "Ein Grund, zum Beispiel: Man erinnert sich an das Gefühl, nicht nur an das Bild."
+            source: /pronomen-2/each-other/#lesen
+          - text: Ganze Sätze mit einem Grund (weil …).
+            kind: form
+        solution: Ich finde es wichtig, weil man sich dann besser an den Moment erinnert. Außerdem sieht ein Foto netter aus, wenn alle lachen.
+  - type: section
+    id: neu
+    title: Hin und her oder zurück
+    blocks:
+      - type: text
+        text: "In Zeile 1 helfen sich Ellie und Amir **gegenseitig**: Ellie hilft Amir, und Amir hilft Ellie. Dafür steht **each other**. Der Pfeil geht zwischen den beiden hin und her. Bei **themselves** geht der Pfeil von jeder Person zu ihr selbst zurück."
+      - type: figure
+        image: images/pfeile-each-other.svg
+        alt: Zwei Bilder. Links zeigen zwei Pfeile zwischen Ellie und Amir hin und her, dazu der Satz They help each other. Rechts geht bei Ellie und bei Amir je ein Pfeil im Bogen zu der Person selbst zurück, dazu der Satz They help themselves.
+        caption: "Links gehen die Pfeile hin und her: each other. Rechts geht jeder Pfeil zur selben Person zurück: themselves."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "**each other** heißt „einander“ oder „gegenseitig“ und braucht mindestens zwei Personen. Das Deutsche sagt in beiden Fällen „sich“: sie helfen sich (einander) und sie helfen sich (selbst). Im Englischen sind das zwei verschiedene Wörter. Auf dem Poster bekommt **each other** einen eigenen Kasten neben der Spalte „Wer ist es selbst?“."
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: each-waehlen-1
+        text: Ellie hilft Amir und Amir hilft Ellie. „They help ___.“
+        options:
+          - text: themselves
+            correct: false
+            info: themselves hieße, dass jeder sich selbst hilft.
+          - text: them
+            correct: false
+            info: them ist für andere Personen, nicht für die beiden selbst.
+          - text: each other
+            correct: true
+            info: "each other: Der Pfeil geht hin und her."
+        explanation: "Hin und her: each other."
+        links:
+          - title: Lernlandkarte Englisch · Each other
+            url: https://lernapps.net/apps/map/englisch/c/each-other/
+      - type: single-choice
+        id: each-waehlen-2
+        text: Ellie macht ein Foto von sich und Amir macht ein Foto von sich. „They take photos of ___.“
+        options:
+          - text: each other
+            correct: false
+            info: each other hieße, dass Ellie Amir fotografiert und Amir Ellie.
+          - text: themselves
+            correct: true
+            info: "themselves: Jeder fotografiert sich selbst."
+          - text: them
+            correct: false
+            info: them ist für andere Personen.
+        explanation: "Jeder zu sich selbst zurück: themselves."
+        links:
+          - title: Lernlandkarte Englisch · Each other
+            url: https://lernapps.net/apps/map/englisch/c/each-other/
+      - type: single-choice
+        id: each-waehlen-3
+        text: Sophie sieht Peter an, und Peter sieht Sophie an. „They look at ___ and laugh.“
+        options:
+          - text: theirselves
+            correct: false
+            info: Es heißt themselves, nicht theirselves, und hier passt each other besser.
+          - text: themselves
+            correct: false
+            info: themselves hieße, dass jeder sich selbst ansieht.
+          - text: each other
+            correct: true
+            info: "each other: Sophie sieht Peter an und Peter sieht Sophie an."
+        explanation: "Sie sehen einander an: each other."
+        links:
+          - title: Lernlandkarte Englisch · Each other
+            url: https://lernapps.net/apps/map/englisch/c/each-other/
+      - type: ordering
+        id: each-ordnen
+        text: Bringe die Wörter in die richtige Reihenfolge.
+        items:
+          - Ellie and Amir
+          - trust
+          - each other
+        explanation: Zuerst steht, wer es tut, dann das Verb, zuletzt each other.
+        hint: Wer tut es? Das steht am Anfang.
+        links:
+          - title: Lernlandkarte Englisch · Each other
+            url: https://lernapps.net/apps/map/englisch/c/each-other/
+      - type: language-task
+        id: each-schreiben
+        languages:
+          source: de
+          target: en
+        task: Schreibe den Satz auf Englisch.
+        form:
+          case: hint
+          punctuation: hint
+        items:
+          - source: Sie helfen sich gegenseitig.
+            target: They help each other.
+            mistakes:
+              - answer: They help themselves.
+                message: "themselves heißt: Jeder hilft sich selbst. Gegenseitig heißt each other."
+              - answer: They help them.
+                message: them ist für andere Personen, nicht für die beiden selbst. Gegenseitig heißt each other.
+          - source: Sie sehen sich jeden Tag. (zwei Freunde, einander)
+            target: They see each other every day.
+            mistakes:
+              - answer: They see themselves every day.
+                message: "themselves hieße: jeder sieht sich selbst. Einander heißt each other."
+          - source: Sie haben sich selbst kochen beigebracht.
+            target: They taught themselves to cook.
+            mistakes:
+              - answer: They taught each other to cook.
+                message: "each other heißt: einer dem anderen. Hier hat jeder sich selbst etwas beigebracht: themselves."
+              - answer: They taught theirselves to cook.
+                message: Es heißt themselves, nicht theirselves.
+      - type: true-false
+        id: each-falsch
+        text: "„They help themselves.“ bedeutet: Sie helfen einander. Stimmt das?"
+        answer: false
+        hint: Gehen die Pfeile hin und her oder zu jeder Person zurück?
+        explanation: Bei themselves hilft jeder sich selbst. Einander heißt each other.
+        links:
+          - title: Lernlandkarte Englisch · Each other
+            url: https://lernapps.net/apps/map/englisch/c/each-other/
+      - type: single-choice
+        id: each-korrigieren
+        text: Ellie und Amir sehen einander an. Welcher Satz ist richtig?
+        options:
+          - text: They look at themselves.
+            correct: false
+            info: "themselves hieße: jeder sieht sich selbst an."
+          - text: They look at theirselves.
+            correct: false
+            info: theirselves gibt es im Englischen nicht.
+          - text: They look at each other.
+            correct: true
+            info: "each other: Ellie sieht Amir an und Amir sieht Ellie an."
+        explanation: "Einander: each other."
+        links:
+          - title: Lernlandkarte Englisch · Each other
+            url: https://lernapps.net/apps/map/englisch/c/each-other/
+      - type: language-task
+        id: each-hoeren
+        languages:
+          source: de
+          target: en
+        task: Hör zu und schreibe, was du hörst.
+        form:
+          case: hint
+          punctuation: hint
+        items:
+          - audio: the-twins-know-each-other-well.mp3
+            target: The twins know each other well.
+          - audio: do-you-see-each-other-often.mp3
+            target: Do you see each other often?
+          - audio: the-boys-made-themselves-a-pizza.mp3
+            target: The boys made themselves a pizza.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: each-nachsprechen
+        language: en
+        items:
+          - audio: please-be-kind-to-each-other.mp3
+            text: Please be kind to each other.
+          - audio: the-girls-are-talking-to-each-other.mp3
+            text: The girls are talking to each other.
+          - audio: they-can-do-it-themselves.mp3
+            text: They can do it themselves.
+        hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
+      - type: open-task
+        id: each-schreiben-frei
+        task: "Schreibe zwei englische Sätze über dich und einen Freund oder eine Freundin: einen mit each other und einen mit ourselves oder themselves."
+        points:
+          - text: Ein Satz mit each other für etwas, das ihr füreinander tut.
+            source: /pronomen-2/each-other/#neu
+          - text: Ein Satz mit ourselves oder themselves für etwas, das jeder für sich tut.
+            source: /pronomen-2/each-other/#neu
+        solution: We help each other with homework. We taught ourselves to skate.
+  - type: section
+    id: weiter
+    title: Rückblick auf Kapitel 2
+    blocks:
+      - type: text
+        text: "Das Poster hat jetzt alle Spalten: **Wer tut es? Wen trifft es? Zu wem gehört es? Ohne Nomen? Wer ist es selbst?** und den Kasten each other. Du kannst sagen, wem etwas gehört, ohne das Nomen zu wiederholen (mine, yours), wann ein Wort zur selben Person zurückzeigt (myself) und wann zwei Personen einander meinen (each other)."
