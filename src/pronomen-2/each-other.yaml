@@ -78,6 +78,9 @@ blocks:
       - type: definition
         term: selfie
         explanation: Foto von sich selbst
+      - type: definition
+        term: laugh
+        explanation: lachen
   - type: section
     id: verstehen
     title: Aufgaben zum Text
@@ -188,11 +191,11 @@ blocks:
     blocks:
       - type: single-choice
         id: each-waehlen-1
-        text: Ellie hilft Amir und Amir hilft Ellie. „They help ___.“
+        text: Ellie ruft Amir an und Amir ruft Ellie an. „They call ___.“
         options:
           - text: themselves
             correct: false
-            info: themselves hieße, dass jeder sich selbst hilft.
+            info: themselves hieße, dass jeder sich selbst anruft.
           - text: them
             correct: false
             info: them ist für andere Personen, nicht für die beiden selbst.
@@ -205,11 +208,11 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/each-other/
       - type: single-choice
         id: each-waehlen-2
-        text: Ellie macht ein Foto von sich und Amir macht ein Foto von sich. „They take photos of ___.“
+        text: Ellie zeichnet sich selbst und Amir zeichnet sich selbst. „They draw pictures of ___.“
         options:
           - text: each other
             correct: false
-            info: each other hieße, dass Ellie Amir fotografiert und Amir Ellie.
+            info: each other hieße, dass Ellie Amir zeichnet und Amir Ellie.
           - text: themselves
             correct: true
             info: "themselves: Jeder fotografiert sich selbst."
@@ -241,8 +244,8 @@ blocks:
         id: each-ordnen
         text: Bringe die Wörter in die richtige Reihenfolge.
         items:
-          - Ellie and Amir
-          - trust
+          - Peter and Sophie
+          - like
           - each other
         explanation: Zuerst steht, wer es tut, dann das Verb, zuletzt each other.
         hint: Wer tut es? Das steht am Anfang.
@@ -259,31 +262,31 @@ blocks:
           case: hint
           punctuation: hint
         items:
-          - source: Sie helfen sich gegenseitig.
-            target: They help (each other|one another).
+          - source: Sie schreiben sich jeden Tag Nachrichten. (einander)
+            target: They (write|send) messages to (each other|one another) every day.
             mistakes:
-              - answer: They help themselves.
-                message: "themselves heißt: Jeder hilft sich selbst. Gegenseitig heißt each other."
-              - answer: They help them.
-                message: them ist für andere Personen, nicht für die beiden selbst. Gegenseitig heißt each other.
+              - answer: They write messages to themselves every day.
+                message: "themselves hieße: jeder schreibt sich selbst. Einander heißt each other."
+              - answer: They write messages to them every day.
+                message: them ist für andere Personen, nicht für die beiden selbst. Einander heißt each other.
           - source: Sie sehen sich jeden Tag. (zwei Freunde, einander)
             target: They see (each other|one another) every day.
             mistakes:
               - answer: They see themselves every day.
                 message: "themselves hieße: jeder sieht sich selbst. Einander heißt each other."
-          - source: Sie haben sich selbst kochen beigebracht.
-            target: They (taught|have taught) themselves (how to|to) cook.
+          - source: Sie haben sich selbst Gitarre spielen beigebracht.
+            target: They (taught|have taught) themselves (how to|to) play the guitar.
             mistakes:
-              - answer: They taught each other to cook.
+              - answer: They taught each other to play the guitar.
                 message: "each other heißt: einer dem anderen. Hier hat jeder sich selbst etwas beigebracht: themselves."
-              - answer: They taught theirselves to cook.
+              - answer: They taught theirselves to play the guitar.
                 message: Es heißt themselves, nicht theirselves.
       - type: true-false
         id: each-falsch
-        text: "„They help themselves.“ bedeutet: Sie helfen einander. Stimmt das?"
+        text: "„They call themselves.“ bedeutet: Sie rufen einander an. Stimmt das?"
         answer: false
         hint: Gehen die Pfeile hin und her oder zu jeder Person zurück?
-        explanation: Bei themselves hilft jeder sich selbst. Einander heißt each other.
+        explanation: Bei themselves ruft jeder sich selbst an. Einander heißt each other.
         links:
           - title: Lernlandkarte Englisch · Each other
             url: https://lernapps.net/apps/map/englisch/c/each-other/
@@ -349,4 +352,4 @@ blocks:
     title: Rückblick auf Kapitel 2
     blocks:
       - type: text
-        text: "Das Poster hat jetzt alle Spalten: **Wer tut es? Wen trifft es? Zu wem gehört es? Ohne Nomen? Wer ist es selbst?** und den Kasten each other. Du kannst sagen, wem etwas gehört, ohne das Nomen zu wiederholen (mine, yours), wann ein Wort zur selben Person zurückzeigt (myself) und wann zwei Personen einander meinen (each other)."
+        text: "Das Poster hat jetzt alle Spalten: **Wer tut es? Wen trifft es? Zu wem gehört es? Ohne Nomen? Wer ist es selbst?** Dazu kommt each other aus dem Kasten Merke. Du kannst sagen, wem etwas gehört, ohne das Nomen zu wiederholen (mine, yours), wann ein Wort zur selben Person zurückzeigt (myself) und wann zwei Personen einander meinen (each other). Teste dich jetzt mit der Selbsteinschätzung des Kapitels."

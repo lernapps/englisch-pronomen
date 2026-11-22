@@ -61,7 +61,7 @@ blocks:
 
           **11** · **Amir:** Yes, it's mine. And the black bag is Sophie's. All our things are back!
 
-          **12** · **Peter:** Funny! My own bag is the red one, and it is right here. LOL
+          **12** · **Peter:** Funny! My own bag is the red one on my back. LOL
       - type: definition
         term: hoodie
         explanation: Kapuzenpullover
@@ -89,6 +89,12 @@ blocks:
       - type: definition
         term: No way!
         explanation: Auf keinen Fall!
+      - type: definition
+        term: own
+        explanation: eigen
+      - type: definition
+        term: LOL
+        explanation: Abkürzung im Chat für „laut lachen“
   - type: section
     id: verstehen
     title: Aufgaben zum Text
@@ -184,7 +190,7 @@ blocks:
     title: Wörter, die allein stehen
     blocks:
       - type: text
-        text: "Im Chat steht oft „mine“, „yours“ oder „hers“ allein, ohne Nomen: „The hoodie is mine.“ Du musst nicht „my hoodie“ wiederholen. Auf dem Poster ist das die vierte Spalte mit der Frage **Gehört es mir, ohne Nomen?** Hier siehst du sie neben den Wörtern aus Kapitel 1, die vor einem Nomen stehen."
+        text: "Im Chat steht oft „mine“, „yours“ oder „hers“ allein, ohne Nomen: „The hoodie is mine.“ Du musst nicht „my hoodie“ wiederholen. Auf dem Poster ist das eine neue Spalte mit der Frage **Gehört es mir, ohne Nomen?** Hier siehst du sie neben den Wörtern aus Kapitel 1, die vor einem Nomen stehen."
       - type: table
         caption: Klassenzimmer-Poster · Pronomen (Ausschnitt)
         header:
@@ -242,7 +248,7 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/possessivpronomen/
       - type: single-choice
         id: mine-waehlen-2
-        text: "Amir fragt Sophie: „Is this your phone?“ Sophie sagt: „No, it isn't ___.“ (Es ist nicht meins.)"
+        text: "Amir fragt Sophie: „Is this your phone?“ Sophie sagt: „No, it is not ___.“ (Es ist nicht meins.)"
         options:
           - text: mine
             correct: true
@@ -259,7 +265,7 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/possessivpronomen/
       - type: single-choice
         id: mine-waehlen-3
-        text: "Sophie sagt über die Hüte von Emma und Lily: „The hats are ___.“"
+        text: "Sophie sagt über die Fahrräder von Emma und Lily: „The bikes are ___.“"
         options:
           - text: their
             correct: false
@@ -356,15 +362,12 @@ blocks:
           case: hint
           punctuation: hint
         items:
-          - audio: the-white-hat-is-mine.mp3
-            target: The white hat is mine.
-          - audio: is-that-dog-yours.mp3
-            target: Is that dog yours?
-          - audio: these-phones-are-ours.mp3
-            target: These phones are ours.
-            mistakes:
-              - answer: These phone are ours.
-                message: "Es sind mehrere Telefone: phones mit s."
+          - audio: the-tickets-on-the-table-are-ours.mp3
+            target: The tickets on the table are ours.
+          - audio: is-this-ruler-yours.mp3
+            target: Is this ruler yours?
+          - audio: these-keys-are-his.mp3
+            target: These keys are his.
       - type: language-task
         id: mine-tabelle
         languages:
@@ -407,12 +410,12 @@ blocks:
         id: mine-nachsprechen
         language: en
         items:
-          - audio: the-red-pen-is-hers.mp3
-            text: The red pen is hers.
-          - audio: that-bag-is-his.mp3
-            text: That bag is his.
-          - audio: this-bike-is-theirs.mp3
-            text: This bike is theirs.
+          - audio: this-jacket-is-theirs.mp3
+            text: This jacket is theirs.
+          - audio: that-umbrella-is-hers.mp3
+            text: That umbrella is hers.
+          - audio: that-watch-is-mine.mp3
+            text: That watch is mine.
         hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
       - type: open-task
         id: mine-schreiben-frei
@@ -430,4 +433,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Auf dem Poster stehen jetzt neben my, your und our auch mine, yours und ours. Am Abend schreibt Ellie im Chat: „Ouch! I hurt myself.“ Auf der nächsten Seite liest du Sophies Tagebuch und lernst, wann im Englischen ein Wort wie myself nötig ist und wann nicht."
+        text: Auf dem Poster stehen jetzt neben my, your und our auch mine, yours und ours. Am nächsten Samstag fahren die Freunde zum Kletterpark. Auf der nächsten Seite liest du Sophies Tagebuch über diesen Tag und lernst, wann im Englischen ein Wort wie myself nötig ist und wann nicht.

@@ -63,7 +63,7 @@ blocks:
         explanation: verletzen (he hurt himself = er hat sich verletzt)
       - type: definition
         term: cut
-        explanation: Schnittwunde
+        explanation: "Schnittwunde; als Verb: schneiden (he cut himself = er hat sich geschnitten)"
       - type: definition
         term: scared
         explanation: ängstlich, verängstigt
@@ -94,6 +94,15 @@ blocks:
       - type: definition
         term: bus stop
         explanation: Bushaltestelle
+      - type: definition
+        term: ride a bike
+        explanation: Rad fahren
+      - type: definition
+        term: bought (von buy)
+        explanation: kaufte, gekauft
+      - type: definition
+        term: cleaned (von clean)
+        explanation: putzte, sich geputzt
   - type: section
     id: verstehen
     title: Aufgaben zum Text
@@ -238,7 +247,7 @@ blocks:
     blocks:
       - type: single-choice
         id: myself-waehlen-1
-        text: "Peter hat es allein gelernt: „Peter taught ___ to ride a bike.“"
+        text: "Peter macht sich ein Sandwich: „Peter is making ___ a sandwich.“"
         options:
           - text: him
             correct: false
@@ -255,7 +264,7 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/reflexivpronomen/
       - type: single-choice
         id: myself-waehlen-2
-        text: "Sophie sagt: „Ellie and I enjoyed ___ at the park.“"
+        text: "Sophie sagt: „Ellie and I are making ___ a pizza.“"
         options:
           - text: themselves
             correct: false
@@ -342,9 +351,9 @@ blocks:
             target: We (meet|are meeting) at eight.
             mistakes:
               - answer: We meet ourselves at eight.
-                message: Bei hurry steht kein Reflexivpronomen.
+                message: Bei meet steht kein Reflexivpronomen.
               - answer: We meet us at eight.
-                message: Bei hurry steht auch kein us.
+                message: Bei meet steht auch kein us.
           - source: Er hat sich geschnitten.
             target: He (cut|has cut|'s cut) himself.
             mistakes:
@@ -451,4 +460,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Auf dem Poster steht jetzt auch die Spalte „Wer ist es selbst?“. Im Kletterpark helfen sich Ellie und Amir an der Wand gegenseitig. Auf der nächsten Seite liest du ihren Dialog und lernst, warum das nicht themselves heißt.
+        text: Auf dem Poster steht jetzt auch die Spalte „Wer ist es selbst?“. Im Tagebuch kommen auch Ellie und Amir vor. Auf der nächsten Seite liest du einen Dialog mit ihnen. Dort helfen sie sich an der Wand gegenseitig, und du lernst, warum das nicht themselves heißt.

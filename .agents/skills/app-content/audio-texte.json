@@ -29,16 +29,16 @@
   "src/audio/please-be-kind-to-each-other.mp3": "Please be kind to each other.",
   "src/audio/the-girls-are-talking-to-each-other.mp3": "The girls are talking to each other.",
   "src/audio/they-can-do-it-themselves.mp3": "They can do it themselves.",
-  "src/audio/the-white-hat-is-mine.mp3": "The white hat is mine.",
-  "src/audio/is-that-dog-yours.mp3": "Is that dog yours?",
-  "src/audio/these-phones-are-ours.mp3": "These phones are ours.",
-  "src/audio/the-red-pen-is-hers.mp3": "The red pen is hers.",
-  "src/audio/that-bag-is-his.mp3": "That bag is his.",
-  "src/audio/this-bike-is-theirs.mp3": "This bike is theirs.",
   "src/audio/i-bought-myself-a-new-phone.mp3": "I bought myself a new phone.",
   "src/audio/he-bought-himself-a-ticket.mp3": "He bought himself a ticket.",
   "src/audio/the-cat-cleaned-itself.mp3": "The cat cleaned itself.",
   "src/audio/you-can-do-it-yourself.mp3": "You can do it yourself.",
   "src/audio/we-can-help-ourselves.mp3": "We can help ourselves.",
-  "src/audio/help-yourselves-please.mp3": "Help yourselves, please."
+  "src/audio/help-yourselves-please.mp3": "Help yourselves, please.",
+  "src/audio/the-tickets-on-the-table-are-ours.mp3": "The tickets on the table are ours.",
+  "src/audio/is-this-ruler-yours.mp3": "Is this ruler yours?",
+  "src/audio/these-keys-are-his.mp3": "These keys are his.",
+  "src/audio/this-jacket-is-theirs.mp3": "This jacket is theirs.",
+  "src/audio/that-umbrella-is-hers.mp3": "That umbrella is hers.",
+  "src/audio/that-watch-is-mine.mp3": "That watch is mine."
 }

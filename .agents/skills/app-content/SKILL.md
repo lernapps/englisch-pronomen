@@ -99,7 +99,7 @@ Stand: Die Ersteller:in hat die Regel (Rand 40 ms, 20 bis 100 ms) gehört und f�
 
 ### Hörliste Kapitel 2 (18 Hörsätze, nichts davon angehört)
 
-- `mine-yours`: the-white-hat-is-mine, is-that-dog-yours, these-phones-are-ours (Diktat); the-red-pen-is-hers, that-bag-is-his, this-bike-is-theirs (Nachsprechen).
+- `mine-yours`: the-tickets-on-the-table-are-ours, is-this-ruler-yours, these-keys-are-his (Diktat); this-jacket-is-theirs, that-umbrella-is-hers, that-watch-is-mine (Nachsprechen).
 - `myself`: i-bought-myself-a-new-phone, he-bought-himself-a-ticket, the-cat-cleaned-itself (Diktat); you-can-do-it-yourself, we-can-help-ourselves, help-yourselves-please.
 - `each-other`: the-twins-know-each-other-well, do-you-see-each-other-often, the-boys-made-themselves-a-pizza; please-be-kind-to-each-other, the-girls-are-talking-to-each-other, they-can-do-it-themselves.
-- Mit Schnitt an der Senke (`valley_cut`, gezielt anhören): the-red-pen-is-hers, that-bag-is-his, he-bought-himself-a-ticket, the-cat-cleaned-itself, you-can-do-it-yourself, help-yourselves-please. Die meisten Sätze enden auf ein einsilbiges Wort, zweisilbig: the-cat-cleaned-itself, help-yourselves-please (endet auf please, einsilbig), the-boys-made-themselves-a-pizza (zweisilbig).
+- Mit Schnitt an der Senke (`valley_cut`, gezielt anhören): the-tickets-on-the-table-are-ours, these-keys-are-his, this-jacket-is-theirs, he-bought-himself-a-ticket, the-cat-cleaned-itself, you-can-do-it-yourself, help-yourselves-please. Die meisten Sätze enden auf ein einsilbiges Wort; zweisilbig enden the-cat-cleaned-itself und the-boys-made-themselves-a-pizza (pizza).
