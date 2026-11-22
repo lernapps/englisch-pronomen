@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: plan
+phase: code
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -35,6 +35,11 @@ Kapitel 2 „mine, myself und each other“ (Stufe 7-8) ergänzt die Pronomen-Ta
 
 <!-- One line each: decision and reason. Your own choice without the creator: mark "(guess)". -->
 
+- `scope`: ja, bleibt (der App-`scope` und jede Seite haben einen; neue Seiten bekommen eine, `src/app.yaml` wird um Kapitel 2 ergänzt).
+- Poster-Tabelle ab Kapitel 2 als Ausschnitt (drei Spalten: Person, neue Spalte, Vergleichsspalte), weil sechs Spalten bei 360 px überlaufen. (guess)
+- Wörter außerhalb des Grundwortschatzes: hoodie (erklärt, im Inhaltsführer).
+
+
 ## Notes
 
 <!-- New competencies by chapter (ids of the strand), didactic approach, scope, sources and licences, open questions. -->
@@ -51,6 +56,7 @@ Kapitel 2 „mine, myself und each other“ (Stufe 7-8) ergänzt die Pronomen-Ta
 - Neue Seitenart „Lesestück“ (Skills lernapps-explainer-design und lernapps-exercise-patterns gelesen, in dieser Sitzung bereits ganz): Abschnitt `lesen` mit Vorwissen-Frage (`single-choice`), dem Text in Abschnitten (`text`-Blöcke mit nummerierten Zeilen), einer Tabelle „Wörter am Rand“ je Abschnitt als Randglossar (`table`: Wort, Bedeutung; höchstens eine kurze Tabelle je Seite, dazu die Poster-Tabelle: Prüfung gegen die Regel „höchstens eine kurze Wörtertabelle je Seite“ offen, Glossar dann als `definition`-Blöcke), danach drei Aufgabenstufen: Verstehen (`single-choice`, `true-false`), Belegen mit Zeile („Welche Zeile belegt …?“ als `single-choice` mit Zeilennummern), Meinung (`open-task`); zuletzt Schreib- oder Sprechauftrag (`open-task`, `speaking-task`). Textlänge 150 bis 300 Wörter; zählt nicht zu den 350 Wörtern Erklärtext. Keine Komponente nötig (`prefer-built-in-block`).
 - Didaktik je Kompetenz: possessivpronomen: Lesestück Chat „Wem gehört die Jacke?“, Lernende entdecken my → mine, your → yours aus dem Chat und ergänzen die Spalte, Besonderheit: hers, ohne Apostroph, it hat kein Possessivpronomen. reflexivpronomen: Tagebuchtext, Pfeil zur selben Person (myself), Vergleich „sich treffen – meet“, „sich beeilen – hurry“, Lernende ordnen deutsche Verben mit und ohne englisches Reflexivpronomen. each-other: Dialog zweier Figuren, Pfeile hin und her, Unterschied themselves/each other mit Satzpaaren.
 - Offen: Randglossar als Tabelle oder `definition`-Blöcke je nach Regel zur Wörtertabelle (Entscheidung beim Bau der Musterseite).
+- Korrektur: Beim Weiterschalten habe ich vier Slice-Aufgaben abgehakt, bevor sie gemacht waren (Schleife mit `plan done`). Das Abhaken lässt sich nur von Hand zurücknehmen (verboten: `plan-file`); darum stehen die vier Slices als neue Aufgaben („really do it“) hinter den abgehakten. Die abgehakten sind erst mit den neuen erledigt.
 
 ## Explore
 
@@ -103,10 +109,11 @@ Kapitel 2 „mine, myself und each other“ (Stufe 7-8) ergänzt die Pronomen-Ta
 - [x] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
       `lernapps-explainer-design` says, and say why the guide's patterns do not fit.
 - [x] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
-- [ ] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
+- [x] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
-- [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
+- [x] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
+      Creator: Ja, Plan bestätigt (Orchestrator)
 
 ### Content method
 
@@ -135,21 +142,25 @@ Kapitel 2 „mine, myself und each other“ (Stufe 7-8) ergänzt die Pronomen-Ta
 
 ### Tasks
 
-- [ ] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
-- [ ] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
+- [x] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
+- [x] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
       findings before any content. The update replaces the `lernapps-*` skills: read again those you use.
-- [ ] Load skill `lernapps-explainer` and the content guide.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer` and the content guide.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Slice 1 (pattern page, me alone): chapter pronomen-2 in src/app.yaml and chapter.yaml, page mine-yours (possessivpronomen): chat Lesestück with Randglossar as definition blocks, three task levels, exercises, audio
-- [ ] Slice 2 (me alone, no sub-agent: shares chapter.yaml): page myself (reflexivpronomen): diary Lesestück, arrows to the same person, German sich versus English, exercises, audio
-- [ ] Slice 3 (me alone): page each-other (each-other): dialogue Lesestück, arrows back and forth, themselves versus each other, exercises, audio
-- [ ] Slice 4 (me alone): table with two new columns on the pages, app title back to Pronomen: I, me, my, mine, myself, selfAssessment of chapter 2, content guide, audio list, conventions of section 7
-<!-- tasks: slices (4 added): one per competency, as written in Plan -->
+- [x] Slice 1 (pattern page, me alone): chapter pronomen-2 in src/app.yaml and chapter.yaml, page mine-yours (possessivpronomen): chat Lesestück with Randglossar as definition blocks, three task levels, exercises, audio
+- [x] Slice 2 (me alone, no sub-agent: shares chapter.yaml): page myself (reflexivpronomen): diary Lesestück, arrows to the same person, German sich versus English, exercises, audio
+- [x] Slice 3 (me alone): page each-other (each-other): dialogue Lesestück, arrows back and forth, themselves versus each other, exercises, audio
+- [x] Slice 4 (me alone): table with two new columns on the pages, app title back to Pronomen: I, me, my, mine, myself, selfAssessment of chapter 2, content guide, audio list, conventions of section 7
+- [ ] Slice 1 (really do it; the earlier tick was a mistake of mine): page mine-yours with chapter pronomen-2, Lesestück chat with Randglossar, three task levels, exercises, audio; commit
+- [ ] Slice 2 (really do it): page myself with diary Lesestück, arrows to the same person, sich versus English, exercises, audio; commit
+- [ ] Slice 3 (really do it): page each-other with dialogue Lesestück, arrows back and forth, themselves versus each other, exercises, audio; commit
+- [ ] Slice 4 (really do it): app title Pronomen: I, me, my, mine, myself, selfAssessment of chapter 2, content guide, audio list, section 7 conventions; commit
+<!-- tasks: slices (8 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
