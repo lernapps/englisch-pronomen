@@ -1,83 +1,155 @@
-[
-  {
-    "satz": "Ellie can call her brother.",
-    "schnitt_bei_ms": 1355,
-    "gekuerzt_ms": 65,
-    "gekuerzt_prozent": 4.6,
-    "datei_vorher": "ellie-can-call-her-brother-vorher.mp3",
-    "datei_nachher": "ellie-can-call-her-brother-nachher.mp3",
-    "zweisilbiges_ende": true
+{
+  "paare": [
+    {
+      "satz": "Ellie can call her brother.",
+      "zweisilbiges_ende": true,
+      "datei_vorher": "ellie-can-call-her-brother-vorher.mp3",
+      "datei_nachher_alte_regel": "ellie-can-call-her-brother-nachher.mp3",
+      "alt": {
+        "schnitt_bei_ms": 1355,
+        "gekuerzt_ms": 65,
+        "gekuerzt_prozent": 4.6
+      },
+      "neu": {
+        "schnitt_bei_ms": 1395,
+        "gekuerzt_ms": 25,
+        "gekuerzt_prozent": 1.8
+      }
+    },
+    {
+      "satz": "Ellie can help her brother.",
+      "zweisilbiges_ende": true,
+      "datei_vorher": "ellie-can-help-her-brother-vorher.mp3",
+      "datei_nachher_alte_regel": "ellie-can-help-her-brother-nachher.mp3",
+      "alt": {
+        "schnitt_bei_ms": 1275,
+        "gekuerzt_ms": 55,
+        "gekuerzt_prozent": 4.1
+      },
+      "neu": {
+        "kein_schnitt": true,
+        "grund": "Rest nach Rand unter 20 ms"
+      }
+    },
+    {
+      "satz": "I can see your jacket.",
+      "zweisilbiges_ende": true,
+      "datei_vorher": "i-can-see-your-jacket-vorher.mp3",
+      "datei_nachher_alte_regel": "i-can-see-your-jacket-nachher.mp3",
+      "alt": {
+        "schnitt_bei_ms": 1365,
+        "gekuerzt_ms": 85,
+        "gekuerzt_prozent": 5.9
+      },
+      "neu": {
+        "schnitt_bei_ms": 1405,
+        "gekuerzt_ms": 45,
+        "gekuerzt_prozent": 3.1
+      }
+    },
+    {
+      "satz": "They can see my jacket.",
+      "zweisilbiges_ende": true,
+      "datei_vorher": "they-can-see-my-jacket-vorher.mp3",
+      "datei_nachher_alte_regel": "they-can-see-my-jacket-nachher.mp3",
+      "alt": {
+        "schnitt_bei_ms": 1365,
+        "gekuerzt_ms": 85,
+        "gekuerzt_prozent": 5.9
+      },
+      "neu": {
+        "schnitt_bei_ms": 1405,
+        "gekuerzt_ms": 45,
+        "gekuerzt_prozent": 3.1
+      }
+    },
+    {
+      "satz": "Peter can see his bag.",
+      "zweisilbiges_ende": false,
+      "datei_vorher": "peter-can-see-his-bag-vorher.mp3",
+      "datei_nachher_alte_regel": "peter-can-see-his-bag-nachher.mp3",
+      "alt": {
+        "schnitt_bei_ms": 1265,
+        "gekuerzt_ms": 45,
+        "gekuerzt_prozent": 3.4
+      },
+      "neu": {
+        "kein_schnitt": true,
+        "grund": "Rest nach Rand unter 20 ms"
+      }
+    },
+    {
+      "satz": "You can see my book.",
+      "zweisilbiges_ende": false,
+      "datei_vorher": "you-can-see-my-book-vorher.mp3",
+      "datei_nachher_alte_regel": "you-can-see-my-book-nachher.mp3",
+      "alt": {
+        "schnitt_bei_ms": 1155,
+        "gekuerzt_ms": 105,
+        "gekuerzt_prozent": 8.3
+      },
+      "neu": {
+        "schnitt_bei_ms": 1195,
+        "gekuerzt_ms": 65,
+        "gekuerzt_prozent": 5.2
+      },
+      "datei_nachher2": "you-can-see-my-book-nachher2.mp3"
+    },
+    {
+      "satz": "We can see your bag.",
+      "zweisilbiges_ende": false,
+      "datei_vorher": "we-can-see-your-bag-vorher.mp3",
+      "datei_nachher_alte_regel": "we-can-see-your-bag-nachher.mp3",
+      "alt": {
+        "schnitt_bei_ms": 1125,
+        "gekuerzt_ms": 65,
+        "gekuerzt_prozent": 5.5
+      },
+      "neu": {
+        "schnitt_bei_ms": 1165,
+        "gekuerzt_ms": 25,
+        "gekuerzt_prozent": 2.1
+      }
+    },
+    {
+      "satz": "Peter can see us.",
+      "zweisilbiges_ende": false,
+      "datei_vorher": "peter-can-see-us-vorher.mp3",
+      "datei_nachher_alte_regel": "peter-can-see-us-nachher.mp3",
+      "alt": {
+        "schnitt_bei_ms": 1005,
+        "gekuerzt_ms": 125,
+        "gekuerzt_prozent": 11.1
+      },
+      "neu": {
+        "schnitt_bei_ms": 1045,
+        "gekuerzt_ms": 85,
+        "gekuerzt_prozent": 7.5
+      },
+      "datei_nachher2": "peter-can-see-us-nachher2.mp3"
+    },
+    {
+      "satz": "They can call me.",
+      "zweisilbiges_ende": false,
+      "datei_vorher": "they-can-call-me-vorher.mp3",
+      "datei_nachher_alte_regel": "they-can-call-me-nachher.mp3",
+      "alt": {
+        "schnitt_bei_ms": 985,
+        "gekuerzt_ms": 35,
+        "gekuerzt_prozent": 3.4
+      },
+      "neu": {
+        "kein_schnitt": true,
+        "grund": "Rest nach Rand unter 20 ms"
+      }
+    }
+  ],
+  "vier_beanstandete_saetze_neue_regel": {
+    "We can run.": "45 ms, 5,4 %",
+    "He can run.": "45 ms, 5,4 %",
+    "We can jump.": "85 ms, 8,9 %",
+    "We can call you.": "25 ms, 2,4 %"
   },
-  {
-    "satz": "Ellie can help her brother.",
-    "schnitt_bei_ms": 1275,
-    "gekuerzt_ms": 55,
-    "gekuerzt_prozent": 4.1,
-    "datei_vorher": "ellie-can-help-her-brother-vorher.mp3",
-    "datei_nachher": "ellie-can-help-her-brother-nachher.mp3",
-    "zweisilbiges_ende": true
-  },
-  {
-    "satz": "I can see your jacket.",
-    "schnitt_bei_ms": 1365,
-    "gekuerzt_ms": 85,
-    "gekuerzt_prozent": 5.9,
-    "datei_vorher": "i-can-see-your-jacket-vorher.mp3",
-    "datei_nachher": "i-can-see-your-jacket-nachher.mp3",
-    "zweisilbiges_ende": true
-  },
-  {
-    "satz": "They can see my jacket.",
-    "schnitt_bei_ms": 1365,
-    "gekuerzt_ms": 85,
-    "gekuerzt_prozent": 5.9,
-    "datei_vorher": "they-can-see-my-jacket-vorher.mp3",
-    "datei_nachher": "they-can-see-my-jacket-nachher.mp3",
-    "zweisilbiges_ende": true
-  },
-  {
-    "satz": "Peter can see his bag.",
-    "schnitt_bei_ms": 1265,
-    "gekuerzt_ms": 45,
-    "gekuerzt_prozent": 3.4,
-    "datei_vorher": "peter-can-see-his-bag-vorher.mp3",
-    "datei_nachher": "peter-can-see-his-bag-nachher.mp3",
-    "zweisilbiges_ende": false
-  },
-  {
-    "satz": "You can see my book.",
-    "schnitt_bei_ms": 1155,
-    "gekuerzt_ms": 105,
-    "gekuerzt_prozent": 8.3,
-    "datei_vorher": "you-can-see-my-book-vorher.mp3",
-    "datei_nachher": "you-can-see-my-book-nachher.mp3",
-    "zweisilbiges_ende": false
-  },
-  {
-    "satz": "We can see your bag.",
-    "schnitt_bei_ms": 1125,
-    "gekuerzt_ms": 65,
-    "gekuerzt_prozent": 5.5,
-    "datei_vorher": "we-can-see-your-bag-vorher.mp3",
-    "datei_nachher": "we-can-see-your-bag-nachher.mp3",
-    "zweisilbiges_ende": false
-  },
-  {
-    "satz": "Peter can see us.",
-    "schnitt_bei_ms": 1005,
-    "gekuerzt_ms": 125,
-    "gekuerzt_prozent": 11.1,
-    "datei_vorher": "peter-can-see-us-vorher.mp3",
-    "datei_nachher": "peter-can-see-us-nachher.mp3",
-    "zweisilbiges_ende": false
-  },
-  {
-    "satz": "They can call me.",
-    "schnitt_bei_ms": 985,
-    "gekuerzt_ms": 35,
-    "gekuerzt_prozent": 3.4,
-    "datei_vorher": "they-can-call-me-vorher.mp3",
-    "datei_nachher": "they-can-call-me-nachher.mp3",
-    "zweisilbiges_ende": false
-  }
-]
+  "rest_nach_dem_schnitt": "Höchster Pegel nach der Senke, in % der Spitze, nach 30 ms Fade: {\"We can run.\": 14, \"He can run.\": 17, \"We can jump.\": 5, \"We can call you.\": 13, \"Peter can see us.\": 15, \"You can see my book.\": 16, \"Ellie can call her brother.\": 11, \"I can see your jacket.\": 5, \"They can see my jacket.\": 5, \"We can see your bag.\": 6, \"He can jump.\": 7}",
+  "neu_geschnitten_zusaetzlich": "He can jump. (85 ms, 8,9 %): fiel vorher knapp unter der Energiegrenze von 2 %, jetzt mit Rand darunter"
+}

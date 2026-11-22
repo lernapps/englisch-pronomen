@@ -12,7 +12,7 @@ Hüllkurve in Fenstern von 10 ms, auf die lauteste Stelle normiert; `last` ist d
    - der Rest nach der Senke ist **kurz**: höchstens 130 ms bis `last`;
    - der Ausschlag ist **leise**: höchstens 30 % der Spitze (eine echte Silbe ist lauter; die Fehllaute der vier Sätze lagen bei 19 bis 23 %);
    - der Rest trägt **wenig Energie**: höchstens 2 % der Datei.
-4. Dann wird an der Senke geschnitten (Mitte des Fensters), 30 ms Fade, keine Stille angehängt (Variante B).
+4. Dann wird **40 ms hinter der Mitte der Senke** geschnitten (Sicherheitsrand, damit ein echtes Wortende nicht angeschnitten wird), 30 ms Fade, keine Stille angehängt (Variante B). Die Kürzung (vom Ende des Ausklingschnitts gerechnet) beträgt höchstens 100 ms und mindestens 20 ms; sonst kein Dip-Schnitt.
 5. Sonst gilt wie bisher der Schnitt des Ausklingens (Schwelle 8 %).
 
 Jeder Schnitt wird mit Satz, Stelle, entfernten ms und Prozent der Dauer gemeldet („dip cut: …“). Mit `--no-dip-cut` (Standard: Schnitt an) bleibt er aus; mit `DRY=1` schreibt das Skript keine Dateien.
@@ -23,6 +23,10 @@ Jeder Schnitt wird mit Satz, Stelle, entfernten ms und Prozent der Dauer gemelde
 - `dry_run.py`: Trockenlauf über `audio-texte.json`, schreibt `dry_run.json`. Aufruf im Ordner der App: `python .vibe/regen-audio-neu/dry_run.py .vibe/regen-audio-neu/audio-texte.json`.
 - `bericht.md`, `dry_run.json`: Ergebnis für diese App.
 - `audio-texte.json`: Sätze und Dateinamen.
+
+## Hörurteil der Ersteller:in
+
+Regel in Ordnung; bei „Peter can see us“ war der erste Schnitt (an der Senke, 125 ms) „ein ganz klein wenig zu viel“. Darum der Rand von 40 ms und die Grenze von 100 ms (jetzt 85 ms bei „Peter can see us“). Der Rest nach dem Schnitt liegt bei den vier beanstandeten Sätzen noch bei 11 bis 17 % der Spitze (nach Fade): Der Ausschlag setzt direkt nach der Senke ein, ein Rest unter 10 % und ein Rand lassen sich dort nicht verbinden.
 
 ## Grenze
 
