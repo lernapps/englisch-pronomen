@@ -189,8 +189,8 @@ blocks:
             text: Sophie can see me.
           - audio: he-can-help-them.mp3
             text: He can help them.
-          - audio: we-can-call-you-sophie.mp3
-            text: We can call you, Sophie.
+          - audio: we-can-call-you.mp3
+            text: We can call you.
         hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
   - type: section
     id: weiter

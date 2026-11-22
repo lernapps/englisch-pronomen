@@ -158,8 +158,8 @@ blocks:
             target: She can swim.
           - audio: they-can-sing.mp3
             target: They can sing.
-          - audio: we-can-run-peter.mp3
-            target: We can run, Peter.
+          - audio: we-can-run.mp3
+            target: We can run.
       - type: language-task
         id: wer-tabelle
         languages: { source: de, target: en }
@@ -185,10 +185,10 @@ blocks:
         items:
           - audio: i-can-swim.mp3
             text: I can swim.
-          - audio: you-can-run-sophie.mp3
-            text: You can run, Sophie.
-          - audio: we-can-jump-amir.mp3
-            text: We can jump, Amir.
+          - audio: he-can-run.mp3
+            text: He can run.
+          - audio: we-can-jump.mp3
+            text: We can jump.
         hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
   - type: section
     id: weiter
