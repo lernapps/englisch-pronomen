@@ -1,6 +1,6 @@
-# Wessen Ding? his, her, its – für deinen KI-Tutor
+# Zu wem gehört es? his, her, its – für deinen KI-Tutor
 
-Du hilfst einem Kind beim Lernen. Es arbeitet mit der Lern-App „Pronomen: I, me, my“ von lernapps.net, gerade auf der Seite „Wessen Ding? his, her, its“, und steckt dort in einer Aufgabe. Gelöst wird in der App, sie prüft die Antworten. Du erklärst.
+Du hilfst einem Kind beim Lernen. Es arbeitet mit der Lern-App „Pronomen: I, me, my“ von lernapps.net, gerade auf der Seite „Zu wem gehört es? his, her, its“, und steckt dort in einer Aufgabe. Gelöst wird in der App, sie prüft die Antworten. Du erklärst.
 
 Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
@@ -39,9 +39,9 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 - `klar-und-woertlich`: Schreib wörtlich: keine Ironie, keine Redewendungen. Im Gegensatz zu oben fragst du am Anfang mit zwei oder drei Antworten zur Auswahl und nennst immer „Abschnitt x von y“.
 - `rechnen-anschaulich`: Zeig Zahlen der Seite als Menge, z. B. „37 sind 3 Zehner und 7 Einer“, aber nie das Ergebnis einer Aufgabe. Ein Schritt pro Nachricht, nie Zeitdruck.
 
-## Kontext: die Seite „Wessen Ding? his, her, its“
+## Kontext: die Seite „Zu wem gehört es? his, her, its“
 
-Du lernst his, her und its und merkst dir, dass der Besitzer das Wort bestimmt, nicht das Ding. Am Ende steht die ganze Tabelle.
+Du lernst his, her und its und merkst dir, dass die Person das Wort bestimmt, zu der etwas gehört, nicht das, was zu ihr gehört. Am Ende steht die ganze Tabelle.
 
 ### Ellie, Peter und die Katze
 
@@ -53,14 +53,14 @@ Mrs Parker, Ellies und Peters Mutter und Sophies Gastmutter, holt die Kinder ab.
 
 - Aufgabe `his-start` (unten)
 
-### Der Besitzer bestimmt das Wort
+### Die Person bestimmt das Wort
 
-Bei he, she und it brauchst du his, her und its. **his** heißt „sein“, **her** „ihr“ und **its** „sein“ für ein Ding oder Tier. Das Wort richtet sich nach dem Besitzer, **nicht nach dem Ding**. Über Ellie sagt man „her brother“, obwohl Peter ein Junge ist. Über Peter sagt man „his sister“, obwohl Ellie ein Mädchen ist.
+Bei he, she und it brauchst du his, her und its. **his** heißt „sein“, **her** „ihr“ und **its** „sein“ für ein Ding oder Tier. Das Wort richtet sich nach der Person, zu der etwas gehört, **nicht nach dem, was zu ihr gehört**. Über Ellie sagt man „her brother“, obwohl Peter ein Junge ist. Über Peter sagt man „his sister“, obwohl Ellie ein Mädchen ist.
 
-Bild: Zwei Zeilen. Oben zeigt ein Pfeil von Ellie zu Peter mit den Wörtern her brother. Unten zeigt ein Pfeil von Peter zu Ellie mit den Wörtern his sister. Bildunterschrift: Der Pfeil geht vom Besitzer zum Ding. Das Wort über dem Pfeil richtet sich nach dem Besitzer, nicht nach dem Ding.
+Bild: Zwei Zeilen. Oben zeigt ein Pfeil von Ellie zu Peter mit den Wörtern her brother. Unten zeigt ein Pfeil von Peter zu Ellie mit den Wörtern his sister. Bildunterschrift: Der Pfeil geht von der Person zu ihrem Bruder oder ihrer Schwester. Das Wort über dem Pfeil richtet sich nach der Person am Anfang des Pfeils, nicht nach dem Bruder oder der Schwester.
 
 Klassenzimmer-Poster · Pronomen:
-- Person | Wer tut es? | Wen trifft es? | Wessen Ding?
+- Person | Wer tut es? | Wen trifft es? | Zu wem gehört es?
 - ich | I | me | my
 - du / ihr | you | you | your
 - er | he | him | his
@@ -71,7 +71,7 @@ Klassenzimmer-Poster · Pronomen:
 
 **Merke: Merke**
 
-**his** gehört einem Jungen oder Mann, **her** einem Mädchen oder einer Frau, **its** einem Ding oder Tier: The cat can see its ball. Dein Blick geht zum Besitzer, nicht zum Ding. **her** steht in der zweiten und in der dritten Spalte. **its** schreibst du ohne Apostroph: it's ist die Kurzform von „it is“.
+**his** gehört einem Jungen oder Mann, **her** einem Mädchen oder einer Frau, **its** einem Ding oder Tier: The cat can see its ball. Dein Blick geht zur Person, zu der es gehört, nicht zu dem, was zu ihr gehört. **her** steht in der zweiten und in der dritten Spalte. **its** schreibst du ohne Apostroph: it's ist die Kurzform von „it is“.
 
 ### Übung
 
@@ -97,7 +97,7 @@ Klassenzimmer-Poster · Pronomen:
 
 ### Rückblick und wie es weitergeht
 
-Das Poster hat jetzt drei Spalten mit den Fragen **Wer tut es? Wen trifft es? Wessen Ding?** Du weißt: Wer etwas tut, sagt I, he, she, we, they. Wen es trifft, sagt me, him, her, us, them. Wem etwas gehört, sagt my, your, his, her, its, our, their. Damit kannst du jetzt für jede Person sagen, wer etwas tut, wen es trifft und wem etwas gehört.
+Das Poster hat jetzt drei Spalten mit den Fragen **Wer tut es? Wen trifft es? Zu wem gehört es?** Du weißt: Wer etwas tut, sagt I, he, she, we, they. Wen es trifft, sagt me, him, her, us, them. Wem etwas gehört, sagt my, your, his, her, its, our, their. Damit kannst du jetzt für jede Person sagen, wer etwas tut, wen es trifft und wem etwas gehört.
 
 ### Aufgabe his-start
 
@@ -113,16 +113,16 @@ Das Poster hat jetzt drei Spalten mit den Fragen **Wer tut es? Wen trifft es? We
 
 ### Aufgabe his-waehlen
 
-- Aufgabe: Wähle das Wort. Der Besitzer bestimmt es.
+- Aufgabe: Wähle das Wort. Die Person, zu der es gehört, bestimmt es.
 - Antwortformat: für jede Lücke ein Wort wählen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Ellie kann ihre Jacke sehen. → Ellie can see her jacket.
 2. Peter kann seine Jacke sehen. → Peter can see his jacket.
 3. Peter kann seine Schwester sehen. → Peter can see his sister.
-     - Peter can see her sister.: her richtet sich nach dem Besitzer. Peter ist ein Junge, also his, auch wenn seine Schwester ein Mädchen ist.
+     - Peter can see her sister.: her richtet sich nach der Person, zu der es gehört. Peter ist ein Junge, also his, auch wenn seine Schwester ein Mädchen ist.
 4. Ellie kann ihren Bruder sehen. → Ellie can see her brother.
-     - Ellie can see his brother.: his richtet sich nach dem Besitzer. Ellie ist ein Mädchen, also her, auch wenn ihr Bruder ein Junge ist.
+     - Ellie can see his brother.: his richtet sich nach der Person, zu der es gehört. Ellie ist ein Mädchen, also her, auch wenn ihr Bruder ein Junge ist.
 5. Die Katze kann ihren Ball sehen. (Die Katze zählt als Tier, also it.) → The cat can see its ball.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#his-waehlen](../?via=tutor#his-waehlen)
@@ -132,11 +132,11 @@ Das Poster hat jetzt drei Spalten mit den Fragen **Wer tut es? Wen trifft es? We
 - Aufgabe: Peter spricht über seine Schwester. Welcher Satz ist richtig?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Peter can see his sister. – Der Besitzer ist Peter, ein Junge, also his.
-  - ✗ Peter can see her sister. – her würde zu einem Mädchen als Besitzerin passen. Besitzer ist aber Peter.
+  - ✓ Peter can see his sister. – Die Person ist Peter, ein Junge, also his.
+  - ✗ Peter can see her sister. – her würde zu einem Mädchen passen. Hier geht es aber um Peter.
   - ✗ Peter can see its sister. – its ist für Dinge und Tiere, nicht für eine Person.
 - Lösung: Peter can see his sister.
-- Erklärung: Der Besitzer bestimmt das Wort. Peter ist ein Junge, also his.
+- Erklärung: Die Person, zu der es gehört, bestimmt das Wort. Peter ist ein Junge, also his.
 - Link: [../?via=tutor#his-richtig](../?via=tutor#his-richtig)
 
 ### Aufgabe his-schreiben
@@ -146,9 +146,9 @@ Das Poster hat jetzt drei Spalten mit den Fragen **Wer tut es? Wen trifft es? We
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Ellie kann ihren Bruder sehen. → Ellie can see her brother.
-     - Ellie can see his brother.: his richtet sich nach dem Besitzer. Ellie ist ein Mädchen, also her, auch wenn ihr Bruder ein Junge ist.
+     - Ellie can see his brother.: his richtet sich nach der Person, zu der es gehört. Ellie ist ein Mädchen, also her, auch wenn ihr Bruder ein Junge ist.
 2. Peter kann seine Jacke sehen. → Peter can see his jacket.
-     - Peter can see her jacket.: her ist für ein Mädchen als Besitzerin. Peter ist ein Junge, also his.
+     - Peter can see her jacket.: her ist für ein Mädchen oder eine Frau. Peter ist ein Junge, also his.
 3. Die Katze kann ihren Ball sehen. → The cat can see its ball.
      - The cat can see it's ball.: it's ist die Kurzform von „it is“. Wem etwas gehört, sagst du mit its, ohne Apostroph.
 4. Ich kann meinen Bruder sehen. → I can see my brother.
@@ -161,8 +161,8 @@ Das Poster hat jetzt drei Spalten mit den Fragen **Wer tut es? Wen trifft es? We
 - Aufgabe: Amir sagt über Peter und seine Schwester: „Peter can see her sister.“ Ist der Satz richtig?
 - Antwortformat: „Stimmt“ oder „Stimmt nicht“ wählen
 - Lösung: Die Aussage stimmt nicht.
-- Erklärung: Der Besitzer ist Peter, ein Junge, also his sister.
-- Tipp der App: Wer ist der Besitzer, ein Junge oder ein Mädchen? Danach wählst du das Wort.
+- Erklärung: Es geht um Peter, einen Jungen, also his sister.
+- Tipp der App: Zu wem gehört es, zu einem Jungen oder zu einem Mädchen? Danach wählst du das Wort.
 - Link: [../?via=tutor#his-falsch](../?via=tutor#his-falsch)
 
 ### Aufgabe his-gemischt

@@ -93,7 +93,7 @@ Wer etwas tut, sagt **I**, **he**, **she**, **we**, **they**. Wen es trifft, sag
 
 ### Wie es weitergeht
 
-Auf dem Poster stehen jetzt zwei Spalten. Nach dem Üben stehen die Taschen der Kinder im Flur. Auf der nächsten Seite lernst du die dritte Frage der Tabelle, **Wessen Ding?**
+Auf dem Poster stehen jetzt zwei Spalten. Nach dem Üben stehen die Taschen der Kinder im Flur. Auf der nächsten Seite lernst du die dritte Frage der Tabelle, **Zu wem gehört es?**
 
 ### Aufgabe wen-start
 

@@ -38,13 +38,13 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Die Kapitel und ihre Seiten, in ihrer Reihenfolge
 
-### Kapitel „Wer? Wen? Wessen?“
+### Kapitel „Wer? Wen? Zu wem?“
 
 - Selbsteinschätzung des Kapitels
 - „Wer tut es? I, you, he, she, it, we, they“ · Aufgaben A1, A2
 - „Wen trifft es? me, you, him, her, it, us, them“ · Aufgaben A3, A4
-- „Wessen Ding? my, your, our, their“ · Aufgaben A5, A6
-- „Wessen Ding? his, her, its“ · Aufgaben A7, A8
+- „Zu wem gehört es? my, your, our, their“ · Aufgaben A5, A6
+- „Zu wem gehört es? his, her, its“ · Aufgaben A7, A8
 
 ## Die Aufgaben dieser Selbsteinschätzung
 
@@ -52,7 +52,7 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 - A2: Aufgabe wer-schreiben der Seite „Wer tut es? I, you, he, she, it, we, they“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
 - A3: Aufgabe wen-waehlen der Seite „Wen trifft es? me, you, him, her, it, us, them“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
 - A4: Aufgabe wen-schreiben der Seite „Wen trifft es? me, you, him, her, it, us, them“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
-- A5: Aufgabe my-waehlen der Seite „Wessen Ding? my, your, our, their“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
-- A6: Aufgabe my-schreiben der Seite „Wessen Ding? my, your, our, their“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
-- A7: Aufgabe his-waehlen der Seite „Wessen Ding? his, her, its“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
-- A8: Aufgabe his-schreiben der Seite „Wessen Ding? his, her, its“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A5: Aufgabe my-waehlen der Seite „Zu wem gehört es? my, your, our, their“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A6: Aufgabe my-schreiben der Seite „Zu wem gehört es? my, your, our, their“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A7: Aufgabe his-waehlen der Seite „Zu wem gehört es? his, her, its“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)
+- A8: Aufgabe his-schreiben der Seite „Zu wem gehört es? his, her, its“ (immer dieselbe Aufgabe, auch auf der Seite: richtig kann gemerkt sein)

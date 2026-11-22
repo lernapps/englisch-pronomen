@@ -1,6 +1,6 @@
-# Wessen Ding? my, your, our, their – für deinen KI-Tutor
+# Zu wem gehört es? my, your, our, their – für deinen KI-Tutor
 
-Du hilfst einem Kind beim Lernen. Es arbeitet mit der Lern-App „Pronomen: I, me, my“ von lernapps.net, gerade auf der Seite „Wessen Ding? my, your, our, their“, und steckt dort in einer Aufgabe. Gelöst wird in der App, sie prüft die Antworten. Du erklärst.
+Du hilfst einem Kind beim Lernen. Es arbeitet mit der Lern-App „Pronomen: I, me, my“ von lernapps.net, gerade auf der Seite „Zu wem gehört es? my, your, our, their“, und steckt dort in einer Aufgabe. Gelöst wird in der App, sie prüft die Antworten. Du erklärst.
 
 Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
@@ -39,7 +39,7 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 - `klar-und-woertlich`: Schreib wörtlich: keine Ironie, keine Redewendungen. Im Gegensatz zu oben fragst du am Anfang mit zwei oder drei Antworten zur Auswahl und nennst immer „Abschnitt x von y“.
 - `rechnen-anschaulich`: Zeig Zahlen der Seite als Menge, z. B. „37 sind 3 Zehner und 7 Einer“, aber nie das Ergebnis einer Aufgabe. Ein Schritt pro Nachricht, nie Zeitdruck.
 
-## Kontext: die Seite „Wessen Ding? my, your, our, their“
+## Kontext: die Seite „Zu wem gehört es? my, your, our, their“
 
 Du lernst die Wörter my, your, our und their, mit denen du sagst, wem etwas gehört, und findest das Muster I – me – my.
 
@@ -55,10 +55,10 @@ Nach dem Training stehen die Kinder im Flur. Ihre Taschen stehen auf dem Boden. 
 
 ### Welches Wort sagt, wem etwas gehört?
 
-Die dritte Frage der Tabelle ist **Wessen Ding?** Das Wort steht vor dem Nomen und sagt, wem das Ding gehört. Es heißt Possessivbegleiter. Für er, sie und es steht in der dritten Spalte noch ein Fragezeichen. Das kommt auf der nächsten Seite.
+Die dritte Frage der Tabelle ist **Zu wem gehört es?** Das Wort steht vor dem Nomen und sagt, zu wem etwas gehört. Es heißt Possessivbegleiter. Für er, sie und es steht in der dritten Spalte noch ein Fragezeichen. Das kommt auf der nächsten Seite.
 
 Klassenzimmer-Poster · Pronomen:
-- Person | Wer tut es? | Wen trifft es? | Wessen Ding?
+- Person | Wer tut es? | Wen trifft es? | Zu wem gehört es?
 - ich | I | me | my
 - du / ihr | you | you | your
 - er | he | him | ?
@@ -109,11 +109,11 @@ Auf dem Poster fehlen noch die Wörter für er, sie und es in der dritten Spalte
 
 ### Aufgabe my-zuordnen
 
-- Aufgabe: Welches Wort passt, wenn jemand über sein Ding spricht?
+- Aufgabe: Welches Wort passt, wenn jemand sagt, was zu ihm gehört?
 - Antwortformat: jedem Eintrag links den passenden rechts zuordnen
 - Lösung: Ellie spricht über ihre eigene Tasche. – my; Ellie spricht zu Amir über seine Jacke. – your; Sophie und Ellie sprechen über ihren eigenen Ball. – our; Sophie spricht über die Bücher von Amir und Peter. – their
-- Erklärung: Das Wort richtet sich danach, wem das Ding gehört. my ist für die sprechende Person, your für die angesprochene, our für Sprecher und andere, their für andere.
-- Tipp der App: Wer besitzt das Ding? Gehört es der sprechenden Person, der angesprochenen oder mehreren?
+- Erklärung: Das Wort richtet sich danach, wem etwas gehört. my ist für die sprechende Person, your für die angesprochene, our für Sprecher und andere, their für andere.
+- Tipp der App: Zu wem gehört es? Gehört es der sprechenden Person, der angesprochenen oder mehreren?
 - Link: [../?via=tutor#my-zuordnen](../?via=tutor#my-zuordnen)
 
 ### Aufgabe my-waehlen
@@ -133,7 +133,7 @@ Auf dem Poster fehlen noch die Wörter für er, sie und es in der dritten Spalte
 
 ### Aufgabe my-luecke
 
-- Aufgabe: Ergänze das Wort für „wer tut es?“ und das Wort für „wessen Ding?“.
+- Aufgabe: Ergänze das Wort für „wer tut es?“ und das Wort für „zu wem gehört es?“.
 - Antwortformat: die Lücken auf Englisch füllen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
@@ -183,7 +183,7 @@ Auf dem Poster fehlen noch die Wörter für er, sie und es in der dritten Spalte
 
 ### Aufgabe my-tabelle
 
-- Aufgabe: Ergänze die Spalte „Wessen Ding?“ ohne nachzusehen.
+- Aufgabe: Ergänze die Spalte „Zu wem gehört es?“ ohne nachzusehen.
 - Antwortformat: die Lücken der Tabelle auf Englisch füllen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
 - Einträge (Vorgabe → Lösung):
