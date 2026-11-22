@@ -58,51 +58,52 @@ blocks:
           **9** · In the evening we all felt tired, but we were proud of ourselves.
 
           **10** · Ellie and Amir are making dinner now. Tomorrow I will make myself a big breakfast. Good night!
-      - type: definition
-        term: hurt
-        explanation: verletzen (he hurt himself = er hat sich verletzt)
-      - type: definition
-        term: cut
-        explanation: "Schnittwunde; als Verb: schneiden (he cut himself = er hat sich geschnitten)"
-      - type: definition
-        term: scared
-        explanation: ängstlich, verängstigt
-      - type: definition
-        term: juggle
-        explanation: jonglieren
-      - type: definition
-        term: look after
-        explanation: aufpassen auf
-      - type: definition
-        term: proud of
-        explanation: stolz auf
-      - type: definition
-        term: wall
-        explanation: "Wand, hier: Kletterwand"
-      - type: definition
-        term: believe
-        explanation: glauben
-      - type: definition
-        term: enjoy yourselves
-        explanation: viel Spaß haben
-      - type: definition
-        term: afraid of
-        explanation: Angst vor
-      - type: definition
-        term: bench
-        explanation: Bank
-      - type: definition
-        term: bus stop
-        explanation: Bushaltestelle
-      - type: definition
-        term: ride a bike
-        explanation: Rad fahren
-      - type: definition
-        term: bought (von buy)
-        explanation: kaufte, gekauft
-      - type: definition
-        term: cleaned (von clean)
-        explanation: putzte, sich geputzt
+      - type: vocabulary
+        caption: Wörter am Rand
+        languages:
+          source: de
+          target: en
+        entries:
+          - target: hurt
+            source: verletzen
+            example:
+              target: He hurt himself.
+              source: Er hat sich verletzt.
+          - target: cut
+            source: Schnittwunde; schneiden
+            example:
+              target: He cut himself.
+              source: Er hat sich geschnitten.
+          - target: scared
+            source: ängstlich, verängstigt
+          - target: juggle
+            source: jonglieren
+          - target: look after
+            source: aufpassen auf
+          - target: proud of
+            source: stolz auf
+          - target: wall
+            source: "Wand, hier: Kletterwand"
+          - target: believe
+            source: glauben
+          - target: enjoy yourselves
+            source: viel Spaß haben
+          - target: afraid of
+            source: Angst vor
+          - target: bench
+            source: Bank
+          - target: bus stop
+            source: Bushaltestelle
+          - target: ride a bike
+            source: Rad fahren
+          - target: buy
+            forms:
+              - bought
+            source: kaufen
+          - target: clean
+            forms:
+              - cleaned
+            source: putzen, sauber machen
   - type: section
     id: verstehen
     title: Aufgaben zum Text

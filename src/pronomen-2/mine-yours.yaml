@@ -62,39 +62,36 @@ blocks:
           **11** · **Amir:** Yes, it's mine. And the black bag is Sophie's. All our things are back!
 
           **12** · **Peter:** Funny! My own bag is the red one on my back. LOL
-      - type: definition
-        term: hoodie
-        explanation: Kapuzenpullover
-      - type: definition
-        term: cap
-        explanation: Mütze mit Schirm
-      - type: definition
-        term: left (von leave)
-        explanation: "hier: liegen lassen, vergessen mitzunehmen"
-      - type: definition
-        term: I'm afraid
-        explanation: leider
-      - type: definition
-        term: check
-        explanation: nachsehen
-      - type: definition
-        term: whose
-        explanation: wessen, wem gehörend
-      - type: definition
-        term: maybe
-        explanation: vielleicht
-      - type: definition
-        term: inside
-        explanation: innen, drin
-      - type: definition
-        term: No way!
-        explanation: Auf keinen Fall!
-      - type: definition
-        term: own
-        explanation: eigen
-      - type: definition
-        term: LOL
-        explanation: Abkürzung im Chat für „laut lachen“
+      - type: vocabulary
+        caption: Wörter am Rand
+        languages:
+          source: de
+          target: en
+        entries:
+          - target: hoodie
+            source: Kapuzenpullover
+          - target: cap
+            source: Mütze mit Schirm
+          - target: leave
+            forms:
+              - left
+            source: liegen lassen, vergessen mitzunehmen
+          - target: I'm afraid
+            source: leider
+          - target: check
+            source: nachsehen
+          - target: whose
+            source: wessen, wem gehörend
+          - target: maybe
+            source: vielleicht
+          - target: inside
+            source: innen, drin
+          - target: No way!
+            source: Auf keinen Fall!
+          - target: own
+            source: eigen
+          - target: LOL
+            source: Abkürzung im Chat für „laut lachen“
   - type: section
     id: verstehen
     title: Aufgaben zum Text

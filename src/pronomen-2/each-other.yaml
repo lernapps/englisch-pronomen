@@ -60,27 +60,28 @@ blocks:
           **10** · **Amir:** Look! Ellie is taking a photo of herself, and I am taking one of myself. Nobody is looking at each other!
 
           **11** · **Mr Hill:** Then look at each other for a second and smile. Photo time!
-      - type: definition
-        term: hold (held)
-        explanation: halten (hielt)
-      - type: definition
-        term: rope
-        explanation: Seil
-      - type: definition
-        term: trust
-        explanation: vertrauen
-      - type: definition
-        term: correct
-        explanation: verbessern
-      - type: definition
-        term: argue
-        explanation: streiten
-      - type: definition
-        term: selfie
-        explanation: Foto von sich selbst
-      - type: definition
-        term: laugh
-        explanation: lachen
+      - type: vocabulary
+        caption: Wörter am Rand
+        languages:
+          source: de
+          target: en
+        entries:
+          - target: hold
+            forms:
+              - held
+            source: halten
+          - target: rope
+            source: Seil
+          - target: trust
+            source: vertrauen
+          - target: correct
+            source: verbessern
+          - target: argue
+            source: streiten
+          - target: selfie
+            source: Foto von sich selbst
+          - target: laugh
+            source: lachen
   - type: section
     id: verstehen
     title: Aufgaben zum Text
