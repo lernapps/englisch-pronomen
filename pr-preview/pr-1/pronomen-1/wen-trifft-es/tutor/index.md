@@ -199,6 +199,6 @@ Auf dem Poster stehen jetzt zwei Spalten. Nach dem Üben stehen die Taschen der 
 - Sätze:
 1. Audio → Sophie can see me.
 2. Audio → He can help them.
-3. Audio → We can call you.
+3. Audio → We can call you, Sophie.
 - Tipp der App: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
 - Link: [../?via=tutor#wen-nachsprechen](../?via=tutor#wen-nachsprechen)

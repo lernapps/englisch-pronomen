@@ -166,7 +166,7 @@ Auf dem Poster steht die erste Spalte. Beim Üben für den Sports day wirft Soph
 - Einträge (Vorgabe → Lösung):
 1. Audio → She can swim.
 2. Audio → They can sing.
-3. Audio → We can run.
+3. Audio → We can run, Peter.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#wer-hoeren](../?via=tutor#wer-hoeren)
@@ -191,7 +191,7 @@ Auf dem Poster steht die erste Spalte. Beim Üben für den Sports day wirft Soph
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → I can swim.
-2. Audio → He can run.
-3. Audio → We can jump.
+2. Audio → He can run, Sophie.
+3. Audio → We can jump, Amir.
 - Tipp der App: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
 - Link: [../?via=tutor#wer-nachsprechen](../?via=tutor#wer-nachsprechen)
