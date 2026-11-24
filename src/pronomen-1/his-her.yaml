@@ -11,13 +11,13 @@ blocks:
     blocks:
       - type: figure
         image: images/szene-his-her.svg
-        alt: Ellie mit roter Jacke und Peter mit gelber Jacke stehen nebeneinander, rechts sitzt die Katze der Familie Parker.
-        caption: Ellie (rote Jacke) und Peter (gelbe Jacke) mit der Katze der Familie Parker.
+        alt: Ellie mit roter Jacke und Peter mit gelber Jacke stehen nebeneinander, rechts sitzt eine Katze.
+        caption: Ellie, Peter und die Katze.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
         text: |
-          Mrs Parker, Ellies und Peters Mutter und Sophies Gastmutter, holt die Kinder ab. Sophie sagt: „Peter can see his hat.“ Das heißt: „Peter kann seinen Hut sehen.“ **brother** heißt „Bruder“, **sister** „Schwester“, **cat** „Katze“, **mother** „Mutter“, **pen** „Stift“, **cap** „Mütze“, **and** „und“ und **the** „der, die, das“.
+          Mrs Parker holt die Kinder ab. Sophie sagt: „Peter can see his hat.“ Das heißt: „Peter kann seinen Hut sehen.“ **brother** heißt „Bruder“, **sister** „Schwester“, **cat** „Katze“, **mother** „Mutter“, **pen** „Stift“, **cap** „Mütze“, **and** „und“ und **the** „der, die, das“.
       - type: text
         text: "**Das kannst du danach:** Du sagst auf Englisch, wem etwas gehört, auch mit his, her und its, und füllst die ganze Pronomen-Tabelle aus."
       - type: single-choice
@@ -43,7 +43,7 @@ blocks:
     blocks:
       - type: text
         text: |
-          Bei he, she und it brauchst du his, her und its. **his** heißt „sein“, **her** „ihr“ und **its** „sein“ für ein Ding oder Tier. Das Wort richtet sich nach der Person, zu der etwas gehört, **nicht nach der Person oder Sache, die dazugehört**. Mrs Parker ist die Mutter von Ellie und von Peter. Über Ellie sagt man „her mother“, über Peter sagt man „his mother“, obwohl es dieselbe Frau ist.
+          Bei he, she und it brauchst du his, her und its. **his** heißt „sein“, **her** „ihr“ und **its** „sein“ für ein Ding oder Tier. Das Wort richtet sich nach der Person, zu der etwas gehört, **nicht nach der Person oder Sache, die dazugehört**. Ellie und Peter haben dieselbe Mutter. Über Ellie sagt man „her mother“, über Peter sagt man „his mother“, obwohl es dieselbe Frau ist.
       - type: figure
         image: images/his-her-person.svg
         alt: Zwei Zeilen. Oben zeigt ein Pfeil von Ellie zu einem roten Hut mit den Wörtern her hat. Unten zeigt ein Pfeil von Peter zu einem gelben Hut mit den Wörtern his hat.
