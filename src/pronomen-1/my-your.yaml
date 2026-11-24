@@ -11,8 +11,8 @@ blocks:
     blocks:
       - type: figure
         image: images/szene-my-your.svg
-        alt: Im Flur der Millbrook School stehen Sophie, Ellie, Peter und Amir. Vor jedem Kind steht eine Tasche.
-        caption: Von links nach rechts Sophie, Ellie, Peter und Amir. Vor jedem Kind steht eine Tasche.
+        alt: Im Flur stehen vier Kinder. Vor jedem Kind steht eine Tasche.
+        caption: Vor jedem Kind steht eine Tasche.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
