@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" font-family="sans-serif" font-size="14">
+<title>Skizze: Pfeile für myself (zur selben Person zurück) und each other (hin und her)</title>
+<rect width="640" height="240" fill="#fff"/>
+<circle cx="120" cy="90" r="30" fill="#3a9a5b"/><text x="95" y="150">Sophie</text>
+<path d="M150 70 C220 20 220 150 150 110" fill="none" stroke="#333" stroke-width="3"/><text x="170" y="195">She hurt herself.</text>
+<circle cx="380" cy="90" r="30" fill="#d33"/><text x="360" y="150">Ellie</text>
+<circle cx="560" cy="90" r="30" fill="#3a6fd8"/><text x="540" y="150">Amir</text>
+<path d="M415 75H525M415 105H525" stroke="#333" stroke-width="3"/><text x="400" y="195">They help each other.</text>
+</svg>

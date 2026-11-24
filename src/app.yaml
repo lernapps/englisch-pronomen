@@ -1,14 +1,13 @@
 # yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 format: 2
 strand: englisch/grammatik
-title: "Pronomen: I, me, my"
-intro: Sophie wohnt bei den Parkers und geht in Millbrook zur Schule. Du hilfst ihr herauszufinden, welche Form eines Pronomens sie braucht – je nachdem, wer etwas tut, wen es trifft und wem etwas gehört. Eine Tabelle wächst mit dir mit. Dieses Kapitel behandelt I, me, my und die Formen für he, she, it, we und they. Mehr folgt in einem späteren Kapitel.
+title: "Pronomen: I, me, my, mine, myself"
+intro: Sophie wohnt bei den Parkers und geht in Millbrook zur Schule. Du hilfst ihr herauszufinden, welche Form eines Pronomens sie braucht – je nachdem, wer etwas tut, wen es trifft und wem etwas gehört. Eine Tabelle wächst mit dir mit. Im zweiten Kapitel (Klasse 7 und 8) liest du Chats, Tagebuch und Dialoge und lernst mine, yours, myself und each other. Kapitel 1 behandelt I, me, my und die Formen für he, she, it, we und they. Kapitel 2 behandelt mine, myself und each other.
 languages: [de]
-chapters: [pronomen-1]
+chapters: [pronomen-1, pronomen-2]
 scope:
-  text: Die App begleitet Kinder der Klassen 5 und 6. Kapitel 1 stellt die Pronomen-Tabelle vor. Spalte 1 „Wer tut es?“ hat I, you, he, she, it, we, they. Spalte 2 „Wen trifft es?“ hat me, you, him, her, it, us, them. Spalte 3 „Zu wem gehört es?“ hat my, your, his, her, its, our, their. Die Kinder lernen, dass man he oder she nach der Person wählt, it für Dinge und Tiere, und dass his und her sich nach der Person richten, zu der etwas gehört, nicht nach der Person oder Sache, die dazugehört.
+  text: "Die App begleitet Kinder der Klassen 5 bis 8. Kapitel 1 (Klasse 5-6) stellt die Pronomen-Tabelle vor. Spalte 1 „Wer tut es?“ hat I, you, he, she, it, we, they. Spalte 2 „Wen trifft es?“ hat me, you, him, her, it, us, them. Spalte 3 „Zu wem gehört es?“ hat my, your, his, her, its, our, their. Die Kinder lernen, dass man he oder she nach der Person wählt, it für Dinge und Tiere, und dass his und her sich nach der Person richten, zu der etwas gehört, nicht nach der Person oder Sache, die dazugehört. Kapitel 2 (Klasse 7-8) fügt zwei Spalten hinzu: „Gehört es mir, ohne Nomen?“ mit mine, yours, his, hers, ours, theirs und „Wer ist es selbst?“ mit myself, yourself, himself, herself, itself, ourselves, yourselves, themselves, dazu each other („einander“). Jede Seite hat ein Lesestück (Chat, Tagebuch, Dialog)."
   out:
-    - mine, yours, myself und each other (kommen in Kapitel 2)
     - this, that, some, any und ihre Zusammensetzungen
     - Relativpronomen
     - die Formen von to be
