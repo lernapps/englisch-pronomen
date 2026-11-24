@@ -10,7 +10,7 @@ blocks:
     title: Fundsachen im Chat
     blocks:
       - type: text
-        text: "Zwei Jahre später: Sophie (13) ist wieder zu Besuch bei den Parkers und geht mit Ellie (13), Amir (13) und Peter (11) zur Millbrook School. Nach dem Sportfest liegen Fundsachen auf dem Tisch im Flur. Die Freunde klären im Gruppenchat, wem was gehört."
+        text: Nach dem Sportfest liegen Fundsachen auf dem Tisch im Flur. Die Freunde klären im Gruppenchat, wem was gehört.
       - type: text
         text: "**Das kannst du danach:** Du sagst mit mine, yours, his, hers, ours und theirs, wem etwas gehört, ohne das Nomen zu wiederholen."
       - type: single-choice

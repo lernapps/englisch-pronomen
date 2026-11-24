@@ -10,7 +10,7 @@ blocks:
     title: Sophies Tagebuch
     blocks:
       - type: text
-        text: Nach dem Ausflug zum Kletterpark schreibt Sophie (13) abends in ihr Tagebuch. Ellie, Amir und Peter kommen auch darin vor.
+        text: Nach dem Ausflug zum Kletterpark schreibt Sophie abends in ihr Tagebuch.
       - type: text
         text: "**Das kannst du danach:** Du erkennst, wann im Englischen ein Wort wie myself nötig ist und wann nicht, auch wenn das Deutsche „sich“ sagt."
       - type: single-choice
@@ -46,7 +46,7 @@ blocks:
 
           **4** · In the park, Amir fell and hurt himself. It was only a small cut, but he was a bit scared.
 
-          **5** · Peter is only eleven, so he could not climb with us. He taught himself to juggle with three balls instead!
+          **5** · Peter is too young for the high wall, so he could not climb with us. He taught himself to juggle with three balls instead!
 
           **6** · Mr Hill said, “Look after yourselves, and enjoy yourselves!”
       - type: text
@@ -132,7 +132,7 @@ blocks:
         text: Peter ist mit den anderen geklettert.
         answer: false
         hint: Lies Zeile 5.
-        explanation: Peter ist erst elf und konnte nicht mit klettern.
+        explanation: Peter war zu jung für die hohe Wand und konnte nicht mit klettern.
         links:
           - title: Lernlandkarte Englisch · Reflexivpronomen
             url: https://lernapps.net/apps/map/englisch/c/reflexivpronomen/

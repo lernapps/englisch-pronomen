@@ -32,6 +32,8 @@ Beide Kompetenzen sind Lücken der Karte, `personalpronomen` hat keine Vorausset
 
 ## Content structure
 
+- Keine Einführung der Figuren auf den Seiten (Rückmeldung der Ersteller:in): kein Vorstellen mit Alter, Herkunft oder Verwandtschaft, kein Datum ohne Nutzen für die Aufgabe; eine Figur wird nur genannt, wo die Aufgabe sie braucht. Die Vorstellung steht einmal in der Einleitung der Startseite (`src/app.yaml`).
+
 - Pfad: `src/pronomen-1/chapter.yaml`, Seiten `src/pronomen-1/<seite>.yaml`.
 - Jede Seite hat dieselben Abschnitts-IDs: `einstieg` (Szene, erste leichte Aufgabe, „Das kannst du danach“), `neu` (Tabelle wächst, Kasten „Merke“), `uebung` (mindestens vier Übungen, leicht → schwer), `anwenden` (`speaking-task` oder `open-task`), `weiter` (nächster Schritt der Geschichte; Seite 4 mit Rückblick). Titel sagen, was der Abschnitt tut.
 - Länge: höchstens 350 Wörter Text, höchstens 4 Textblöcke hintereinander, Bild oder Übung unter den ersten vier Blöcken.
