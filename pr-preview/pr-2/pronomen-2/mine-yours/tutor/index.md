@@ -45,7 +45,7 @@ Du liest einen Chat über Fundsachen und lernst mine, yours, his, hers, ours und
 
 ### Fundsachen im Chat
 
-Zwei Jahre später: Sophie (13) ist wieder zu Besuch bei den Parkers und geht mit Ellie (13), Amir (13) und Peter (11) zur Millbrook School. Nach dem Sportfest liegen Fundsachen auf dem Tisch im Flur. Die Freunde klären im Gruppenchat, wem was gehört.
+Nach dem Sportfest liegen Fundsachen auf dem Tisch im Flur. Die Freunde klären im Gruppenchat, wem was gehört.
 
 **Das kannst du danach:** Du sagst mit mine, yours, his, hers, ours und theirs, wem etwas gehört, ohne das Nomen zu wiederholen.
 

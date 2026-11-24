@@ -45,7 +45,7 @@ Du liest einen Dialog am Kletterpark und lernst each other („einander“) und 
 
 ### Nach der Klettertour
 
-Ellie und Amir haben sich beim Klettern gegenseitig gesichert. Jetzt sprechen sie mit Mr Hill, Sophie (13) und Peter (11) über den Tag.
+Ellie und Amir haben sich beim Klettern gegenseitig gesichert. Jetzt sprechen sie mit den anderen über den Tag.
 
 **Das kannst du danach:** Du unterscheidest each other („einander“) von themselves und ourselves („sich selbst“).
 

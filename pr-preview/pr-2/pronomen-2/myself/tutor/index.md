@@ -45,7 +45,7 @@ Du liest Sophies Tagebuch und lernst myself, yourself, himself, herself, themsel
 
 ### Sophies Tagebuch
 
-Nach dem Ausflug zum Kletterpark schreibt Sophie (13) abends in ihr Tagebuch. Ellie, Amir und Peter kommen auch darin vor.
+Nach dem Ausflug zum Kletterpark schreibt Sophie abends in ihr Tagebuch.
 
 **Das kannst du danach:** Du erkennst, wann im Englischen ein Wort wie myself nötig ist und wann nicht, auch wenn das Deutsche „sich“ sagt.
 
@@ -63,7 +63,7 @@ Lies den Tagebucheintrag. Die Zahlen sind die Zeilen. Wörter, die du vielleicht
 
 **4** · In the park, Amir fell and hurt himself. It was only a small cut, but he was a bit scared.
 
-**5** · Peter is only eleven, so he could not climb with us. He taught himself to juggle with three balls instead!
+**5** · Peter is too young for the high wall, so he could not climb with us. He taught himself to juggle with three balls instead!
 
 **6** · Mr Hill said, “Look after yourselves, and enjoy yourselves!”
 
@@ -192,7 +192,7 @@ Auf dem Poster steht jetzt auch die Spalte „Wer ist es selbst?“. Im Tagebuch
 - Aufgabe: Peter ist mit den anderen geklettert.
 - Antwortformat: „Stimmt“ oder „Stimmt nicht“ wählen
 - Lösung: Die Aussage stimmt nicht.
-- Erklärung: Peter ist erst elf und konnte nicht mit klettern.
+- Erklärung: Peter war zu jung für die hohe Wand und konnte nicht mit klettern.
 - Tipp der App: Lies Zeile 5.
 - Link: [../?via=tutor#myself-text-2](../?via=tutor#myself-text-2)
 
